@@ -24,11 +24,11 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - '  &#B56246#1. &lPerks of the Vip rank  '
+    - '  &#B56246#1. &lPerks of the VIP rank  '
     - ''
     - ' &#B56246▪ The rank has the following features.  '
     - ''
-    - ' &#DD7E65★ Prefix &6▪ Vip &#DD7E65in the username.  '
+    - ' &#DD7E65★ Prefix &6▪ VIP &#DD7E65in the username.  '
     - ' &#DD7E65★ Default color in chat.'
     - ' &#DD7E65★ Default color in the username.'
     - ' &#DD7E65★ You can mine spawners.'
@@ -48,11 +48,11 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - '  &#153373#2. &lPerks of the Vip+ rank  '
+    - '  &#153373#2. &lPerks of the VIP+ rank  '
     - ''
     - ' &#153373▪ Including vip features.  '
     - ''
-    - ' &#2659AC★ Prefix &6▪ Vip&e+ &#2659ACin the username.  '
+    - ' &#2659AC★ Prefix &6▪ VIP&e+ &#2659ACin the username.  '
     - ' &#2659AC★ Access to the kit vip+ every 7 days.  '
     - ' &#2659AC★ Access to put 3 &f"/sethome"&#2659AC.  '
     - ' &#2659AC★ Access to the &f"/afk" &#2659ACcommand.  '
@@ -72,11 +72,11 @@ items:
     slot: 16
     display_name: '&7'
     lore:
-    - '  &#332C2C#3. &lPerks of the Mvp rank  '
+    - '  &#332C2C#3. &lPerks of the MVP rank  '
     - ''
     - ' &#332C2C▪ Including vip and vip+ features.  '
     - ''
-    - ' &#58575A★ Prefix &6▪ Mvp &#58575Ain the username.  '
+    - ' &#58575A★ Prefix &6▪ MVP &#58575Ain the username.  '
     - ' &#58575A★ Access to the kit mvp every 7 days.  '
     - ' &#58575A★ Access to put 4 &f"/sethome"&#58575A.  '
     - ' &#58575A★ 3 more slot in the enderchest.  '

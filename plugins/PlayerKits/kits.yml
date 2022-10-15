@@ -2,10 +2,10 @@ Kits:
   Starter:
     slot: 11
     display_item: GOLDEN_SWORD
-    display_name: '&6⚓ Starter ▪'
+    display_name: '&6⚓ 新人 ▪'
     display_lore:
-    - '&e▪ Right-click to see ▪'
-    - '&e▪ Left-click to equip ▪'
+    - '&e▪ 右键查看 ▪'
+    - '&e▪ 左键获取 ▪'
     cooldown: 86400
     auto_armor: true
     first_join: true
@@ -118,10 +118,10 @@ Kits:
   vip:
     slot: 12
     display_item: IRON_SWORD
-    display_name: '&6⚓ Vip ▪'
+    display_name: '&6⚓ VIP ▪'
     display_lore:
-    - '&e▪ Right-click to see ▪'
-    - '&e▪ Left-click to equip ▪'
+    - '&e▪ 右键查看 ▪'
+    - '&e▪ 左键获取 ▪'
     cooldown: 604800
     auto_armor: true
     permission: kit.vip
@@ -221,10 +221,10 @@ Kits:
   vip+:
     slot: 13
     display_item: DIAMOND_SWORD
-    display_name: '&6⚓ Vip+ ▪'
+    display_name: '&6⚓ VIP+ ▪'
     display_lore:
-    - '&e▪ Right-click to see ▪'
-    - '&e▪ Left-click to equip ▪'
+    - '&e▪ 右键查看 ▪'
+    - '&e▪ 左键获取 ▪'
     cooldown: 604800
     auto_armor: true
     permission: kit.vip+
@@ -330,10 +330,10 @@ Kits:
   mvp:
     slot: 14
     display_item: NETHERITE_SWORD
-    display_name: '&6⚓ Mvp ▪'
+    display_name: '&6⚓ MVP ▪'
     display_lore:
-    - '&e▪ Right-click to see ▪'
-    - '&e▪ Left-click to equip ▪'
+    - '&e▪ 右键查看 ▪'
+    - '&e▪ 左键获取 ▪'
     cooldown: 604800
     auto_armor: true
     permission: kit.mvp

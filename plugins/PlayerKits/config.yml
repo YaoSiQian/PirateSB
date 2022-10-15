@@ -1,20 +1,20 @@
 Messages:
-  prefix: '&6⚓ Kits &8▪ '
-  noPermissions: '&cYou don''t have permissions for that.'
-  commandCreateError: '&cYou need to use: &7/kit create <name>'
-  commandDeleteError: '&cYou need to use: &7/kit delete <name>'
-  commandClaimError: '&cYou need to use: &7/kit claim <kit>'
-  commandGiveError: '&cYou need to use: &7/kit give <kit> <player>'
-  commandEditError: '&cYou need to use: &7/kit edit <kit>'
-  commandPreviewError: '&cYou need to use: &7/kit preview <kit>'
+  prefix: '&6⚓ 礼包 &8▪ '
+  noPermissions: '&c你没有权限'
+  commandCreateError: '&c你需要: &7/kit create <名称>'
+  commandDeleteError: '&c你需要: &7/kit delete <名称>'
+  commandClaimError: '&c你需要: &7/kit claim <礼包名称>'
+  commandGiveError: '&c你需要: &7/kit give <礼包名称> <玩家>'
+  commandEditError: '&c你需要: &7/kit edit <礼包名称>'
+  commandPreviewError: '&c你需要: &7/kit preview <礼包名称>'
   kitAlreadyExists: '&cThe kit &7%name% &calready exists on the config.'
   kitDoesNotExists: '&cThe kit &7%name% &cdoesn''t exists.'
   inventoryEmpty: '&cYou need at least 1 item on your inventory to create a kit.'
   kitCreated: '&aKit &7%name% &acreated correctly.'
   kitRemoved: '&aKit &7%name% &aremoved correctly.'
-  inventoryName: '&6⚓ Kits ⚓'
-  kitReceived: '&aKit &7%name% &areceived.'
-  configReload: '&aConfig Reloaded.'
+  inventoryName: '&6⚓ 礼包 ⚓'
+  kitReceived: '&7%name% &a礼包已收到'
+  configReload: '&a配置已重载'
   seconds: s
   minutes: m
   hours: h
@@ -35,8 +35,8 @@ Messages:
   oneTimeError: '&cYou can''t claim this kit again.'
   kitOneTimeLore:
   - '&cYou can''t claim this kit again.'
-  previewInventoryName: '&9Kit Preview'
-  backItemName: '&7Back'
+  previewInventoryName: '&9礼包预览'
+  backItemName: '&7返回'
   playerNotOnline: '&cPlayer &7%player% &cis not online.'
   kitGive: '&aKit &7%kit% &agiven to &e%player%&a!'
   noMoneyError: '&cYou don''t have enough money to claim this kit. &8(&a$&c%current_money%&7/&a$&c%required_money%&8)'
@@ -48,7 +48,7 @@ Messages:
   - '&7This will cost you: &a$%price%'
   errorPage: '&cWrite a valid page.'
   cooldownPlaceholderReady: '&a&lReady!'
-  commandResetError: '&cYou need to use: &7/kit reset <player> <kit>'
+  commandResetError: '&c你需要: &7/kit reset <玩家> <礼包名称>'
   kitResetCorrect: '&aKit &7%kit% &areset for &7%player%&a!'
   kitResetFail: '&cNot possible to reset kit &7%kit% &cfor &7%player%&c!'
   noPreviewError: '&cThere is nothing to preview for this kit.'
@@ -98,7 +98,7 @@ Config:
       name: ' '
     '15':
       id: ORANGE_STAINED_GLASS_PANE
-      name: '&6Soon..'
+      name: '&6稍后..'
     '16':
       id: BLACK_STAINED_GLASS_PANE
       name: ' '
