@@ -78,7 +78,7 @@ General:
   Not A Player: '&cYou must be a player to do this.'
   Player: player
   Player Not Found: '&cThe player "&7<player>&c" was not found.'
-  Prefix: '&6⚓ &lSkyBl☠ck &8▪ '
+  Prefix: '&6⚓ &l空岛☠生存 &8▪ '
   Target: target
   Unknown Command: '&cUnknown command. Use "&7&n/<label> help&c" to see the list of commands available to you.'
   World: world

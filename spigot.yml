@@ -12,12 +12,12 @@
 
 config-version: 12
 messages:
-  whitelist: §6§lSkyBl☠ck §8▪ §7You are not whitelisted on this server!
-  unknown-command: §6§lSkyBl☠ck §8▪ §7Unknown command.
-  server-full: §6§lSkyBl☠ck §8▪ §7The server is full!
-  outdated-client: §6§lSkyBl☠ck §8▪ §7Outdated client! Please use {0}
-  outdated-server: §6§lSkyBl☠ck §8▪ §7Outdated server! I'm still on {0}
-  restart: §6§lSkyBl☠ck §8▪ §7Server is restarting
+  whitelist: §6§l空岛☠生存 §8▪ §7You are not whitelisted on this server!
+  unknown-command: §6§l空岛☠生存 §8▪ §7Unknown command.
+  server-full: §6§l空岛☠生存 §8▪ §7The server is full!
+  outdated-client: §6§l空岛☠生存 §8▪ §7Outdated client! Please use {0}
+  outdated-server: §6§l空岛☠生存 §8▪ §7Outdated server! I'm still on {0}
+  restart: §6§l空岛☠生存 §8▪ §7Server is restarting
 stats:
   disable-saving: false
   forced-stats: {}

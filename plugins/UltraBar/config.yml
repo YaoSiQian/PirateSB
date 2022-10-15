@@ -7,7 +7,7 @@ save_persistent_bars: true
 OnJoin:
   BossBar:
     Enabled: false
-    Message: '&6⚓ Welcome &l%player_name% &6to &6&lPirates Skybl☠ck &6⚓'
+    Message: '&6⚓ Welcome &l%player_name% &6to &6&lPirates 空岛☠生存 &6⚓'
     Color: green
     Time: yellow
     Style: '20'
@@ -67,7 +67,7 @@ BossBarMessages:
   - MainWorld
   Messages:
     Message1:
-      Message: '&7▸ &fWelcome to &6&lPirates Skybl☠ck &7&l| &fGet your island with
+      Message: '&7▸ &fWelcome to &6&lPirates 空岛☠生存 &7&l| &fGet your island with
         &e/island &7◂'
       Color: yellow
       Style: '0'
