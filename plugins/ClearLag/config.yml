@@ -14,7 +14,7 @@ config-version: 20
 # -- 'language' Clearlag supports multiple languages (https://github.com/bob7l/Clearlag-Languages) translated by the community
 # -- 'use-internal-tps' Should Clearlag use Spigot's /tps? (Updated by minutes, much slower, but more accurate!)
 settings:
-  language: English
+  language: ChineseSimplified
   auto-update: true
   enable-api: true
   use-internal-tps: true
@@ -355,7 +355,7 @@ item-merger:
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
   enabled: true
-  broadcast-message: '&6&l空岛☠生存 &8▪ &3Removed &b&l+RemoveAmount&3 Entities!'
+  broadcast-message: '&6&l空岛☠生存 &8▪ &3驱逐了 &b&l+RemoveAmount&3 个实体!'
   broadcast-removal: true
   autoremoval-interval: 420
   world-filter:
@@ -383,8 +383,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:150 msg:&6&l空岛☠生存 &8▪ &3Warning, dropped items removed in &b&l+remaining &3seconds!'
-        - 'time:350 msg:&6&l空岛☠生存 &8▪ &3Warning, dropped items removed in &b&l+remaining &3seconds!'
+        - 'time:150 msg:&6&l空岛☠生存 &8▪ &3嘿，小心点。你的掉落物要在 &b&l+remaining &3秒内被我们扫掉了！'
+        - 'time:350 msg:&6&l空岛☠生存 &8▪ &3嘿，小心点。你的掉落物要在 &b&l+remaining &3秒内被我们扫掉了！'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:
