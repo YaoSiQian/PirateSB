@@ -18,46 +18,46 @@ Config:
   - Skyblock_nether
   - Skyblock_the_end
 Mob-Name:
-  Blaze: Blaze
-  CaveSpider: Cave Spider
-  Creeper: Creeper
-  Drawned: Drawned
-  ElderGuardian: Elder Guardian
-  Enderman: Enderman
-  Endermite: Endermite
-  Evoker: Evoker
-  Ghast: Ghast
-  Guardian: Guardian
-  Hoglin: Hoglin
-  Husk: Husk
-  IronGolem: Iron Golem
-  MagmaCube: Magma Cube
-  Phantom: Phantom
-  Piglin: Piglin
-  PiglinBrute: Piglin Brute
-  PigZombie: Pig Zombie
-  Pillager: Pillager
-  Ravager: Ravager
-  Shulker: Shulker
-  Silverfish: Silverfish
-  Skeleton: Skeleton
-  Slime: Slime
-  Spider: Spider
-  Stray: Stray
-  Strider: Strider
-  Vex: Vex
-  Vindicator: Vindicator
-  Witch: Witch
-  WitherSkeleton: Wither Skeleton
-  Zoglin: Zoglin
-  Zombie: Zombie
-  ZombieVillager: Zombie Villager
+  Blaze: 烈焰人
+  CaveSpider: 洞穴蜘蛛
+  Creeper: 苦力怕
+  Drawned: 溺尸
+  ElderGuardian: 远古守卫者
+  Enderman: 末影人
+  Endermite: 末影螨
+  Evoker: 唤魔者
+  Ghast: 恶魂
+  Guardian: 守卫者
+  Hoglin: 疣猪兽
+  Husk: 尸壳
+  IronGolem: 铁傀儡
+  MagmaCube: 岩浆怪
+  Phantom: 幻翼
+  Piglin: 猪灵
+  PiglinBrute: 猪灵蛮兵
+  PigZombie: 僵尸猪灵
+  Pillager: 掠夺者
+  Ravager: 掠夺兽
+  Shulker: 潜影贝
+  Silverfish: 蠹虫
+  Skeleton: 骷髅
+  Slime: 史莱姆
+  Spider: 蜘蛛
+  Stray: 流浪者
+  Strider: 炽足兽
+  Vex: 恼鬼
+  Vindicator: 卫道士
+  Witch: 女巫
+  WitherSkeleton: 凋灵骷髅
+  Zoglin: 僵尸疣猪兽
+  Zombie: 僵尸
+  ZombieVillager: 僵尸村民
 Message:
   No-Permission-Message:
     Enabled: true
     Message:
     - '&c&l---------------------------------------------'
-    - '&cYou do not have permissions to perform that action!'
+    - '&c你没有权限!'
     - '&c&l---------------------------------------------'
   Reload-Message:
     Enabled: true
@@ -69,11 +69,11 @@ Message:
     Enabled: true
     Message:
     - '&c&l---------------------------------------------'
-    - '&cThat command does not exist!'
+    - '&c指令不存在!'
     - '&c&l---------------------------------------------'
   Killed-Message:
     Enabled: true
     Message:
     - '&6&l---------------------------------------------'
-    - '&eKilled &c%killed% &elevellable entities in world &6%world%.'
+    - '&e在 &6%world% &e世界内杀死了 &c%killed%'
     - '&6&l---------------------------------------------'
