@@ -25,6 +25,6 @@ bungee:
     - 'games: 127.0.0.1:25566'
 time:
   format: H:mm
-  zone: GMT+1
+  zone: GMT+8
 update-notification: true
 debug: false

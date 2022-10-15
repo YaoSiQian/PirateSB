@@ -4,16 +4,15 @@
 
 intro-message:
   lines:
-  - '&c&l⚠ IT IS IMPORTANT ⚠'
+  - '&c&l⚠ 警告 ⚠'
   - '&7'
-  - ▪ Download and use the &6resource pack&f ▪
-  - ▪ to hear the ambient sounds&f, we recommend ▪
-  - ▪ you to &6turn up the volume&f of your ▪
-  - ▪ minecraft and pc ▪
+  - ▪ 请下载并启用 &6资源包&f ▪
+  - ▪ 来感受真实的环境声音&f ▪
+  - ▪ 我们推荐你 &6提高电脑和 Minecraft 的音量&f ▪
   - '&7'
-  - '&9To skip the tutorial use "&l/skip&9"'
+  - '&9跳过教程请输入 "&l/skip&9"'
   - '&7'
-  - '&cRe-join in case you don''''t get installed.'
+  - '&c如果没有正确安装资源包，请重新进入服务器'
   position:
     world: IntroWorld
     x: 16.5
@@ -21,8 +20,8 @@ intro-message:
     z: 4.5
 t-chest:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: IntroWorld
     x: -29.507138106136992
@@ -30,11 +29,11 @@ t-chest:
     z: 16.575654800861553
 treasure-crate:
   lines:
-  - '&6&l⚓ TREASURE CRATE ⚓'
-  - ▪ All these rewards can be yours ▪
-  - ▪ Get the key and try to open this incredible treasure ▪
-  - ▪ Everything hangs from you pirate ▪
-  - ▪ You will get them like a real sailor ▪
+  - '&6&l⚓ 宝藏宝箱 ⚓'
+  - ▪ 你将拥有所有奖励 ▪
+  - ▪ 获取密钥并尝试打开这不可思议的宝藏 ▪
+  - ▪ 所有东西都会挂在你的身上，海盗 ▪
+  - ▪ 你会像一个真正的水手一样得到他们 ▪
   - '&6▪ &f▪ &6▪ &f▪ &6▪ &f▪ &6▪ &f▪ &6▪'
   position:
     world: MainWorld
@@ -43,8 +42,8 @@ treasure-crate:
     z: 209.5
 dungeon:
   lines:
-  - '&c☠ &lDUNGEON&c ☠'
-  - ▪ High-risk area and amazing treasures ▪
+  - '&c☠ &l地牢&c ☠'
+  - ▪ 高风险地区 | 高回报宝藏 ▪
   position:
     world: MainWorld
     x: 286.4957162782297
@@ -52,8 +51,8 @@ dungeon:
     z: 168.52890227228005
 starting-dungeon:
   lines:
-  - '&c☠ &lSTARTING DUNGEON&c ☠'
-  - ▪ Explore and find the treasure chest ▪
+  - '&c☠ &l开始地牢&c ☠'
+  - ▪ 探索并发现宝藏 ▪
   position:
     world: IntroWorld
     x: 7.5
@@ -61,8 +60,8 @@ starting-dungeon:
     z: 24.5
 dungeon-witches:
   lines:
-  - '&5&l☠ WITCHE''''S DUNGEON ☠'
-  - ▪ Extreme danger zone ▪
+  - '&5&l☠ 巫师地窖 ☠'
+  - ▪ 极端危险地带 ▪
   position:
     world: MainWorld
     x: 243.5
@@ -70,8 +69,8 @@ dungeon-witches:
     z: 252.5
 pvp-zone:
   lines:
-  - '&4&l⚓ PVP ZONE ⚓'
-  - ▪ Fight against other players or with the dangerous monster ▪
+  - '&4&l⚓ PVP 区域 ⚓'
+  - ▪ 与其他玩家或危险的怪物战斗 ▪
   position:
     world: MainWorld
     x: 138.5
@@ -79,10 +78,10 @@ pvp-zone:
     z: 190.5
 voting-crate:
   lines:
-  - '&a&l⚓ VOTING CRATE ⚓'
-  - ▪ Help with your vote to the server ▪
-  - ▪ And you will receive a key as a reward ▪
-  - ▪ To get these amazing items ▪
+  - '&a&l⚓ 投票宝箱 ⚓'
+  - ▪ 为服务器投票 ▪
+  - ▪ 然后你会得到密钥作为奖励 ▪
+  - ▪ 来获得这些神奇的东西 ▪
   - '&a▪ &f▪ &a▪ &f▪ &a▪ &f▪ &a▪ &f▪ &a▪'
   position:
     world: MainWorld
@@ -91,8 +90,8 @@ voting-crate:
     z: 203.5
 enderchest:
   lines:
-  - '&5&l⚓ ENDER CHEST ⚓'
-  - ▪ Save your most important items here ▪
+  - '&5&l⚓ 末影箱 ⚓'
+  - ▪ 属于你自己的藏宝库 ▪
   position:
     world: MainWorld
     x: 265.5
@@ -100,8 +99,8 @@ enderchest:
     z: 222.5
 community-chest:
   lines:
-  - '&9&l⚓ COMMUNITY CHEST ⚓'
-  - ▪ Leave here the items you want to share ▪
+  - '&9&l⚓ 公益基箱 ⚓'
+  - ▪ 在此留下你想贡献的物品 ▪
   position:
     world: MainWorld
     x: 281.0080734265385
@@ -109,8 +108,8 @@ community-chest:
     z: 186.50177707208712
 booty:
   lines:
-  - '&a⚓ Booty ⚓'
-  - ▪ Treasure of the evil pirate ▪
+  - '&a⚓ 赃物 ⚓'
+  - ▪ 邪恶海盗的珍宝 ▪
   position:
     world: MainWorld
     x: 187.5
@@ -118,8 +117,8 @@ booty:
     z: 64.5
 booty-2:
   lines:
-  - '&a⚓ Booty ⚓'
-  - ▪ Treasure of the pirate thief ▪
+  - '&a⚓ 赃物 ⚓'
+  - ▪ 海贼盗贼的珍宝 ▪
   position:
     world: MainWorld
     x: 275.5
@@ -127,8 +126,8 @@ booty-2:
     z: 390.5
 t-chest-2:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 221.5
@@ -136,8 +135,8 @@ t-chest-2:
     z: 196.5
 t-chest-3:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 242.5
@@ -145,8 +144,8 @@ t-chest-3:
     z: 150.5
 t-chest-4:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 269.5
@@ -154,8 +153,8 @@ t-chest-4:
     z: 168.5
 t-chest-5:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 307.5
@@ -163,8 +162,8 @@ t-chest-5:
     z: 210.5
 t-chest-6:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 234.5
@@ -172,8 +171,8 @@ t-chest-6:
     z: 253.5
 t-chest-7:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 323.5
@@ -181,8 +180,8 @@ t-chest-7:
     z: 164.5
 t-chest-8:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 346.5
@@ -190,8 +189,8 @@ t-chest-8:
     z: 230.5
 t-chest-9:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 373.5
@@ -199,8 +198,8 @@ t-chest-9:
     z: 293.5
 t-chest-10:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 334.5
@@ -208,8 +207,8 @@ t-chest-10:
     z: 314.5
 t-chest-11:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 269.5
@@ -217,8 +216,8 @@ t-chest-11:
     z: 340.5
 t-chest-12:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 243.5
@@ -226,8 +225,8 @@ t-chest-12:
     z: 392.5
 t-chest-13:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 120.5
@@ -235,8 +234,8 @@ t-chest-13:
     z: 361.5
 t-chest-14:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 175.5
@@ -244,8 +243,8 @@ t-chest-14:
     z: 328.5
 t-chest-15:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 342.5
@@ -253,8 +252,8 @@ t-chest-15:
     z: 208.5
 t-chest-16:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 268.5
@@ -262,8 +261,8 @@ t-chest-16:
     z: 158.5
 t-chest-17:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 397.5
@@ -271,8 +270,8 @@ t-chest-17:
     z: 255.5
 t-chest-18:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 328.5
@@ -280,8 +279,8 @@ t-chest-18:
     z: 213.5
 t-chest-19:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 325.5
@@ -289,8 +288,8 @@ t-chest-19:
     z: 174.5
 t-chest-20:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 363.5
@@ -298,8 +297,8 @@ t-chest-20:
     z: 109.5
 t-chest-21:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 439.5
@@ -307,8 +306,8 @@ t-chest-21:
     z: 76.5
 t-chest-22:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 463.5
@@ -316,8 +315,8 @@ t-chest-22:
     z: 55.5
 t-chest-23:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 471.5
@@ -325,8 +324,8 @@ t-chest-23:
     z: 128.5
 t-chest-24:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 402.5
@@ -334,8 +333,8 @@ t-chest-24:
     z: 161.5
 t-chest-25:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 448.5
@@ -343,8 +342,8 @@ t-chest-25:
     z: 269.5
 t-chest-26:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 216.5
@@ -352,8 +351,8 @@ t-chest-26:
     z: 205.5
 t-chest-27:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 262.5
@@ -361,8 +360,8 @@ t-chest-27:
     z: 273.5
 t-chest-28:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 348.5
@@ -370,8 +369,8 @@ t-chest-28:
     z: 161.5
 t-chest-29:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 398.5
@@ -379,8 +378,8 @@ t-chest-29:
     z: 173.5
 t-chest-30:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 304.5
@@ -388,8 +387,8 @@ t-chest-30:
     z: 191.5
 t-chest-31:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 349.5
@@ -397,8 +396,8 @@ t-chest-31:
     z: 222.5
 t-chest-32:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 121.5
@@ -406,8 +405,8 @@ t-chest-32:
     z: 183.5
 t-chest-33:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 302.5
@@ -415,8 +414,8 @@ t-chest-33:
     z: 277.5
 t-chest-34:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 281.5
@@ -424,8 +423,8 @@ t-chest-34:
     z: 339.5
 t-chest-35:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 279.5
@@ -433,8 +432,8 @@ t-chest-35:
     z: 327.5
 t-chest-36:
   lines:
-  - '&e⚓ Treasure Chest ⚓'
-  - ▪ Click to open ▪
+  - '&e⚓ 宝藏宝箱 ⚓'
+  - ▪ 点击打开 ▪
   position:
     world: MainWorld
     x: 243.5
