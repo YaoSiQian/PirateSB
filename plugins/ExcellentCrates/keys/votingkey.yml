@@ -4,7 +4,7 @@ Item:
   Material: TRIPWIRE_HOOK
   Amount: 1
   Durability: 0
-  Name: '&a⚓ Voting Key ⚓'
+  Name: '&a⚓ 投票密钥 ⚓'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES

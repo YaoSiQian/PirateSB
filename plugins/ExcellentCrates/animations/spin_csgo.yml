@@ -1,6 +1,6 @@
 Type: SPIN
 Menu:
-  Title: '&nOpening crate...'
+  Title: '&n打开宝箱...'
   Size: 27
 
   Content:
@@ -18,7 +18,7 @@ Menu:
         default:
           Item:
             material: 'REDSTONE_TORCH'
-            name: '&c&l» PRIZE «'
+            name: '&c&l» 奖励 «'
       Slots: '4,22'
       Type: NONE
 

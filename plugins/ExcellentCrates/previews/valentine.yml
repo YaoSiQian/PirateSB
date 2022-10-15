@@ -1,4 +1,4 @@
-Title: '           &nCrate Preview'
+Title: '           &n宝箱预览'
 Size: 54
 
 Reward:
@@ -6,9 +6,9 @@ Reward:
   Name: '&e%reward_preview_name%'
   Lore:
     Default:
-      - '&e&lWin Chance: &6%reward_chance%%'
-      - '&e&lWin Amount Limit: &6%reward_win_limit_amount%'
-      - '&e&lWin Cooldown: &6%reward_win_limit_cooldown%'
+      - '&e&l赢取概率: &6%reward_chance%%'
+      - '&e&l赢取次数上限: &6%reward_win_limit_amount%'
+      - '&e&l赢取冷却时间: &6%reward_win_limit_cooldown%'
       - ''
       - '%win_limit_amount%'
       - '%win_limit_cooldown%'
@@ -17,11 +17,11 @@ Reward:
       - '%reward_preview_lore%'
     Win_Limit:
       Amount:
-        - '&7You can win this reward &6%user_reward_win_limit_amount_left% more times &7(of total &f%reward_win_limit_amount%&7)'
+        - '&7你还可以赢取该奖励 &6%user_reward_win_limit_amount_left% 次 &7(共 &f%reward_win_limit_amount% &7次)'
       Cooldown:
-        - '&7You can win this reward again in &6%user_reward_win_limit_expire_in%'
+        - '&7你还可以在 &6%user_reward_win_limit_expire_in% 后赢取该奖励'
       Drained:
-        - '&cYou already won this reward, you can not win more.'
+        - '&c你已经最后一次赢得了这个奖励'
   Slots: 20,21,29,30,23,24,32,33
 
 Content:
@@ -62,7 +62,7 @@ Content:
       default:
         Item:
           Material: RED_DYE
-          Name: '&c&lNext Page'
+          Name: '&c&l下一页'
           Enchants:
             unbreaking: 1
           Item_Flags:
@@ -75,7 +75,7 @@ Content:
       default:
         Item:
           Material: RED_DYE
-          Name: '&c&lPrevious Page'
+          Name: '&c&l上一页'
           Enchants:
             unbreaking: 1
           Item_Flags:

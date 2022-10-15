@@ -1,7 +1,7 @@
 Type: SPIN
 
 Menu:
-  Title: '&nOpening crate...'
+  Title: '&n打开宝箱...'
   Size: 27
 
   Content:

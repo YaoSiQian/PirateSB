@@ -1,4 +1,4 @@
-Title: '&nCrates Menu'
+Title: '&n宝箱菜单'
 Size: 36
 
 Crates:
@@ -12,12 +12,12 @@ Crates:
           Lore:
             - '%crate_item_lore%'
             - '&7'
-            - '&9▸ &7You have: &9%user_keys% keys'
-            - '&9▸ &7Money Cost: &9$%crate_opening_cost_money%'
-            - '&9▸ &7Exp Cost: &9%crate_opening_cost_exp%'
+            - '&9▸ &7你拥有: &9%user_keys% 个令牌'
+            - '&9▸ &7花费的钱: &9$%crate_opening_cost_money%'
+            - '&9▸ &7话费的经验: &9%crate_opening_cost_exp%'
             - '&7'
-            - '&fLeft Click &7to preview'
-            - '&fRight Click &7to open'
+            - '&f左键点击 &7预览'
+            - '&f右键点击 &7打开'
     Slots: 13
 
 Content:
@@ -26,7 +26,7 @@ Content:
       default:
         Item:
           Material: 'BARRIER'
-          Name: '&c&lClose'
+          Name: '&c&l关闭'
     Slots: 31
     Type: CLOSE
 
@@ -35,12 +35,11 @@ Content:
       default:
         Item:
           Material: 'BOOK'
-          Name: '&e&nWhat is it?'
+          Name: '&e&n这是什么?'
           Lore:
-            - '&6This is special crates menu,'
-            - '&6where you can open creates using'
-            - '&6virtual keys, which you can buy'
-            - '&6in our store.'
+            - '&6这是一个特殊的宝箱菜单'
+            - '&6当你在服务器商店购买宝箱后,'
+            - '&6你可以用虚拟令牌打开它'
     Slots: 28
     Type: NONE
 
@@ -49,11 +48,11 @@ Content:
       default:
         Item:
           Material: 'EMERALD'
-          Name: '&a&nStore'
+          Name: '&a&n商店'
           Lore:
-            - '&dBuy crate keys in our store'
-            - '&dand use them in this menu!'
+            - '&d在商店购买宝箱令牌'
+            - '&d并在菜单打开它!'
             - '&7'
-            - '&bOur Store: &awww.store.mycraft.com'
+            - '&b在 &a服务器商店 &b购买'
     Slots: 34
     Type: NONE

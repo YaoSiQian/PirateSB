@@ -4,7 +4,7 @@ Item:
   Material: TRIPWIRE_HOOK
   Amount: 1
   Durability: 0
-  Name: '&6⚓ Treasure Key ⚓'
+  Name: '&6⚓ 宝藏密钥 ⚓'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES

@@ -1,4 +1,4 @@
-Name: §a⚓ §a§lVoting Crate§a ⚓
+Name: §a⚓ §a§l投票宝箱§a ⚓
 Animation_Config: csgo
 Preview_Config: default
 Permission_Required: false
@@ -15,7 +15,7 @@ Item:
   Material: CHEST
   Amount: 1
   Durability: 0
-  Name: '&6Sample Crate #1 &7(Right-Click)'
+  Name: '&6样箱 #2 &7(右键点击)'
   Enchants:
     unbreaking: 1
   Item_Flags:
@@ -36,8 +36,8 @@ Block:
     Offset:
       Y: 1.5
     Text:
-    - §c§lCS:GO CRATE
-    - §7Get the key at §cwww.myserver.com§c
+    - §c§lCS:GO 宝箱
+    - §7在 §c活动期间 §7领取
   Effect:
     Model: SIMPLE
     Particle:
@@ -68,7 +68,7 @@ Rewards:
       - '[CONSOLE] eco give %player% 1000'
       Items: []
     bf5f914e-b4de-4c4b-b30a-305d388e04bf:
-      Name: §6x10 Gold Ingots
+      Name: §6x10 金锭
       Chance: 60.0
       Broadcast: false
       Win_Limits:
@@ -79,7 +79,7 @@ Rewards:
       - '[CONSOLE] give %player% gold_ingot 10'
       Items: []
     d123a6be-99e0-421d-8879-d4bde27a041f:
-      Name: §6x20 Gold Ingots
+      Name: §6x20 金锭
       Chance: 50.0
       Broadcast: false
       Win_Limits:
@@ -90,7 +90,7 @@ Rewards:
       - '[CONSOLE] give %player% gold_ingot 20'
       Items: []
     ce1ff7af-6970-416d-a148-d472c4e74fca:
-      Name: §2x10 Experiencie Bottles
+      Name: §2x10 经验瓶
       Chance: 60.0
       Broadcast: false
       Win_Limits:
@@ -101,7 +101,7 @@ Rewards:
       - '[CONSOLE] give %player% experiencebottle 10'
       Items: []
     4e50b195-ba46-4ccf-b77b-24037fe10e89:
-      Name: §dFire Aspect II
+      Name: §d火焰附加 II
       Chance: 5.0
       Broadcast: false
       Win_Limits:
@@ -112,7 +112,7 @@ Rewards:
       Items:
       - 1800020009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8n2ja9i0hj9e9ii0gbje1im6t10954i1okml8h7qn9c49q6au3k48t248jt004g04ijehnn4pb48ln66q31dpq6qpbeehpgk000000gg002d5i005bdd5n6aoric5j78ej6d5p6anr1edo6aork08006r3mdg0040000400agrfeln78080
     dd8088eb-0650-4376-982d-62feb6f0a5ba:
-      Name: §9⚓ x16 Diamonds ▪
+      Name: §9⚓ x16 钻石 ▪
       Chance: 3.0
       Broadcast: false
       Win_Limits:
@@ -123,7 +123,7 @@ Rewards:
       Items:
       - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78400
     97ff93ab-a02b-4079-a2c2-5efbbce4ba3c:
-      Name: §8⚓ x4 Netherite Ingot ▪
+      Name: §8⚓ x4 下届合金锭 ▪
       Chance: 1.0
       Broadcast: false
       Win_Limits:

@@ -1,7 +1,7 @@
 Type: SPIN
 
 Menu:
-  Title: '&nOpening crate...'
+  Title: '&n打开宝箱...'
   Size: 54
 
   Content:
@@ -18,7 +18,7 @@ Menu:
         default:
           Item:
             Material: NETHER_STAR
-            Name: '&c&l↓ PRIZE ↓'
+            Name: '&c&l↓ 奖励 ↓'
       Slots: 4
       Type: NONE
     netherstar2:
@@ -26,7 +26,7 @@ Menu:
         default:
           Item:
             Material: NETHER_STAR
-            Name: '&c&l↑ PRIZE ↑'
+            Name: '&c&l↑ 奖励 ↑'
       Slots: 22
       Type: NONE
 

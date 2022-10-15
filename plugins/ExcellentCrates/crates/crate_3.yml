@@ -1,4 +1,4 @@
-Name: '§6Sample Crate #3'
+Name: '§6样箱 #3'
 Animation_Config: rows_3
 Preview_Config: default
 Permission_Required: false
@@ -15,7 +15,7 @@ Item:
   Material: CHEST
   Amount: 1
   Durability: 0
-  Name: '&6Sample Crate #3 &7(Right-Click)'
+  Name: '&6样箱 #3 &7(右键点击)'
   Enchants:
     unbreaking: 1
   Item_Flags:
@@ -35,8 +35,8 @@ Block:
     Offset:
       Y: 1.5
     Text:
-    - §c§lCS:GO CRATE
-    - §7Get the key at §cwww.myserver.com§c
+    - §c§lCS:GO 宝箱
+    - §7在 §c活动期间 §7领取
   Effect:
     Model: SIMPLE
     Particle:
@@ -45,7 +45,7 @@ Block:
 Rewards:
   List:
     '1':
-      Name: Apple
+      Name: 苹果
       Chance: 30.0
       Broadcast: false
       Win_Limits:
@@ -56,7 +56,7 @@ Rewards:
       Items:
       - 1800020009km800fdlkmspb3e9gmct1qc5o70r350400agrfeln78g00
     '2':
-      Name: Emerald
+      Name: 绿宝石
       Chance: 9.0
       Broadcast: false
       Win_Limits:
@@ -67,7 +67,7 @@ Rewards:
       Items:
       - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78200
     '3':
-      Name: Diamond
+      Name: 钻石
       Chance: 12.0
       Broadcast: false
       Win_Limits:
@@ -78,7 +78,7 @@ Rewards:
       Items:
       - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78800
     '4':
-      Name: Ender Eye
+      Name: 下界之眼
       Chance: 15.0
       Broadcast: false
       Win_Limits:
@@ -89,7 +89,7 @@ Rewards:
       Items:
       - 5000080016ip002dmmirj5cdp62pjk79imsp35e9fmaub50400agrfeln782g0
     '5':
-      Name: Bone
+      Name: 骨头
       Chance: 20.0
       Broadcast: false
       Win_Limits:
@@ -100,7 +100,7 @@ Rewards:
       Items:
       - 5000080016ip001pmmirj5cdp62pjk79h6urj50400agrfeln78400
     '6':
-      Name: Sugar
+      Name: 糖
       Chance: 15.0
       Broadcast: false
       Win_Limits:
@@ -111,7 +111,7 @@ Rewards:
       Items:
       - 1800020009km800fdlkmspb3e9gmct1qedqmeobi0400agrfeln78400
     '7':
-      Name: Blaze Rod
+      Name: 烈焰棒
       Chance: 10.0
       Broadcast: false
       Win_Limits:
@@ -122,7 +122,7 @@ Rewards:
       Items:
       - 5000080016ip002dmmirj5cdp62pjk79h6oobqclfn4rr40400agrfeln78180
     '8':
-      Name: Tnt
+      Name: TNT
       Chance: 10.0
       Broadcast: false
       Win_Limits:
