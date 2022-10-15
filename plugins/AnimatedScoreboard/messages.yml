@@ -1,4 +1,4 @@
-prefix: '&7[&cASB&7] '
+prefix: '&7[&c记分板&7] '
 nopermission: '%prefix&cYou don''t have the right permission!'
 toggle:
   'on': '%prefix&aYou toggled the scoreboard &2on&a!'

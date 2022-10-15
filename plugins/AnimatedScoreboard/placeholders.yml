@@ -1,8 +1,8 @@
 scoreboard:
-  disabled: '&cDisabled'
-  enabled: '&aEnabled'
+  disabled: '&c关闭'
+  enabled: '&a开启'
   names:
     defaultscoreboard: defaultscoreboard
     introscoreboard: introscoreboard
     islandscoreboard: islandscoreboard
-  none-active: '&7None'
+  none-active: '&7无'

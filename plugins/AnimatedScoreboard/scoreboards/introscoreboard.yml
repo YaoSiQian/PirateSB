@@ -8,7 +8,7 @@ display:
       #This is the text that will be display as the title, it can have as many lines as you want and it will automatically rotate through them or
       #choose a random one, depending on what you set random to.
       text:
-      - "&6&l⚓  &#FC8600&lINTR☠&#CC720A&lDUCTI☠N  &6&l⚓"
+      - "&6&l⚓  &#FC8600&l入门&#E47C05&l☠&#CC720A&l教程  &6&l⚓"
       #If this is true there will be a random line every time it updates. 
       #If it is false than it will rotate through them and you can make some animations with it.
       random: false
@@ -25,7 +25,7 @@ display:
       score: 98
     line-include:
       text:
-      - "      &#ABBFBF⠚ Steps to follow ⠚" 
+      - "      &#ABBFBF⠚ 遵循以下步骤 ⠚" 
       random: false
       interval: 200
       score: 97
@@ -37,31 +37,31 @@ display:
       score: 96
     line-5:
       text:
-      - "⠏ &fExplore the dungeon."
+      - "⠏ &f探索地牢"
       random: false
       interval: 200
       score: 95      
     line-6:
       text:
-      - "⠏ &fFind the treasure chest. "
+      - "⠏ &f寻找宝箱"
       random: false
       interval: 200
       score: 94
     line-7:
       text:
-      - "⠏ &fGo talk to the pirate."
+      - "⠏ &f与海盗交流"
       random: false
       interval: 200
       score: 93
     line-8:
       text:
-      - "⠏ &fFighting the evil pirate."
+      - "⠏ &f与幽灵战斗"
       random: false
       interval: 200
       score: 92
     line-9:
       text:
-      - "⠏ &fGo talk to the captain."
+      - "⠏ &f与船长对话"
       random: false
       interval: 200
       score: 91 
@@ -73,13 +73,13 @@ display:
       score: 90
     line-include2:
       text:
-      - "     &#ABBFBF⠗ Skip introduction? ⠗" 
+      - "     &#ABBFBF⠗ 想要跳过教程? ⠗" 
       random: false
       interval: 200
       score: 89
     line-include3:
       text:
-      - "             &#ABBFBFUse: &9&l/skip" 
+      - "             &#ABBFBF输入: &9&l/skip" 
       random: false
       interval: 200
       score: 88

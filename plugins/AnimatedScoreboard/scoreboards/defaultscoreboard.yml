@@ -8,7 +8,7 @@ display:
       #This is the text that will be display as the title, it can have as many lines as you want and it will automatically rotate through them or
       #choose a random one, depending on what you set random to.
       text:
-      - "&6&l⚓  &#FC8600&lSKY&#CC720A&lBL☠CK  &6&l⚓"
+      - "&6&l⚓  &#FC8600&l空岛&#E47C05&l☠&#CC720A&l生存  &6&l⚓"
       #If this is true there will be a random line every time it updates. 
       #If it is false than it will rotate through them and you can make some animations with it.
       random: false
@@ -31,40 +31,40 @@ display:
       score: 98
     line-include:
       text:
-      - "&#ABBFBF▪ Profile ◂" 
+      - "&#ABBFBF▪ 档案 ◂" 
       random: false
       interval: 200
       score: 97   
     line-4:
       text:
-      - "⠐ &fRank: %vault_rankprefix_#% %vault_suffix%" 
+      - "⠐ &f权益: %vault_rankprefix_#% %vault_suffix%" 
       random: false
       interval: 100
       score: 96
     line-4-1:
       text:
-      - "⠗ &fHP: &#FF8948%aureliumskills_hp%&7/&#E12B07%aureliumskills_hp_max% ♥"
-      - "⠗ &fMana: &#E574C4%aureliumskills_mana%&7/&#AF418F%aureliumskills_mana_max% ❖"
-      - "⠗ &fPower: &#387F53%aureliumskills_power% ☀"
+      - "⠗ &f生命: &#FF8948%aureliumskills_hp%&7/&#E12B07%aureliumskills_hp_max% ♥"
+      - "⠗ &f魔法: &#E574C4%aureliumskills_mana%&7/&#AF418F%aureliumskills_mana_max% ❖"
+      - "⠗ &f力量: &#387F53%aureliumskills_power% ☀"
       random: false
       interval: 100
       score: 95 
     line-4-2:
       text:
-      - "⠔ &fKills: &#FE4A4A%statistic_player_kills% ⚔"
-      - "⠔ &fDeaths: &7%statistic_deaths% ☠"
+      - "⠔ &f击杀: &#FE4A4A%statistic_player_kills% ⚔"
+      - "⠔ &f死亡: &7%statistic_deaths% ☠"
       random: false
       interval: 100
       score: 94
     line-5:
       text:
-      - "⠎ &fMoney: &#F9E454%vault_eco_balance_formatted% ⛁"
+      - "⠎ &f余额: &#F9E454%vault_eco_balance_formatted% ⛁"
       random: false
       interval: 100
       score: 93  
     line-6:
       text:
-      - "⠏ &fPing: &#1ACCCC%player_ping%ms ⌛"
+      - "⠏ &f延迟: &#1ACCCC%player_ping%ms ⌛"
       random: false
       interval: 200
       score: 92 
@@ -76,27 +76,27 @@ display:
       score: 91
     line-include2:
       text:
-      - "&#ABBFBF▪ Information ◂" 
+      - "&#ABBFBF▪ 信息 ◂" 
       random: false
       interval: 200
       score: 90
     line-9:
       text:
-      - "⠄ &fBiome: &#ACF268%world_biome% ⚗" 
+      - "⠄ &f生物群系: &#ACF268%world_biome% ⚗" 
       random: false
       interval: 100
       score: 89
     line-10-2:
       text:
-      - "⠘ &fOnline: &#2DF43F%server_online%&8/&#28B635%server_max_players% ☻"       
+      - "⠘ &f在线人数: &#2DF43F%server_online%&8/&#28B635%server_max_players% ☻"       
       random: false
       interval: 200
       score: 88
     line-10:
       text:
-      - "⠈ &fPlayed: &#B36BF6%statistic_time_played% ⌚"
-      - "⠈ &fMined: &#B36BF6%statistic_mine_block% ⚒"
-      - "⠈ &fCrafted: &#B36BF6%statistic_craft_item% ⚙" 
+      - "⠈ &f游玩时长: &#B36BF6%statistic_time_played% ⌚"
+      - "⠈ &f挖掘数量: &#B36BF6%statistic_mine_block% ⚒"
+      - "⠈ &f创造数量: &#B36BF6%statistic_craft_item% ⚙" 
       random: false
       interval: 100
       score: 87
@@ -108,7 +108,7 @@ display:
       score: 86
     line-16:
       text:
-      - "     &9▸ mc.servername.com ◂ "       
+      - "     &9▸ CivGame.net ◂ "       
       random: false
       interval: 200
       score: 85
