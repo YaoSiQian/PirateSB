@@ -1,13 +1,13 @@
 armor-menu-item: '311'
-armor-menu-name: '&bArmor'
+armor-menu-name: '&b盔甲'
 armor-menu-lore:
-  - '&8Category'
+  - '&8物品类别'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Hats'
-  - '&8■ &7Chestplates'
-  - '&8■ &7Leggings'
-  - '&8■ &7Boots'
+  - '&7示例：'
+  - '&8■ &7头盔'
+  - '&8■ &7胸甲'
+  - '&8■ &7护腿'
+  - '&8■ &7靴子'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

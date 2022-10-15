@@ -1,11 +1,13 @@
 weapons-menu-item: '283'
-weapons-menu-name: '&6Weapons'
+weapons-menu-name: '&6武器'
 weapons-menu-lore:
-  - '&8Category'
+  - '&8物品类别'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Swords'
-  - '&8■ &7Bows'
+  - '&7示例：'
+  - '&8■ &7剑'
+  - '&8■ &7弓'
+  - '&8■ &7斧'
+  - '&8■ &7魔法武器'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

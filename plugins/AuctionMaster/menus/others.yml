@@ -1,11 +1,10 @@
 others-menu-item: '32'
-others-menu-name: '&2Others'
+others-menu-name: '&2其他'
 others-menu-lore:
-  - '&8Category'
+  - '&8物品类别'
   - ''
-  - '&7Anything that is'
-  - '&7auctionable and not'
-  - '&7in other categories.'
+  - '&7示例：'
+  - '&8■ &7物品'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

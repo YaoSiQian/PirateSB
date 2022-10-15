@@ -1,208 +1,199 @@
 #This is the lore of every auctioned item in the menu:
 #Use %amount% for item's amount
 auction-item-lore:
-  #The lore for items with no bids on them
+  #The lore for items with no ⛁ on them
   #Use %display-name-seller% for display name of the seller
-  #Use %starting-bid% for the starting bid
+  #Use %starting-bid% for the 起拍价
   #Use %duration% for auction duration
   auction-item-no-bid:
     - '&8&m---------------------'
-    - '&7Seller: %display-name-seller%'
-    - '&7Starting bid: &6%starting-bid% ⛁'
+    - '&7卖家： %display-name-seller%'
+    - '&7起价： &6%starting-bid% ⛁'
     - ''
-    - '&7Ends in: &e%duration%'
+    - '&7结束于： &e%duration%'
     - ''
-    - '&eClick to inspect!'
-  #The lore for items with bids on them
+    - '&e点击查看！'
+  #The lore for items with ⛁ on them
   #Use %display-name-seller% for display name of the seller
-  #Use %bids% for the amount of bids
+  #Use %bids% for the amount of ⛁
   #Use %top-bid% for the top bid
   #Use %top-bid-player% for the top bid player
   #Use %duration% for auction duration
   auction-item-with-bids:
     - '&8&m---------------------'
-    - '&7Seller: %display-name-seller%'
-    - '&7Bids: &a%bids% bids'
+    - '&7卖家： %display-name-seller%'
+    - '&7出价： &a%bids% ⛁'
     - ''
-    - '&7Top bid: &6%top-bid% ⛁'
-    - '&7Bidder: %top-bid-player%'
+    - '&7最高出价： &6%top-bid% ⛁'
+    - '&7出价人： %top-bid-player%'
     - ''
-    - '&7Ends in: &e%duration%'
+    - '&7结束于： &e%duration%'
     - ''
-    - '&eClick to inspect!'
+    - '&e点击查看！'
   #Use %display-name-seller% for display name of the seller
-  #Use %bids% for the amount of bids
+  #Use %bids% for the amount of ⛁
   #Use %top-bid% for the top bid
   #Use %top-bid-player% for the top bid player
   auction-item-ended:
     - '&8&m---------------------'
-    - '&7Seller: %display-name-seller%'
-    - '&7Bids: &a%bids% bids'
+    - '&7卖家： %display-name-seller%'
+    - '&7出价: &a%bids% ⛁'
     - ''
-    - '&7Top bid: &6%top-bid% ⛁'
-    - '&7Bidder: %top-bid-player%'
+    - '&7最高出价： &6%top-bid% ⛁'
+    - '&7出价人： %top-bid-player%'
     - ''
-    - '&7Status: &aEnded!'
+    - '&7状态： &a已结束！'
     - ''
-    - '&eClick to inspect!'
+    - '&e点击查看！'
   #Use %display-name-seller% for display name of the seller
-  #Use %starting-bid% for the starting bid
+  #Use %starting-bid% for the 起拍价
   auction-item-expired:
     - '&8&m---------------------'
-    - '&7Seller: %display-name-seller%'
-    - '&7Starting bid: &6%starting-bid% ⛁'
+    - '&7卖家： %display-name-seller%'
+    - '&7起拍价: &6%starting-bid% ⛁'
     - ''
-    - '&7Status: &cExpired!'
+    - '&7状态： &c流拍！'
     - ''
-    - '&eClick to inspect!'
+    - '&e点击查看！'
 
 sort-auction-item: '154'
-sort-auction-item-name: '&aSort'
+sort-auction-item-name: '&a分类'
 #The lore is dynamic so you can only edit
 #the names of the sortings
 sort-auction-item-sorting:
-  highest-bid: 'Highest Bid'
-  lowest-bid: 'Lowest Bid'
-  ending-soon: 'Ending Soon'
-  most-bids: 'Most Bids'
-  click-to-switch: '&eClick to switch sort!'
+  highest-bid: '最高标价'
+  lowest-bid: '最低标价'
+  ending-soon: '即将结束'
+  most-bids: '最多投标'
+  click-to-switch: '&e点击以切换分类'
 
 search-auction-item: '323'
-search-auction-item-name: '&aSearch'
+search-auction-item-name: '&a搜索'
 search-auction-item-lore:
-  - '&7Find items by name.'
+  - '&7用名称，类型，描述或附魔搜索物品'
   - ''
-  - '&eClick to search!'
+  - '&e点击搜索！'
 
 #The message displayed on the sign when searching for an auction
 #There are only 3 rows because the first is where the user writes
 search-sign-message:
   - '^^^^^^^^^^^^^^^'
-  - 'Type in your'
-  - 'search'
+  - '输入物品'
 
-create-menu-name: '&8Auction Creator'
-manage-own-auctions-menu-name: '&8Your Auctions Manager'
+create-menu-name: '创建拍卖'
+manage-own-auctions-menu-name: '创建拍卖'
 manage-menu-item: '418'
-manage-menu-item-name: '&aManage Auctions'
+manage-menu-item-name: '&a创建拍卖'
 manage-menu-item-lore:
   #This lore is displayed when the player has no own auction
   manage-no-own-auctions:
-    - '&7Set your own items on'
-    - '&7auction for other players'
-    - '&7to purchase.'
+    - '&7将你的物品拍卖'
+    - '&7让其他玩家购买'
     - ''
-    - '&eClick to become rich!'
+    - '&e点击此处获得钞能力！'
   #This lore is displayed when the player has pending auctions
   #Use %auctions% for the number of auctions the player has
-  #Use %bids% for the total number of bids on their auctions
-  #Use %coins% for the total number of coins on their auctions
+  #Use %bids% for the total number of ⛁ on their auctions
+  #Use %coins% for the total number of ⛁ on their auctions
   manage-with-own-auctions:
-    - '&7You own &e%auctions% auctions &7in'
-    - '&7progress or which recently'
-    - '&7ended.'
+    - '&7你有 &e%auctions% &7个'
+    - '&7正在进行或已结束'
+    - '&7的拍卖。'
     - ''
-    - '&7Your auctions have &a%bids% bids'
-    - '&7totaling &6%coins% coins&7.'
+    - '&7你的拍卖取得 &a%bids% &7次出价'
+    - '&7合计 &6%coins% ⛁&7。'
     - ''
-    - '&eClick to manage!'
+    - '&e点击管理！'
 
 preview-no-item-selected: '77'
-preview-no-item-selected-name: '&eClick an item in your inventory!'
+preview-no-item-selected-name: '&e点击物品栏里的物品！'
 preview-no-item-selected-lore:
-  - '&7Selects it for auction'
+  - '&7选择它创建拍卖'
 
-preview-selected-item-name: '&a&n&lAUCTION FOR ITEM'
-preview-selected-item-take-back: '&eClick to pickup!'
+preview-selected-item-name: '&a&n&l拍卖物品：'
+preview-selected-item-take-back: '&e点击收起！'
 
 #This item appears when the player has 2 or more ended auctions
 collect-all-item: '380'
 #Use %auctions% for the number of auctions that could be collected
-#Use %coins% for the total amount of coins that could be collected
+#Use %coins% for the total amount of ⛁ that could be collected
 #Use %items% for the expired items that could be collected
-collect-all-item-name: '&aClaim All'
+collect-all-item-name: '&a全部领取'
 collect-all-item-lore:
   own-auctions:
-    - '&8Ended Auctions'
+    - '&8已结束拍卖'
     - ''
-    - '&7You have &e%auctions% &7ended auctions'
-    - '&7totaling a value of &6%coins% &7⛁'
-    - '&7and &e%items% &7items from expired auctions.'
+    - '&7你有 &e%auctions% &7个结束的拍卖'
+    - '&7合计 &6%coins% &7⛁'
+    - '&7还有 &e%items% &7个流拍的物品。'
     - ''
-    - '&eClick to claim!'
+    - '&e点击领取！'
   own-bids:
-    - '&8Ended Auctions'
+    - '&8已结束拍卖'
     - ''
-    - '&7There are &e%auctions% &7ended auctions'
-    - '&7on which you bid.'
+    - '&7这里有 &e%auctions% &7个'
+    - '&7你出价的拍卖。'
     - ''
-    - '&7You have &6%coins% &7⛁ to'
-    - '&7claim back from lost auctions and'
-    - '&e%items% &7items from won auctions.'
+    - '&7你可以从流拍的拍卖中 &6%coins%'
+    - '&7取得 &6%coins% &7⛁和 &e%items% &7个物品。'
     - ''
-    - '&eClick to claim!'
+    - '&e点击领取！'
 
 #The message sent when the player has a full inventory but tries to claim an item
-not-enough-inventory-space: '&cYou don''t have enough inventory space!'
-collect-all-message: '&aYou just collected all your auctions!'
+not-enough-inventory-space: '&c你的物品栏满了！'
+collect-all-message: '&a你已经获得了所有的拍卖！'
 
 create-auction-item:
   no-item-selected-material: '159:14'
-  no-item-selected-name: '&cCreate Auction'
+  no-item-selected-name: '&c创建拍卖'
   no-item-selected-lore:
-    - '&7No item selected!'
+    - '&7未选定物品！'
     - ''
-    - '&7Click an item in your'
-    - '&7inventory to select it for'
-    - '&7this auction.'
+    - '&7点击你物品栏内的一件物品'
+    - '&7为它创建拍卖'
   item-selected-material: '159:13'
-  item-selected-name: '&aCreate Auction'
+  item-selected-name: '&a创建拍卖'
   #Use %item-name% for item's name
-  #Use %starting-bid% for starting bid amount
+  #Use %starting-bid% for 起拍价 amount
   #Use %duration% for duration of the auction
   #Use %fee% for the total fee
   item-selected-lore:
-    - '&7This item will be added to'
-    - '&7the auction house for other'
-    - '&7players to purchase.'
+    - '&7此物品会被添加到拍卖行中'
+    - '&7其他玩家可以出价购买'
     - ''
-    - '&7Item: &f%item-name%'
-    - '&7Auction duration: &e%duration%'
-    - '&7Starting bid: &6%starting-bid% ⛁'
+    - '&7物品： &f%item-name%'
+    - '&7拍卖时长： &e%duration%'
+    - '&7起价： &6%starting-bid% ⛁'
     - ''
-    - '&7Creation fee: &6%fee% ⛁'
+    - '&7手续费： &6%fee% ⛁'
     - ''
-    - '&eClick to submit!'
+    - '&e点击提交！'
 
-#The default starting bid
-default-starting-bid: '500'
+#The default 起拍价
+default-starting-bid: '100'
 
-starting-bid-item: '266'
-#Use %starting-bid% for the starting bid amount
-#Use %starting-fee% for the starting bid fee
-starting-bid-item-name: '&fStarting Bid: &6%starting-bid% ⛁'
+starting-bid-item: '27'
+#Use %starting-bid% for the 起拍价 amount
+#Use %starting-fee% for the 起拍价 fee
+starting-bid-item-name: '&f起价： &6%starting-bid% ⛁'
 starting-bid-item-lore:
-  - '&7The minimum price a player'
-  - '&7can offer to obtain your'
-  - '&7item.'
+  - '&7玩家获得你的物品的最低价格。'
   - ''
-  - '&7Once a player bids for your'
-  - '&7item, other players will'
-  - '&7have until the auction ends'
-  - '&7to make a higher bid.'
+  - '&7一旦一名玩家对你的物品出价'
+  - '&7其他玩家可在拍卖结束前提交更高的出价。'
   - ''
-  - '&7Extra fee: &6+%starting-fee% ⛁ &e(5%)'
+  - '&7手续费： &6+%starting-fee% ⛁ &e(5%)'
   - ''
-  - '&eClick to edit!'
-#The message displayed on the sign when changing the starting bid
+  - '&e点击编辑！'
+#The message displayed on the sign when changing the 起拍价
 #There are only 3 rows because the first is where the user writes
 starting-bid-sign-message:
   - '^^^^^^^^^^^^^^^'
-  - 'Your auction'
-  - 'starting bid'
-#This message is shown when the starting bid
+  - '你的拍卖'
+  - '起始价格'
+#This message is shown when the 起拍价
 #could not be registered
-starting-bid-sign-deny: '&cThat is not a valid number.'
+starting-bid-sign-deny: '&c请输入一个有效的数字！'
 #Don't use the % symbol, just say how much in 100
 #you want the procent to be
 starting-bid-fee-procent: '5'
@@ -215,20 +206,20 @@ default-starting-duration: '2 h'
 #Custom units for time
 #Don't use this in the upper option, these are avalable
 #just in auction messages, in the config please use the syntax from the upper comment
-second: 'Second'
-seconds: 'Seconds'
-minute: 'Minute'
-minutes: 'Minutes'
-hour: 'Hour'
-hours: 'Hours'
-day: 'Day'
-days: 'Days'
+second: '秒'
+seconds: '秒'
+minute: '分'
+minutes: '分'
+hour: '时'
+hours: '时'
+day: '天'
+days: '天'
 
 #Time units but short version:
-short_second: 's'
-short_minute: 'm'
-short_hour: 'h'
-short_day: 'd'
+short_second: '秒'
+short_minute: '分'
+short_hour: '时'
+short_day: '天'
 
 
 #This is the formula that calculates the fee for hours
@@ -237,69 +228,63 @@ extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
 #The fee for minutes is fixed (5 minutes - 59 minutes)
 extra-fee-minutes: '500'
 
-extra-fee-message: 'Extra fee: '
+extra-fee-message: '&7手续费： &6'
 
-duration-menu-name: '&8Auction Duration'
+duration-menu-name: '拍卖持续时间'
 #This is the message used into duration selection menu
 #on the items with time on them
-duration-selection-lore: '&eClick to pick!'
+duration-selection-lore: '&e点击以收取！'
 
 duration-item: '347'
 #Use %auction-fee% for the duration fee of the auction
 #Use %auction-time% for the time of the auction
-duration-item-name: '&fDuration: &e%auction-time%'
+duration-item-name: '&f持续时间： &e%auction-time%'
 duration-item-lore:
-  - '&7How long players will be'
-  - '&7able to place bids for'
+  - '&7玩家可以在多长时间内出价'
   - ''
-  - '&7Note: Bids automatically'
-  - '&7increase the duration of'
-  - '&7auctions.'
+  - '&7注: 出价将会自动延长拍卖时间'
   - ''
-  - '&7Extra fee: &6+%auction-fee% ⛁'
+  - '&7手续费： &6+%auction-fee% ⛁'
   - ''
-  - '&eClick to edit!'
+  - '&e点击修改！'
 
 #The clock inside the duration menu
-duration-select-item-name: '&aCustom Duration'
+duration-select-item-name: '&a自定义持续时间'
 duration-select-item-lore:
-  - '&7Specify how long you want'
-  - '&7the auction to last.'
+  - '&7指定你的拍卖的持续时间'
   - ''
-  - '&bRight Click for minutes!'
-  - '&eClick to set hours!'
+  - '&b右键设置拍卖时间（分钟）！'
+  - '&e点击设置时间（小时）！'
 
 #The message displayed on the sign when changing the duration of the bid
 #There are only 3 rows because the first is where the user writes
 #%time-format% is hours/minutes.
 duration-sign-message:
   - '^^^^^^^^^^^^^^^'
-  - 'Auction'
+  - '拍卖'
   - '%time-format%'
 
 #The message shown when the amount of hours/minutes entered is incorrect
-duration-sign-deny: '&cThat is not a valid number.'
+duration-sign-deny: '&c请输入一个有效的数字！'
 
-not-enough-money-auction: '&cYou don''t have enough money to create this auction.'
+not-enough-money-auction: '&c你没有足够的⛁创建拍卖。'
 
-auction-confirm-menu-name: '&8Confirm Auction'
+auction-confirm-menu-name: '确认拍卖'
 
 auction-confirm-item-material: '159:13'
-auction-confirm-item-name: '&aConfirm'
+auction-confirm-item-name: '&a确认'
 #Use %cost% for the total price the player
 #has to pay to create the auction
 auction-confirm-item-lore:
-  - '&7Auction Cost: &6%cost% ⛁'
+  - '&7拍卖花费 &6%cost% ⛁'
   - ''
-  - '&7Are you sure you want'
-  - '&7to create the auction?'
+  - '&7你确定想创建拍卖吗？'
   - ''
-  - '&eClick to confirm!'
+  - '&e点击确认！'
 
 auction-cancel-item-material: '159:14'
-auction-cancel-item-name: '&cCancel'
+auction-cancel-item-name: '&c取消'
 auction-cancel-item-lore:
-  - '&7Cancel the creation'
-  - '&7of the auction.'
+  - '&7取消拍卖的创建'
 
-auction-created-message: '&aYour auction was created!'
+auction-created-message: '&a你的拍卖已创建'

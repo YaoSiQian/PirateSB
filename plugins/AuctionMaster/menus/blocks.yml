@@ -1,12 +1,12 @@
 blocks-menu-item: '4'
-blocks-menu-name: '&eBlocks'
+blocks-menu-name: '&e方块'
 blocks-menu-lore:
-  - '&8Category'
+  - '&8物品类别'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Dirt'
-  - '&8■ &7Stone'
-  - '&8■ &7Any blocks really'
+  - '&7示例：'
+  - '&8■ &7泥土'
+  - '&8■ &7石头'
+  - '&8■ &7基本上所有方块'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

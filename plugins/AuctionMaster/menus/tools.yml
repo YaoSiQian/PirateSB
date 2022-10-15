@@ -1,10 +1,13 @@
 tools-menu-item: '280'
-tools-menu-name: '&dTools'
+tools-menu-name: '&d工具与杂项'
 tools-menu-lore:
-  - '&8Category'
+  - '&8物品类别'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Tools'
+  - '&7示例：'
+  - '&8■ &7工具'
+  - '&8■ &7特别'
+  - '&8■ &7魔法'
+  - '&8■ &7管理员物品'
 
 #If you have custom items that you want to be in this
 #category, specify their name here
