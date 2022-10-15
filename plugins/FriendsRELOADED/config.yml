@@ -1,5 +1,5 @@
 Friends:
-  Prefix: '&6☻ Friends &8▪'
+  Prefix: '&6☻ 好友 &8▪'
   CheckForUpdates: false
   CommandAliases:
   - f
@@ -52,68 +52,67 @@ Friends:
     DelayedInventorySet: false
   OpenGUIWithCommand: true
   FriendInventory:
-    InventoryTitle: '&6▪ Your friends ▪ &8(Page %PAGE%)'
+    InventoryTitle: '&6▪ 你的好友 ▪ &8(第 %PAGE% 页)'
     InventorySize: 54
     HidePageItemsWhenNotNeeded: false
     FriendsItem:
       OnlineStatus: '&6(Online)'
       OfflineStatus: '&c(Offline)'
       Name: '&6⚓ %NAME% %ONLINE_STATUS% ▪'
-      LoreOnline: '&7Status: //&r&o%STATUS%// //&7Friends since: %DATE%'
-      LoreOffline: '&7Status: //&r&o%STATUS%// //&7Last online: %LAST_ONLINE% o''clock//&7Friends
-        since: %DATE%'
+      LoreOnline: '&7状态: //&r&o%STATUS%// //&7交友日: %DATE%'
+      LoreOffline: '&7状态: //&r&o%STATUS%// //&7最近在线: %LAST_ONLINE% 时//&7交友日: %DATE%'
       ChangeSkullWhenOffline: true
       NoStatusReplacement: '-'
-      LastOnlineFormat: MM/dd/yyyy - HH:mm
+      LastOnlineFormat: yyyy/MM/dd - HH:mm
       UseDisplaynames: false
     RequestsItem:
       ShowItem: true
-      Name: '&aRequests'
+      Name: '&a请求'
       Material: emerald
-      Lore: '&7Currently: (%REQUESTS_COUNT%)'
+      Lore: '&7当前: (%REQUESTS_COUNT%)'
       InventorySlot: 46
       Base64Value: ''
     BlockedItem:
       ShowItem: true
-      Name: '&cBlocked Players'
+      Name: '&c黑名单'
       Material: tnt
-      Lore: '&7Currently: (%BLOCKED_COUNT%)'
+      Lore: '&7当前: (%BLOCKED_COUNT%)'
       InventorySlot: 47
       Base64Value: ''
     OptionsItem:
       ShowItem: true
-      Name: '&3Options'
+      Name: '&3选项'
       Material: comparator
       Lore: ''
       InventorySlot: 49
     SortItem:
       ShowItem: true
-      Name: '&3Sorting:'
+      Name: '&3排列:'
       Material: nether_star
       Lore: '&r%SORTING%'
       InventorySlot: 51
-      OnOffSorting: '&rOnline/Offline'
-      FavoriteSorting: '&rFavorites first'
-      LongFriendSorting: '&rLongest friends first'
-      Alphabetic: '&rAlphabetic'
+      OnOffSorting: '&r在线/离线'
+      FavoriteSorting: '&r收藏优先'
+      LongFriendSorting: '&r老友优先'
+      Alphabetic: '&r按字母顺序排列'
       Base64Value: ''
     NextPageItem:
       ShowItem: true
-      Name: '&bNext Page'
+      Name: '&b下一页'
       Material: arrow
       Lore: ''
       InventorySlot: 54
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
     PreviousPageItem:
       ShowItem: true
-      Name: '&bPrevious Page'
+      Name: '&b上一页'
       Material: arrow
       Lore: ''
       InventorySlot: 53
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
     PartyItem:
       ShowItem: true
-      Name: '&9Your Party'
+      Name: '&9组队'
       Material: firework_rocket
       Lore: ''
       InventorySlot: 50
@@ -131,53 +130,52 @@ Friends:
     InventorySize: 9
     FavoriteItem:
       ShowItem: true
-      Name: '&6Favorite'
+      Name: '&6收藏'
       Material: golden_apple
-      Lore: '&7Currently: %FAVORITE_STATUS%'
+      Lore: '&7当前: %FAVORITE_STATUS%'
       InventorySlot: 6
-      FavoriteStatusOn: '&aOn'
-      FavoriteStatusOff: '&cOff'
+      FavoriteStatusOn: '&a开启'
+      FavoriteStatusOff: '&c关闭'
       Base64Value: ''
     CanSendMessagesItem:
       ShowItem: true
-      Name: '&6%NAME% can send you messages'
+      Name: '&6%NAME% 能发送你信息'
       Material: paper
-      Lore: '&7Currently: %SENDMESSAGES_STATUS%// //&7This includes the friendchat,
-        private//&7messages and join/quit notifications!'
+      Lore: '&7当前: %SENDMESSAGES_STATUS%// //&7包括好友聊天、私聊和进出服通知!'
       InventorySlot: 5
-      SendMessagesStatusOn: '&aOn'
-      SendMessagesStatusOff: '&cOff'
+      SendMessagesStatusOn: '&a开启'
+      SendMessagesStatusOff: '&c关闭'
       Base64Value: ''
     NicknameItem:
       ShowItem: true
-      Name: '&6Give your friend a nickname!'
+      Name: '&6给好友昵称!'
       Material: name_tag
-      Lore: '&7Currently: %NICKNAME%'
+      Lore: '&7当前: %NICKNAME%'
       InventorySlot: 3
       NoNicknameReplacement: '-'
       Base64Value: ''
     RemoveItem:
-      Name: '&cRemove %NAME% from your friends'
+      Name: '&c删除好友的 %NAME%'
       Material: red_wool
       Lore: ''
       InventorySlot: 9
       Base64Value: ''
     BackItem:
-      Name: '&7Back to your friends'
+      Name: '&7回到你的好友'
       Material: iron_door
       Lore: ''
       InventorySlot: 1
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
     JumpItem:
       ShowItem: true
-      Name: '&9Jump to %NAME%'
+      Name: '&9跳转至 %NAME%'
       Material: firework_rocket
       Lore: ''
       InventorySlot: 4
       Base64Value: ''
     PartyItem:
       ShowItem: true
-      Name: '&dInvite %NAME% to your Party!'
+      Name: '&d邀请 %NAME% 至组队!'
       Material: firework_star
       Lore: ''
       InventorySlot: 7
@@ -193,43 +191,43 @@ Friends:
     CustomItems:
       NO_ITEMS: []
   RequestsInventory:
-    InventoryTitle: '&aYour requests: (Page %PAGE%)'
+    InventoryTitle: '&a你的请求: (第 %PAGE% 页)'
     InventorySize: 54
     HidePageItemsWhenNotNeeded: false
     RequestItem:
       Name: '&a%NAME%'
-      Lore: '&7Requested: %DATE%//&7Message: //&r&o%MESSAGE%'
+      Lore: '&7已请求: %DATE%//&7信息: //&r&o%MESSAGE%'
       NoMessageReplacement: '-'
     AcceptAllItem:
       ShowItem: true
-      Name: '&aAccept all'
+      Name: '&a同意全部'
       Material: lime_wool
-      Lore: '&7Currently: %REQUESTS_COUNT%'
+      Lore: '&7当前: %REQUESTS_COUNT%'
       InventorySlot: 49
       Base64Value: ''
     DenyAllItem:
       ShowItem: true
-      Name: '&cDeny all'
+      Name: '&c拒绝全部'
       Material: red_wool
-      Lore: '&7Currently: %REQUESTS_COUNT%'
+      Lore: '&7当前: %REQUESTS_COUNT%'
       InventorySlot: 51
       Base64Value: ''
     BackItem:
-      Name: '&7Back to friends'
+      Name: '&7回到好友'
       Material: iron_door
       Lore: ''
       InventorySlot: 46
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
     PreviousPageItem:
       ShowItem: true
-      Name: '&bPrevious Page'
+      Name: '&b上一页'
       Material: arrow
       Lore: ''
       InventorySlot: 53
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
     NextPageItem:
       ShowItem: true
-      Name: '&bNext Page'
+      Name: '&b下一页'
       Material: arrow
       Lore: ''
       InventorySlot: 54
@@ -245,30 +243,30 @@ Friends:
     CustomItems:
       NO_ITEMS: []
   RequestEditInventory:
-    InventoryTitle: '&a%NAME% request:'
+    InventoryTitle: '&a%NAME% 请求:'
     InventorySize: 9
     MessageItem:
       ShowItem: true
-      Name: '&7%NAME%''s message:'
+      Name: '&7%NAME% 的信息:'
       Material: paper
       Lore: '&r&o%MESSAGE%'
       InventorySlot: 5
       NoMessageReplacement: '-'
       Base64Value: ''
     AcceptItem:
-      Name: '&aAccept %NAME%''s request'
+      Name: '&a同意 %NAME% 的请求'
       Material: lime_wool
       Lore: ''
       InventorySlot: 4
       Base64Value: ''
     DenyItem:
-      Name: '&cDeny %NAME%''s request'
+      Name: '&c拒绝 %NAME% 的请求'
       Material: red_wool
       Lore: ''
       InventorySlot: 6
       Base64Value: ''
     BackItem:
-      Name: '&7Back to your requests'
+      Name: '&7回到请求列表'
       Material: iron_door
       Lore: ''
       InventorySlot: 1
@@ -285,36 +283,36 @@ Friends:
     CustomItems:
       NO_ITEMS: []
   BlockedInventory:
-    InventoryTitle: '&cBlocked players: (Page %PAGE%)'
+    InventoryTitle: '&c黑名单玩家: (Page %PAGE%)'
     InventorySize: 54
     HidePageItemsWhenNotNeeded: false
     BlockedItem:
       Name: '&c%NAME%'
-      Lore: '&7Blocked: %DATE%//&7Note: //&r&o%NOTE%'
+      Lore: '&7添加日期: %DATE%//&7备注: //&r&o%NOTE%'
       NoNoteReplacement: '-'
     UnblockAllItem:
       ShowItem: true
-      Name: '&aUnblock All'
+      Name: '&a全部移出黑名单'
       Material: lime_wool
-      Lore: '&7Currently: %BLOCKED_COUNT%'
+      Lore: '&7当前: %BLOCKED_COUNT%'
       InventorySlot: 50
       Base64Value: ''
     NextPageItem:
       ShowItem: true
-      Name: '&bNext Page'
+      Name: '&b下一页'
       Material: arrow
       Lore: ''
       InventorySlot: 54
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
     PreviousPageItem:
       ShowItem: true
-      Name: '&bPrevious Page'
+      Name: '&b上一页'
       Material: arrow
       Lore: ''
       InventorySlot: 53
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
     BackItem:
-      Name: '&7Back to friends'
+      Name: '&7回到好友'
       Material: iron_door
       Lore: ''
       InventorySlot: 46
@@ -334,20 +332,20 @@ Friends:
     InventoryTitle: '&c%NAME%'
     InventorySize: 9
     BackItem:
-      Name: '&7Back to your blocked players'
+      Name: '&7回到黑名单列表'
       Material: iron_door
       Lore: ''
       InventorySlot: 1
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
     UnblockItem:
-      Name: '&aUnblock %NAME%'
+      Name: '&a将 %NAME% 移出黑名单'
       Material: lime_wool
       Lore: ''
       InventorySlot: 5
       Base64Value: ''
     NoteItem:
       ShowItem: true
-      Name: '&7Note:'
+      Name: '&7备注:'
       Material: paper
       Lore: '&r&o%NOTE%'
       InventorySlot: 6
@@ -366,63 +364,57 @@ Friends:
     CustomItems:
       NO_ITEMS: []
   OptionsInventory:
-    InventoryTitle: '&3Options:'
+    InventoryTitle: '&3选项:'
     InventorySize: 9
-    OptionStatusOn: '&aOn'
-    OptionStatusOff: '&cOff'
+    OptionStatusOn: '&a开启'
+    OptionStatusOff: '&c关闭'
     BackItem:
-      Name: '&7Back to your friends'
+      Name: '&7回到你的好友'
       Material: iron_door
       Lore: ''
       InventorySlot: 1
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
     ReceiveMessagesItem:
       ShowItem: true
-      Name: '&6Receive Messages'
+      Name: '&6接收信息'
       Material: paper
-      Lore: '&7Currently: %OPTION_MESSAGES_STATUS%// //&7Toggle receiving messages
-        of all kind//&7Includes private messages aswell as//&7the friendchat and join/quit
-        notifications'
+      Lore: '&7当前: %OPTION_MESSAGES_STATUS%// //&7设置是否接收好友聊天、私聊和进出服务器通知等信息'
       InventorySlot: 3
       OnlyFavoritesStatus: '&eOnly Favorites'
       Base64Value: ''
     ReceiveRequestsItem:
       ShowItem: true
-      Name: '&6Receive Requests'
+      Name: '&6接受请求'
       Material: player_head
-      Lore: '&7Currently: %OPTION_REQUESTS_STATUS%// //&7Toggle wether you want to
-        receive//&7friendrequests from other players'
+      Lore: '&7当前: %OPTION_REQUESTS_STATUS%// //&7调整是否接收他人的好友请求'
       InventorySlot: 5
       Base64Value: ''
     OfflinemodeItem:
       ShowItem: true
-      Name: '&6Offlinemode'
+      Name: '&6隐身'
       Material: red_bed
-      Lore: '&7Currently: %OPTION_OFFLINEMODE_STATUS%// //&7If enabled, you will be
-        shown//&7as offline to all your friends'
+      Lore: '&7当前: %OPTION_OFFLINEMODE_STATUS%// //&7当启用时，你将不会出现在在线列表中'
       InventorySlot: 7
       Base64Value: ''
     StatusItem:
       ShowItem: true
-      Name: '&6Change your status'
+      Name: '&6调整你的状态'
       Material: name_tag
-      Lore: '&7Your current status://&r&o%STATUS%'
+      Lore: '&7当前状态://&r&o%STATUS%'
       InventorySlot: 9
       Base64Value: ''
     JumpItem:
       ShowItem: true
-      Name: '&9Jumping'
+      Name: '&9跳送'
       Material: firework_rocket
-      Lore: '&7Currently: %OPTION_JUMPING_STATUS%// //&7If enabled, friends can jump
-        to//&7your current location!'
+      Lore: '&7当前: %OPTION_JUMPING_STATUS%// //&7当启用时，好友可以跳送到你的位置'
       InventorySlot: 4
       Base64Value: ''
     PartyItem:
       ShowItem: true
-      Name: '&dParty Invites'
+      Name: '&d组队请求'
       Material: firework_star
-      Lore: '&7Currently: %OPTION_PARTY_STATUS%// //&7Toggle wether you want to receive//&7partyinvites
-        from your friends!'
+      Lore: '&7当前: %OPTION_PARTY_STATUS%// //&7调整是否接收好友的组队请求'
       InventorySlot: 2
       Base64Value: ''
     Placeholders:

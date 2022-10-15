@@ -1,79 +1,78 @@
 # In this file you are able to edit all of the messages in this plugin!
 Messages:
-  NoPermissions: '%PREFIX% &cYou are not allowed to perform this command!'
-  NoPlayer: '%PREFIX% &cThis command can only be performed by players!'
-  PlayerDoesNotExist: '%PREFIX% &c%NAME% has never played on this server!'
-  JoinMessage: '%PREFIX% &a%NAME% is now online!'
-  QuitMessage: '%PREFIX% &7%NAME% is now offline!'
+  NoPermissions: '%PREFIX% &c你没有权限这么做!'
+  NoPlayer: '%PREFIX% &c该指令只可在游戏内让玩家执行!'
+  PlayerDoesNotExist: '%PREFIX% &c%NAME% 不存在!'
+  JoinMessage: '%PREFIX% &a%NAME% 上线了!'
+  QuitMessage: '%PREFIX% &7%NAME% 下线了!'
+  NotifyAboutRequestsOnJoin: '%PREFIX% &a你有 (&3%REQUESTS_COUNT%&a) &a个尚未处理的好友请求!'
   Commands:
-    WrongUsage: '%PREFIX% &cWrong usage! -> %USAGE%'
-    UnknownCommand: '%PREFIX% &cUnknown command! -> /friends help'
-    Version: '%PREFIX% &aYou are running Friends-Version: &e%VERSION%'
-    Reload: '%PREFIX% &aFriends was successfully reloaded!'
+    WrongUsage: '%PREFIX% &c参数错误! -> %USAGE%'
+    UnknownCommand: '%PREFIX% &c该子指令不存在! -> /friends help'
+    Version: '%PREFIX% &a当前运行 FriendsBungee-Version: &e%VERSION%'
+    Reload: '%PREFIX% &a好友插件重载成功!'
     HelpCommand:
-      UnknownPage: '%PREFIX% &c%PAGE% &c is not a valid helppage!'
+      UnknownPage: '%PREFIX% &c第 %PAGE% &c 不存在!'
       Page1:
       - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/f add <Name> (<Message>)'
-      - '%PREFIX% &b/f accept (<Name>)'
-      - '%PREFIX% &b/f deny (<Name>)'
-      - '%PREFIX% &b/f remove <Name>'
+      - '%PREFIX% &b/f add <玩家名> (<备注>)'
+      - '%PREFIX% &b/f accept (<玩家名>)'
+      - '%PREFIX% &b/f deny (<玩家名>)'
+      - '%PREFIX% &b/f remove <玩家名>'
       - '%PREFIX%'
-      - '%PREFIX% &7More commands -> /friends help 2'
+      - '%PREFIX% &7更多指令 -> /friends help 2'
       - '%PREFIX% ------------------------------------------'
       Page2:
       - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/f block <Name> (<Note>)'
-      - '%PREFIX% &b/f unblock <Name>'
+      - '%PREFIX% &b/f block <玩家名> (<备注>)'
+      - '%PREFIX% &b/f unblock <玩家名>'
       - '%PREFIX% &b/f acceptall'
       - '%PREFIX% &b/f denyall'
       - '%PREFIX%'
-      - '%PREFIX% &7More commands -> /friends help 3'
+      - '%PREFIX% &7更多指令 -> /friends help 3'
       - '%PREFIX% ------------------------------------------'
       Page3:
       - '%PREFIX% ------------------------------------------'
       - '%PREFIX% &b/f list'
-      - '%PREFIX% &b/f status show <Name>'
-      - '%PREFIX% &b/f status set <Status>'
-      - '%PREFIX% &b/f msg <Name> <Message>'
+      - '%PREFIX% &b/f status show <玩家名>'
+      - '%PREFIX% &b/f status set <个性签名>'
+      - '%PREFIX% &b/f msg <玩家名> <信息>'
       - '%PREFIX% ------------------------------------------'
     AddCommand:
-      MessageCharLimit: '%PREFIX% &cYour personal message cannot be longer than %LIMIT%
-        chars!'
-      SendSelf: '%PREFIX% &cYou cannot add yourself as a friend!'
-      AlreadyFriends: '%PREFIX% &c%NAME% is already your friend!'
-      AlreadyRequested: '%PREFIX% &cYou have already sent a request to %NAME%!'
-      RequestSend: '%PREFIX% &aYou successfully send a friendrequest to %NAME%!'
-      RequestMessageSend: '%PREFIX% &aYour message: &7%MESSAGE%'
-      ReceiveRequest: '%PREFIX% &aYou received a friendrequest from %NAME%!'
+      MessageCharLimit: '%PREFIX% &c发送字符不得超过 %LIMIT% 个'
+      SendSelf: '%PREFIX% &c你不能给自己发送好友请求!'
+      AlreadyFriends: '%PREFIX% &c%NAME% 已经是你的好友了!'
+      AlreadyRequested: '%PREFIX% &c你已经给 %NAME% 发送过好友请求了!'
+      RequestSend: '%PREFIX% &a已发送好友请求给 %NAME%!'
+      RequestMessageSend: '%PREFIX% &a附加信息 - &7%MESSAGE%'
+      ReceiveRequest: '%PREFIX% &a你收到了来自 %NAME% 的好友请求!'
       ReceiveRequestMessage: '%PREFIX% &7``&b&o%MESSAGE%&r&7``'
-      NoRequestsWanted: '%PREFIX% &c%NAME% does not want to receive friendrequests!'
+      NoRequestsWanted: '%PREFIX% &c%NAME% 不想添加任何好友!'
       Blocked: '%PREFIX% &c%NAME% does not want you as his friend!'
       SelfBlocked: '%PREFIX% &c%NAME% is currently blocked!'
       ClickableMessage:
-        Message: '%PREFIX% %ACCEPT_BUTTON% &aor %DENY_BUTTON% &a%NAME%''s request!'
+        Message: '%PREFIX% &6%ACCEPT_BUTTON% &a或 &c%DENY_BUTTON% &a%NAME% 的好友请求!'
         AcceptButton:
-          Text: '&6[Accept]'
-          Hover: '&aClick here to accept %NAME%''s request!'
+          Text: '&6[接受]'
+          Hover: '&a点击接受 %NAME% 的好友请求!'
         DenyButton:
-          Text: '&c[Deny]'
-          Hover: '&cClick here to deny %NAME%''s request!'
+          Text: '&c[拒绝]'
+          Hover: '&c点击拒绝 %NAME% 的好友请求!'
     AcceptCommand:
-      NoRequest: '%PREFIX% &cYou do not have a request from %NAME%!'
-      NoNewRequest: '%PREFIX% &cYou do not have any new requests!'
-      LimitReached: '%PREFIX% &cYou have already reached the maximum amount of %LIMIT%
-        friends!'
-      NewFriend: '%PREFIX% &a%NAME% is now your new friend!'
-    AcceptAllCommand: '%PREFIX% &aYou accepted %REQUESTS_COUNT% requests!'
-    DenyAllCommand: '%PREFIX% &7You denied %REQUESTS_COUNT% requests!'
+      NoRequest: '%PREFIX% &c你没有来自 %NAME% 的好友请求!'
+      NoNewRequest: '%PREFIX% &c你没有任何未处理的好友请求!'
+      LimitReached: '%PREFIX% &c你的好友已经达到最大上限 %LIMIT% 个!'
+      NewFriend: '%PREFIX% &a%NAME% 现在是你的好友了,去打个招呼吧!'
+    AcceptAllCommand: '%PREFIX% &a你同意了 %REQUESTS_COUNT% 的好友请求!'
+    DenyAllCommand: '%PREFIX% &7你拒绝了 %REQUESTS_COUNT% 的好友请求!'
     DenyCommand:
-      NoRequest: '%PREFIX% &cYou do not have a request from %NAME%!'
-      NoNewRequest: '%PREFIX% &cYou do not have any new requests!'
-      DenyRequest: '%PREFIX% &7You denied the request from %NAME%!'
-      DeniedRequest: '%PREFIX% &7%NAME% denied your request!'
+      NoRequest: '%PREFIX% &c你没有来自 %NAME% 的好友请求!'
+      NoNewRequest: '%PREFIX% &c你没有任何未处理的好友请求!'
+      DenyRequest: '%PREFIX% &7你拒绝了 %NAME% 的好友请求!'
+      DeniedRequest: '%PREFIX% &7%NAME% 拒绝了你的好友请求!'
     RemoveCommand:
-      NoFriends: '%PREFIX% &c%NAME% is not your friend!'
-      FriendRemoved: '%PREFIX% &7%NAME% is no longer your friend!'
+      NoFriends: '%PREFIX% &c%NAME% 不是你的好友!'
+      FriendRemoved: '%PREFIX% &7%NAME% 把你移除了好友列表!'
     RemoveAllCommand: '%PREFIX% &7You removed &3%COUNT% &7player from your friendlist!'
     BlockCommand:
       BlockSelf: '%PREFIX% &cYou cannot block yourself!'
@@ -89,162 +88,159 @@ Messages:
       NoPlayerBlocked: '%PREFIX% &cYou currently have no player blocked!'
       Unblock: '%PREFIX% &7You successfully unblocked %BLOCKED_COUNT% players!'
     StatusCommand:
-      StatusLenght: '%PREFIX% &cYour status cannot be longer than %LIMIT% chars!'
-      AbusivePhrase: "%PREFIX% &cYour status contains forbidden phrases! \n%PREFIX%\
-        \ &cFlagged: &7%PHRASE%"
+      StatusLenght: '%PREFIX% &c字符不得超过 %LIMIT% 个!'
+      AbusivePhrase: "%PREFIX% &c你输入的内容中含有违规词汇! \n%PREFIX%\
+        \ &c%PHRASE%"
       StatusSet: |-
-        %PREFIX% &aYou successfully changed your status!
-        %PREFIX% &aStatus: &7``%STATUS%``
-      CantChangeYet: '%PREFIX% &cYou can change your status again in %REMAINING_TIME%
-        seconds!'
-      NoStatus: '%PREFIX% &7You currently have no status set!'
+        %PREFIX% &a个签修改成功!
+        %PREFIX% &a当前个签 - &7``%STATUS%``
+      CantChangeYet: '%PREFIX% &c请等待 %REMAINING_TIME% 秒后重试!'
+      NoStatus: '%PREFIX% &7你还没有设置过个签!'
       CurrentStatus: |-
-        %PREFIX% &aYour current status is:
+        %PREFIX% &a当前的个签为:
         %PREFIX% &7``%STATUS%``
       FriendCheck:
-        NoFriends: '%PREFIX% &c%NAME% has to be your friend in order to see his status!'
-        NoStatus: '%PREFIX% &7%NAME% currently has no status!'
+        NoFriends: '%PREFIX% &c必须是 %NAME% 的好友才能看到他的个签!'
+        NoStatus: '%PREFIX% &7%NAME% 没设置个签!'
         ShowStatus: |-
-          %PREFIX% &a%NAME%'s status:
+          %PREFIX% &a%NAME%的个签为:
           %PREFIX% &7``%STATUS%``
     ListCommand:
-      NoFriends: '%PREFIX% &7You currently have no friends!'
+      NoFriends: '%PREFIX% &7你还没有好友!'
       List: |-
-        %PREFIX% &aOnline (&7%ONLINE_COUNT%&a):
+        %PREFIX% &a在线好友 (&7%ONLINE_COUNT%&a):
         %PREFIX% &7%ONLINE_FRIENDS%
-        %PREFIX% &aOffline (&7%OFFLINE_COUNT%&a):
+        %PREFIX% &a离线好友 (&7%OFFLINE_COUNT%&a):
         %PREFIX% &8%OFFLINE_FRIENDS%
     MSGCommand:
-      PlayerOffline: '%PREFIX% &c%NAME% seems to be offline!'
-      NoFriends: '%PREFIX% &c%NAME% has to be your friend in order to send him a private
-        message!'
-      MessagesDisabled: '%PREFIX% &cYou cannot send messages while you have set them
-        to off!'
-      NoMSGWanted: '%PREFIX% &cYou are currently not able to send %NAME% private messages!'
+      PlayerOffline: '%PREFIX% &c%NAME% 不在线!'
+      NoFriends: '%PREFIX% &c你必须是 %NAME% 的好友才能给他发私信!'
+      MessagesDisabled: '%PREFIX% &c你已禁用消息提示,同时无法给他人发送消息!'
+      NoMSGWanted: '%PREFIX% &c你现在不能给 %NAME% 发送私信!'
       MSG: '&bF &7| [&3%SENDER%&7] -> [&3%NAME%&7]: &r%MESSAGE%'
-      AbusivePhrase: "%PREFIX% &cYour message contains forbidden phrases! \n%PREFIX%\
-        \ &cFlagged: &7%PHRASE%"
+      AbusivePhrase: "%PREFIX% &c你发送的消息中含有违禁词汇! \n%PREFIX%\
+        \ &c%PHRASE%"
     ReplyCommand:
-      NoReply: '%PREFIX% &cYou do not have a message to repyl to!'
+      NoReply: '%PREFIX% &c你没有需要回复的消息!'
     JumpCommand:
-      ServerBlocked: '%PREFIX% &cYou cannot jump to your friends current world!'
-      NoFriends: '%PREFIX% &c%NAME% has to be your friend in order to jump to his
-        location!'
-      PlayerOffline: '%PREFIX% &c%NAME% seems to be offline!'
-      JumpingDisabled: '%PREFIX% &c%NAME% does not want players to jump to his location!'
-      JumpToFriend: '%PREFIX% &aYou jumped to %NAME%''s location!'
-      JumpedToYou: '%PREFIX% &3%NAME% jumped to your location!'
+      NoFriends: '%PREFIX% &c你必须是 %NAME% 的好友才能传送到他的位置!'
+      PlayerOffline: '%PREFIX% &c%NAME% 不在线!'
+      JumpingDisabled: '%PREFIX% &c%NAME% 不想任何人传送到他的位置!'
+      JumpToFriend: '%PREFIX% &a你传送到了 %NAME% 的位置!'
+      JumpedToYou: '%PREFIX% &3%NAME% 传送到了你的位置!'
+      ServerBlocked: '%PREFIX% &c你无法传送到该好友所在的服务器中!'
       JumpingNotAllowed: '%PREFIX% &cJumping cannot be used on this server!'
     OptionsJumpingCommand:
-      Enable: '%PREFIX% &aYou enabled jumping to your location!'
-      Disable: '%PREFIX% &7You disbaled jumping to your location!'
+      Enable: '%PREFIX% &a已开启好友传送!'
+      Disable: '%PREFIX% &7已关闭好友传送,现在好友不能传送到你的位置了!'
     OptionsRequestsCommand:
-      Enable: '%PREFIX% &aPlayers are now able to send your friendrequests!'
-      Disable: '%PREFIX% &7Players are no longer able to send you requests!'
+      Enable: '%PREFIX% &a已恢复接收好友请求!'
+      Disable: '%PREFIX% &7已关闭接收好友请求!'
     OptionsMessagesCommand:
-      Disable: '%PREFIX% &aYou won''t get any further messages from your friends!'
-      Enable: '%PREFIX% &7You can now receive messages from your friends!'
-      OnlyFavorites: '%PREFIX% &6Only your favorite players are able to send you messages
-        now!'
+      Disable: '%PREFIX% &a已关闭消息接收!'
+      Enable: '%PREFIX% &7已开启消息接收!'
+      OnlyFavorites: '%PREFIX% &6现在,只有特别关心的好友才能给你发送信息!'
     OptionsOfflinemodeCommand:
-      Disable: '%PREFIX% &aYou are now online!'
-      Enable: '%PREFIX% &7You are now offline!'
+      Disable: '%PREFIX% &a已恢复在线状态!'
+      Enable: '%PREFIX% &7已隐身!'
     NicknameCommand:
-      NoFriends: '%PREFIX% &c%NAME% has to be your friend in order to give him a nickname!'
+      NoFriends: '%PREFIX% &c你必须是 %NAME% 的好友才能给他设置备注!'
       SameNickname: '%PREFIX% &c%NAME% is already named %NICKNAME%!'
-      SetNick: '%PREFIX% &a%NAME% is now called %NICKNAME%'
-      AbusivePhrase: "%PREFIX% &cYour nickname contains forbidden phrases! \n%PREFIX%\
-        \ &cFlagged: &7%PHRASE%"
+      SetNick: '%PREFIX% &a%NAME% 的备注已修改为 %NICKNAME%'
+      NickLength: '%PREFIX% &c备注不可超过 16 个字符!'
+      AbusivePhrase: "%PREFIX% &c你设置的备注中含有违禁词汇! \n%PREFIX%\
+        \ &c &7%PHRASE%"
   FriendChat:
-    DisabledOption: '%PREFIX% &cYou cannot write in the friendchat while you have
-      disabled your messages!'
-    Format: '&b%NAME% -> Friends&7:&r%MESSAGE%'
-    AbusivePhrase: "%PREFIX% &cYour message contains forbidden phrases! \n%PREFIX%\
-      \ &cFlagged: &7%PHRASE%"
+    DisabledOption: '%PREFIX% &c你已关闭消息接收功能,同时不可发送好友聊天给其他好友!'
+    Format: '&b%NAME% -> 好友聊天&7:&r%MESSAGE%'
+    AbusivePhrase: "%PREFIX% &c你发送的消息中含有围巾词汇! \n%PREFIX%\
+      \ &7%PHRASE%"
 PartyMessages:
-  NoPermissions: '%PREFIX% &cYou do not have permissions to do that!'
-  Version: '%PREFIX% &aYou are running Party-Version: %VERSION%'
-  NoPlayer: '%PREFIX% &cOnly players are able to perform this command!'
-  UnknownCommand: '%PREFIX% &cUnknown command! -> /party help'
-  WrongUsage: '%PREFIX% &cWrong usage! -> %USAGE%'
+  NoPermissions: '%PREFIX% &c你没有权限这么做!'
+  NoPlayer: '%PREFIX% &c该指令只可在游戏内让玩家执行!'
+  UnknownCommand: '%PREFIX% &c未知指令! -> /party help'
+  WrongUsage: '%PREFIX% &c参数错误! -> %USAGE%'
+  CreateOfflinemode: '%PREFIX% &c隐身状态下无法创建队伍!'
   Commands:
-    PlayerInvalid: '%PREFIX% &c%NAME% seems to be offline!'
+    PlayerInvalid: '%PREFIX% &c%NAME% 不在线!'
     HelpCommand:
-      UnknownPage: '%PREFIX% &c%PAGE% &c is not a valid helppage!'
+      UnknownPage: '%PREFIX% &c第 %PAGE% &c 不存在!'
       Page1:
       - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/party invite <Name>'
-      - '%PREFIX% &b/party accept <Name>'
-      - '%PREFIX% &b/party deny <Name>'
+      - '%PREFIX% &b/party invite <玩家名>'
+      - '%PREFIX% &b/party accept <玩家名>'
+      - '%PREFIX% &b/party deny <玩家名>'
       - '%PREFIX% &b/party leave'
       - '%PREFIX%'
-      - '%PREFIX% &7More commands -> /party help 2'
+      - '%PREFIX% &7更多指令 -> /party help 2'
       - '%PREFIX% ------------------------------------------'
       Page2:
       - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/party kick <Name>'
-      - '%PREFIX% &b/party promote <Name>'
-      - '%PREFIX% &b/party demote <Name>'
-      - '%PREFIX% &b@party <Message>'
-      - '%PREFIX% &b/party join <Name>'
+      - '%PREFIX% &b/party kick <玩家名>'
+      - '%PREFIX% &b/party promote <玩家名>'
+      - '%PREFIX% &b/party demote <玩家名>'
+      - '%PREFIX% &b@party <消息>'
+      - '%PREFIX% &b/party join <玩家名>'
       - '%PREFIX% &b/party list'
       - '%PREFIX% ------------------------------------------'
     InviteCommand:
-      NoFriends: '%PREFIX% &c%NAME% has to be your friend in order to invite him to
-        your party!'
-      NoInvites: '%PREFIX% &c%NAME% does not want to receive any party-invites!'
-      AlreadyInParty: '%PREFIX% &c%NAME% is already in a party!'
-      NotLeader: '%PREFIX% &cOnly party leaders are able to invite new members!'
-      AlreadyInvited: '%PREFIX% &cYou have already sent an invite to %NAME%!'
-      PlayerOffline: '%PREFIX% &c%NAME% seems to be offline!'
-      InviteSent: '%PREFIX% &aYou have successfully send an invite to %NAME%!'
-      InviteReceived: '%PREFIX% &3%NAME% &awants you to join his party!'
+      NoFriends: '%PREFIX% &c你必须是 %NAME% 的好友才能邀请他加入队伍!'
+      NoInvites: '%PREFIX% &c%NAME% 不接受任何队伍邀请!'
+      AlreadyInParty: '%PREFIX% &c%NAME% 已经在你的队伍里了!'
+      NotLeader: '%PREFIX% &c只有队长才能邀请其他玩家加入队伍!'
+      AlreadyInvited: '%PREFIX% &c你已经发送过队伍邀请给 %NAME% 了!'
+      PlayerOffline: '%PREFIX% &c%NAME% 不在线!'
+      InviteSent: '%PREFIX% &a已将队伍邀请发送给 %NAME%!'
+      InviteReceived: '%PREFIX% &3%NAME% &a想要你加入他的队伍!'
+      CreateParty: '%PREFIX% &a队伍创建成功!'
       ClickableMessage:
-        Message: '%PREFIX% %ACCEPT_BUTTON% &aor %DENY_BUTTON% &a%NAME%''s party-invite!'
+        Message: '%PREFIX% %ACCEPT_BUTTON% &a或 %DENY_BUTTON% &a%NAME%的队伍邀请!'
         AcceptButton:
-          Text: '&6[Accept]'
-          Hover: '&aClick here to accept %NAME%''s request!'
+          Text: '&6[接收]'
+          Hover: '&a点击接受队伍邀请t!'
         DenyButton:
-          Text: '&c[Deny]'
-          Hover: '&cClick here to deny %NAME%''s request!'
+          Text: '&c[拒绝]'
+          Hover: '&c点击拒绝队伍邀请!'
+      Offlinemode: '%PREFIX% &c隐身状态下无法使用队伍系统!'
     DenyCommand:
-      NoInvite: '%PREFIX% &cYou do not have an invite from %NAME%!'
-      Deny: '%PREFIX% &7You denied the invite from %NAME%!'
-      NoNewInvite: '%PREFIX% &cYou do not have any new invite!'
-      Denied: '%PREFIX% &7%NAME% denied your party-invite!'
+      NoInvite: '%PREFIX% &c你没有来自 %NAME% 的队伍邀请!'
+      Deny: '%PREFIX% &7你拒绝了 %NAME% 的队伍邀请!'
+      NoNewInvite: '%PREFIX% &c你没有收到任何未处理的队伍请求!'
+      Denied: '%PREFIX% &7%NAME% 拒绝了你的队伍邀请!'
     AcceptCommand:
-      NoInvite: '%PREFIX% &cYou do not have an invite from %NAME%!'
-      PartyClosed: '%PREFIX% &cThe party you want to join does not exist anymore!'
-      NoNewInvite: '%PREFIX% &cYou do not have any new invite!'
-      InviteExpired: '%PREFIX% &cThis party-invite has expired!'
-      PartyLimitReached: '%PREFIX% &cThe party you want to join has already reached
-        the maximum amount of players!'
-      Join: '%PREFIX% &aYou joined %NAME%''s party!'
-      NewMember: '%PREFIX% &3%NAME% has joined the party!'
+      NoInvite: '%PREFIX% &c你没有来自 %NAME% 的队伍邀请!'
+      PartyClosed: '%PREFIX% &c这个队伍已经解散了!'
+      NoNewInvite: '%PREFIX% &c你没有收到任何未处理的队伍请求!'
+      InviteExpired: '%PREFIX% &c队伍邀请已过期!'
+      PartyLimitReached: '%PREFIX% &c队伍人数已满!'
+      Join: '%PREFIX% &a你加入了 %NAME% 的小队!'
+      NewMember: '%PREFIX% &3%NAME% 加入了队伍!'
+      AlreadyInParty: '%PREFIX% &c你现在已经在一个队伍中了!'
+      Offlinemode: '%PREFIX% &c隐身状态下无法加入队伍!'
     LeaveCommand:
-      NoParty: '%PREFIX% &cYou are currently in no party!'
-      Leave: '%PREFIX% &7You left the party!'
-      MemberLeave: '%PREFIX% &3%NAME% &7has left the party!'
+      NoParty: '%PREFIX% &c你还没有加入任何队伍!'
+      Leave: '%PREFIX% &7你离开了小队!'
+      MemberLeave: '%PREFIX% &3%NAME% &7离开了队伍!'
     PromoteCommand:
-      NotInParty: '%PREFIX% &c%NAME% is not a member of your party!'
-      NoParty: '%PREFIX% &cYou are currently in no party!'
-      NoLeader: '%PREFIX% &cOnly partyleaders are able to promote other members!'
-      Promoted: '%PREFIX% &a%NAME% is now a party-leader!'
-      NewLeader: '%PREFIX% &aYou are now a party-leader!'
-      AlreadyLeader: '%PREFIX% &c%NAME% is already a party-leader!'
+      NotInParty: '%PREFIX% &c%NAME% 不是你的队伍成员!'
+      NoParty: '%PREFIX% &c你现在没有已加入的队伍!'
+      NoLeader: '%PREFIX% &c只有队长才能升级其他玩家的职位!'
+      Promoted: '%PREFIX% &a%NAME% 现在是小队队长了!'
+      NewLeader: '%PREFIX% &a你已晋升为小队队长!'
+      AlreadyLeader: '%PREFIX% &c%NAME% 已经是小队队长了!'
     DemoteCommand:
-      NotInParty: '%PREFIX% &c%NAME% is not a member of your party!'
-      NoParty: '%PREFIX% &cYou are currently in no party!'
-      AlreadyMember: '%PREFIX% &c%NAME% is already a normal party-member!'
-      NoLeader: '%PREFIX% &cOnly partyleaders are able to demote other members!'
-      Demoted: '%PREFIX% &7%NAME% is no longer a leader!'
-      NewMember: '%PREFIX% &7You are no longer a party-leader!'
+      NotInParty: '%PREFIX% &c%NAME% 不是你的队伍成员!'
+      NoParty: '%PREFIX% &c你现在没有已加入的队伍'
+      AlreadyMember: '%PREFIX% &c%NAME% 已经是队伍的普通成员了不能再降了!'
+      NoLeader: '%PREFIX% &c只有小队队长才能使用降级功能!'
+      Demoted: '%PREFIX% &7%NAME% 不再是小队队长了!'
+      NewMember: '%PREFIX% &7你已降级为小队成员!'
     ListCommand:
-      NoParty: '%PREFIX% &cYou are currently in no party!'
+      NoParty: '%PREFIX% &c你现在没有正在加入的队伍!'
       List: |-
-        %PREFIX% &aLeaders (&7%LEADER_COUNT%&a):
+        %PREFIX% &a队长 (&7%LEADER_COUNT%&a):
         %PREFIX% &7%PARTY_LEADERS%
-        %PREFIX% &aMembers (&7%MEMBER_COUNT%&a):
+        %PREFIX% &a成员 (&7%MEMBER_COUNT%&a):
         %PREFIX% &7%PARTY_MEMBERS%
     JoinCommand:
       NoParty: '%PREFIX% &c%NAME% has no party to join!'
@@ -253,18 +249,18 @@ PartyMessages:
       PartyLimitReached: '%PREFIX% &cThe party you want to join has already reached
         the maximum amount of players!'
     KickCommand:
-      NoParty: '%PREFIX% &cYou are currently in no party!'
-      NoLeader: '%PREFIX% &cYou are not allowed to kick other members!'
-      Kick: '%PREFIX% &7Y%NAME% was kicked out of the party!'
-      Kicked: '%PREFIX% &cYou were kicked out of the party!'
-      NotInParty: '%PREFIX% &c%NAME% is not in your party!'
+      NoParty: '%PREFIX% &c你现在没有已加入的队伍'
+      NotInParty: '%PREFIX% &c%NAME% 不是你的队伍成员!'
+      NoLeader: '%PREFIX% &c只有小队队长才可以将队伍成员踢出队伍!'
+      Kick: '%PREFIX% &7已将 %NAME% 踢出了队伍!'
+      Kicked: '%PREFIX% &c你已被小队队长踢出队伍!'
     CreateCommand:
       InParty: '%PREFIX% &cYou are already in a party!'
       Create: '%PREFIX% &aYou successfully created a party!'
   PartyChat:
-    NoParty: '%PREFIX% &cYou are currently in no party!'
+    NoParty: '%PREFIX% &c你现在没有已加入的队伍'
     Message: '%PREFIX% &3%NAME% | &r%MESSAGE%'
   SwitchServer:
-    ServerBlocked: '%PREFIX% &cYou cannot enter this world while beeing in a party!'
+    ServerBlocked: '%PREFIX% &c组队状态下无法进入该服务器!'
     NoLeader: '%PREFIX% &cOnly party-leaders can switch servers!'
-    JoinServer: '%PREFIX% &aYour party joins server %SERVER%!'
+    JoinServer: '%PREFIX% &a你的小队已进入服务器 %WORLD%!'

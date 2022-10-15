@@ -1,6 +1,6 @@
 Party:
   Enable: true
-  Prefix: '&9Party &7|'
+  Prefix: '&9组队 &7|'
   CommandAliases:
   - parties
   - p
@@ -16,16 +16,16 @@ Party:
   InviteFriendsOnly: true
   ClickableMessages: true
   CreateInventory:
-    InventoryTitle: '&9Currently in no Party'
+    InventoryTitle: '&9当前不在组队'
     InventorySize: 36
     CreateItem:
-      Name: '&aCreate a Party'
+      Name: '&a新建组队'
       Material: lime_wool
       Lore: ''
       InventorySlot: 14
       Base64Value: ''
     BackItem:
-      Name: '&7Back to your Friends'
+      Name: '&7回到好友列表'
       Material: iron_door
       Lore: ''
       InventorySlot: 28
@@ -52,33 +52,33 @@ Party:
         PerformCommand: say HyChrod is the best!
         Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhMzcwMzgzODc1NThkYjY1ZmRlOTMyNGMxZTU3MjlmYmIzNDkwYWM2YWFkZDc3MjVmZjJjN2ExZmU2In19fQ==
   PartyInventory:
-    InventoryTitle: '&aYour Party:'
+    InventoryTitle: '&a你的队伍:'
     InventorySize: 36
     MemberItem:
       Name: '&a%NAME%'
-      Lore: //&7Click to open Options!
+      Lore: //&7点击打开成员设置!
     LeaderItem:
       Name: '&c%NAME%'
-      Lore: //&7Click to open Options!
+      Lore: //&7点击打开队长设置
     LeaveItem:
-      Name: '&cLeave the Party'
+      Name: '&c离开队伍'
       Material: red_wool
       Lore: ''
       InventorySlot: 36
       Base64Value: ''
     BackItem:
-      Name: '&7Back to your Friends'
+      Name: '&7返回好友列表'
       Material: iron_door
       Lore: ''
       InventorySlot: 28
       Base64Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19
     VisibilityItem:
-      Name: '&6Visibility:'
+      Name: '&6可见度:'
       Material: comparator
-      Lore: '&7Currently: %PARTY_STATUS%'
+      Lore: '&7当前: %PARTY_STATUS%'
       InventorySlot: 32
-      StatusPublic: '&aPublic'
-      StatusPrivate: '&cPrivate'
+      StatusPublic: '&a公开'
+      StatusPrivate: '&c私人'
       Base64Value: ''
     Placeholders:
       Material: gray_stained_glass_pane
@@ -115,28 +115,28 @@ Party:
       - 35
     CustomItems: []
   EditMemberInventory:
-    InventoryTitle: '&a%NAME%''s Options'
+    InventoryTitle: '&0%NAME% 的成员设置'
     InventorySize: 9
     PromoteItem:
-      Name: '&6Promote %NAME%'
+      Name: '&f提升 &6%NAME% &f为队长'
       Material: gold_ingot
-      Lore: '&7Click here to make %NAME%//&7a party leader!'
+      Lore: '&7点击将 %NAME%//&7提升为队伍队长!'
       InventorySlot: 4
       Base64Value: ''
     DemoteItem:
-      Name: '&7Demote %NAME%'
+      Name: '&f降职 &6%NAME% &f为普通成员'
       Material: iron_ingot
-      Lore: '&7Click here to make %NAME%//&7to a normal member!'
+      Lore: '&7点击将 %NAME%//&7降职为队伍队长!'
       InventorySlot: 6
       Base64Value: ''
     RemoveItem:
-      Name: '&cRemove from Party'
+      Name: '&c将该玩家踢出队伍'
       Material: red_wool
       Lore: ''
       InventorySlot: 8
       Base64Value: ''
     BackItem:
-      Name: '&7Back to your Party'
+      Name: '&7返回队伍列表'
       Material: iron_door
       Lore: ''
       InventorySlot: 1
