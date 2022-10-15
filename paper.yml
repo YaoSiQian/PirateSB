@@ -91,7 +91,7 @@ settings:
     threads: -1
   use-display-name-in-quit-message: false
   packet-limiter:
-    kick-message: '&cSent too many packets'
+    kick-message: "§c你被服务器踢出\n\n§r原因: §f发送大量数据包 §r§o(PS-OPAC)\n§r查询更多: https://civgame.net"
     limits:
       all:
         interval: 7.0
@@ -104,10 +104,10 @@ messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
   kick:
-    flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
+    flying-player: "§c你被服务器踢出\n\n§r原因: §f被检测到飞行 §r§o(PS-FLYP)\n§r查询更多: https://civgame.net"
+    flying-vehicle: "§c你被服务器踢出\n\n§r原因: §f被检测到飞行 §r§o(PS-FLYV)\n§r查询更多: https://civgame.net"
     authentication-servers-down: ''
-    connection-throttle: Connection throttled! Please wait before reconnecting.
+    connection-throttle: "§c你被服务器踢出\n\n§r原因: §f连接受到限制 §r§o(PS-CT)\n§r查询更多: https://civgame.net"
 timings:
   url: https://timings.aikar.co/
   enabled: true
@@ -119,7 +119,7 @@ timings:
   - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
-  server-name: Unknown Server
+  server-name: PirateSB
 world-settings:
   default:
     allow-using-signs-inside-spawn-protection: false

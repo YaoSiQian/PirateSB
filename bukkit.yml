@@ -21,7 +21,7 @@ settings:
   connection-throttle: -1
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: "§c你被服务器踢出\n\n§r原因: §6§l空岛☠生存 §f暂时关服 §r§o(PS-CLOSE)\n§r查询更多: https://civgame.net"
   minimum-api: none
 spawn-limits:
   axolotls: 5
