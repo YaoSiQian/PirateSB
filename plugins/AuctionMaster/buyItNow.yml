@@ -13,7 +13,7 @@ buy-it-now-select-price:
   lore:
     - '&7你想将此物品卖出的价格'
     - ''
-    - '&7手续费: &6+%fee% 硬币 &e(1%)'
+    - '&7手续费: &6+%fee% ⛁ &e(1%)'
     - ''
     - '&e点击编辑!'
 
@@ -46,7 +46,7 @@ buy-it-now-lore:
   on-going:
     - '&8&m---------------------'
     - '&7卖家: %display-name-seller%'
-    - '&7一口价: &6%starting-bid% 硬币'
+    - '&7一口价: &6%starting-bid% ⛁'
     - ''
     - '&7结束于: &e%duration%'
     - ''
@@ -54,7 +54,7 @@ buy-it-now-lore:
   expired:
     - '&8&m---------------------'
     - '&7卖家: %display-name-seller%'
-    - '&7一口价: &6%price% 硬币'
+    - '&7一口价: &6%price% ⛁'
     - ''
     - '&7状态: &c流拍!'
     - ''
@@ -64,7 +64,7 @@ buy-it-now-lore:
   bought:
     - '&8&m---------------------'
     - '&7卖家: %display-name-seller%'
-    - '&7价格: &6%price% 硬币'
+    - '&7价格: &6%price% ⛁'
     - ''
     - '&7由: %buyer-display-name% 购买'
     - ''
@@ -74,10 +74,10 @@ buy-it-now-lore:
 #Use %seller-display-name% for seller display's name
 #Use %seller-name% for seller's name
 #Use %coins% for the amount of coins the item was bought for
-bought-item-message: '&e你用 &6%coins% 硬币 &e买了来自于 %seller-display-name% 的 &f%item% &e!'
+bought-item-message: '&e你用 &6%coins% ⛁ &e买了来自于 %seller-display-name% 的 &f%item% &e!'
 
 #卖家 notification for bought item
-bought-seller-notification: '&6[拍卖] %bidder-display-name% &f以 &6%price% 硬币 &f购买了你的 %item%&f!'
+bought-seller-notification: '&6[拍卖] %bidder-display-name% &f以 &6%price% ⛁ &f购买了你的 %item%&f!'
 
 sort-item:
   material: '27'
@@ -93,13 +93,13 @@ view-auction-buy-now-button:
     material: '371'
     lore:
       - ''
-      - '&7价格: &6%price% 硬币'
+      - '&7价格: &6%price% ⛁'
       - ''
       - '&e点击购买!'
   cannot-afford:
     material: '394'
     lore:
       - ''
-      - '&7价格: &6%price% 硬币'
+      - '&7价格: &6%price% ⛁'
       - ''
       - '&c无法承担出价!'
