@@ -16,10 +16,10 @@ global:
   display:
     name: '&7'
     lore:
-      - '  &6⚓ %mob% ▪ &fSpawner  '
+      - '  &6⚓ %mob% ▪ &f刷怪笼  '
       - ''
-      - '  &7⚠ Place this down for  '
-      - '  &7    %mob% Spawner.'
+      - '  &7⚠   将该物品放置  '
+      - '  &7 以使用 %mob% 刷怪笼'
       - ''
     lore-enabled: true
 
@@ -29,7 +29,7 @@ global:
 main:
   # The help message will only show the commands a player has access to.
   help-message:
-    title: '&eMineableSpawners:'
+    title: '&e可挖掘刷怪笼:'
     give: '&f/mineablespawners give <player> <type> <amount> &7(Give a player a spawner)'
     set: '&f/mineablespawners set <type> &7(Set the type of the spawner you are looking at)'
     types: '&f/mineablespawners types &7(List available mob types)'
@@ -44,14 +44,14 @@ give:
   # Whether or not to drop the spawner at the players feet if their inventory is full
   drop-if-full: true
   messages:
-    no-permission: '&cNo Permission.'
+    no-permission: '&c你没有权限'
     player-does-not-exist: '&cThat player does not exist.'
     invalid-type: '&cThat type does not exist. Use &7/mineablespawners types &cto list all available types.'
     invalid-amount: '&cThe amount you entered is invalid. Please try again.'
-    inventory-full: '&c⚓ The targets inventory is full. No spawner has been given.'
+    inventory-full: '&c⚓ 目标的物品栏已满，没有给予刷怪笼'
     # Here you can use the placeholders: %amount% => amount given, %mob% => mob name, %target% => player receiving spawners
-    success: '&a⚓ You have successfully given %amount%x %mob% Spawners to %target%!'
-    received: '&6⚓ You have received %amount%x %mob% Spawners!'
+    success: '&a⚓ 你成功将 %amount%x %mob% 刷怪笼给了 %target%!'
+    received: '&6⚓ 你收到了 %amount%x %mob% 刷怪笼!'
 
 #
 # /mineablespawners set command
@@ -65,8 +65,8 @@ set:
   blacklisted-worlds:
     - 'worldname'
   messages:
-    no-permission: '&cNo Permission.'
-    no-individual-permission: '&cYou do not have permission to change the spawner to that type.'
+    no-permission: '&c你没有权限'
+    no-individual-permission: '&c你没有切换权限'
     invalid-type: '&cThat type does not exist. Use &7/mineablespawners types &cto list all available types.'
     not-looking-at: '&cYou are not looking at a spawner.'
     already-type: '&cThat spawner is already of this type.'
@@ -81,7 +81,7 @@ types:
   # Whether or not to require the permisison "mineablespawners.types" to set a spawners type while looking at it.
   require-permission: true
   messages:
-    no-permission: '&cNo Permission.'
+    no-permission: '&c你没有权限'
     title: '&eAvailable Types: '
     # This just sets how the mobs are listed. Available placeholder: %mob%
     entries: '&f%mob%&7,'
@@ -92,7 +92,7 @@ types:
 anvil:
   prevent-anvil: true
   messages:
-    prevented: '&c⚓ You can not rename spawners with anvils.'
+    prevented: '&c⚓ 你不能通过铁砧重命名刷怪笼'
 
 #
 # Changing spawners with eggs
@@ -106,7 +106,7 @@ eggs:
   blacklisted-worlds:
     - 'worldname'
   messages:
-    no-permission: '&cNo Permission.'
+    no-permission: '&c你没有权限'
     no-individual-permission: '&cYou do not have permission to change the spawner to that type.'
     already-type: '&cThat spawner is already of this type.'
     # Here you can use the placeholders: %from% => mob its changing from, %to% => mob its changing to.
@@ -171,7 +171,7 @@ mining:
     - 'PIG:10000'
   messages:
     wrong-tool: '&cYou do not have the tool required.'
-    no-permission: '&cNo Permission.'
+    no-permission: '&c你没有权限'
     no-individual-permission: '&cYou do not have permission to mine a spawner of that type.'
     blacklisted: '&cYou cant do that in this world.'
     no-silktouch: '&cYou need silktouch to mine this spawner.'
