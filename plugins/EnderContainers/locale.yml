@@ -35,16 +35,16 @@ commands:
 ##              ##
 menus:
 
-  main_title: '&6⚓ Enderchests of %player% &6⚓'
-  chest_title: '&6⚓ Enderchest %num% of %player%'
-  pane_title: '&6⚓ Enderchest %num% %counter%'
+  main_title: '&6⚓ %player% 的末影箱 &6⚓'
+  chest_title: '&6⚓ %player% 的末影箱 %num%'
+  pane_title: '&6⚓ 末影箱 %num%  %counter%'
 
-  chest_empty: '&9⚐ This enderchest is empty!'
-  chest_full: '&e&l⚑&e Inventory full!'
-  chest_locked: '&c✘ Enderchest locked!'
+  chest_empty: '&9⚐ 该末影箱是空的!'
+  chest_full: '&e&l⚑&e 背包已满!'
+  chest_locked: '&c✘ 末影箱已锁定!'
 
-  previous_page: '&c≪ Previous page'
-  next_page: '&cNext page ≫'
+  previous_page: '&c≪ 上一页'
+  next_page: '&c下一页 ≫'
 
 
 ##               ##
@@ -52,9 +52,9 @@ menus:
 ##               ##
 errors:
 
-  noperm_open_chest: 'You can''t open this EnderChest!'
+  noperm_open_chest: '你不能打开这个末影箱!'
   noperm_console: 'You must be a player to do this!'
-  noperm_player: 'You don''t have the permission to do this!'
+  noperm_player: '你没有权限!'
   plugin_world_disabled: 'Plugin is disabled in this world.'
   cmd_invalid_parameter: 'Parameter &6%param% &cis not valid.'
   cmd_wrong_argument_count: 'Wrong argument count. &6/ecp help &cto show the plugin''s help!'
