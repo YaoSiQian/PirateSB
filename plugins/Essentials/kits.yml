@@ -25,11 +25,11 @@ kits:
   dtools:
     delay: 600
     items:
-      - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-      - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+      - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4超大钻头 lore:那个&n突破天际&r的钻头
+      - dshovel 1 digspeed:3 name:矮人矿铲 lore:Diggy|Diggy|Hole
+      - lhelm 1 color:255,255,255 name:头香帽 lore:今天是个好日子
       - daxe:780 1
-      - /broadcast {USERNAME} just got some fancy tools!
+      - /broadcast {USERNAME} 拿到了繁华工具~
   notch:
     delay: 6000
     items:
@@ -37,10 +37,10 @@ kits:
   color:
     delay: 6000
     items:
-      - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+      - writtenbook 1 title:&3颜色&6代码 author:YaoSiQian lore:格式化代码 book:Colors
   firework:
     delay: 6000
     items:
-      - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-      - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
-      - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+      - fireworkrocket 1 name:愤怒的苦力怕 color:red fade:green type:creeper power:1
+      - fireworkrocket 1 name:星光璀璨 color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
+      - fireworkrocket 2 name:西风呼啸 color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1

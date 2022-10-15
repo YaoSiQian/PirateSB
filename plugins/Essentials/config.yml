@@ -536,8 +536,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&#CC720A⚓ &#FC8600&l{USERNAME} &#CC720Ahas connected."
-custom-quit-message: "&#FE4A4A⚙ &#FF6D6D&l{USERNAME} &#FE4A4Ahas been disconnected."
+custom-join-message: "&#CC720A⚓ &#FC8600&l{USERNAME} &#CC720A上号了!"
+custom-quit-message: "&#FE4A4A⚙ &#FF6D6D&l{USERNAME} &#FE4A4A下号了~"
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
