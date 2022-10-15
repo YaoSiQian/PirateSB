@@ -1,0 +1,1041 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#0000ff▪ Fisherman ☗'
+register_command: true
+open_commands:
+    - '[console] playsound minecraft:skyblock.sounds.male_fisherman ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - fisherman
+size: 36
+        
+# as always, only cool people can open this menu :)
+items:
+  'items_1':
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 16
+      - 17
+    display_name: ' '
+  'items_2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+      - 18
+      - 19
+      - 26
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    display_name: ' '
+  'x1':
+    material: HOPPER
+    slot: 27
+    priority: 5
+    amount: 8
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx1  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    click_commands:
+    - '[meta] set AMOUNT STRING 1'
+    - '[refresh]'
+  'x8':
+    material: HOPPER
+    slot: 27
+    priority: 6
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx8  '
+    - ' '
+    click_commands:
+    - '[meta] set AMOUNT STRING 8'
+    - '[refresh]'
+  'items_3':
+    material: salmon
+    slot: 10
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Raw Salmon'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$200.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$4.10 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 200.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SALMON
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 200'
+    - '[console] give %player_name% SALMON 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rRaw Salmon for &c-$200 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.10'
+    - '[console] minecraft:clear %player_name% SALMON 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rRaw Salmon for &a+$4.10 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_4':
+    material: cod
+    slot: 11
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Raw Cod'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$190.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$4.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 190.75
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COD
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 190.75'
+    - '[console] give %player_name% COD 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rRaw Cod for &c-$190.75 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.0'
+    - '[console] minecraft:clear %player_name% cod 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rRaw Cod for &a+$4.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_5':
+    material: tropical_fish
+    slot: 12
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Tropical Fish'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$250.50 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$8.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250.50
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: TROPICAL_FISH
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 250.50'
+    - '[console] give %player_name% TROPICAL_FISH 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rTropical Fish for &c-$250.50 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 8.25'
+    - '[console] minecraft:clear %player_name% tropical_fish 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rTropical Fish for &a+$8.25 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_6':
+    material: pufferfish
+    slot: 13
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Pufferfish'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$26.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$8.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 26.75
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: PUFFERFISH
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 26.75'
+    - '[console] give %player_name% PUFFERFISH 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rPufferfish for &c-$26.75 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 8.75'
+    - '[console] minecraft:clear %player_name% pufferfish 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rPufferfish for &a+$8.75 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_7':
+    material: fishing_rod
+    slot: 14
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Fishing Rod'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$200.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 200.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    left_click_commands:
+    - '[takemoney] 200.0'
+    - '[console] give %player_name% FISHING_ROD 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rFishing Rod for &c-$200.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_8':
+    material: trident
+    slot: 15
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Trident'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$65.000.0 ⛁'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 65000.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 65000.0'
+    - '[console] give %player_name% TRIDENT 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rTrident for &c-$65.000.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_9':
+    material: sea_pickle
+    slot: 20
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Sea Pickle'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$150.50 ⛁'
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$5.25 ⛁'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 150.50
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SEA_PICKLE
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 150.50'
+    - '[console] give %player_name% SEA_PICKLE 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rSea Pickle for &c-$150.50 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 5.25'
+    - '[console] minecraft:clear %player_name% sea_pickle 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rSea Pickle for &a+$5.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_10':
+    material: prismarine_shard
+    slot: 21
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Prismarine Shard'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$350.20 ⛁'
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$7.15 ⛁'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 350.20
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: PRISMARINE_SHARD
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 350.20'
+    - '[console] give %player_name% PRISMARINE_SHARD 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rPrismarine Shard for &c-$350.20 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 7.15'
+    - '[console] minecraft:clear %player_name% prismarine_shard 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rPrismarine Shard for &a+$7.15 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_11':
+    material: prismarine_crystals
+    slot: 22
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Prismarine Crystals'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$350.20 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$7.15 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 350.20
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: PRISMARINE_CRYSTALS
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 350.20'
+    - '[console] give %player_name% PRISMARINE_CRYSTALS 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rPrismarine Crystals for &c-$350.20 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 7.15'
+    - '[console] minecraft:clear %player_name% prismarine_crystals 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rPrismarine Crystals for &a+$7.15 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_12':
+    material: water_bucket
+    slot: 23
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Water Bucket'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$50.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$0.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 50.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: WATER_BUCKET
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 50.0'
+    - '[console] give %player_name% WATER_BUCKET 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rWater Bucket for &c-$50.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 0.50'
+    - '[console] minecraft:clear %player_name% water_bucket 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rWater Bucket for &a+$0.50 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_13':
+    material: lava_bucket
+    slot: 24
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Lava Bucket'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$120.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$3.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 120.75
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: LAVA_BUCKET
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'     
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 120.75'
+    - '[console] give %player_name% lava_bucket 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rLava Bucket for &c-$120.75 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 3.50'
+    - '[console] minecraft:clear %player_name% lava_bucket 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rLava Bucket for &a+$3.50 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_14':
+    material: sea_lantern
+    slot: 25
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Sea Lantern'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$300.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$6.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 300.75
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SEA_LANTERN
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 300.0'
+    - '[console] give %player_name% SEA_LANTERN 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx1 &rSea Lantern for &c-$300.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 6.75'
+    - '[console] minecraft:clear %player_name% sea_lantern 1'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx1 &rSea Lantern for &a+$6.75 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t3':
+    material: salmon
+    slot: 10
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Raw Salmon'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$1.600.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$32.80 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1600.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: SALMON
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 1600.0'
+    - '[console] give %player_name% SALMON 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rRaw Salmon for &c-$1.600.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 32.80'
+    - '[console] minecraft:clear %player_name% salmon 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rRaw Salmon for &a+$32.80 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t4':
+    material: cod
+    slot: 11
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Raw Cod'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$1.526.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$32.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1526.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COD
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1526.0'
+    - '[console] give %player_name% COD 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rRaw Cod for &c-$1.526.05 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 32.0'
+    - '[console] minecraft:clear %player_name% cod 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rRaw Cod for &a+$32.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t5':
+    material: tropical_fish
+    slot: 12
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Tropical Fish'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$2.004.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$66.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2004.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: TROPICAL_FISH
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 2004.0'
+    - '[console] give %player_name% TROPICAL_FISH 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rTropical Fish for &c-$2.004.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 66.0'
+    - '[console] minecraft:clear %player_name% tropical_fish 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rTropical Fish for &a+$66.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_t6':
+    material: pufferfish
+    slot: 13
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Pufferfish'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$214.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$70.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 214.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: PUFFERFISH
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 214.0'
+    - '[console] give %player_name% PUFFERFISH 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rPufferfish for &c-$214.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 70.0'
+    - '[console] minecraft:clear %player_name% pufferfish 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rPufferfish for &a+$70.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t7':
+    material: fishing_rod
+    slot: 14
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Fishing Rod'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$1.600.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1600
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    left_click_commands:
+    - '[takemoney] 1600'
+    - '[console] give %player_name% FISHING_ROD 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rFishing Rod for &c-$1.600.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_t8':
+    material: trident
+    slot: 15
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Trident'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$520.000.0 ⛁'
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 520000.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 520000.0'
+    - '[console] give %player_name% TRIDENT 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rTrident for &c-$520.000.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_t9':
+    material: sea_pickle
+    slot: 20
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Sea Pickle'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$1.204.0 ⛁'
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$42.0 ⛁'
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1204.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: SEA_PICKLE
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1204.0'
+    - '[console] give %player_name% SEA_PICKLE 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rSea Pickle for &c-$1.204.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 42.0'
+    - '[console] minecraft:clear %player_name% sea_pickle 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rSea Pickle for &a+$42.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t10':
+    material: prismarine_shard
+    slot: 21
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Prismarine Shard'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$2.801.6 ⛁'
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$57.20 ⛁'
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2801.6
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'    
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: PRISMARINE_SHARD
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2801.6'
+    - '[console] give %player_name% PRISMARINE_SHARD 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rPrismarine Shard for &c-$2.801.6 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 57.20'
+    - '[console] minecraft:clear %player_name% prismarine_shard 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rPrismarine Shard for &a+$57.20 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t11':
+    material: prismarine_crystals
+    slot: 22
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Prismarine Crystals'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$2.801.6 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$57.20 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2801.6
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: PRISMARINE_CRYSTALS
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2801.6'
+    - '[console] give %player_name% PRISMARINE_CRYSTALS 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rPrismarine Crystals for &c-$2.801.6 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 57.20'
+    - '[console] minecraft:clear %player_name% prismarine_crystals 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rPrismarine Crystals for &a+$57.20 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t12':
+    material: water_bucket
+    slot: 23
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Water Bucket'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$400.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$4.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 400.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: WATER_BUCKET
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 400.0'
+    - '[console] give %player_name% WATER_BUCKET 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rWater Bucket for &c-$400.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.0'
+    - '[console] minecraft:clear %player_name% water_bucket 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rWater Bucket for &a+$4.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_t13':
+    material: lava_bucket
+    slot: 24
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Lava Bucket'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$966.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$28.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 966.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: lava_bucket
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'     
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 966.0'
+    - '[console] give %player_name% lava_bucket 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rLava Bucket for &c-$966.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 28.0'
+    - '[console] minecraft:clear %player_name% lava_bucket 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rLava Bucket for &a+$28.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_t14':
+    material: sea_lantern
+    slot: 25
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &9▪ Sea Lantern'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &9&lBUY &ffor &9$2.400.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &9&lSELL &ffor &9$54.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2400.0
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou don''t have enough money to buy these items.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: SEA_LANTERN
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &9&lFISHERMAN &8▸ &rYou do not have this items in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'      
+    left_click_commands:
+    - '[takemoney] 2400.0'
+    - '[console] give %player_name% SEA_LANTERN 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou bought &bx8 &rSea Lantern for &c-$2.400.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 54.0'
+    - '[console] minecraft:clear %player_name% sea_lantern 8'
+    - '[message] &9&lFISHERMAN &8▸ &rYou sold &bx8 &rSea Lantern for &a+$54.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

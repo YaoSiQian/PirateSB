@@ -1,0 +1,242 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#F9E454▪ Gold Exchanger ☗'
+register_command: true
+open_commands:
+    - '[console] playsound minecraft:skyblock.sounds.male_gold ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - goldexchanger
+size: 27
+        
+# as always, only cool people can open this menu :)
+items:
+  'items_1':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 17
+      - 19
+      - 25
+      - 26
+    display_name: ' '
+  'items_2':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 9
+      - 10
+      - 11
+      - 12
+      - 14
+      - 15
+      - 16
+      - 17
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    display_name: ' '
+  'x1':
+    material: HOPPER
+    slot: 18
+    priority: 2
+    amount: 32
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx1  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '32'
+    click_commands:
+    - '[meta] set AMOUNT STRING 1'
+    - '[refresh]'
+  'x32':
+    material: HOPPER
+    slot: 18
+    priority: 3
+    amount: 16
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx32  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '16'
+    click_commands:
+    - '[meta] set AMOUNT STRING 32'
+    - '[refresh]'
+  'x16':
+    material: HOPPER
+    slot: 18
+    priority: 4
+    amount: 8
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx16  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    click_commands:
+    - '[meta] set AMOUNT STRING 16'
+    - '[refresh]'
+  'x8':
+    material: HOPPER
+    slot: 18
+    priority: 5
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx8  '
+    - ' '
+    click_commands:
+    - '[meta] set AMOUNT STRING 8'
+    - '[refresh]'
+  'items_x32':
+    material: gold_ingot
+    slot: 13
+    priority: 3
+    amount: 32
+    display_name: '&7 '     
+    lore:
+    - ' &#F9E454&l▪ Gold Ingot'
+    - ''
+    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$4.402.56 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '32'
+    click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: GOLD_INGOT
+          data: 0
+          amount: 32
+      deny_commands:
+      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    click_commands:
+    - '[givemoney] 4402.56'
+    - '[console] minecraft:clear %player_name% gold_ingot 32'
+    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx32 &rGold Ingot for &a+$4.402.56 ⛁&f.' 
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_x16':
+    material: gold_ingot
+    slot: 13
+    priority: 4
+    amount: 16
+    display_name: '&7 '     
+    lore:
+    - ' &#F9E454&l▪ Gold Ingot'
+    - ''
+    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$2.201.28 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '16'
+    click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: GOLD_INGOT
+          data: 0
+          amount: 16
+      deny_commands:
+      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    click_commands:
+    - '[givemoney] 2201.28'
+    - '[console] minecraft:clear %player_name% gold_ingot 16'
+    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx16 &rGold Ingot for &a+$2.201.28 ⛁&f.' 
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_x8':
+    material: gold_ingot
+    slot: 13
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &#F9E454&l▪ Gold Ingot'
+    - ''
+    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$1.100.64 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: GOLD_INGOT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    click_commands:
+    - '[givemoney] 1100.64'
+    - '[console] minecraft:clear %player_name% gold_ingot 8'
+    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx8 &rGold Ingot for &a+$1.100.64 ⛁&f.' 
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_x1':
+    material: gold_ingot
+    slot: 13
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &#F9E454&l▪ Gold Ingot'
+    - ''
+    - ' &8▪ &#F9E454(Left-Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$137.58 ⛁ '
+    - ''
+    click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: GOLD_INGOT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    click_commands:
+    - '[givemoney] 137.58'
+    - '[console] minecraft:clear %player_name% gold_ingot 1'
+    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx1 &rGold Ingot for &a+$137.58 ⛁&f.' 
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

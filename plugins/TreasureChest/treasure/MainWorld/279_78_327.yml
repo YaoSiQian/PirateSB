@@ -1,0 +1,187 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: MainWorld
+    coords:
+      ==: Vector
+      x: 279.0
+      y: 78.0
+      z: 327.0
+    type: CHEST
+    size: 27
+    contents:
+      item0:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item1:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item2:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item3:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item4:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item5:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item6:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item7:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item8:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item9:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item10:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item11:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item12:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item13:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: COW_SPAWN_EGG
+      item14:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item15:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item16:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item17:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item18:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item19:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item20:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item21:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item22:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item23:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item24:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item25:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+      item26:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: WHEAT
+  messages:
+    FOUND: ⠍ You have found this treasure!
+    FOUND_ALREADY: ⠌ You have already opened this treasure chest, in 7 days it will
+      be filled!
+    UNLIMITED: Take as much as you want!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 604800000
+  ignore-protection: false
+  shared: false
+  rewards: {}

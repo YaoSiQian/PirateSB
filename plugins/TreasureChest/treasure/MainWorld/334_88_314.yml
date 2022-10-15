@@ -1,0 +1,79 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: MainWorld
+    coords:
+      ==: Vector
+      x: 334.0
+      y: 88.0
+      z: 314.0
+    type: CHEST
+    size: 27
+    contents:
+      item0:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+      item1:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: COAL
+      item9:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+      item10:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+      item12:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: MUSHROOM_STEW
+      item16:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+      item17:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+      item24:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: COAL
+      item25:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2580
+          type: GOLD_NUGGET
+  messages:
+    FOUND_ALREADY: ⠌ You have already opened this treasure chest, in 24 hours it will
+      be filled!
+    FOUND: ⠍ You have found this treasure!
+    UNLIMITED: Take as much as you want!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 86400000
+  ignore-protection: false
+  shared: false
+  rewards: {}

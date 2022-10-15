@@ -1,0 +1,59 @@
+############################
+#SetSpawn plugin by iJ0hny.#
+#Version: 3.0              #
+#Make sure to leave your   #
+#thoughts on a review.     #
+############################
+
+#The message that a player receives when they execute a command but have no permission for it
+No-Permission-Message: '&6⚓ Spawn ▪ &cYou are not permitted to do this!'
+
+#The message that a player receives when he is teleported at the spawn.
+Spawn-Message:
+    Enabled: true
+    Message: '&6⚓ Spawn ▪ &eWelcome to the spawn!'
+
+#The message that a player receives when he executes /spawn command.
+Teleport-Message:
+    Enabled: true
+    Message: '&6⚓ Spawn ▪ Teleporting to the spawn...'
+    
+#The message that a player receives when he moves during a teleport cooldown.
+Cancel-On-Move:
+    Enabled: true
+    Enable-Message: true
+    Message: '&6⚓ Spawn ▪ Teleportation cancelled!'
+
+#The effect that is set off when player arrives at the spawn location.
+Spawn-Effect:
+    Enabled: true
+    Effect-Name: MOBSPAWNER_FLAMES
+
+#The sound that is played when player arrives at the spawn location.
+Spawn-Sound:
+    Enabled: true
+    Sound-Name: BLOCK_BELL_USE
+
+#Teleport players to spawn when they fall into void.
+Void-To-Spawn:
+    Enabled: false
+    Enabled-Message: true
+    Message: '&6⚓ Spawn ▪ Teleported to spawn from void.'
+    
+#The amount of seconds when a player executes /spawn util they teleport to it.
+Cooldown: 5
+    
+#Messages that admin receives.
+Set-Spawn-Message: '&6⚓ Spawn ▪ You have set the spawn!'
+Set-First-Join-Spawn-Message: '&6⚓ Spawn ▪ You have set the first join spawn!'
+No-Spawn-Message: '&6⚓ Spawn ▪ &cThere has no spawn been set yet!'
+Reload-Message: '&6⚓ Spawn ▪ &aConfig Reloaded!'
+
+#Teleport player to spawn on their join.
+On-Join-Spawn: false
+#Telport player to the first join spawn on their first join on the server.
+On-First-Join-Spawn: true
+#Teleport player to the spawn on respawn.
+Respawn-At-Spawn: true
+#Ignore bedspawn on player respawn [teleport to spawn if the option above (Respawn-At-Spawn) is true].
+Override-Bedspawn-On-Respawn: true

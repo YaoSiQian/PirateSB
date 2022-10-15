@@ -1,0 +1,60 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: MainWorld
+    coords:
+      ==: Vector
+      x: 243.0
+      y: 98.0
+      z: 293.0
+    type: CHEST
+    size: 27
+    contents:
+      item8:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_INGOT
+      item11:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            potion-type: minecraft:water
+      item13:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+          amount: 2
+      item22:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item23:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+  messages:
+    FOUND_ALREADY: ⠌ You have already opened this treasure chest, in 24 hours it will
+      be filled!
+    FOUND: ⠍ You have found this treasure!
+    UNLIMITED: Take as much as you want!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 86400000
+  ignore-protection: false
+  shared: false
+  rewards: {}

@@ -1,0 +1,173 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#8B673A▪ &lGuides &#8B673A✎'
+register_command: true
+open_commands:
+- '[console] playsound minecraft:skyblock.sounds.male_guides ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - guide
+  - guides
+size: 36
+        
+# as always, only cool people can open this menu :)
+items:
+  'return':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+    slot: 10
+    amount: 1
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l ▪ Return ⬅'
+    - ''
+    click_commands:
+    - '[player] menu'
+  'next':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+    slot: 19
+    amount: 1
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l ▪ Next &#8B673A➡'
+    - ''
+  'english':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5MTQ1Njg3N2Y1NGJmMWFjZTI1MWU0Y2VlNDBkYmE1OTdkMmNjNDAzNjJjYjhmNGVkNzExZTUwYjBiZTViMyJ9fX0='
+    slot: 13
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ English&#8B673A ⚐'
+    - ''
+    - ' &#ABBFBF▪ See all the elements of the  '
+    - ' &#ABBFBF  guide in this language.  '
+    - ''
+    - ' &#ACF268▪ [Click to see ⏏]'
+    - ''
+    click_commands:
+    - '[player] guide-english'
+  'spanish':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJiZDQ1MjE5ODMzMDllMGFkNzZjMWVlMjk4NzQyODc5NTdlYzNkOTZmOGQ4ODkzMjRkYThjODg3ZTQ4NWVhOCJ9fX0='
+    slot: 14
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Español &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ Vea todos los elementos de la  '
+    - ' &#ABBFBF  guía en este idioma.'
+    - ''
+    - ' &#ACF268▪ [Clic para ver] ⏏'
+    - ''
+    click_commands:
+    - '[player] guide-spanish'
+  'tur':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiZWFmNTJlMWM0YmZjZDhhMWY0YzY5MTMyMzRiODQwMjQxYWE0ODgyOWMxNWFiYzZmZjhmZGY5MmNkODllIn19fQ=='
+    slot: 15
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Türkçe &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ Kılavuzun tüm unsurlarını  '
+    - ' &#ABBFBF  bu dilde görün'
+    - ''
+    - ' &#ACF268▪ [Görmek için tıklayın] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ Bu kılavuz mevcut değildir'
+  'rus':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYWZlZjk4MGQ2MTE3ZGFiZTg5ODJhYzRiNDUwOTg4N2UyYzQ2MjFmNmE4ZmU1YzliNzM1YTgzZDc3NWFkIn19fQ=='
+    slot: 16
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Pусский &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ Просмотреть все элементы   '
+    - ' &#ABBFBF  руководства'
+    - ''
+    - ' &#ACF268▪ [Нажмите, чтобы посмотреть] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ Это руководство не доступно'
+  'fra':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjlhMDY3ZWUzN2U2MzYzNWNhMWU3MjNiNjc2ZjEzOWRjMmRiZGRmZjk2YmJmZWY5OWQ4YjM1Yzk5NmJjIn19fQ=='
+    slot: 22
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Français &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ Voir tous les éléments du  '
+    - ' &#ABBFBF  guide dans cette langue.'
+    - ''
+    - ' &#ACF268▪ [Cliquez pour voir] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ This guide is not available.'
+  'nld':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVlMWU4NmZkMWQzZGJlNWM3ODYxNTkzMGY1NjNiZmVkN2Q5Y2MyNjljZDU3MDFkNjk4MDFlZWJjN2ZkYjRjNyJ9fX0='
+    slot: 23
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Dutch &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ Bekijk alle elementen van  '
+    - ' &#ABBFBF  de gids in deze taal'
+    - ''
+    - ' &#ACF268▪ [Klik om te bekijken] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ Deze gids is niet beschikbaar'
+  'chinese':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5YmMwMzVjZGM4MGYxYWI1ZTExOThmMjlmM2FkM2ZkZDJiNDJkOWE2OWFlYjY0ZGU5OTA2ODE4MDBiOThkYyJ9fX0='
+    slot: 24
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Soon.. &#8B673A⚐'
+    - ''
+    - ' &#ACF268▪ [点击查看] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ This guide is not available.'
+  'japan':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY0MGFlNDY2MTYyYTQ3ZDNlZTMzYzQwNzZkZjFjYWI5NmYxMTg2MGYwN2VkYjFmMDgzMmM1MjVhOWUzMzMyMyJ9fX0='
+    slot: 25
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ 日本語 &#8B673A⚐'
+    - ''
+    - ' &#ABBFBF▪ このガイドの要素を同じ言語で参照してください。  '
+    - ''
+    - ' &#ACF268▪ [クリックしてご覧ください] ⏏'
+    - ''
+    click_commands:
+    - '[message] &#8B673A⚓ このガイドは利用できません。'
+  'items_1':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 9
+      - 11
+      - 18
+      - 20
+      - 27
+      - 28
+      - 29
+    display_name: ' '
+  'items_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 12
+      - 17
+      - 21
+      - 26
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    display_name: ' '

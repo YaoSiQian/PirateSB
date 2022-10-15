@@ -1,0 +1,105 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#8B673A▪ &lDungeons&#8B673A ☠'
+register_command: true
+open_command:
+  - dungeons
+  - dungeon
+size: 27
+        
+# as always, only cool people can open this menu :)
+items:
+  'return':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+    slot: 10
+    amount: 2
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l ▪ Return ⬅'
+    - ''
+    click_commands:
+    - '[player] warps'
+  'dungeon':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgzODI2NzU2ZDhmYWJjZWI0MzNkNWI1Y2IxYjdkNzU2YjA2ZWJlYzY4ODllMzAzOTA2ZmEzZDY4NTdjMzFmNSJ9fX0='
+    slot: 14
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Dungeon&#8B673A ☠'
+    - ''
+    - ' &#ABBFBF▪ Travel to the most dangerous place of  '
+    - ' &#ABBFBF  all, to obtain great rewards in battle.  '
+    - ''
+    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ''
+    click_commands:
+    - '[console] warp dungeon %player_name%'
+    - '[console] titlemanager msg %player_name% &c☠ &lDUNGEON &c☠\n▪ Be careful or you will die ▪'
+    - '[close]'
+    - '[console] playmoresounds play minecraft:skyblock.sounds.dungeon %player_name%'
+    - '[sound] ENTITY_EVOKER_PREPARE_SUMMON'
+  'dungeon-witches':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhlZGRmMjI1OWUyZGU0MGU4MmJlYWIxZmQ1NWQzYjkxMTI0OTI1ZGNmNTczZWRmODk5NWViNDY0MjZhM2U5NSJ9fX0='
+    slot: 15
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Witche''s Dungeon&#8B673A ☠'
+    - ''
+    - ' &#ABBFBF▪ Travel to the most dangerous place of  '
+    - ' &#ABBFBF  all, to obtain great rewards in battle.  '
+    - ''
+    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ''
+    click_commands:
+    - '[console] warp dungeon-witches %player_name%'
+    - '[console] titlemanager msg %player_name% &5☠ &lWITCHE''S DUNGEON &5☠\n▪ Great dangers are hidden ▪'
+    - '[close]'
+    - '[console] playmoresounds play minecraft:skyblock.sounds.dungeon_witches %player_name%'
+    - '[sound] ENTITY_EVOKER_PREPARE_SUMMON'
+  'jungle_dungeon':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRiMmQ2YjNlYzEzY2QzMWVhYmY0MzU1NzEyMDc1ZDJhNTRhNTg4YjI1MDViNTVhNjdmZGE0OWEyYWQ1YzQyIn19fQ=='
+    slot: 16
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Jungle Dungeon &#8B673A☠'
+    - ''
+    - ' &#ABBFBF▪ Travel straight to your death, go prepared!  '
+    - ''
+    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ''
+    click_commands:
+    - '[console] warp jungle_dungeon %player_name%'
+    - '[console] titlemanager msg %player_name% &2☠ &lJUNGLE DUNGEON &2☠\n▪ You cannot escape death ▪'
+    - '[close]'
+    - '[console] playmoresounds play minecraft:skyblock.sounds.jungle_dungeon %player_name%'
+    - '[sound] ENTITY_EVOKER_PREPARE_SUMMON'
+  'items_1':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 9
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+    display_name: ' '
+  'items_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 13
+      - 17
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

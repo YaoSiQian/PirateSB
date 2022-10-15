@@ -1,0 +1,54 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&#8B673A⚓ &lAre you sure?&#8B673A ⚓'
+open_command:
+  - skip
+register_command: true
+size: 27
+        
+# as always, only cool people can open this menu :)
+items:
+  'skip':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 13
+    amount: 1
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l ⸔ Yes, I want to skip introduction ⸕  '
+    - ''
+    click_commands:
+    - '[console] warp skip %player_name%'
+    - '[close]'
+    - '[console] playmoresounds play skyblock.sounds.intro %player_name%'
+    - '[console] titlemanager msg %player_name% &6⚓ &lSKIPPED &6⚓\n▪ Here begins your adventure, pirate ▪'
+    display_name: ' '
+  'items_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

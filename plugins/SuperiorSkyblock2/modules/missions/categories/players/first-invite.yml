@@ -1,0 +1,42 @@
+mission-file: IslandMissions
+island: false
+auto-reward: true
+rewards:
+  commands:
+  - eco give %player% 200
+  - is admin msg %player% &6&lMission | &7Successfully finished the mission First
+    Invite!
+events:
+- IslandInviteEvent-Target
+icons:
+  not-completed:
+    type: PAPER
+    name: '&aFirst Invite'
+    lore:
+    - '&7Get your first invite to an island!'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$200'
+    - ''
+    - '&c&l ✘ &7Not Completed'
+  can-complete:
+    type: PAPER
+    name: '&aFirst Invite'
+    lore:
+    - '&7Get your first invite to an island!'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$200'
+    - ''
+    - '&a&l ✔ &7Click to redeem your reward.'
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&aFirst Invite'
+    lore:
+    - '&7Get your first invite to an island!'
+    - ''
+    - '&a&l ✔ &7Already Claimed.'

@@ -1,0 +1,322 @@
+Name: §6⚓ §6§lTreasure Crate§6 ⚓
+Animation_Config: hidden_chests
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 30
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - treasurekey
+Item:
+  Material: CHEST
+  Amount: 1
+  Durability: 0
+  Name: '&6Sample Crate #1 &7(Right-Click)'
+  Enchants:
+    unbreaking: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  Unbreakable: false
+Block:
+  Locations:
+  - 275.0,105.0,209.0,0.0,0.0,MainWorld
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §c§lCS:GO CRATE
+    - §7Get the key at §cwww.myserver.com§c
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    0a86fff3-b032-4b00-8f1b-5e2ccbc09463:
+      Name: §e1.500 ⛁
+      Chance: 75.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq4bh9l4p064n3ac1g43h9n092fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h0j0jjq8kqliqied57l8p3b9la6mcapah4nejikcds4uhq969d5elbp9lblicapf9lj2m9i8pmlil2569734l9jb5bkkqipahjj8mak95s4qh2edd758ij99lt68qqef94niibe64smck9t7k0002o0094m80000027k0q5n6qluhhchuqgd40p7r00q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player% 1500'
+      Items: []
+    928e1df7-2061-4460-8c9e-087b4f731671:
+      Name: §e2.000 ⛁
+      Chance: 70.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq4bh9l4p068n30c1g43h9n092fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h0j0jjq8kqliqied57l8p3b9la6mcapah4nejikcds4uhq969d5elbp9lblicapf9lj2m9i8pmlil2569734l9jb5bkkqipahjj8mak95s4qh2edd758ij99lt68qqef94niibe64smck9t7k0002o0094m80000027k0q5n6qluhhchuqgd40p7r00q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player% 2000'
+      Items: []
+    bf5f914e-b4de-4c4b-b30a-305d388e04bf:
+      Name: §6x40 Gold Ingots
+      Chance: 60.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p0a001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6errccgh2o8jkcls788hq4bh9l4p0f0q30827dtm68829dpjmut3j43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatifah8j2mjaa4plkramd574ek9j9pbksqadf96nkjqk8ko5iraqddcmkqpl9tbkac2f8hm6kjqna5rlkl2df56kek9h9p26gradf92neji48kqlilqh6d6nkq3b9lblauae8t4jaibe64smck9t7k0002o0094m8000002f556qdgdd0h9vndroommkl5hpq0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] give %player% gold_ingot 40'
+      Items: []
+    d123a6be-99e0-421d-8879-d4bde27a041f:
+      Name: §6x80 Gold Ingots
+      Chance: 50.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p0a001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6errccgh2o8jkcls788hq4bh9l4p0f0s30827dtm68829dpjmut3j43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatifah8j2mjaa4plkramd574ek9j9pbksqadf96nkjqk8ko5iraqddcmkqpl9tbkac2f8hm6kjqna5rlkl2df56kek9h9p26gradf92neji48kqlilqh6d6nkq3b9lblauae8t4jaibe64smck9t7k0002o0094m8000002f556qdgdd0h9vndroommkl5hpq0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] give %player% gold_ingot 80'
+      Items: []
+    ce1ff7af-6970-416d-a148-d472c4e74fca:
+      Name: §2x40 Experiencie Bottles
+      Chance: 60.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejgdhgnipbibtk6aob418006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24p31e9llupriclims8hc49q6au3k48t25okqicg7gd1g412ngs35e9kmarj3d5ii0gjfehq6opbj43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatief90j2ji79lskulqd6d7k8g9l9l252cqdat6ngmin8lrksl38d5d48m9g9la6edaef96jajan9kqlkl2h697l8kj8b5a6oqqdah8nemanb9klira56hd48gjab5t52uied96j6ibe64smck9t7k0002o0094m8000002buibub07nehmtl50ptbp7q8k5i0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] give %player% experiencebottle 40'
+      Items: []
+    a0b78f36-3464-4d58-bb5b-d83ba1c00dcb:
+      Name: §2x80 Experiencie Bottles
+      Chance: 50.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejgdhgnipbibtk6aob418006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24p31e9llupriclims8hc49q6au3k48t25okqicg7ge1g412ngs35e9kmarj3d5ii0gjfehq6opbj43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatief90j2ji79lskulqd6d7k8g9l9l252cqdat6ngmin8lrksl38d5d48m9g9la6edaef96jajan9kqlkl2h697l8kj8b5a6oqqdah8nemanb9klira56hd48gjab5t52uied96j6ibe64smck9t7k0002o0094m8000002buibub07nehmtl50ptbp7q8k5i0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] give %player% experiencebottle 80'
+      Items: []
+    831bdbf0-b706-4609-97a5-5bffa76998a0:
+      Name: §5x1 Zombie Spawner
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400amqqbeclhn4ob6egt70r31f5in4nr8clgm82g00dq62poa003m8qbje1m62u880024sobdck0aaup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278he56kj41d6urb2d5ii0krgc5rmspbi43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatip692j6jakalrksra9f1734l9j9lbl2cqq8h76mjakb9m4sl22d96nkqro9pt52uaq8hhjajqk9plkqlq6dd6nkkj89p25acaf8hcnemanb4oksl2df96k8opib9l4au2qah56imbp98smcm1g7k0002o0094m8000002cd0hpu0m98icdm6rnfdptgaggs0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] ms give %player% zombie 1'
+      Items: []
+    be971767-7c54-4435-a6a2-630871cf863d:
+      Name: §5x1 Skeleton Spawner
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800ldlkmspb3e9gmct1qe1m62ub5e9fmgpb1cg5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80ktti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnrgelp70r3548m24t35f1q24eh2sad9682jddimopbkdtn20krgc5rmspbi43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatied916ojbd9kqliraqd9748ophb5mlau2pah96gjin8kp4shqed5d6qm9jb9mkkqifahhj0j9i94q4sra965cl8j9j9lt6ecqpd90ngja4b9m5kl2965758mj89p252c2ef98j6jj998smcm1g7k0002o0094m80000020kc283iogkh6fm5c5lf921d0mk0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] ms give %player% skeleton 1'
+      Items: []
+    46faf769-6e91-4768-9ebc-318afce0ad5f:
+      Name: §5x1 Spider Spawner
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400amqqbeclhn4ob6egt70r31f5in4nr8clgm82g00dq62poa003m8qbje1m62u880024sobdck0aaup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278he56kj419n0qb4clp20krgc5rmspbi43h9dah2fleio8jkcls788hq48h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiqah96qjq7apmksl2561d5ek9ib5mlacqfat8nkmikd1m5kraadh6l8q3c9op4sqadf9lngjba9lslira6dd748ppkb9a4sqadahlj2jik99kksciqdl74ehj9b9a4craqd98j2mi398smcm1g7k0002o0094m80000022dqu4o5686h8pjo8bgu966o16e0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] ms give %player% spider 1'
+      Items: []
+    5e008bee-acf5-4361-90b0-294c03942f4d:
+      Name: §8Netherite Sword
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0035mmirj5cdp62pjk79n6at38clp6it35btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p90adrmusj443h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79n6at38clp6it35btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p90adrmusj443h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    a010af31-5779-4caf-a325-e7797ec5f67b:
+      Name: §8Netherite Helmet
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anr8clm6qpbk18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0aaup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4obp48m24t35f1q24eh2sad9682eclq6gpbid5q6a828clm6qpbk43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anr8clm6qpbk18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0aaup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4obp48m24t35f1q24eh2sad9682eclq6gpbid5q6a828clm6qpbk43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    dc4450a6-6de4-4cf2-98a5-449e20e2aa4c:
+      Name: §8Netherite Chestplate
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003pmmirj5cdp62pjk79n6at38clp6it35bthmgpbjeho6oobkck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p908dk6asrke1m62t3543h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003pmmirj5cdp62pjk79n6at38clp6it35bthmgpbjeho6oobkck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p908dk6asrke1m62t3543h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    27da5e60-13bd-4988-805a-49a72bcb718d:
+      Name: §8Netherite Leggings
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80ktti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49q6au3k48t25okqicg4spbkd1in4qbkckg4opb7ctkmsprj43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80ktti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49q6au3k48t25okqicg4spbkd1in4qbkckg4opb7ctkmsprj43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    e9243cf1-e63c-4b19-9709-445d20cfe4dc:
+      Name: §8Netherite Boots
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0035mmirj5cdp62pjk79n6at38clp6it35bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p9089nmut3j43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79n6at38clp6it35bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj1f4h2o8jkcls788hq4bh9l4p09pin8q35e9kn8p9089nmut3j43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    4fb1938f-cda2-4628-bfef-b782ef37fac6:
+      Name: §dProtection IV
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80klti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4bh9l4p0a1p6ut35cdq6irre414lc872iql24vat5gh78pboegh3k8h2fk00i00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80klti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4bh9l4p0a1p6ut35cdq6irre414lc872iql24vat5gh78pboegh3k8h2fk00i00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+    4e50b195-ba46-4ccf-b77b-24037fe10e89:
+      Name: §dFire Aspect II
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8n2ja9i0hj9e9ii0gbje1im6t10954i1okml8h7qn9c49q6au3k48t248jt004g04ijehnn4pb48ln66q31dpq6qpbeehpgk000000gg002d5i005bdd5n6aoric5j78ej6d5p6anr1edo6aork08006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8n2ja9i0hj9e9ii0gbje1im6t10954i1okml8h7qn9c49q6au3k48t248jt004g04ijehnn4pb48ln66q31dpq6qpbeehpgk000000gg002d5i005bdd5n6aoric5j78ej6d5p6anr1edo6aork08006r3mdg0040000400agrfeln78080
+    1526d532-bcdd-4daa-a33b-15f3964d3352:
+      Name: §dEfficiency V
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kpbecdk62rjkcli5uojfdtlgk003ehgme2g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278he56kj412mcpj9cdkmarj3f4g5c872iql24vat5gh78pboegh3k8h2fk00i00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg00a0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kpbecdk62rjkcli5uojfdtlgk003ehgme2g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278he56kj412mcpj9cdkmarj3f4g5c872iql24vat5gh78pboegh3k8h2fk00i00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg00a0000400agrfeln78080
+    fd93afb8-0b81-4cc2-879c-d31ea9e65494:
+      Name: §dFortune III
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80kdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4bh9l4p08pnn4t3ldpii0ia994ge55la49ulqb12ehingt1278h24v8014014krkdtp6ap25dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80kdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4bh9l4p08pnn4t3ldpii0ia994ge55la49ulqb12ehingt1278h24v8014014krkdtp6ap25dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+    78a0510e-3d89-47fa-8281-6ef4cfe972f2:
+      Name: §3Shulker Spawn Egg
+      Chance: 2.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800rdlkmspb3e9gmct1qedk7ar3bclp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502j7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqvc5onao925gh78pboegh3k8n2ja9i0kr8elm6mpbi419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800rdlkmspb3e9gmct1qedk7ar3bclp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502j7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqvc5onao925gh78pboegh3k8n2ja9i0kr8elm6mpbi419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    84b22040-01cd-423a-88c9-2414944285cf:
+      Name: §3Llama Spawn Egg
+      Chance: 2.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006bdd5n6aoric5j78ejcdhgmqoavedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p09hm62rb1419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ejcdhgmqoavedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p09hm62rb1419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    0d1d9d01-9c0d-4271-9738-fb648ab67ba5:
+      Name: §3Magma Cube Spawn Egg
+      Chance: 2.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007jdd5n6aoric5j78ejdc5jmqoavcdqm4pavedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p09lgmerb1411naoj5419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007jdd5n6aoric5j78ejdc5jmqoavcdqm4pavedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p09lgmerb1411naoj5419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    97b93fdd-371b-4148-a352-0fa2d014ccea:
+      Name: §3Ghast Spawn Egg
+      Chance: 2.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006bdd5n6aoric5j78ej7d1gn6t2vedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p08tk62srk411naoj5419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ej7d1gn6t2vedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4bh9l4p08tk62srk411naoj5419n0obndog4apr743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    02965eac-778a-4aa8-b91b-c8773f3961c3:
+      Name: §cElytra
+      Chance: 4.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800gdlkmspb3e9gmct1qclm7it3ic45000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig15br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad96825dhsn8sj143h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800gdlkmspb3e9gmct1qclm7it3ic45000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig15br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad96825dhsn8sj143h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    f4298ab0-8efa-4dd7-88ca-fe1b081ad502:
+      Name: §cTotem of undying
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01krb9dpim6sj1cpq3kt3fehimqnrfcpfnarj4f5kmspoa001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad9682kdtq6ar90dtj20tbechsmirj743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01krb9dpim6sj1cpq3kt3fehimqnrfcpfnarj4f5kmspoa001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad9682kdtq6ar90dtj20tbechsmirj743h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+    c1fde001-c918-459c-a8a9-ef8cf84e1025:
+      Name: §cNether star
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3krj5ehk6asivedq62sga001n8ob71800ep39edo6oobp10008jj1dlig16jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad9682eclq6gpbi41pn8obi43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3krj5ehk6asivedq62sga001n8ob71800ep39edo6oobp10008jj1dlig16jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh2sad9682eclq6gpbi41pn8obi43h9dah2fleio8jkcls788hq48h7q0000400agrfeln78080

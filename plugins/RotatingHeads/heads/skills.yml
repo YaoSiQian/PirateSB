@@ -1,0 +1,22 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - 'Rotate(direction=LEFT,speed=2)'
+  - 'UpDown(value=0.025,jumps=20,smooth=true)'
+  small: false
+  location: MainWorld(249.5,106.0,173.5)
+head:
+  type: ITEM
+  value: 'FEATHER(amount=1,customModelData=1)'
+name:
+  offset: 0.75
+  space: 0.25
+  lines:
+  - '&6⚓ &lYour Pirate Skills &6⚓'
+particles: # OPTIONAL
+  - 'END_ROD(type=AnimatedCircle,points=120,radius=1.0,size=1.6,offset=0:1.2:0,direction=RIGHT)'
+  - 'END_ROD(type=AnimatedCircle,points=120,radius=1.0,size=1.6,offset=0:1.2:0,direction=LEFT)'
+actions:
+- 'player-cmd(value=skills)'
+- 'console-cmd(value=playsound minecraft:skyblock.sounds.skills ambient %player%)'

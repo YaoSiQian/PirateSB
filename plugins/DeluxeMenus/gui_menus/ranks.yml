@@ -1,0 +1,127 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&#8B673A&l▪ Ranks&#8B673A ⚡'
+open_command:
+  - ranks
+  - rank
+register_command: true
+open_commands:
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+size: 27
+        
+# as always, only cool people can open this menu :)
+items:
+  'return':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRjYWE0M2E2Y2ExYzYzOTNhNzFmMTAxYzdkM2YyOGZiOGM5ODkzNjg3ZWYwMTEzOTEyODg3ODlkNmQzIn19fQ=='
+    slot: 10
+    display_name: '&7'
+    lore:
+    - ' &#8B673A▪ &lPERKS OF THE VIP RANKS ✍  '
+    - ' &#ABBFBF▪ The ranks has the following features  ➡  '
+    - ''
+  'vip':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVkNzZkOTBiMzc4MDgzZDE0Nzc1NjgwNTA1ZGRiMWU2YzJjNmRjZjRkZGU3ZjliMWY1ODgwOWJlYzZjNjVjOCJ9fX0='
+    slot: 14
+    display_name: '&7'
+    lore:
+    - '  &#B56246#1. &lPerks of the Vip rank  '
+    - ''
+    - ' &#B56246▪ The rank has the following features.  '
+    - ''
+    - ' &#DD7E65★ Prefix &6▪ Vip &#DD7E65in the username.  '
+    - ' &#DD7E65★ Default color in chat.'
+    - ' &#DD7E65★ Default color in the username.'
+    - ' &#DD7E65★ You can mine spawners.'
+    - ' &#DD7E65★ Access to the kit vip every 7 days.  '
+    - ' &#DD7E65★ Access to put 2 &f"/sethome"&#DD7E65.  '
+    - ' &#DD7E65★ Access to fly with &f"/fly"&#DD7E65.  '
+    - ' &#DD7E65★ 1 more slot in the enderchest.  '
+    - ' &#DD7E65★ 1 more row in the backpack.  '
+    - ' &#DD7E65★ Your loot will be protected at death.  '
+    - ' &#DD7E65★ You can delete friends.  '
+    - ' &#DD7E65★ And many other perks more.  '
+    - ''
+    - ' &#9D523A▪ [New features will be added soon] ⚒'
+    - ''
+  'vip+':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFhOTUyOTFmOTNhNzBkYjZmMWFhMWViODQ4MjRiOWRmM2I5ZmMwYTI1NDZmN2ZmODFhMTJjNTY3NjBmZWFhIn19fQ=='
+    slot: 15
+    display_name: '&7'
+    lore:
+    - '  &#153373#2. &lPerks of the Vip+ rank  '
+    - ''
+    - ' &#153373▪ Including vip features.  '
+    - ''
+    - ' &#2659AC★ Prefix &6▪ Vip&e+ &#2659ACin the username.  '
+    - ' &#2659AC★ Access to the kit vip+ every 7 days.  '
+    - ' &#2659AC★ Access to put 3 &f"/sethome"&#2659AC.  '
+    - ' &#2659AC★ Access to the &f"/afk" &#2659ACcommand.  '
+    - ' &#2659AC★ Access to a crafting table with &f"/workbench"&#2659AC.  '
+    - ' &#2659AC★ 2 more slot in the enderchest.  '
+    - ' &#2659AC★ 2 more row in the backpack.  '
+    - ' &#2659AC★ You can go to your loot when you die.  '
+    - ' &#2659AC★ You will be able to block friends.  '
+    - ' &#2659AC★ You will be able to unblock friends.  '
+    - ' &#2659AC★ You can deny friend requests.  '
+    - ' &#2659AC★ And many other perks more.  '
+    - ''
+    - ' &#143272▪ [New features will be added soon] ⚒'
+    - ''
+  'mvp':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4MzJjMTQ2NmM4NDFjYzc5ZDVmMTAyOTVkNDY0Mjc5OTY3OTc1YTI0NTFjN2E1MzNjNzk5Njg5NzQwOGJlYSJ9fX0='
+    slot: 16
+    display_name: '&7'
+    lore:
+    - '  &#332C2C#3. &lPerks of the Mvp rank  '
+    - ''
+    - ' &#332C2C▪ Including vip and vip+ features.  '
+    - ''
+    - ' &#58575A★ Prefix &6▪ Mvp &#58575Ain the username.  '
+    - ' &#58575A★ Access to the kit mvp every 7 days.  '
+    - ' &#58575A★ Access to put 4 &f"/sethome"&#58575A.  '
+    - ' &#58575A★ 3 more slot in the enderchest.  '
+    - ' &#58575A★ 3 more row in the backpack.  '
+    - ' &#58575A★ Access to the &f"/enderchest" &#58575Acommand.  '
+    - ' &#58575A★ Access to the &f"/disposal" &#58575Acommand.  '
+    - ' &#58575A★ Access to the &f"/baltop" &#58575Acommand.  '
+    - ' &#58575A★ Afk in automatic mode.  '
+    - ' &#58575A★ You will be able to set a status.  '
+    - ' &#58575A★ When you die, your experience will be saved.  '
+    - ' &#58575A★ You will be able to bring the loot closer to you.  '
+    - ' &#58575A★ You will be able to see the status of your friends.  '
+    - ' &#58575A★ You will be able to travel directly to your friends.  '
+    - ' &#58575A★ And many other perks more.  '
+    - ''
+    - ' &#332C2C▪ [New features will be added soon] ⚒'
+    - ''
+  'items_1':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 9
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+    display_name: ' '
+  'items_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 13
+      - 17
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

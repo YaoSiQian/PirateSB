@@ -1,0 +1,51 @@
+mission-file: KillsMissions
+island: false
+auto-reward: true
+rewards:
+  commands:
+  - eco give %player% 300
+  - is admin msg %player% &6&lMission | &7Successfully finished the mission Mobs Killer!
+required-entities:
+  '1':
+    types:
+    - ALL
+    amount: 50
+reset-after-finish: true
+icons:
+  not-completed:
+    type: PAPER
+    name: '&aMobs Killer'
+    lore:
+    - '&7Kill 50 mobs!'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$300'
+    - ''
+    - '&6Kills: &7{1}/50'
+    - '&6Progress: &7{0}%'
+    - '&c&l ✘ &7Not Completed'
+  can-complete:
+    type: PAPER
+    name: '&aMobs Killer'
+    lore:
+    - '&7Kill 50 mobs!'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$300'
+    - ''
+    - '&6Kills: &750/50'
+    - '&6Progress: &7100%'
+    - '&a&l ✔ &7Click to redeem your reward.'
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&aMobs Killer'
+    lore:
+    - '&7Kill 50 mobs!'
+    - ''
+    - '&6Kills: &750/50'
+    - '&6Progress: &7100%'
+    - '&a&l ✔ &7Already Claimed.'

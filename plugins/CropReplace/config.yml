@@ -1,0 +1,9 @@
+crop_replace:
+  enabled: true
+# CropReplace Settings:
+metrics: true
+use_durability: true
+no_trample:
+  enable: true
+  empty_handslots_required: false
+version: 1.5.3

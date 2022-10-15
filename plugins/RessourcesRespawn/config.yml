@@ -1,0 +1,190 @@
+#For particles, please use: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+#For sounds, please use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+#For materials, please use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+blocks:
+  wand-material: WOODEN_PICKAXE
+  default-delay: 600 #In ticks (20 ticks = 1 second)
+  default-sound: BLOCK_CHAIN_PLACE
+  default-particles-on-break: CRIT
+  default-particles-on-respawn: FLAME
+  items-to-inventory: false
+  blacklist-items:
+    firstItem:
+      material: WOODEN_PICKAXE
+      name: "NONE" #If name = "NONE" --> item name is ignored
+  override:
+    STONE:
+      delay: 1200
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    NETHERRACK:
+      delay: 1200
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    ANDESITE:
+      delay: 1200
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEAD_BRAIN_CORAL_BLOCK:
+      delay: 1200
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    COAL_ORE:
+      delay: 2400
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    IRON_ORE:
+      delay: 4800
+      replaced-by: BEDROCK
+      particles-on-break: CRIT
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    GLOWSTONE:
+      delay: 4800
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    REDSTONE_ORE:
+      delay: 4800
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    LAPIS_ORE:
+      delay: 4800
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    GOLD_ORE:
+      delay: 9600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    COPPER_ORE:
+      delay: 9600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_REDSTONE_ORE:
+      delay: 11600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_LAPIS_ORE:
+      delay: 11600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_GOLD_ORE:
+      delay: 11600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_COPPER_ORE:
+      delay: 11600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_COAL_ORE:
+      delay: 11600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_DIAMOND_ORE:
+      delay: 46000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DEEPSLATE_EMERALD_ORE:
+      delay: 46000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    NETHER_GOLD_ORE:
+      delay: 9600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    NETHER_QUARTZ_ORE:
+      delay: 9600
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DIAMOND_ORE:
+      delay: 36000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    EMERALD_ORE:
+      delay: 72000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    GOLD_BLOCK:
+      delay: 5184000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    DIAMOND_BLOCK:
+      delay: 5184000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    EMERALD_BLOCK:
+      delay: 5184000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    NETHERITE_BLOCK:
+      delay: 5184000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+    AMETHYST_CLUSTER:
+      delay: 56000
+      replaced-by: BEDROCK
+      particles-on-break: LAVA
+      particles-on-spawn: FLAME
+      sound: BLOCK_CHAIN_PLACE
+
+worldguard-regions:
+  aworld:
+    MyRegion:
+      whitelisted-blocks:
+        - "STONE"
+  MainWorld:
+    plants:
+      whitelisted-blocks:
+        - "STONE"
+
+blacklist-message: "&c⚓ You can't use that pickaxe here, use one of another material."

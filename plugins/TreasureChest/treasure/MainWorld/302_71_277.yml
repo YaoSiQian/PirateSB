@@ -1,0 +1,92 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: MainWorld
+    coords:
+      ==: Vector
+      x: 302.0
+      y: 71.0
+      z: 277.0
+    type: CHEST
+    size: 27
+    contents:
+      item3:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item4:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item5:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item10:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item12:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item13:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: EXPERIENCE_BOTTLE
+          amount: 32
+      item14:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item16:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item21:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item22:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+      item23:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: GOLD_NUGGET
+  messages:
+    FOUND: ⠍ You have found this treasure!
+    FOUND_ALREADY: ⠌ You have already opened this treasure chest, in 48 hours it will
+      be filled!
+    UNLIMITED: Take as much as you want!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 172800000
+  ignore-protection: false
+  shared: false
+  rewards: {}

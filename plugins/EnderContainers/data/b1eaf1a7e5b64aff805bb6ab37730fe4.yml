@@ -1,0 +1,79 @@
+enderchests:
+  '4':
+    rows: 3
+    position: 4
+  '6':
+    rows: 3
+    position: 6
+  '18':
+    rows: 3
+    position: 18
+  '26':
+    rows: 3
+    position: 26
+  '14':
+    rows: 3
+    position: 14
+  '24':
+    rows: 3
+    position: 24
+  '2':
+    rows: 3
+    position: 2
+  '5':
+    rows: 3
+    position: 5
+  '13':
+    rows: 3
+    position: 13
+  '7':
+    rows: 3
+    position: 7
+  '9':
+    rows: 3
+    position: 9
+  '3':
+    rows: 3
+    position: 3
+  '8':
+    rows: 3
+    position: 8
+  '12':
+    rows: 3
+    position: 12
+  '1':
+    rows: 3
+    position: 1
+  '19':
+    rows: 3
+    position: 19
+  '10':
+    rows: 3
+    position: 10
+  '11':
+    rows: 3
+    position: 11
+  '23':
+    rows: 3
+    position: 23
+  '17':
+    rows: 3
+    position: 17
+  '21':
+    rows: 3
+    position: 21
+  '22':
+    rows: 3
+    position: 22
+  '25':
+    rows: 3
+    position: 25
+  '16':
+    rows: 3
+    position: 16
+  '15':
+    rows: 3
+    position: 15
+  '20':
+    rows: 3
+    position: 20

@@ -1,0 +1,42 @@
+mission-file: IslandMissions
+island: true
+auto-reward: true
+rewards:
+  commands:
+  - eco give %player% 10000
+  - is admin msgall %player% &6&lMission | &7Successfully finished the mission Add
+    Member!
+events:
+- IslandJoinEvent
+icons:
+  not-completed:
+    type: PAPER
+    name: '&aAdd Member'
+    lore:
+    - '&7Add your first member to the island.'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7None'
+    - ''
+    - '&c&l ✘ &7Not Completed'
+  can-complete:
+    type: PAPER
+    name: '&aAdd Member'
+    lore:
+    - '&7Add your first member to the island.'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7None'
+    - ''
+    - '&a&l ✔ &7Click to redeem your reward.'
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&aAdd Member'
+    lore:
+    - '&7Add your first member to the island.'
+    - ''
+    - '&a&l ✔ &7Already Claimed.'

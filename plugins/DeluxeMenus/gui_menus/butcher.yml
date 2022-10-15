@@ -1,0 +1,1105 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#ff0000▪ Butcher ☗'
+register_command: false
+open_commands:
+- '[console] playsound minecraft:skyblock.sounds.girl_butcher ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - butcher
+size: 36
+        
+# as always, only cool people can open this menu :)
+items:
+  'items_1':
+    material: RED_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 16
+      - 17
+    display_name: ' '
+  'items_2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+      - 18
+      - 19
+      - 26
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    display_name: ' ' 
+  'x1':
+    material: HOPPER
+    slot: 27
+    priority: 5
+    amount: 8
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx1  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    click_commands:
+    - '[meta] set AMOUNT STRING 1'
+    - '[refresh]'
+  'x8':
+    material: HOPPER
+    slot: 27
+    priority: 6
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx8  '
+    - ' '
+    click_commands:
+    - '[meta] set AMOUNT STRING 8'
+    - '[refresh]'
+  'items_3':
+    material: leather
+    slot: 10
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Leather'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$250.60 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$2.35 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250.60
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: LEATHER
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 250.60'
+    - '[console] give %player_name% LEATHER 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rLeather for &c-$250.60 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 2.35'
+    - '[console] minecraft:clear %player_name% leather 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rLeather for &a+$2.35 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK' 
+  'items_4':
+    material: rotten_flesh
+    slot: 11
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Rotten Flesh'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$30.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$0.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 30.75
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: ROTTEN_FLESH
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 30.75'
+    - '[console] give %player_name% ROTTEN_FLESH 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRotten Flesh for &c-$30.75 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 0.25'
+    - '[console] minecraft:clear %player_name% rotten_flash 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRotten Flesh for &a+$0.25 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_5':
+    material: porkchop
+    slot: 12
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Porkchop'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$290.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$3.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 290.75
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: PORKCHOP
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 290.75'
+    - '[console] give %player_name% PORKCHOP 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRaw Porkchop for &c-$290.75 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 3.25'
+    - '[console] minecraft:clear %player_name% porkchop 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRaw Porkchop for &a+$3.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_6':
+    material: cooked_porkchop
+    slot: 13
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Porkchop'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$158.99 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$4.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 158.99
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COOKED_PORKCHOP
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.'   
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 158.99'
+    - '[console] give %player_name% COOKED_PORKCHOP 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rCooked Porkchop for &c-$158.99 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 4.50'
+    - '[console] minecraft:clear %player_name% cooked_porkchop 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rCooked Porkchop for &a+$4.50 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_7':
+    material: beef
+    slot: 14
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Beef'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$129.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$3.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 129.75
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: BEEF
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 129.75'
+    - '[console] give %player_name% BEEF 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRaw Beef for &c-$129.75 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 3.25'
+    - '[console] minecraft:clear %player_name% beef 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRaw Beef for &a+$3.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_8':
+    material: cooked_beef
+    slot: 15
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Steak'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$158.99 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$4.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 158.99
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COOKED_BEEF
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 158.99'
+    - '[console] give %player_name% COOKED_BEEF 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rSteak for &c-$158.99 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 4.50'
+    - '[console] minecraft:clear %player_name% cooked_beef 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rSteak for &a+$4.50 ⛁&f.'   
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_9':
+    material: chicken
+    slot: 20
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Chicken'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$140.85 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$1.60 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 140.85
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: CHICKEN
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 140.85'
+    - '[console] give %player_name% CHICKEN 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRaw Chicken for &c-$140.85 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 1.60'
+    - '[console] minecraft:clear %player_name% chicken 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRaw Chicken for &a+$1.60 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_10':
+    material: cooked_chicken
+    slot: 21
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Chicken'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$129.60 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$3.20 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 129.60
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COOKED_CHICKEN
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 129.60'
+    - '[console] give %player_name% COOKED_CHICKEN 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rCooked Chicken for &c-$129.60 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 3.20'
+    - '[console] minecraft:clear %player_name% cooked_chicken 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rCooked Chicken for &a+$3.20 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_11':
+    material: rabbit
+    slot: 22
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Rabbit'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$160.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$15.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 160.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: RABBIT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 160.0'
+    - '[console] give %player_name% RABBIT 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRaw Rabbit for &c-$160.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 15.50'
+    - '[console] minecraft:clear %player_name% rabbit 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRaw Rabbit for &a+$15.50 ⛁&f.'   
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_12':
+    material: cooked_rabbit
+    slot: 23
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Rabbit'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$199.99 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$29.99 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 199.99
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COOKED_RABBIT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 199.99'
+    - '[console] give %player_name% COOKED_RABBIT 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rCooked Rabbit for &c-$199.99 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 29.99'
+    - '[console] minecraft:clear %player_name% cooked_rabbit 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rCooked Rabbit for &a+$29.99 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_13':
+    material: mutton
+    slot: 24
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Mutton'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$130.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$4.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 130.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: MUTTON
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 130.0'
+    - '[console] give %player_name% MUTTON 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rRaw Mutton for &c-$130.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 4.75'
+    - '[console] minecraft:clear %player_name% mutton 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rRaw Mutton for &a+$4.75 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_14':
+    material: COOKED_MUTTON
+    slot: 25
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Mutton'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$159.99 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$5.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 159.99
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COOKED_MUTTON
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 159.99'
+    - '[console] give %player_name% COOKED_MUTTON 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx1 &rCooked Mutton for &c-$159.99 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 5.25'
+    - '[console] minecraft:clear %player_name% cooked_mutton 1'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx1 &rCooked Mutton for &a+$5.25 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t3':
+    material: leather
+    slot: 10
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Leather'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$2.004.80 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$18.80 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 2004.80
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: LEATHER
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2004.80'
+    - '[console] give %player_name% LEATHER 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rLeather for &c-$2.004.80 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 18.80'
+    - '[console] minecraft:clear %player_name% leather 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rLeather for &a+$18.80 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK' 
+  'items_t4':
+    material: rotten_flesh
+    slot: 11
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Rotten Flesh'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$246.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$2.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 246.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: ROTTEN_FLESH
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 246.0'
+    - '[console] give %player_name% ROTTEN_FLESH 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRotten Flesh for &c-$246.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 2.0'
+    - '[console] minecraft:clear %player_name% rotten_flesh 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRotten Flesh for &a+$2.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t5':
+    material: porkchop
+    slot: 12
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Porkchop'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$2.326.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$26.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 2326.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: PORKCHOP
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2326.0'
+    - '[console] give %player_name% PORKCHOP 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRaw Porkchop for &c-$2.326.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 26.0'
+    - '[console] minecraft:clear %player_name% porkchop 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRaw Porkchop for &a+$26.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t6':
+    material: cooked_porkchop
+    slot: 13
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Porkchop'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.271.92 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$36.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1271.92
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COOKED_PORKCHOP
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.'   
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1271.92'
+    - '[console] give %player_name% COOKED_PORKCHOP 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rCooked Porkchop for &c-$1.271.92 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 36.0'
+    - '[console] minecraft:clear %player_name% cooked_porkchop 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rCooked Porkchop for &a+$36.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_t7':
+    material: beef
+    slot: 14
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Beef'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.038.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$26.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1038.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: BEEF
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1038.0'
+    - '[console] give %player_name% BEEF 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRaw Beef for &c-$1.038.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 26.0'
+    - '[console] minecraft:clear %player_name% beef 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRaw Beef for &a+$26.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t8':
+    material: cooked_beef
+    slot: 15
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Steak'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.271.92 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$36.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1271.92
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COOKED_BEEF
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1271.92'
+    - '[console] give %player_name% COOKED_BEEF 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rSteak for &c-$1.271.92 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 36.0'
+    - '[console] minecraft:clear %player_name% cooked_beef 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rSteak for &a+$36.0 ⛁&f.'   
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t9':
+    material: chicken
+    slot: 20
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Chicken'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.126.80 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$12.80 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1126.80
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: CHICKEN
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1126.80'
+    - '[console] give %player_name% CHICKEN 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRaw Chicken for &c-$1.126.80 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 12.80'
+    - '[console] minecraft:clear %player_name% chicken 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRaw Chicken for &a+$12.80 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t10':
+    material: cooked_chicken
+    slot: 21
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Chicken'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.036.80 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$25.60 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1036.80
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COOKED_CHICKEN
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1036.80'
+    - '[console] give %player_name% COOKED_CHICKEN 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rCooked Chicken for &c-$1.036.80 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 25.60'
+    - '[console] minecraft:clear %player_name% cooked_chicken 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rCooked Chicken for &a+$25.60 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t11':
+    material: rabbit
+    slot: 22
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Rabbit'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.280.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$124.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1280.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: RABBIT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1280.0'
+    - '[console] give %player_name% RABBIT 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRaw Rabbit for &c-$1.280.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 124.0'
+    - '[console] minecraft:clear %player_name% rabbit 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRaw Rabbit for &a+$124.0 ⛁&f.'   
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t12':
+    material: cooked_rabbit
+    slot: 23
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Rabbit'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.599.92 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$239.92 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1599.92
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COOKED_RABBIT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1599.92'
+    - '[console] give %player_name% COOKED_RABBIT 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rCooked Rabbit for &c-$1.599.92 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 239.92'
+    - '[console] minecraft:clear %player_name% cooked_rabbit 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rCooked Rabbit for &a+$239.92 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t13':
+    material: mutton
+    slot: 24
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Raw Mutton'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.040.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$38.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1040.0
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: MUTTON
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1040.0'
+    - '[console] give %player_name% MUTTON 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rRaw Mutton for &c-$1.040.0 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 38.0'
+    - '[console] minecraft:clear %player_name% mutton 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rRaw Mutton for &a+$38.0 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t14':
+    material: COOKED_MUTTON
+    slot: 25
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &c▪ Cooked Mutton'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &c&lBUY &ffor &c$1.279.92 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &c&lSELL &ffor &c$42.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1279.92
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COOKED_MUTTON
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &c&lBUTCHER &8▸ &rYou don''t have enough items to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1279.92'
+    - '[console] give %player_name% COOKED_MUTTON 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou bought &bx8 &rCooked Mutton for &c-$1.279.92 ⛁&f.'
+    - '[console] playsound minecraft:skyblock.sounds.buy_girl ambient %player_name% %player_x% %player_y% %player_z%'
+    right_click_commands:
+    - '[givemoney] 42.0'
+    - '[console] minecraft:clear %player_name% cooked_mutton 8'
+    - '[message] &c&lBUTCHER &8▸ &rYou sold &bx8 &rCooked Mutton for &a+$42.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

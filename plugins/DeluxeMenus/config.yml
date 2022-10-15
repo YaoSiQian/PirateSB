@@ -1,0 +1,60 @@
+# DeluxeMenus 1.13.5-DEV-131 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: false
+gui_menus:
+  farmer:
+    file: farmer.yml
+  fisherman:
+    file: fisherman.yml
+  miner:
+    file: miner.yml
+  blacksmith:
+    file: blacksmith.yml
+  butcher:
+    file: butcher.yml
+  builder:
+    file: builder.yml
+  flors:
+    file: flors.yml
+  profile:
+    file: profile.yml
+  main_menu:
+    file: main_menu.yml
+  main_menu2:
+    file: main_menu2.yml
+  bank:
+    file: bank.yml
+  warps:
+    file: warps.yml
+  woodcutter:
+    file: woodcutter.yml
+  guides:
+    file: guides.yml
+  pets:
+    file: pets.yml
+  guide-spanish:
+    file: guide-spanish.yml
+  guide-english:
+    file: guide-english.yml
+  goldexchanger:
+    file: goldexchanger.yml
+  skip:
+    file: skip.yml
+  dungeons:
+    file: dungeons.yml
+  mysterypirate:
+    file: mysterypirate.yml
+  spawners:
+    file: spawners.yml
+  spawneggs:
+    file: spawneggs.yml
+  rareitems:
+    file: rareitems.yml
+  stats:
+    file: stats.yml
+  ranks:
+    file: ranks.yml

@@ -1,0 +1,101 @@
+# ------------------------------------
+#
+# BloodInMinecraft Plugin V8.7 Reworked plugin
+#
+#
+# Config File
+#
+# ------------------------------------
+# You can disable blood on some world
+# -
+blood-disabled-worlds:
+  - disabledworld
+  - noblood
+# --------------------
+# You can disable blood when player wearing parts of armor
+# -
+# Set true to turn on this 
+no-blood-when-wearing-armor: false
+# Check which part weared avoid blood (you can choose multiple)
+no-blood-when-wearing-helmet: true
+no-blood-when-wearing-chestplate: true
+no-blood-when-wearing-leggings: true
+no-blood-when-wearing-boots: true
+# -
+# --------------------
+# You can disable blood when player is blocking
+# -
+# Set true to turn on this 
+no-blood-when-blocking: true
+# -
+# --------------------
+#
+# To found the id for blood particle take a block (like redstone block = REDSTONE_BLOCK or RED_WOOL or RED_CONCRETE, or slimeblock = SLIME_BLOCK) and change block name if you want and do /bim reload 
+# -
+# List of id blocks : https://minecraft-ids.grahamedgecombe.com/
+# Please Now use only name id after 1.12 not numerical id like 1.12 thanks :)
+# -
+# to reload config do /bim reload or if you need help send me a pm on spigot (https://www.spigotmc.org/members/yanisssch91.285669/).
+#
+# --------------------
+# You can choose the material blood particle for player and also for mobs
+# you can disable by setting false on "EnableMaterialParticle"
+# -
+Human: REDSTONE_BLOCK
+Mobs: GOLD_BLOCK
+# -
+# You can choose the amount of blood particle for player and also for mobs
+# Becareful avoid to put more than 100 to avoid client lag ^^
+# I Advise you between 15 and 40 ;)
+HumanAmountParticle: 30
+MobsAmountParticle: 30
+# --------------------
+# Material Particle Type:
+EnableMaterialParticle: true
+# -IMPORTANT: Use MaterialParticle if you use Blocks to make particle like REDSTONE_BLOCK or PLANKS and other (set id just above^)
+# -
+# -
+# ITEM_CRACK(Default) =  (ItemTypeParticle) Will accept both item and block ItemStacks
+# Example: https://imgur.com/jcGcM7Q
+# -
+# -
+# BLOCK_CRACK= (BlockTypeParticle) MUST be from Materials that have #isBlock() equal to true, otherwise you will get an ERROR
+# Example: https://imgur.com/XTmRWOa
+# -
+# BLOCK_DUST= (BlockTypeParticle) MUST be from Materials that have #isBlock() equal to true, otherwise you will get an ERROR
+# Example: https://imgur.com/RYmnZEx
+# -
+# FALLING_DUST= (BlockTypeParticle) MUST be from Materials that have #isBlock() equal to true, otherwise you will get an ERROR
+# Example: https://imgur.com/RQmbyCZ
+# -
+# -Set the type of particle seen above
+# -
+MaterialParticleName: ITEM_CRACK
+# -
+# -
+# --------------------
+# Special particle add Effect like flame, clouds, portals effect at every hit, you can disable material particle and use only special particle
+# You can use both but avoid to put too much amount particle for both to avoid clients lag and avoid to see nothing on the screen when for pvp x)
+EnableSpecialParticle: false
+# -
+# -
+SpecialHumanParticleName: DAMAGE_INDICATOR
+SpecialMobsParticleName: SOUL
+# - 
+# Working SpecialParticleName: FIREWORKS_SPARK, CRIT, FLAME, CLOUD, CRIT, WATER_WAKE, EXPLOSION_NORMAL, CRIT_MAGIC, PORTAL, SMOKE_NORMAL, SMOKE_LARGE
+# ENCHANTMENT_TABLE, DRAGON_BREATH, END_ROD, DAMAGE_INDICATOR, TOTEM, SPIT, SQUID_INK, BUBBLE_POP, NAUTILUS, SOUL_FIRE_FLAME, SOUL, REVERSE_PORTAL, SMALL_FLAME
+# -
+# You can choose the amount of special particle for player and also for mobs
+# Becareful avoid to put too much to avoid client lag and see nothing on the screen x)
+# I Advise you between 10 and 20 but avoid more seriously ;)
+SpecialHumanAmountParticle: 10
+SpecialMobsAmountParticle: 10
+# -
+# -
+# --------------------
+# Send message to Op player to ask him to put his ip server on spigot review or discord to put it on server list which use BIM plugin
+# -
+# Set false to disable this 
+messageopforipserver: false
+# -
+# --------------------

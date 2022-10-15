@@ -1,0 +1,137 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&#3190B7&l▪ Spawn Eggs ⩨'
+open_command:
+  - spawneggs
+register_command: true
+size: 27      
+# as always, only cool people can open this menu :)
+items:
+  'return':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM5NzExMjRiZTg5YWM3ZGM5YzkyOWZlOWI2ZWZhN2EwN2NlMzdjZTFkYTJkZjY5MWJmODY2MzQ2NzQ3N2M3In19fQ=='
+    slot: 10
+    amount: 1
+    display_name: '&7'
+    lore:
+    - ' &#3190B7&l ▪ Return ⬅'
+    - ''
+    click_commands:
+    - '[player] mysterypirate'
+  'wolf_spawn':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg3MWRjNWMwZDYyMmU5OWU0NTA5OTdiYWM3MTY4MzdkNWFiMTU3NjAwYWUwOGU1YWVhNTgwYjZkZjI4ZWNlZCJ9fX0='
+    slot: 13
+    display_name: '&7 '
+    lore:
+    - ' &#3190B7▪ &lWolf Spawn Egg &#3190B7⩨'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$29.170.20 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 19170.20
+      deny_commands:
+      - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou don''t have enough money to buy this egg.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 29170.20'
+    - '[console] give %player_name% wolf_spawn_egg 1'
+    - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou bought &bx1 &rWolf Spawn Egg for &c-$29.170.20 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'horse_spawn':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdlYjc1MDc0ZGY2ZTRiM2EyZTZmNjYwMWFlM2U0NDdkZmUxNmRjN2E4YzYzZTIyZWEzYTczMGJiNzQ4MTU3In19fQ=='
+    slot: 14
+    display_name: '&7 '
+    lore:
+    - ' &#3190B7▪ &lHorse Spawn Egg &#3190B7⩨'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$39.170.15 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 49170.15
+      deny_commands:
+      - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou don''t have enough money to buy this egg.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 49170.15'
+    - '[console] give %player_name% horse_spawn_egg 1'
+    - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou bought &bx1 &rHorse Spawn Egg for &c-$49.170.15 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'villager_spawn':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg3MTIxYjVlYzEyMThmNzQzNWVhNTY2YmY1NjVkYjNlMjNkYmM0ZTNkNzhjMjUwZDk1NWVjOTAxNmJhYTdmNCJ9fX0='
+    slot: 15
+    display_name: '&7 '
+    lore:
+    - ' &#3190B7▪ &lVillager Spawn Egg &#3190B7⩨'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$94.170.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 94170.0
+      deny_commands:
+      - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou don''t have enough money to buy this egg.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 94170.0'
+    - '[console] give %player_name% villager_spawn_egg 1'
+    - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou bought &bx1 &rVillager Spawn Egg for &c-$94.170.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'blaze_spawn':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAzZmE3NzdlYTk1OWM5N2M0NDkzMmZkZGFiZjFhZTRmNDNhZTdkN2ZlMmZkNmM2MWQyZWNmM2VjYzViYWFkMSJ9fX0='
+    slot: 16
+    display_name: '&7 '
+    lore:
+    - ' &#3190B7▪ &lBlaze Spawn Egg &#3190B7⩨'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$147.170.40 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 147170.40
+      deny_commands:
+      - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou don''t have enough money to buy this egg.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 147170.40'
+    - '[console] give %player_name% blaze_spawn_egg 1'
+    - '[message] &#3190B7&lSPAWN EGG &8▸ &rYou bought &bx1 &rBlaze Spawn Egg for &c-$147.170.40 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_1':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 9
+      - 11
+      - 18
+      - 19
+      - 20
+    display_name: ' '
+  'items_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 12
+      - 17
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

@@ -1,0 +1,6 @@
+settings:
+  check-updates: false
+  load-timer: 100
+  move-hologram-with-head: true
+  language: en_GB
+  join-load-delay: 20

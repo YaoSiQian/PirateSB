@@ -1,0 +1,1105 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#EFF1F1▪ Miner ☗'
+register_command: true
+open_commands:
+    - '[console] playsound minecraft:skyblock.sounds.male_miner ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - miner
+size: 36
+        
+# as always, only cool people can open this menu :)
+items:
+  'items_1':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 16
+      - 17
+    display_name: ' '
+  'items_2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+      - 18
+      - 19
+      - 26
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    display_name: ' '
+  'x1':
+    material: HOPPER
+    slot: 27
+    priority: 5
+    amount: 8
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx1  '
+    - ' '
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    click_commands:
+    - '[meta] set AMOUNT STRING 1'
+    - '[refresh]'
+  'x8':
+    material: HOPPER
+    slot: 27
+    priority: 6
+    display_name: '&7 '
+    lore:
+    - '  &6⚓ Change Amount: &e&lx8  '
+    - ' '
+    click_commands:
+    - '[meta] set AMOUNT STRING 8'
+    - '[refresh]'
+  'items_3':
+    material: flint
+    slot: 10
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Flint'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 100.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: FLINT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'      
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 100'
+    - '[console] give %player_name% FLINT 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rFlint for &c-$100 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.50'
+    - '[console] minecraft:clear %player_name% flint 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rFlint for &a+$1.50 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_4':
+    material: coal
+    slot: 11
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Coal'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$120.25 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.05 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 120.25
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: COAL
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 120.25'
+    - '[console] give %player_name% COAL 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rCoal for &c-$120.25 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.05'
+    - '[console] minecraft:clear %player_name% coal 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rCoal for &a+$1.05 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_5':
+    material: charcoal
+    slot: 12
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Charcoal'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$125.25 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.10 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 125.25
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'      
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: CHARCOAL
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 125.25'
+    - '[console] give %player_name% CHARCOAL 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rCharcoal for &c-$125.25 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.10'
+    - '[console] minecraft:clear %player_name% charcoal 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rCharcoal for &a+$1.10 ⛁&f.'    
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_6':
+    material: iron_ingot
+    slot: 13
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Iron Ingot'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$160.25 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 160.25
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: IRON_INGOT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 160.25'
+    - '[console] give %player_name% IRON_INGOT 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rIron Ingot for &c-$160.25 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.25'
+    - '[console] minecraft:clear %player_name% iron_ingot 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rIron Ingot for &a+$1.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_7':
+    material: slime_ball
+    slot: 14
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Slime Ball'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$200.25 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 200.25
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SLIME_BALL
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 200.25'
+    - '[console] give %player_name% slime_ball 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rSlime Ball for &c-$200.25 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 2.50'
+    - '[console] minecraft:clear %player_name% slime_ball 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rSlime Ball for &a+$2.50 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_8':
+    material: diamond
+    slot: 15
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Diamond'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$300.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$4.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 300.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: DIAMOND
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 300.0'
+    - '[console] give %player_name% DIAMOND 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rDiamond for &c-$300.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.50'
+    - '[console] minecraft:clear %player_name% diamond 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rDiamond for &a+$4.50 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_9':
+    material: lapis_lazuli
+    slot: 20
+    priority: 6
+    display_name: '&7 '    
+    lore:
+    - ' &7▪ Lapis Lazuli'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$30.50 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 30.50
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: LAPIS_LAZULI
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 30.50'
+    - '[console] give %player_name% LAPIS_LAZULI 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rLapis Lazuli for &c-$30.50 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 0.25'
+    - '[console] minecraft:clear %player_name% lapis_lazuli 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rLapis Lazuli for &a+$0.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_10':
+    material: redstone
+    slot: 21
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Redstone'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$30.75 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.10 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 30.75
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: REDSTONE
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 30.75'
+    - '[console] give %player_name% REDSTONE 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rRedstone for &c-$30.75 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 0.10'
+    - '[console] minecraft:clear %player_name% redstone 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rRedstone for &a+$0.10 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_11':
+    material: netherite_scrap
+    slot: 22
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Netherite Scrap'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1000.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$250.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1000
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: NETHERITE_SCRAP
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1000.0'
+    - '[console] give %player_name% NETHERITE_SCRAP 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNetherite Scrap for &c-$1000.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 250.0'
+    - '[console] minecraft:clear %player_name% netherite_scrap 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNetherite Scrap for &a+$250.0 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_12':
+    material: netherite_ingot
+    slot: 23
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Netherite Ingot'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$2500.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$500.0 ⛁'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: NETHERITE_INGOT
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2500.0'
+    - '[console] give %player_name% NETHERITE_INGOT 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNetherite Ingot for &c-$2500.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 500.0'
+    - '[console] minecraft:clear %player_name% netherite_ingot 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNetherite Ingot for &a+$500.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_13':
+    material: glowstone_dust
+    slot: 24
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Glowstone Dust'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.15 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 100.15
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: GLOWSTONE_DUST
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 100.15'
+    - '[console] give %player_name% GLOWSTONE_DUST 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rGlowstone Dust for &c-$100.15 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.25'
+    - '[console] minecraft:clear %player_name% glowstone_dust 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rGlowstone Dust for &a+$1.25 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_14':
+    material: quartz
+    slot: 25
+    priority: 6
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Nether Quartz'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.50 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 100.50
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: QUARTZ
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 100.50'
+    - '[console] give %player_name% QUARTZ 1'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNether Quartz for &c-$100.50 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 1.0'
+    - '[console] minecraft:clear %player_name% quartz 1'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNether Quartz for &a+$1.0 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t3':
+    material: flint
+    slot: 10
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Flint'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$800.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$12.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 800.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: FLINT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 800.0'
+    - '[console] give %player_name% FLINT 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rFlint for &c-$800.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 12.0'
+    - '[console] minecraft:clear %player_name% flint 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rFlint for &a+$12.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t4':
+    material: coal
+    slot: 11
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Coal'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$962.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.40 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 962.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: COAL
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 962.0'
+    - '[console] give %player_name% COAL 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rCoal for &c-$962.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 8.40'
+    - '[console] minecraft:clear %player_name% coal 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rCoal for &a+$8.40 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t5':
+    material: charcoal
+    slot: 12
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Charcoal'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.002.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.80 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1002.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: CHARCOAL
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1002.0'
+    - '[console] give %player_name% CHARCOAL 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rCharcoal for &c-$1.002.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 8.80'
+    - '[console] minecraft:clear %player_name% charcoal 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rCharcoal for &a+$8.80 ⛁&f.'    
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t6':
+    material: iron_ingot
+    slot: 13
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Iron Ingot'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.282.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$10.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1282.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: IRON_INGOT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1282.0'
+    - '[console] give %player_name% IRON_INGOT 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rIron Ingot for &c-$1.282.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 10.0'
+    - '[console] minecraft:clear %player_name% iron_ingot 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rIron Ingot for &a+$10.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t7':
+    material: slime_ball
+    slot: 14
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Slime Ball'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.602.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$20.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 1602.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: SLIME_BALL
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1602.0'
+    - '[console] give %player_name% SLIME_BALL 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rSlime Ball for &c-$1.602 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 20.0'
+    - '[console] minecraft:clear %player_name% slime_ball 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rSlime Ball for &a+$20.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t8':
+    material: diamond
+    slot: 15
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Diamond'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$2.400.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$36.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 2400.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: DIAMOND
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2400.0'
+    - '[console] give %player_name% DIAMOND 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rDiamond for &c-$2400.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 36.0'
+    - '[console] minecraft:clear %player_name% diamond 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rDiamond for &a+$36.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
+  'items_t9':
+    material: lapis_lazuli
+    slot: 20
+    priority: 5
+    amount: 8
+    display_name: '&7 '    
+    lore:
+    - ' &7▪ Lapis Lazuli'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$244.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 244.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: LAPIS_LAZULI
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 244.0'
+    - '[console] give %player_name% LAPIS_LAZULI 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rLapis Lazuli for &c-$244.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 2.0'
+    - '[console] minecraft:clear %player_name% lapis_lazuli 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rLapis Lazuli for &a+$2.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t10':
+    material: redstone
+    slot: 21
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Redstone'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$246.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.80 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 246.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: REDSTONE
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 246.0'
+    - '[console] give %player_name% REDSTONE 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rRedstone for &c-$246.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 0.80'
+    - '[console] minecraft:clear %player_name% redstone 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rRedstone for &a+$0.80 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t11':
+    material: netherite_scrap
+    slot: 22
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Netherite Scrap'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$8.000.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.000.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 8000.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: NETHERITE_SCRAP
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 8000.0'
+    - '[console] give %player_name% NETHERITE_SCRAP 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNetherite Scrap for &c-$8.000.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 2000.0'
+    - '[console] minecraft:clear %player_name% netherite_scrap 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNetherite Scrap for &a+$2.000.0 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t12':
+    material: netherite_ingot
+    slot: 23
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Netherite Ingot'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$20.000.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$4.000.0 ⛁'
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 20000.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: NETHERITE_INGOT
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 20000.0'
+    - '[console] give %player_name% NETHERITE_INGOT 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNetherite Ingot for &c-$20.000.0.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4000.0'
+    - '[console] minecraft:clear %player_name% netherite_ingot 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNetherite Ingot for &a+$4.000.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t13':
+    material: glowstone_dust
+    slot: 24
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Glowstone Dust'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$801.20 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$10.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 801.20
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: GLOWSTONE_DUST
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 801.20'
+    - '[console] give %player_name% GLOWSTONE_DUST 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rGlowstone Dust for &c-$801.20 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 10.0'
+    - '[console] minecraft:clear %player_name% glowstone_dust 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rGlowstone Dust for &a+$10.0 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_t14':
+    material: quartz
+    slot: 25
+    priority: 5
+    amount: 8
+    display_name: '&7 '     
+    lore:
+    - ' &7▪ Nether Quartz'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$804.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.0 ⛁ '
+    - ''
+    view_requirement:
+      requirements:
+        Check_Selected:
+          type: has meta
+          key: "AMOUNT"
+          meta_type: STRING
+          value: '8'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 804.0
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        items:
+          type: has item
+          material: QUARTZ
+          data: 0
+          amount: 8
+      deny_commands:
+      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 804.0'
+    - '[console] give %player_name% QUARTZ 8'
+    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNether Quartz for &c-$804.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 8.0'
+    - '[console] minecraft:clear %player_name% quartz 8'
+    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNether Quartz for &a+$8.0 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

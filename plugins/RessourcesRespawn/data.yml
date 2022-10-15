@@ -1,0 +1,3768 @@
+MainWorld:
+  '14_16':
+    '227_100_266':
+      Material: ANDESITE
+      Type: Blocks
+    '225_100_265':
+      Material: ANDESITE
+      Type: Blocks
+    '224_100_264':
+      Material: ANDESITE
+      Type: Blocks
+    '225_100_264':
+      Material: ANDESITE
+      Type: Blocks
+    '225_100_268':
+      Material: IRON_ORE
+      Type: Blocks
+    '225_100_266':
+      Material: STONE
+      Type: Blocks
+    '226_100_266':
+      Material: STONE
+      Type: Blocks
+    '224_100_267':
+      Material: STONE
+      Type: Blocks
+    '225_100_267':
+      Material: STONE
+      Type: Blocks
+    '226_100_267':
+      Material: STONE
+      Type: Blocks
+    '227_100_267':
+      Material: STONE
+      Type: Blocks
+    '226_100_268':
+      Material: STONE
+      Type: Blocks
+    '227_100_268':
+      Material: STONE
+      Type: Blocks
+    '228_100_268':
+      Material: STONE
+      Type: Blocks
+    '228_100_269':
+      Material: STONE
+      Type: Blocks
+    '227_100_269':
+      Material: STONE
+      Type: Blocks
+    '226_100_269':
+      Material: STONE
+      Type: Blocks
+    '225_100_269':
+      Material: STONE
+      Type: Blocks
+    '224_100_269':
+      Material: STONE
+      Type: Blocks
+    '224_100_268':
+      Material: STONE
+      Type: Blocks
+    '224_100_270':
+      Material: STONE
+      Type: Blocks
+    '225_100_270':
+      Material: STONE
+      Type: Blocks
+    '225_100_271':
+      Material: STONE
+      Type: Blocks
+    '224_100_271':
+      Material: STONE
+      Type: Blocks
+    '227_100_271':
+      Material: STONE
+      Type: Blocks
+    '227_100_270':
+      Material: STONE
+      Type: Blocks
+    '226_102_271':
+      Material: IRON_ORE
+      Type: Blocks
+    '228_100_270':
+      Material: STONE
+      Type: Blocks
+    '229_100_270':
+      Material: STONE
+      Type: Blocks
+    '228_100_271':
+      Material: STONE
+      Type: Blocks
+    '229_100_271':
+      Material: STONE
+      Type: Blocks
+    '226_101_271':
+      Material: STONE
+      Type: Blocks
+    '235_101_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_102_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_103_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_101_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_100_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '234_99_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_101_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_102_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '234_103_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_103_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_104_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '234_104_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_104_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_105_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '234_105_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_105_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_106_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_106_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_106_269':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_101_264':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_101_265':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_101_265':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '239_100_267':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '239_100_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '238_100_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '239_100_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '239_100_271':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '231_99_271':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '231_99_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_99_270':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '231_99_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_99_268':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_99_267':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '232_99_266':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_100_267':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_100_266':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '231_99_266':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '231_99_265':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '230_99_265':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '226_99_263':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '225_99_263':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '226_100_265':
+      Material: ANDESITE
+      Type: Blocks
+  '13_17':
+    '222_100_283':
+      Material: STONE
+      Type: Blocks
+    '221_100_283':
+      Material: STONE
+      Type: Blocks
+    '223_100_282':
+      Material: STONE
+      Type: Blocks
+    '223_100_274':
+      Material: COAL_ORE
+      Type: Blocks
+    '223_100_273':
+      Material: STONE
+      Type: Blocks
+    '222_100_273':
+      Material: STONE
+      Type: Blocks
+    '222_100_274':
+      Material: STONE
+      Type: Blocks
+    '222_100_275':
+      Material: STONE
+      Type: Blocks
+    '223_100_275':
+      Material: STONE
+      Type: Blocks
+    '223_100_276':
+      Material: STONE
+      Type: Blocks
+    '220_100_282':
+      Material: IRON_ORE
+      Type: Blocks
+    '218_100_277':
+      Material: GOLD_ORE
+      Type: Blocks
+    '220_100_272':
+      Material: STONE
+      Type: Blocks
+    '221_100_272':
+      Material: STONE
+      Type: Blocks
+    '222_100_272':
+      Material: STONE
+      Type: Blocks
+    '223_100_272':
+      Material: STONE
+      Type: Blocks
+    '218_100_273':
+      Material: STONE
+      Type: Blocks
+    '218_100_272':
+      Material: STONE
+      Type: Blocks
+    '219_100_272':
+      Material: STONE
+      Type: Blocks
+    '220_100_273':
+      Material: STONE
+      Type: Blocks
+    '221_100_273':
+      Material: STONE
+      Type: Blocks
+    '219_101_273':
+      Material: COAL_ORE
+      Type: Blocks
+    '219_103_274':
+      Material: COAL_ORE
+      Type: Blocks
+    '219_102_274':
+      Material: STONE
+      Type: Blocks
+    '219_102_273':
+      Material: STONE
+      Type: Blocks
+    '220_101_274':
+      Material: STONE
+      Type: Blocks
+    '219_101_274':
+      Material: STONE
+      Type: Blocks
+    '221_100_274':
+      Material: STONE
+      Type: Blocks
+    '221_100_275':
+      Material: STONE
+      Type: Blocks
+    '220_100_275':
+      Material: STONE
+      Type: Blocks
+    '217_100_276':
+      Material: STONE
+      Type: Blocks
+    '217_100_277':
+      Material: STONE
+      Type: Blocks
+    '217_100_278':
+      Material: STONE
+      Type: Blocks
+    '218_100_278':
+      Material: STONE
+      Type: Blocks
+    '219_100_278':
+      Material: STONE
+      Type: Blocks
+    '219_100_277':
+      Material: STONE
+      Type: Blocks
+    '219_100_276':
+      Material: STONE
+      Type: Blocks
+    '218_100_276':
+      Material: STONE
+      Type: Blocks
+    '220_100_276':
+      Material: GOLD_ORE
+      Type: Blocks
+    '221_100_276':
+      Material: STONE
+      Type: Blocks
+    '221_100_277':
+      Material: STONE
+      Type: Blocks
+    '220_100_277':
+      Material: STONE
+      Type: Blocks
+    '220_100_278':
+      Material: STONE
+      Type: Blocks
+    '221_100_278':
+      Material: STONE
+      Type: Blocks
+    '222_100_276':
+      Material: STONE
+      Type: Blocks
+    '222_100_277':
+      Material: STONE
+      Type: Blocks
+    '222_100_278':
+      Material: STONE
+      Type: Blocks
+    '223_100_278':
+      Material: STONE
+      Type: Blocks
+    '223_100_277':
+      Material: STONE
+      Type: Blocks
+    '223_100_281':
+      Material: STONE
+      Type: Blocks
+    '222_100_281':
+      Material: STONE
+      Type: Blocks
+    '222_100_282':
+      Material: STONE
+      Type: Blocks
+    '221_100_282':
+      Material: STONE
+      Type: Blocks
+    '221_100_280':
+      Material: STONE
+      Type: Blocks
+    '221_100_281':
+      Material: STONE
+      Type: Blocks
+    '219_100_281':
+      Material: STONE
+      Type: Blocks
+    '219_100_282':
+      Material: STONE
+      Type: Blocks
+    '220_100_281':
+      Material: STONE
+      Type: Blocks
+    '220_100_280':
+      Material: STONE
+      Type: Blocks
+    '220_100_279':
+      Material: STONE
+      Type: Blocks
+    '219_100_279':
+      Material: STONE
+      Type: Blocks
+    '219_100_280':
+      Material: STONE
+      Type: Blocks
+    '218_100_279':
+      Material: STONE
+      Type: Blocks
+    '218_100_280':
+      Material: STONE
+      Type: Blocks
+    '217_100_279':
+      Material: STONE
+      Type: Blocks
+    '217_99_287':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '222_99_285':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '220_100_287':
+      Material: STONE
+      Type: Blocks
+    '219_99_284':
+      Material: STONE
+      Type: Blocks
+    '218_99_284':
+      Material: STONE
+      Type: Blocks
+    '217_99_285':
+      Material: STONE
+      Type: Blocks
+    '216_99_287':
+      Material: STONE
+      Type: Blocks
+    '216_99_286':
+      Material: STONE
+      Type: Blocks
+    '223_99_283':
+      Material: STONE
+      Type: Blocks
+    '221_99_284':
+      Material: STONE
+      Type: Blocks
+    '222_99_284':
+      Material: STONE
+      Type: Blocks
+    '223_99_284':
+      Material: STONE
+      Type: Blocks
+    '223_99_285':
+      Material: STONE
+      Type: Blocks
+    '222_99_286':
+      Material: STONE
+      Type: Blocks
+    '223_99_286':
+      Material: STONE
+      Type: Blocks
+    '221_99_287':
+      Material: STONE
+      Type: Blocks
+    '223_99_287':
+      Material: STONE
+      Type: Blocks
+    '222_99_287':
+      Material: STONE
+      Type: Blocks
+    '218_99_286':
+      Material: STONE
+      Type: Blocks
+    '219_99_286':
+      Material: STONE
+      Type: Blocks
+    '221_99_286':
+      Material: STONE
+      Type: Blocks
+    '220_99_286':
+      Material: STONE
+      Type: Blocks
+    '218_99_285':
+      Material: STONE
+      Type: Blocks
+    '219_99_285':
+      Material: STONE
+      Type: Blocks
+    '220_99_285':
+      Material: STONE
+      Type: Blocks
+    '221_99_285':
+      Material: STONE
+      Type: Blocks
+    '217_99_286':
+      Material: STONE
+      Type: Blocks
+    '218_99_287':
+      Material: STONE
+      Type: Blocks
+    '219_99_287':
+      Material: STONE
+      Type: Blocks
+  '14_17':
+    '224_100_282':
+      Material: STONE
+      Type: Blocks
+    '225_100_283':
+      Material: STONE
+      Type: Blocks
+    '226_100_283':
+      Material: STONE
+      Type: Blocks
+    '227_100_282':
+      Material: STONE
+      Type: Blocks
+    '228_100_281':
+      Material: STONE
+      Type: Blocks
+    '229_100_281':
+      Material: STONE
+      Type: Blocks
+    '230_100_280':
+      Material: STONE
+      Type: Blocks
+    '231_100_280':
+      Material: STONE
+      Type: Blocks
+    '231_100_279':
+      Material: STONE
+      Type: Blocks
+    '232_100_278':
+      Material: STONE
+      Type: Blocks
+    '232_100_277':
+      Material: STONE
+      Type: Blocks
+    '231_100_276':
+      Material: STONE
+      Type: Blocks
+    '230_100_275':
+      Material: STONE
+      Type: Blocks
+    '230_100_274':
+      Material: STONE
+      Type: Blocks
+    '224_100_275':
+      Material: COAL_ORE
+      Type: Blocks
+    '224_100_274':
+      Material: COAL_ORE
+      Type: Blocks
+    '225_100_275':
+      Material: STONE
+      Type: Blocks
+    '225_100_274':
+      Material: STONE
+      Type: Blocks
+    '225_100_273':
+      Material: STONE
+      Type: Blocks
+    '224_100_273':
+      Material: STONE
+      Type: Blocks
+    '224_100_276':
+      Material: STONE
+      Type: Blocks
+    '225_100_276':
+      Material: STONE
+      Type: Blocks
+    '228_100_273':
+      Material: COAL_ORE
+      Type: Blocks
+    '227_100_273':
+      Material: COAL_ORE
+      Type: Blocks
+    '227_100_274':
+      Material: COAL_ORE
+      Type: Blocks
+    '227_100_281':
+      Material: IRON_ORE
+      Type: Blocks
+    '224_100_272':
+      Material: STONE
+      Type: Blocks
+    '225_100_272':
+      Material: STONE
+      Type: Blocks
+    '226_100_272':
+      Material: STONE
+      Type: Blocks
+    '227_100_272':
+      Material: STONE
+      Type: Blocks
+    '228_100_272':
+      Material: STONE
+      Type: Blocks
+    '229_100_273':
+      Material: STONE
+      Type: Blocks
+    '229_100_272':
+      Material: STONE
+      Type: Blocks
+    '230_100_273':
+      Material: STONE
+      Type: Blocks
+    '228_100_274':
+      Material: STONE
+      Type: Blocks
+    '229_100_274':
+      Material: STONE
+      Type: Blocks
+    '227_100_275':
+      Material: STONE
+      Type: Blocks
+    '228_100_275':
+      Material: STONE
+      Type: Blocks
+    '226_100_275':
+      Material: STONE
+      Type: Blocks
+    '226_100_274':
+      Material: STONE
+      Type: Blocks
+    '226_100_273':
+      Material: STONE
+      Type: Blocks
+    '224_100_277':
+      Material: STONE
+      Type: Blocks
+    '225_100_277':
+      Material: STONE
+      Type: Blocks
+    '226_100_276':
+      Material: STONE
+      Type: Blocks
+    '226_100_277':
+      Material: STONE
+      Type: Blocks
+    '226_100_278':
+      Material: STONE
+      Type: Blocks
+    '225_100_278':
+      Material: STONE
+      Type: Blocks
+    '224_100_278':
+      Material: STONE
+      Type: Blocks
+    '230_100_276':
+      Material: STONE
+      Type: Blocks
+    '229_100_276':
+      Material: STONE
+      Type: Blocks
+    '228_100_276':
+      Material: STONE
+      Type: Blocks
+    '227_100_276':
+      Material: STONE
+      Type: Blocks
+    '231_100_278':
+      Material: STONE
+      Type: Blocks
+    '231_100_277':
+      Material: STONE
+      Type: Blocks
+    '230_100_279':
+      Material: STONE
+      Type: Blocks
+    '230_100_278':
+      Material: STONE
+      Type: Blocks
+    '230_100_277':
+      Material: STONE
+      Type: Blocks
+    '228_104_278':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '228_103_278':
+      Material: STONE
+      Type: Blocks
+    '228_102_278':
+      Material: STONE
+      Type: Blocks
+    '228_101_278':
+      Material: STONE
+      Type: Blocks
+    '229_101_278':
+      Material: STONE
+      Type: Blocks
+    '229_102_278':
+      Material: STONE
+      Type: Blocks
+    '225_100_279':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '224_100_279':
+      Material: STONE
+      Type: Blocks
+    '224_100_280':
+      Material: STONE
+      Type: Blocks
+    '225_100_280':
+      Material: STONE
+      Type: Blocks
+    '226_100_279':
+      Material: STONE
+      Type: Blocks
+    '226_100_280':
+      Material: STONE
+      Type: Blocks
+    '227_100_279':
+      Material: STONE
+      Type: Blocks
+    '228_100_279':
+      Material: STONE
+      Type: Blocks
+    '229_100_279':
+      Material: STONE
+      Type: Blocks
+    '229_100_280':
+      Material: STONE
+      Type: Blocks
+    '228_100_280':
+      Material: STONE
+      Type: Blocks
+    '227_100_280':
+      Material: STONE
+      Type: Blocks
+    '226_100_281':
+      Material: STONE
+      Type: Blocks
+    '225_100_282':
+      Material: STONE
+      Type: Blocks
+    '226_100_282':
+      Material: STONE
+      Type: Blocks
+    '225_100_281':
+      Material: STONE
+      Type: Blocks
+    '224_100_281':
+      Material: STONE
+      Type: Blocks
+    '225_99_286':
+      Material: COAL_ORE
+      Type: Blocks
+    '224_99_287':
+      Material: STONE
+      Type: Blocks
+    '225_99_284':
+      Material: STONE
+      Type: Blocks
+    '225_99_285':
+      Material: STONE
+      Type: Blocks
+    '224_99_283':
+      Material: STONE
+      Type: Blocks
+    '224_99_284':
+      Material: STONE
+      Type: Blocks
+    '224_99_285':
+      Material: STONE
+      Type: Blocks
+    '224_99_286':
+      Material: STONE
+      Type: Blocks
+    '236_99_275':
+      Material: ANDESITE
+      Type: Blocks
+    '235_99_275':
+      Material: ANDESITE
+      Type: Blocks
+    '235_99_274':
+      Material: ANDESITE
+      Type: Blocks
+    '236_99_277':
+      Material: STONE
+      Type: Blocks
+    '237_99_277':
+      Material: STONE
+      Type: Blocks
+    '238_99_277':
+      Material: STONE
+      Type: Blocks
+    '239_99_277':
+      Material: STONE
+      Type: Blocks
+    '233_99_278':
+      Material: STONE
+      Type: Blocks
+    '234_99_278':
+      Material: STONE
+      Type: Blocks
+    '235_99_278':
+      Material: STONE
+      Type: Blocks
+    '233_99_279':
+      Material: STONE
+      Type: Blocks
+    '233_99_276':
+      Material: STONE
+      Type: Blocks
+    '233_99_277':
+      Material: STONE
+      Type: Blocks
+    '234_99_276':
+      Material: STONE
+      Type: Blocks
+    '234_99_277':
+      Material: STONE
+      Type: Blocks
+    '235_99_276':
+      Material: STONE
+      Type: Blocks
+    '235_99_277':
+      Material: STONE
+      Type: Blocks
+    '238_99_276':
+      Material: STONE
+      Type: Blocks
+    '237_99_276':
+      Material: STONE
+      Type: Blocks
+    '236_99_276':
+      Material: STONE
+      Type: Blocks
+    '239_99_275':
+      Material: STONE
+      Type: Blocks
+    '238_99_275':
+      Material: STONE
+      Type: Blocks
+    '233_99_275':
+      Material: STONE
+      Type: Blocks
+    '234_99_275':
+      Material: STONE
+      Type: Blocks
+    '234_99_274':
+      Material: STONE
+      Type: Blocks
+    '235_98_284':
+      Material: IRON_ORE
+      Type: Blocks
+    '235_98_283':
+      Material: IRON_ORE
+      Type: Blocks
+    '234_98_283':
+      Material: IRON_ORE
+      Type: Blocks
+    '229_98_285':
+      Material: COAL_ORE
+      Type: Blocks
+    '230_98_284':
+      Material: COAL_ORE
+      Type: Blocks
+    '230_98_285':
+      Material: COAL_ORE
+      Type: Blocks
+    '231_98_284':
+      Material: COAL_ORE
+      Type: Blocks
+    '231_98_285':
+      Material: COAL_ORE
+      Type: Blocks
+    '230_98_286':
+      Material: COAL_ORE
+      Type: Blocks
+    '232_98_284':
+      Material: COAL_ORE
+      Type: Blocks
+    '239_98_284':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '239_98_283':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '234_98_282':
+      Material: STONE
+      Type: Blocks
+    '235_98_282':
+      Material: STONE
+      Type: Blocks
+    '234_98_281':
+      Material: STONE
+      Type: Blocks
+    '235_98_281':
+      Material: STONE
+      Type: Blocks
+    '239_98_287':
+      Material: STONE
+      Type: Blocks
+    '239_98_286':
+      Material: STONE
+      Type: Blocks
+    '239_98_285':
+      Material: STONE
+      Type: Blocks
+    '239_98_279':
+      Material: STONE
+      Type: Blocks
+    '239_98_280':
+      Material: STONE
+      Type: Blocks
+    '239_98_281':
+      Material: STONE
+      Type: Blocks
+    '239_98_282':
+      Material: STONE
+      Type: Blocks
+    '238_98_279':
+      Material: STONE
+      Type: Blocks
+    '237_98_279':
+      Material: STONE
+      Type: Blocks
+    '235_98_280':
+      Material: STONE
+      Type: Blocks
+    '236_98_280':
+      Material: STONE
+      Type: Blocks
+    '237_98_280':
+      Material: STONE
+      Type: Blocks
+    '238_98_280':
+      Material: STONE
+      Type: Blocks
+    '238_98_281':
+      Material: STONE
+      Type: Blocks
+    '236_98_281':
+      Material: STONE
+      Type: Blocks
+    '236_98_282':
+      Material: STONE
+      Type: Blocks
+    '237_98_281':
+      Material: STONE
+      Type: Blocks
+    '237_98_282':
+      Material: STONE
+      Type: Blocks
+    '238_98_282':
+      Material: STONE
+      Type: Blocks
+    '238_98_283':
+      Material: STONE
+      Type: Blocks
+    '236_98_283':
+      Material: STONE
+      Type: Blocks
+    '236_98_284':
+      Material: STONE
+      Type: Blocks
+    '238_98_284':
+      Material: STONE
+      Type: Blocks
+    '237_98_283':
+      Material: STONE
+      Type: Blocks
+    '237_98_284':
+      Material: STONE
+      Type: Blocks
+    '232_98_283':
+      Material: STONE
+      Type: Blocks
+    '233_98_283':
+      Material: STONE
+      Type: Blocks
+    '233_98_284':
+      Material: STONE
+      Type: Blocks
+    '234_98_284':
+      Material: STONE
+      Type: Blocks
+    '233_98_285':
+      Material: STONE
+      Type: Blocks
+    '232_98_285':
+      Material: STONE
+      Type: Blocks
+    '234_98_285':
+      Material: STONE
+      Type: Blocks
+    '235_98_285':
+      Material: STONE
+      Type: Blocks
+    '236_98_285':
+      Material: STONE
+      Type: Blocks
+    '237_98_285':
+      Material: STONE
+      Type: Blocks
+    '238_98_285':
+      Material: STONE
+      Type: Blocks
+    '238_98_286':
+      Material: STONE
+      Type: Blocks
+    '237_98_286':
+      Material: STONE
+      Type: Blocks
+    '236_98_286':
+      Material: STONE
+      Type: Blocks
+    '235_98_286':
+      Material: STONE
+      Type: Blocks
+    '234_98_286':
+      Material: STONE
+      Type: Blocks
+    '233_98_286':
+      Material: STONE
+      Type: Blocks
+    '232_98_286':
+      Material: STONE
+      Type: Blocks
+    '231_98_286':
+      Material: STONE
+      Type: Blocks
+    '229_98_286':
+      Material: STONE
+      Type: Blocks
+    '228_98_286':
+      Material: STONE
+      Type: Blocks
+    '227_98_286':
+      Material: STONE
+      Type: Blocks
+    '227_98_287':
+      Material: STONE
+      Type: Blocks
+    '228_98_287':
+      Material: STONE
+      Type: Blocks
+    '229_98_287':
+      Material: STONE
+      Type: Blocks
+    '230_98_287':
+      Material: STONE
+      Type: Blocks
+    '231_98_287':
+      Material: STONE
+      Type: Blocks
+    '233_98_287':
+      Material: STONE
+      Type: Blocks
+    '232_98_287':
+      Material: STONE
+      Type: Blocks
+    '234_98_287':
+      Material: STONE
+      Type: Blocks
+    '235_98_287':
+      Material: STONE
+      Type: Blocks
+    '236_98_287':
+      Material: STONE
+      Type: Blocks
+    '237_98_287':
+      Material: STONE
+      Type: Blocks
+    '238_98_287':
+      Material: STONE
+      Type: Blocks
+    '237_99_275':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '237_99_274':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '237_99_273':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '238_99_274':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_99_274':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '236_99_272':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '235_99_273':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '234_99_273':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '233_99_272':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+    '227_100_277':
+      Material: STONE
+      Type: Blocks
+    '239_99_276':
+      Material: COPPER_ORE
+      Type: Blocks
+    '229_100_275':
+      Material: COPPER_ORE
+      Type: Blocks
+  '13_16':
+    '222_100_270':
+      Material: IRON_ORE
+      Type: Blocks
+    '223_100_268':
+      Material: STONE
+      Type: Blocks
+    '223_100_269':
+      Material: STONE
+      Type: Blocks
+    '222_100_269':
+      Material: STONE
+      Type: Blocks
+    '221_100_269':
+      Material: STONE
+      Type: Blocks
+    '221_100_270':
+      Material: STONE
+      Type: Blocks
+    '221_100_271':
+      Material: STONE
+      Type: Blocks
+    '222_100_271':
+      Material: STONE
+      Type: Blocks
+    '223_100_271':
+      Material: STONE
+      Type: Blocks
+    '223_100_270':
+      Material: STONE
+      Type: Blocks
+    '220_100_271':
+      Material: STONE
+      Type: Blocks
+    '218_100_271':
+      Material: STONE
+      Type: Blocks
+  '13_18':
+    '218_99_293':
+      Material: COAL_ORE
+      Type: Blocks
+    '218_99_292':
+      Material: COAL_ORE
+      Type: Blocks
+    '219_99_292':
+      Material: COAL_ORE
+      Type: Blocks
+    '222_99_293':
+      Material: IRON_ORE
+      Type: Blocks
+    '223_99_293':
+      Material: IRON_ORE
+      Type: Blocks
+    '221_99_290':
+      Material: IRON_ORE
+      Type: Blocks
+    '220_103_288':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '220_100_288':
+      Material: STONE
+      Type: Blocks
+    '220_101_288':
+      Material: STONE
+      Type: Blocks
+    '220_102_288':
+      Material: STONE
+      Type: Blocks
+    '217_99_288':
+      Material: STONE
+      Type: Blocks
+    '216_99_289':
+      Material: STONE
+      Type: Blocks
+    '216_99_290':
+      Material: STONE
+      Type: Blocks
+    '217_99_292':
+      Material: STONE
+      Type: Blocks
+    '217_99_291':
+      Material: STONE
+      Type: Blocks
+    '216_99_293':
+      Material: STONE
+      Type: Blocks
+    '217_99_294':
+      Material: STONE
+      Type: Blocks
+    '221_99_295':
+      Material: STONE
+      Type: Blocks
+    '220_99_295':
+      Material: STONE
+      Type: Blocks
+    '218_99_295':
+      Material: STONE
+      Type: Blocks
+    '219_99_295':
+      Material: STONE
+      Type: Blocks
+    '223_99_294':
+      Material: STONE
+      Type: Blocks
+    '222_99_294':
+      Material: STONE
+      Type: Blocks
+    '222_99_292':
+      Material: STONE
+      Type: Blocks
+    '223_99_292':
+      Material: STONE
+      Type: Blocks
+    '222_99_291':
+      Material: STONE
+      Type: Blocks
+    '223_99_290':
+      Material: STONE
+      Type: Blocks
+    '223_99_289':
+      Material: STONE
+      Type: Blocks
+    '223_99_288':
+      Material: STONE
+      Type: Blocks
+    '222_99_290':
+      Material: STONE
+      Type: Blocks
+    '222_99_289':
+      Material: STONE
+      Type: Blocks
+    '222_99_288':
+      Material: STONE
+      Type: Blocks
+    '218_99_289':
+      Material: STONE
+      Type: Blocks
+    '219_99_288':
+      Material: STONE
+      Type: Blocks
+    '218_99_288':
+      Material: STONE
+      Type: Blocks
+    '217_99_290':
+      Material: STONE
+      Type: Blocks
+    '217_99_289':
+      Material: STONE
+      Type: Blocks
+    '218_99_291':
+      Material: STONE
+      Type: Blocks
+    '218_99_290':
+      Material: STONE
+      Type: Blocks
+    '219_99_291':
+      Material: STONE
+      Type: Blocks
+    '219_99_290':
+      Material: STONE
+      Type: Blocks
+    '219_99_289':
+      Material: STONE
+      Type: Blocks
+    '221_99_289':
+      Material: STONE
+      Type: Blocks
+    '220_99_289':
+      Material: STONE
+      Type: Blocks
+    '220_100_289':
+      Material: STONE
+      Type: Blocks
+    '220_99_290':
+      Material: STONE
+      Type: Blocks
+    '220_99_291':
+      Material: STONE
+      Type: Blocks
+    '221_99_291':
+      Material: STONE
+      Type: Blocks
+    '220_99_292':
+      Material: STONE
+      Type: Blocks
+    '221_99_292':
+      Material: STONE
+      Type: Blocks
+    '221_99_293':
+      Material: STONE
+      Type: Blocks
+    '221_99_294':
+      Material: STONE
+      Type: Blocks
+    '220_99_293':
+      Material: STONE
+      Type: Blocks
+    '219_99_293':
+      Material: STONE
+      Type: Blocks
+    '219_99_294':
+      Material: STONE
+      Type: Blocks
+    '218_99_294':
+      Material: STONE
+      Type: Blocks
+    '217_99_293':
+      Material: STONE
+      Type: Blocks
+    '220_101_289':
+      Material: STONE
+      Type: Blocks
+    '219_100_289':
+      Material: STONE
+      Type: Blocks
+    '223_98_291':
+      Material: IRON_ORE
+      Type: Blocks
+    '220_99_294':
+      Material: COPPER_ORE
+      Type: Blocks
+  '14_18':
+    '224_99_293':
+      Material: STONE
+      Type: Blocks
+    '224_99_290':
+      Material: STONE
+      Type: Blocks
+    '234_98_291':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '234_98_290':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '233_98_290':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '229_98_290':
+      Material: IRON_ORE
+      Type: Blocks
+    '229_98_293':
+      Material: COAL_ORE
+      Type: Blocks
+    '239_98_288':
+      Material: COAL_ORE
+      Type: Blocks
+    '236_98_288':
+      Material: LAPIS_ORE
+      Type: Blocks
+    '232_98_295':
+      Material: LAPIS_ORE
+      Type: Blocks
+    '238_98_288':
+      Material: STONE
+      Type: Blocks
+    '237_98_288':
+      Material: STONE
+      Type: Blocks
+    '238_98_289':
+      Material: STONE
+      Type: Blocks
+    '239_98_289':
+      Material: STONE
+      Type: Blocks
+    '239_98_290':
+      Material: STONE
+      Type: Blocks
+    '237_98_289':
+      Material: STONE
+      Type: Blocks
+    '238_98_290':
+      Material: STONE
+      Type: Blocks
+    '238_98_291':
+      Material: STONE
+      Type: Blocks
+    '238_98_292':
+      Material: STONE
+      Type: Blocks
+    '237_98_290':
+      Material: STONE
+      Type: Blocks
+    '237_98_291':
+      Material: STONE
+      Type: Blocks
+    '237_98_292':
+      Material: STONE
+      Type: Blocks
+    '237_98_293':
+      Material: STONE
+      Type: Blocks
+    '236_98_289':
+      Material: STONE
+      Type: Blocks
+    '236_98_290':
+      Material: STONE
+      Type: Blocks
+    '236_98_291':
+      Material: STONE
+      Type: Blocks
+    '236_98_293':
+      Material: STONE
+      Type: Blocks
+    '235_98_292':
+      Material: STONE
+      Type: Blocks
+    '236_98_292':
+      Material: STONE
+      Type: Blocks
+    '235_98_293':
+      Material: STONE
+      Type: Blocks
+    '235_98_294':
+      Material: STONE
+      Type: Blocks
+    '235_98_291':
+      Material: STONE
+      Type: Blocks
+    '235_98_290':
+      Material: STONE
+      Type: Blocks
+    '235_98_289':
+      Material: STONE
+      Type: Blocks
+    '235_98_288':
+      Material: STONE
+      Type: Blocks
+    '234_98_288':
+      Material: STONE
+      Type: Blocks
+    '234_98_289':
+      Material: STONE
+      Type: Blocks
+    '233_98_289':
+      Material: STONE
+      Type: Blocks
+    '233_98_288':
+      Material: STONE
+      Type: Blocks
+    '232_98_288':
+      Material: STONE
+      Type: Blocks
+    '226_98_288':
+      Material: STONE
+      Type: Blocks
+    '227_98_288':
+      Material: STONE
+      Type: Blocks
+    '231_98_288':
+      Material: STONE
+      Type: Blocks
+    '230_98_288':
+      Material: STONE
+      Type: Blocks
+    '229_98_288':
+      Material: STONE
+      Type: Blocks
+    '228_98_288':
+      Material: STONE
+      Type: Blocks
+    '232_98_289':
+      Material: STONE
+      Type: Blocks
+    '231_98_289':
+      Material: STONE
+      Type: Blocks
+    '230_98_289':
+      Material: STONE
+      Type: Blocks
+    '229_98_289':
+      Material: STONE
+      Type: Blocks
+    '228_98_289':
+      Material: STONE
+      Type: Blocks
+    '227_98_289':
+      Material: STONE
+      Type: Blocks
+    '226_98_289':
+      Material: STONE
+      Type: Blocks
+    '225_98_289':
+      Material: STONE
+      Type: Blocks
+    '225_98_290':
+      Material: STONE
+      Type: Blocks
+    '224_98_291':
+      Material: STONE
+      Type: Blocks
+    '224_98_292':
+      Material: STONE
+      Type: Blocks
+    '225_98_291':
+      Material: STONE
+      Type: Blocks
+    '225_98_292':
+      Material: STONE
+      Type: Blocks
+    '226_98_290':
+      Material: STONE
+      Type: Blocks
+    '226_98_292':
+      Material: STONE
+      Type: Blocks
+    '226_98_291':
+      Material: STONE
+      Type: Blocks
+    '228_98_290':
+      Material: STONE
+      Type: Blocks
+    '227_98_290':
+      Material: STONE
+      Type: Blocks
+    '228_98_291':
+      Material: STONE
+      Type: Blocks
+    '227_98_291':
+      Material: STONE
+      Type: Blocks
+    '228_98_292':
+      Material: STONE
+      Type: Blocks
+    '227_98_292':
+      Material: STONE
+      Type: Blocks
+    '228_98_293':
+      Material: STONE
+      Type: Blocks
+    '227_98_293':
+      Material: STONE
+      Type: Blocks
+    '228_98_294':
+      Material: STONE
+      Type: Blocks
+    '229_98_294':
+      Material: STONE
+      Type: Blocks
+    '229_98_295':
+      Material: STONE
+      Type: Blocks
+    '231_98_295':
+      Material: STONE
+      Type: Blocks
+    '230_98_295':
+      Material: STONE
+      Type: Blocks
+    '232_98_294':
+      Material: STONE
+      Type: Blocks
+    '231_98_294':
+      Material: STONE
+      Type: Blocks
+    '230_98_294':
+      Material: STONE
+      Type: Blocks
+    '232_98_293':
+      Material: STONE
+      Type: Blocks
+    '231_98_293':
+      Material: STONE
+      Type: Blocks
+    '230_98_293':
+      Material: STONE
+      Type: Blocks
+    '231_98_292':
+      Material: STONE
+      Type: Blocks
+    '230_98_292':
+      Material: STONE
+      Type: Blocks
+    '229_98_292':
+      Material: STONE
+      Type: Blocks
+    '229_98_291':
+      Material: STONE
+      Type: Blocks
+    '230_98_290':
+      Material: STONE
+      Type: Blocks
+    '230_98_291':
+      Material: STONE
+      Type: Blocks
+    '231_98_290':
+      Material: STONE
+      Type: Blocks
+    '231_98_291':
+      Material: STONE
+      Type: Blocks
+    '232_98_290':
+      Material: STONE
+      Type: Blocks
+    '232_98_291':
+      Material: STONE
+      Type: Blocks
+    '232_98_292':
+      Material: STONE
+      Type: Blocks
+    '233_98_291':
+      Material: STONE
+      Type: Blocks
+    '233_98_292':
+      Material: STONE
+      Type: Blocks
+    '234_98_292':
+      Material: STONE
+      Type: Blocks
+    '234_98_293':
+      Material: STONE
+      Type: Blocks
+    '233_98_293':
+      Material: STONE
+      Type: Blocks
+    '234_98_294':
+      Material: STONE
+      Type: Blocks
+    '233_98_294':
+      Material: STONE
+      Type: Blocks
+    '234_98_295':
+      Material: STONE
+      Type: Blocks
+    '233_98_295':
+      Material: STONE
+      Type: Blocks
+    '239_104_292':
+      Material: COPPER_ORE
+      Type: Blocks
+  '15_17':
+    '242_99_277':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_99_278':
+      Material: COAL_ORE
+      Type: Blocks
+    '241_99_278':
+      Material: COAL_ORE
+      Type: Blocks
+    '241_99_277':
+      Material: STONE
+      Type: Blocks
+    '240_99_277':
+      Material: STONE
+      Type: Blocks
+    '247_98_282':
+      Material: EMERALD_ORE
+      Type: Blocks
+    '245_98_285':
+      Material: EMERALD_ORE
+      Type: Blocks
+    '244_98_285':
+      Material: STONE
+      Type: Blocks
+    '244_98_284':
+      Material: STONE
+      Type: Blocks
+    '245_98_284':
+      Material: STONE
+      Type: Blocks
+    '245_98_283':
+      Material: STONE
+      Type: Blocks
+    '245_98_282':
+      Material: STONE
+      Type: Blocks
+    '246_98_282':
+      Material: STONE
+      Type: Blocks
+    '248_98_284':
+      Material: STONE
+      Type: Blocks
+    '248_98_283':
+      Material: STONE
+      Type: Blocks
+    '247_98_283':
+      Material: STONE
+      Type: Blocks
+    '247_98_281':
+      Material: STONE
+      Type: Blocks
+    '248_98_281':
+      Material: STONE
+      Type: Blocks
+    '244_98_281':
+      Material: STONE
+      Type: Blocks
+    '248_99_280':
+      Material: STONE
+      Type: Blocks
+    '247_99_280':
+      Material: ANDESITE
+      Type: Blocks
+    '247_100_279':
+      Material: ANDESITE
+      Type: Blocks
+    '247_99_279':
+      Material: ANDESITE
+      Type: Blocks
+    '247_98_287':
+      Material: STONE
+      Type: Blocks
+    '247_98_286':
+      Material: STONE
+      Type: Blocks
+    '248_98_287':
+      Material: STONE
+      Type: Blocks
+    '246_98_287':
+      Material: STONE
+      Type: Blocks
+    '245_99_287':
+      Material: STONE
+      Type: Blocks
+    '242_98_287':
+      Material: STONE
+      Type: Blocks
+    '242_98_284':
+      Material: STONE
+      Type: Blocks
+    '242_99_284':
+      Material: STONE
+      Type: Blocks
+    '242_98_282':
+      Material: ANDESITE
+      Type: Blocks
+    '243_98_281':
+      Material: STONE
+      Type: Blocks
+    '243_99_281':
+      Material: STONE
+      Type: Blocks
+    '244_100_286':
+      Material: GOLD_ORE
+      Type: Blocks
+    '244_98_286':
+      Material: STONE
+      Type: Blocks
+    '244_99_286':
+      Material: STONE
+      Type: Blocks
+    '244_101_286':
+      Material: STONE
+      Type: Blocks
+    '244_99_283':
+      Material: ANDESITE
+      Type: Blocks
+    '244_100_283':
+      Material: ANDESITE
+      Type: Blocks
+    '246_100_284':
+      Material: GOLD_ORE
+      Type: Blocks
+    '246_99_284':
+      Material: STONE
+      Type: Blocks
+    '246_101_284':
+      Material: STONE
+      Type: Blocks
+    '246_98_284':
+      Material: STONE
+      Type: Blocks
+    '243_105_284':
+      Material: EMERALD_ORE
+      Type: Blocks
+    '243_104_284':
+      Material: STONE
+      Type: Blocks
+    '243_103_284':
+      Material: STONE
+      Type: Blocks
+    '243_106_284':
+      Material: STONE
+      Type: Blocks
+    '244_105_280':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '244_106_280':
+      Material: STONE
+      Type: Blocks
+    '240_98_284':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '240_98_285':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '243_98_280':
+      Material: STONE
+      Type: Blocks
+    '242_98_281':
+      Material: STONE
+      Type: Blocks
+    '242_98_280':
+      Material: STONE
+      Type: Blocks
+    '241_98_282':
+      Material: STONE
+      Type: Blocks
+    '241_98_280':
+      Material: STONE
+      Type: Blocks
+    '241_98_281':
+      Material: STONE
+      Type: Blocks
+    '242_98_283':
+      Material: STONE
+      Type: Blocks
+    '241_98_283':
+      Material: STONE
+      Type: Blocks
+    '241_98_284':
+      Material: STONE
+      Type: Blocks
+    '241_98_285':
+      Material: STONE
+      Type: Blocks
+    '242_98_285':
+      Material: STONE
+      Type: Blocks
+    '242_98_286':
+      Material: STONE
+      Type: Blocks
+    '241_98_286':
+      Material: STONE
+      Type: Blocks
+    '241_98_287':
+      Material: STONE
+      Type: Blocks
+    '240_98_287':
+      Material: STONE
+      Type: Blocks
+    '240_98_286':
+      Material: STONE
+      Type: Blocks
+    '240_98_283':
+      Material: STONE
+      Type: Blocks
+    '240_98_282':
+      Material: STONE
+      Type: Blocks
+    '240_98_281':
+      Material: STONE
+      Type: Blocks
+    '240_98_280':
+      Material: STONE
+      Type: Blocks
+  '15_18':
+    '247_98_289':
+      Material: STONE
+      Type: Blocks
+    '247_98_288':
+      Material: STONE
+      Type: Blocks
+    '246_98_288':
+      Material: STONE
+      Type: Blocks
+    '243_98_288':
+      Material: STONE
+      Type: Blocks
+    '240_98_288':
+      Material: COAL_ORE
+      Type: Blocks
+    '240_98_289':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_98_288':
+      Material: STONE
+      Type: Blocks
+    '241_98_288':
+      Material: STONE
+      Type: Blocks
+    '250_93_300':
+      Material: DIRT
+      Type: Blocks
+    '250_94_300':
+      Material: DIRT
+      Type: Blocks
+    '250_95_300':
+      Material: DIRT
+      Type: Blocks
+  '15_16':
+    '240_100_271':
+      Material: JUNGLE_WOOD
+      Type: Blocks
+  '13_19':
+    '223_104_317':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '223_104_316':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '218_94_317':
+      Material: NETHER_GOLD_ORE
+      Type: Blocks
+    '209_95_318':
+      Material: NETHER_GOLD_ORE
+      Type: Blocks
+    '223_96_314':
+      Material: STONE
+      Type: Blocks
+    '223_96_310':
+      Material: STONE
+      Type: Blocks
+    '222_96_309':
+      Material: STONE
+      Type: Blocks
+    '223_96_309':
+      Material: STONE
+      Type: Blocks
+    '221_96_308':
+      Material: STONE
+      Type: Blocks
+    '222_96_308':
+      Material: STONE
+      Type: Blocks
+    '223_96_308':
+      Material: STONE
+      Type: Blocks
+    '222_96_306':
+      Material: STONE
+      Type: Blocks
+    '222_96_307':
+      Material: STONE
+      Type: Blocks
+    '223_96_306':
+      Material: STONE
+      Type: Blocks
+    '223_96_307':
+      Material: STONE
+      Type: Blocks
+    '223_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_96_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_96_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_96_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_96_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_97_309':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_97_310':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_97_310':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_97_310':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_97_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_98_310':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_97_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_97_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_97_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_97_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_98_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_95_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_95_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_97_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_95_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_95_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_95_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_95_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_95_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_95_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_95_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_314':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_96_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_95_313':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_312':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '222_96_312':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '222_96_311':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '223_96_311':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '222_96_310':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '220_96_310':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '221_96_310':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+    '221_96_309':
+      Material: DEEPSLATE_REDSTONE_ORE
+      Type: Blocks
+  '14_19':
+    '224_104_316':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '224_104_315':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '225_96_315':
+      Material: NETHER_GOLD_ORE
+      Type: Blocks
+    '229_95_315':
+      Material: GOLD_ORE
+      Type: Blocks
+    '234_97_318':
+      Material: COAL_ORE
+      Type: Blocks
+    '234_96_318':
+      Material: COAL_ORE
+      Type: Blocks
+    '234_96_319':
+      Material: COAL_ORE
+      Type: Blocks
+    '234_97_319':
+      Material: COAL_ORE
+      Type: Blocks
+    '228_104_306':
+      Material: COAL_ORE
+      Type: Blocks
+    '227_104_307':
+      Material: COAL_ORE
+      Type: Blocks
+    '228_104_307':
+      Material: COAL_ORE
+      Type: Blocks
+    '236_95_312':
+      Material: IRON_ORE
+      Type: Blocks
+    '235_95_312':
+      Material: IRON_ORE
+      Type: Blocks
+    '235_95_311':
+      Material: IRON_ORE
+      Type: Blocks
+    '234_95_311':
+      Material: IRON_ORE
+      Type: Blocks
+    '239_102_306':
+      Material: COAL_ORE
+      Type: Blocks
+    '239_102_307':
+      Material: COAL_ORE
+      Type: Blocks
+    '239_83_318':
+      Material: COAL_ORE
+      Type: Blocks
+    '228_96_309':
+      Material: STONE
+      Type: Blocks
+    '228_96_310':
+      Material: STONE
+      Type: Blocks
+    '228_96_311':
+      Material: STONE
+      Type: Blocks
+    '227_96_310':
+      Material: STONE
+      Type: Blocks
+    '227_96_311':
+      Material: STONE
+      Type: Blocks
+    '227_96_312':
+      Material: STONE
+      Type: Blocks
+    '225_96_314':
+      Material: STONE
+      Type: Blocks
+    '224_96_313':
+      Material: STONE
+      Type: Blocks
+    '225_96_313':
+      Material: STONE
+      Type: Blocks
+    '226_96_313':
+      Material: STONE
+      Type: Blocks
+    '224_96_314':
+      Material: STONE
+      Type: Blocks
+    '226_96_310':
+      Material: STONE
+      Type: Blocks
+    '226_96_311':
+      Material: STONE
+      Type: Blocks
+    '226_96_312':
+      Material: STONE
+      Type: Blocks
+    '225_96_310':
+      Material: STONE
+      Type: Blocks
+    '225_96_311':
+      Material: STONE
+      Type: Blocks
+    '225_96_309':
+      Material: STONE
+      Type: Blocks
+    '226_96_309':
+      Material: STONE
+      Type: Blocks
+    '224_96_310':
+      Material: STONE
+      Type: Blocks
+    '224_96_309':
+      Material: STONE
+      Type: Blocks
+    '224_96_308':
+      Material: STONE
+      Type: Blocks
+    '235_95_317':
+      Material: STONE
+      Type: Blocks
+    '235_95_316':
+      Material: STONE
+      Type: Blocks
+    '236_95_316':
+      Material: STONE
+      Type: Blocks
+    '237_95_315':
+      Material: STONE
+      Type: Blocks
+    '237_95_314':
+      Material: STONE
+      Type: Blocks
+    '238_95_313':
+      Material: STONE
+      Type: Blocks
+    '237_95_312':
+      Material: STONE
+      Type: Blocks
+    '237_95_313':
+      Material: STONE
+      Type: Blocks
+    '236_95_313':
+      Material: STONE
+      Type: Blocks
+    '236_95_315':
+      Material: STONE
+      Type: Blocks
+    '236_95_314':
+      Material: STONE
+      Type: Blocks
+    '235_95_313':
+      Material: STONE
+      Type: Blocks
+    '235_95_314':
+      Material: STONE
+      Type: Blocks
+    '235_95_315':
+      Material: STONE
+      Type: Blocks
+    '234_95_315':
+      Material: STONE
+      Type: Blocks
+    '231_95_315':
+      Material: STONE
+      Type: Blocks
+    '234_95_314':
+      Material: STONE
+      Type: Blocks
+    '233_95_314':
+      Material: STONE
+      Type: Blocks
+    '233_95_313':
+      Material: STONE
+      Type: Blocks
+    '234_95_312':
+      Material: STONE
+      Type: Blocks
+    '233_95_312':
+      Material: STONE
+      Type: Blocks
+    '236_95_311':
+      Material: STONE
+      Type: Blocks
+    '236_95_310':
+      Material: STONE
+      Type: Blocks
+    '235_95_310':
+      Material: STONE
+      Type: Blocks
+    '234_95_310':
+      Material: STONE
+      Type: Blocks
+    '233_95_310':
+      Material: STONE
+      Type: Blocks
+    '233_95_311':
+      Material: STONE
+      Type: Blocks
+    '232_95_312':
+      Material: STONE
+      Type: Blocks
+    '232_95_311':
+      Material: STONE
+      Type: Blocks
+    '231_95_311':
+      Material: STONE
+      Type: Blocks
+    '230_95_312':
+      Material: STONE
+      Type: Blocks
+    '231_95_312':
+      Material: STONE
+      Type: Blocks
+    '229_95_313':
+      Material: STONE
+      Type: Blocks
+    '230_95_313':
+      Material: STONE
+      Type: Blocks
+    '231_95_314':
+      Material: STONE
+      Type: Blocks
+    '228_95_314':
+      Material: STONE
+      Type: Blocks
+    '229_95_314':
+      Material: STONE
+      Type: Blocks
+    '230_95_314':
+      Material: STONE
+      Type: Blocks
+    '230_95_315':
+      Material: STONE
+      Type: Blocks
+    '224_96_311':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_96_312':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_96_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_96_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '228_96_315':
+      Material: NETHERRACK
+      Type: Blocks
+    '228_96_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '227_96_316':
+      Material: NETHERRACK
+      Type: Blocks
+    '227_96_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '227_96_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '226_96_317':
+      Material: NETHERRACK
+      Type: Blocks
+    '226_96_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_96_318':
+      Material: NETHERRACK
+      Type: Blocks
+    '226_96_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_95_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_95_319':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_96_312':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '231_95_316':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '232_96_316':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '232_97_317':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '233_97_318':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '233_96_317':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '234_96_317':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '234_98_319':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '233_98_319':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '233_95_316':
+      Material: STONE
+      Type: Blocks
+    '234_95_316':
+      Material: STONE
+      Type: Blocks
+    '232_95_315':
+      Material: STONE
+      Type: Blocks
+    '233_95_315':
+      Material: STONE
+      Type: Blocks
+    '232_95_313':
+      Material: STONE
+      Type: Blocks
+    '234_95_313':
+      Material: STONE
+      Type: Blocks
+    '232_95_314':
+      Material: STONE
+      Type: Blocks
+    '231_95_313':
+      Material: STONE
+      Type: Blocks
+    '232_95_310':
+      Material: DEEPSLATE_COPPER_ORE
+      Type: Blocks
+  '12_19':
+    '207_100_316':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '207_100_317':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '207_99_317':
+      Material: REDSTONE_ORE
+      Type: Blocks
+    '206_100_319':
+      Material: NETHERRACK
+      Type: Blocks
+  '13_20':
+    '221_100_329':
+      Material: COAL_ORE
+      Type: Blocks
+    '221_101_329':
+      Material: COAL_ORE
+      Type: Blocks
+    '220_101_329':
+      Material: COAL_ORE
+      Type: Blocks
+    '219_100_329':
+      Material: COAL_ORE
+      Type: Blocks
+    '220_102_328':
+      Material: COAL_ORE
+      Type: Blocks
+    '216_100_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '216_101_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '216_102_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '217_103_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '217_102_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '216_103_320':
+      Material: GLOWSTONE
+      Type: Blocks
+    '215_103_320':
+      Material: GLOWSTONE
+      Type: Blocks
+    '215_102_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '214_102_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '215_102_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '214_103_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '215_103_323':
+      Material: GLOWSTONE
+      Type: Blocks
+    '214_103_323':
+      Material: GLOWSTONE
+      Type: Blocks
+    '217_103_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '216_103_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '213_103_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '212_103_322':
+      Material: GLOWSTONE
+      Type: Blocks
+    '213_103_321':
+      Material: GLOWSTONE
+      Type: Blocks
+    '214_103_320':
+      Material: GLOWSTONE
+      Type: Blocks
+    '211_95_325':
+      Material: NETHER_GOLD_ORE
+      Type: Blocks
+    '218_97_327':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '219_97_327':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '220_98_328':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '219_98_328':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '221_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '220_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '219_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '220_100_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '215_99_328':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '214_100_328':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '214_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '213_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '212_99_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '211_98_328':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '212_97_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '213_97_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '214_97_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '214_98_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '213_98_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '212_98_329':
+      Material: NETHER_QUARTZ_ORE
+      Type: Blocks
+    '220_97_327':
+      Material: NETHER_GOLD_ORE
+      Type: Blocks
+    '223_96_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_97_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_98_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_96_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_97_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_96_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_96_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_96_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_96_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_97_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_98_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_97_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_96_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_96_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_95_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_95_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_95_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_95_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_95_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_95_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_95_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_96_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_96_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_96_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_96_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_96_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_97_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_98_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_100_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_100_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_101_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_100_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '218_102_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_97_328':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_97_327':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_96_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_97_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_97_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_98_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_99_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_100_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_102_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_102_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_101_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_100_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_99_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_98_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_97_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_96_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_96_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '208_97_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_96_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_95_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_95_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '222_95_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '223_95_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '217_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_326':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '221_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '216_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '215_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '214_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '213_94_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_325':
+      Material: NETHERRACK
+      Type: Blocks
+    '212_94_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '211_94_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '220_95_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '219_95_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_324':
+      Material: NETHERRACK
+      Type: Blocks
+    '210_95_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '209_103_322':
+      Material: NETHERRACK
+      Type: Blocks
+  '14_20':
+    '234_96_320':
+      Material: COAL_ORE
+      Type: Blocks
+    '238_81_328':
+      Material: EMERALD_ORE
+      Type: Blocks
+    '226_96_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '226_96_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_96_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_96_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_96_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '226_97_322':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_97_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_97_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_95_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '225_95_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '224_95_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '238_80_324':
+      Material: AMETHYST_CLUSTER
+      Type: Blocks
+    '232_99_320':
+      Material: AMETHYST_CLUSTER
+      Type: Blocks
+  '15_19':
+    '240_101_306':
+      Material: COAL_ORE
+      Type: Blocks
+    '240_101_307':
+      Material: COAL_ORE
+      Type: Blocks
+    '240_101_308':
+      Material: COAL_ORE
+      Type: Blocks
+    '240_100_307':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_98_309':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_99_309':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_100_309':
+      Material: COAL_ORE
+      Type: Blocks
+    '242_102_309':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_98_310':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_99_310':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_98_312':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_98_311':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_99_314':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_100_313':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_99_313':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_101_312':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_99_312':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_99_311':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_100_311':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_101_311':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_81_319':
+      Material: AMETHYST_CLUSTER
+      Type: Blocks
+    '241_88_318':
+      Material: DEEPSLATE_LAPIS_ORE
+      Type: Blocks
+    '242_89_318':
+      Material: DEEPSLATE_LAPIS_ORE
+      Type: Blocks
+    '242_90_317':
+      Material: DEEPSLATE_LAPIS_ORE
+      Type: Blocks
+    '242_90_318':
+      Material: DEEPSLATE_LAPIS_ORE
+      Type: Blocks
+    '241_90_316':
+      Material: DEEPSLATE_LAPIS_ORE
+      Type: Blocks
+    '246_82_319':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '245_82_319':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '243_100_310':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '243_101_310':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '242_101_309':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '243_98_313':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+    '244_100_312':
+      Material: DEEPSLATE_COAL_ORE
+      Type: Blocks
+  '15_20':
+    '244_91_321':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_91_322':
+      Material: COAL_ORE
+      Type: Blocks
+    '243_92_322':
+      Material: COAL_ORE
+      Type: Blocks
+    '245_91_323':
+      Material: COAL_ORE
+      Type: Blocks
+    '244_92_323':
+      Material: COAL_ORE
+      Type: Blocks
+    '246_90_322':
+      Material: COAL_ORE
+      Type: Blocks
+    '245_91_322':
+      Material: COAL_ORE
+      Type: Blocks
+    '246_80_334':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '246_79_333':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '245_79_333':
+      Material: DIAMOND_ORE
+      Type: Blocks
+    '243_82_334':
+      Material: EMERALD_ORE
+      Type: Blocks
+    '250_83_323':
+      Material: COAL_ORE
+      Type: Blocks
+    '251_83_324':
+      Material: COAL_ORE
+      Type: Blocks
+    '251_82_324':
+      Material: COAL_ORE
+      Type: Blocks
+    '250_82_323':
+      Material: COAL_ORE
+      Type: Blocks
+    '240_84_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_83_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_82_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_82_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_81_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_81_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_81_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_81_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_80_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_80_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_80_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_80_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_80_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_79_333':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_79_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_79_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_79_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_79_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_79_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_78_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_78_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_78_332':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_78_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_78_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_78_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '250_80_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '250_79_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '250_79_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_79_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_79_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_79_331':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_78_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_78_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_78_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_78_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_82_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_81_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_81_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_80_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_80_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_80_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_79_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_79_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_79_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_79_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_79_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_79_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '249_78_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_78_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_322':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_321':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_321':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_322':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_78_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '240_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_322':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '241_78_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_322':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_323':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_324':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_78_324':
+      Material: GOLD_ORE
+      Type: Blocks
+    '246_78_325':
+      Material: GOLD_ORE
+      Type: Blocks
+    '243_77_329':
+      Material: GOLD_ORE
+      Type: Blocks
+    '244_77_328':
+      Material: GOLD_ORE
+      Type: Blocks
+    '245_77_326':
+      Material: GOLD_ORE
+      Type: Blocks
+    '245_77_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_77_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_77_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_77_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_77_329':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_77_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_77_330':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_78_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_77_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '246_77_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_77_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_77_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_77_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_326':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_77_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '245_78_325':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '242_78_327':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '243_77_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '248_78_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '247_77_328':
+      Material: DEAD_BRAIN_CORAL_BLOCK
+      Type: Blocks
+    '244_82_334':
+      Material: AMETHYST_CLUSTER
+      Type: Blocks
+    '251_82_328':
+      Material: AMETHYST_CLUSTER
+      Type: Blocks
+    '251_82_330':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '251_81_331':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '251_81_330':
+      Material: DEEPSLATE_DIAMOND_ORE
+      Type: Blocks
+    '250_79_328':
+      Material: DEEPSLATE_EMERALD_ORE
+      Type: Blocks
+    '251_81_327':
+      Material: DEEPSLATE_EMERALD_ORE
+      Type: Blocks
+    '248_78_326':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '248_78_327':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '247_77_327':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '246_77_330':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '247_77_329':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '242_78_328':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '242_78_326':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+    '243_78_324':
+      Material: DEEPSLATE_GOLD_ORE
+      Type: Blocks
+  '12_20':
+    '207_101_323':
+      Material: NETHERRACK
+      Type: Blocks
+    '207_98_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '207_99_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '207_100_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '207_101_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '207_102_321':
+      Material: NETHERRACK
+      Type: Blocks
+    '206_101_320':
+      Material: NETHERRACK
+      Type: Blocks
+    '206_100_320':
+      Material: NETHERRACK
+      Type: Blocks
+  '20_16':
+    '329_67_264':
+      Material: GOLD_BLOCK
+      Type: Blocks
+    '328_67_263':
+      Material: NETHERITE_BLOCK
+      Type: Blocks
+    '327_67_264':
+      Material: EMERALD_BLOCK
+      Type: Blocks
+    '328_67_265':
+      Material: DIAMOND_BLOCK
+      Type: Blocks
+  '19_14': {}
+  '19_15': {}

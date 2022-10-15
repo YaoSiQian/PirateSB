@@ -1,0 +1,14 @@
+worlds:
+  MainWorld: defaultscoreboard
+  IntroWorld: introscoreboard
+  Skyblock: islandscoreboard
+  Skyblock_nether: islandscoreboard
+permissions:
+  adminboard: animatedscoreboard.test
+placeholderapi: true
+debug_mode: false
+check_updates: true
+enable-triggers: false
+player-storage: SQLITE
+force-legacy: false
+hex-in-placeholders: true

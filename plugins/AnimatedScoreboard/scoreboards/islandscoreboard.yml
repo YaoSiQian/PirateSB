@@ -1,0 +1,104 @@
+display:
+  title:
+    text:
+    - '&6&l⚓  &#FC8600&lSKY&#CC720A&lBL☠CK  &6&l⚓'
+    random: false
+    interval: 2
+  line-1:
+    text:
+    - '      &#ABBFBF%localtime_time%'
+    random: false
+    interval: 200
+    score: 99
+  line-3:
+    text:
+    - ' '
+    random: false
+    interval: 200
+    score: 98
+  line-include:
+    text:
+    - '&#ABBFBF▪ Profile ◂'
+    random: false
+    interval: 200
+    score: 97
+  line-4:
+    text:
+    - '⠐ &fRank: %vault_rankprefix_#% %vault_suffix%'
+    random: false
+    interval: 100
+    score: 96
+  line-4-1:
+    text:
+    - "⠗ &fHP: &#FF8948%aureliumskills_hp%&7/&#E12B07%aureliumskills_hp_max% ♥"
+    - "⠗ &fMana: &#E574C4%aureliumskills_mana%&7/&#AF418F%aureliumskills_mana_max% ❖"
+    - "⠗ &fPower: &#387F53%aureliumskills_power% ☀"
+    random: false
+    interval: 100
+    score: 95 
+  line-4-2:
+    text:
+    - '⠔ &fKills: &#FE4A4A%statistic_player_kills% ⚔'
+    - '⠔ &fDeaths: &7%statistic_deaths% ☠'
+    random: false
+    interval: 200
+    score: 94
+  line-5:
+    text:
+    - '⠒ &fIs. Bank: &#F9E454%superior_island_bank_format% ⛁'
+    - '⠎ &fMoney: &#F9E454%vault_eco_balance_formatted% ⛁'
+    random: false
+    interval: 200
+    score: 93
+  line-6:
+    text:
+    - '⠏ &fPing: &#1ACCCC%player_ping%ms ⌛'
+    random: false
+    interval: 200
+    score: 92
+  line-7:
+    text:
+    - ' '
+    random: false
+    interval: 200
+    score: 91
+  line-include2:
+    text:
+    - '&#ABBFBF▪ Information ◂'
+    random: false
+    interval: 200
+    score: 90
+  line-9:
+    text:
+    - '⠇ &fOwner: &#FC8600%superior_island_leader% ♚'
+    - '⠗ &fLevel: &#FC8600%superior_island_level_int% ★'
+    - '⠄ &fBiome: &#FC8600%world_biome% ⚗'
+    random: false
+    interval: 200
+    score: 89
+  line-10-2:
+    text:
+    - '⠘ &fMembers: &#FC8600%superior_island_team_size% ☻'
+    random: false
+    interval: 200
+    score: 88
+  line-10:
+    text:
+    - '⠈ &fCrops Multiplier: &#FC8600%superior_island_crops_multiplier% ⁂'
+    - '⠈ &fDrops Multiplier: &#FC8600%superior_island_drops_multiplier% ⁂'
+    - '⠈ &fSpawners Multiplier: &#FC8600%superior_island_spawners_multiplier% ⁂'
+    random: false
+    interval: 100
+    score: 87
+  line-15:
+    text:
+    - ' '
+    random: false
+    interval: 200
+    score: 86
+  line-16:
+    text:
+    - '     &9▸ mc.servername.com ◂ '
+    random: false
+    interval: 200
+    score: 85

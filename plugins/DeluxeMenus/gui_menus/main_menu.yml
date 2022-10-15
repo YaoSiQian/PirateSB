@@ -1,0 +1,126 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&#8B673A⚓ &lMain Menu &#8B673A⚓'
+open_command:
+  - menu
+  - mainmenu
+register_command: false
+open_commands:
+  - '[message] &#8B673A&l⚓&#8B673A You have just opened the main menu.'
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      #
+      # "has permission" checks if a player has the required permission
+      #
+      # Read more:
+      #   https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements#has-permission
+      #
+      type: has permission
+      permission: firts.open.menu
+      deny_commands:
+        - '[sound] UI_TOAST_CHALLENGE_COMPLETE'
+        - '[console] lp user %player_name% permission set firts.open.menu'
+        - '[player] menufirtopennow'
+        
+# as always, only cool people can open this menu :)
+items:
+  'profile':
+    material: 'head-%player_name%'
+    slot: 10
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ My profile ❧'
+    - ''
+    - ' &f⠐&r %luckperms_prefix% %luckperms_meta_username-color%%player_name% %luckperms_suffix%'
+    - ' &#ABBFBF▪ Entry date: %player_first_join_date%  '
+    - ''
+    - ' &#ACF268▪ [Click to see] ⏏'
+    - ''
+    click_commands:
+    - '[openguimenu] profile'
+  'warps':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcwNTA5YTY0YzQ5NmNkZGJhNDEzNWU2NzEyYmIwNWQ5YWFkNDIwNTJhMThmZWVlZWQ3ZDQ0ZGEyYzNiZDBjYyJ9fX0='
+    slot: 14
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Warps ☗'
+    - ''
+    - ' &#ABBFBF▪ See the list of available  '
+    - ' &#ABBFBF  places to travel.'
+    - ''
+    - ' &#ACF268▪ [Click to see] ⏏'
+    - ''
+    left_click_commands:
+    - '[player] warps'
+    right_click_commands:
+    - '[player] warps'
+  'backpack':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdmZDgxMThmMDc4MjhjZjdkOTM5MWM1YTAyMTRhYTI1YWYyNGM5OGU0NTAzZTBiMmZjYzhlZmRkMzE4OWJiMCJ9fX0='
+    slot: 15
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Backpack ⬒'
+    - ''
+    - ' &#ABBFBF▪ See the backpacks available  '
+    - ' &#ABBFBF  for use and storage.'
+    - ''
+    - ' &#ACF268▪ [Click to see] ⏏'
+    - ''
+    click_commands:
+    - '[player] backpack'
+    - '[close]'
+  'guides':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxNmE4Yjk2Y2I5YWVlYTUxNDBkZDkzNmM2ZWJiOTY0ZWZjYmZkNzFhZTIxN2Q5ZjcwODg4ZWZiMTRlN2MwIn19fQ=='
+    slot: 16
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ Guides ✎'
+    - ''
+    - ' &#ABBFBF▪ See all the guides available to  '
+    - ' &#ABBFBF  discover everything you can'
+    - ' &#ABBFBF  do in your adventure.'
+    - ''
+    - ' &#ABBFBF▪ Available in these languages'
+    - ' &#ABBFBF  &#639DC2[English ✔] &#ABBFBF⚋ &#639DC2[Español ✔]'
+    - ' &#ABBFBF  &#F26565[Türkçe ✘] &#ABBFBF⚋ &#F26565[Pусский ✘]'
+    - ' &#ABBFBF  &#F26565[Français ✘] &#ABBFBF⚋ &#F26565[Dutch ✘]'
+    - ' &#ABBFBF  &#F26565[Soon ✘] &#ABBFBF⚋ &#F26565[日本語 ✘]'
+    - ''
+    - ' &#ACF268▪ [Click to see] ⏏'
+    - ''
+    click_commands:
+    - '[player] guides'
+  'items_1':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 9
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+    display_name: ' '
+  'items_2':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 13
+      - 17
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

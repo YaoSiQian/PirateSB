@@ -1,0 +1,171 @@
+tutorials:
+  tutorial:
+    stats:
+      plays: 376
+    invisible: true
+    permission: false
+    block-chat: true
+    blocks-commands: true
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: MainWorld 269.4963639402116 105.0 147.74059186448696 4.9499483 19.950024
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ NEW WORLD ⚓'
+          subtitle: '&7▪ Let''s get started ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 1.0
+      '1':
+        type: TIMED
+        location: MainWorld 274.596926959381 104.0 164.7451046576687 315.9 43.04988
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ DUNGEON ⚓'
+          subtitle: '&7▪ Treasure chests and terrible monsters! ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '2':
+        type: TIMED
+        location: MainWorld 168.66637473873226 103.0 84.43106157773555 228.74936 42.300087
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ KRAKEN ⚓'
+          subtitle: '&7▪ Mysteries are still hidden ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '3':
+        type: TIMED
+        location: MainWorld 250.45044436719127 112.0 177.5707958206304 0.74957275
+          37.499798
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ CENTRAL MARKET ⚓'
+          subtitle: '&7▪ You can buy and sell items ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '4':
+        type: TIMED
+        location: MainWorld 268.579717466856 110.0 211.58755477191943 -102.9204 30.29992
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ TREASURE CRATE ⚓'
+          subtitle: '&7▪ Open it and get awesome rewards. ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '5':
+        type: TIMED
+        location: MainWorld 259.52787344728773 112.0 220.396359110592 112.20058 28.049816
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ GOLD EXCHANGE ⚓'
+          subtitle: '&7▪ Trade your gold for money ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '6':
+        type: TIMED
+        location: MainWorld 205.59059557154816 115.0 274.61078151087355 -75.15312
+          28.349976
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6&l⚓ MINES ⚓'
+          subtitle: '&7▪ Place to obtain ores ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: ENTITY_EVOKER_PREPARE_SUMMON
+          pitch: 0.0
+          volume: 2.0
+      '7':
+        type: TIMED
+        location: MainWorld 245.55030073228448 110.0 153.53492534189664 -0.0031433105
+          6.899906
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands:
+        - playmoresounds play skyblock.sounds.intro %player_name%
+        title:
+          title: '&6&l⚓ SURVIVE ⚓'
+          subtitle: '&7▪ Are you ready to start? ▪'
+          fade-in: 20
+          stay: 120
+          fade-out: 20
+        sound:
+          sound: BLOCK_ENCHANTMENT_TABLE_USE
+          pitch: 0.0
+          volume: 2.0
+      '8':
+        type: TIMED
+        location: MainWorld 267.6172604496454 97.0 151.24493484907873 -1.0530658 -7.5000887
+        time: 1.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        sound:
+          sound: ENTITY_PLAYER_LEVELUP
+          pitch: 0.0
+          volume: 2.0

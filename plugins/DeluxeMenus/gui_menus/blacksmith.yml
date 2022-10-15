@@ -1,0 +1,415 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#60FF2B▪ Blacksmith ☗'
+register_command: true
+open_commands:
+    - '[console] playsound minecraft:skyblock.sounds.male_smith ambient %player_name% %player_x% %player_y% %player_z%'
+open_command:
+  - blacksmith
+size: 36
+        
+# as always, only cool people can open this menu :)
+items:
+  'items_1':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 16
+      - 17
+    display_name: ' '
+  'items_2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+      - 18
+      - 19
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+    display_name: ' ' 
+  'items_3':
+    material: anvil
+    slot: 10
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Anvil'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 500.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 500'
+    - '[console] give %player_name% ANVIL 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rAnvil for &c-$500 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_4':
+    material: grindstone
+    slot: 11
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Grindstone'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$1.000.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 1000.0'
+    - '[console] give %player_name% GRINDSTONE 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rGrindstone for &c-$1.000.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_5':
+    material: stonecutter
+    slot: 12
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Stonecutter'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 500.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 500.0'
+    - '[console] give %player_name% STONECUTTER 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rStonecutter for &c-$500.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_6':
+    material: blast_furnace
+    slot: 13
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Blast Furnace'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$4.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: BLAST_FURNACE
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 250.0'
+    - '[console] give %player_name% BLAST_FURNACE 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rBlast Furnace for &c-$250.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.75'
+    - '[console] eclear %player_name% BLAST_FURNACE 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rBlast Furnace for &a+$4.75 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_7':
+    material: smoker
+    slot: 14
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Smoker'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$4.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SMOKER
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 250.0'
+    - '[console] give %player_name% SMOKER 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rSmoker for &c-$250.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 4.75'
+    - '[console] eclear %player_name% SMOKER 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rSmoker for &a+$4.75 ⛁&f.'
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_8':
+    material: target
+    slot: 15
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Target'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$10.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: TARGET
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 250.0'
+    - '[console] give %player_name% TARGET 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rTarget for &c-$250.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 10.0'
+    - '[console] eclear %player_name% TARGET 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rTarget for &a+$10.0 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_9':
+    material: chain
+    slot: 20
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Chain'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$200.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$3.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 200.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: CHAIN
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 200.0'
+    - '[console] give %player_name% CHAIN 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rChain for &c-$200.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 3.25'
+    - '[console] eclear %player_name% CHAIN 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rChain for &a+$3.25 ⛁&f.' 
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_10':
+    material: saddle
+    slot: 21
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Saddle'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
+    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$7.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 500.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        item:
+          type: has item
+          material: SADDLE
+          data: 0
+          amount: 1
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 500.0'
+    - '[console] give %player_name% SADDLE 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rSaddle for &c-$500.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+    right_click_commands:
+    - '[givemoney] 7.50'
+    - '[console] eclear %player_name% SADDLE 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rSaddle for &a+$7.50 ⛁&f.'  
+    - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
+  'items_11':
+    material: leather_horse_armor
+    slot: 22
+    display_name: '&7'     
+    lore:
+    - ' &a▪ Leather Horse Armor'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$450.50 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 450.50
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: string equals
+          input: '%checkitem_mat:LEATHER_HORSE_ARMOR%'
+          output: 'yes'
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 450.50'
+    - '[console] give %player_name% LEATHER_HORSE_ARMOR 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rLeather Horse Armor for &c-$450.50 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_12':
+    material: IRON_HORSE_ARMOR
+    slot: 23
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Iron Horse Armor'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$900.75 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 900.75
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    left_click_commands:
+    - '[takemoney] 900.75'
+    - '[console] give %player_name% IRON_HORSE_ARMOR 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rIron Horse Armor for &c-$900.75 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_13':
+    material: golden_horse_armor
+    slot: 24
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Golden Horse Armor'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$1.750.25 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1750.25
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: string equals
+          input: '%checkitem_mat:GOLDEN_HORSE_ARMOR%'
+          output: 'yes'
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'   
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 1750.25'
+    - '[console] give %player_name% GOLDEN_HORSE_ARMOR 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rGolden Horse Armor for &c-$1.750.25 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'
+  'items_14':
+    material: diamond_horse_armor
+    slot: 25
+    display_name: '&7 '     
+    lore:
+    - ' &a▪ Diamond Horse Armor'
+    - ''
+    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$2.500.0 ⛁ '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[sound] ENTITY_EVOKER_DEATH'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: string equals
+          input: '%checkitem_mat:DIAMOND_HORSE_ARMOR%'
+          output: 'yes'
+      deny_commands:
+      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[sound] BLOCK_GRINDSTONE_USE'
+    left_click_commands:
+    - '[takemoney] 2500.0'
+    - '[console] give %player_name% DIAMOND_HORSE_ARMOR 1'
+    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rDiamond Horse Armor for &c-$2.500.0 ⛁&f.'
+    - '[sound] ENTITY_VINDICATOR_CELEBRATE'

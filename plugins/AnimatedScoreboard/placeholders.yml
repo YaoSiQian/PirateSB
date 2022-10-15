@@ -1,0 +1,8 @@
+scoreboard:
+  disabled: '&cDisabled'
+  enabled: '&aEnabled'
+  names:
+    defaultscoreboard: defaultscoreboard
+    introscoreboard: introscoreboard
+    islandscoreboard: islandscoreboard
+  none-active: '&7None'

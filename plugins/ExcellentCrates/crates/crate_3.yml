@@ -1,0 +1,134 @@
+Name: '§6Sample Crate #3'
+Animation_Config: rows_3
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 30
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - 'null'
+Item:
+  Material: CHEST
+  Amount: 1
+  Durability: 0
+  Name: '&6Sample Crate #3 &7(Right-Click)'
+  Enchants:
+    unbreaking: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  Unbreakable: false
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §c§lCS:GO CRATE
+    - §7Get the key at §cwww.myserver.com§c
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: Apple
+      Chance: 30.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qc5o70r350400agrfeln78g00
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qc5o70r350400agrfeln78g00
+    '2':
+      Name: Emerald
+      Chance: 9.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78200
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78200
+    '3':
+      Name: Diamond
+      Chance: 12.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78800
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78800
+    '4':
+      Name: Ender Eye
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79imsp35e9fmaub50400agrfeln782g0
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79imsp35e9fmaub50400agrfeln782g0
+    '5':
+      Name: Bone
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip001pmmirj5cdp62pjk79h6urj50400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip001pmmirj5cdp62pjk79h6urj50400agrfeln78400
+    '6':
+      Name: Sugar
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qedqmeobi0400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qedqmeobi0400agrfeln78400
+    '7':
+      Name: Blaze Rod
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79h6oobqclfn4rr40400agrfeln78180
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79h6oobqclfn4rr40400agrfeln78180
+    '8':
+      Name: Tnt
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb4006mqqbeclhn4ob6egt78rjk0400agrfeln78200
+      Commands: []
+      Items:
+      - k00010004qb4006mqqbeclhn4ob6egt78rjk0400agrfeln78200

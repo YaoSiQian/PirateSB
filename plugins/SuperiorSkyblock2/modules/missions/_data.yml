@@ -1,0 +1,241 @@
+add-member: {}
+10k-worth: {}
+cobble-miner: {}
+first-invite: {}
+mobs-killer:
+  8f82d0e7-38a8-27a3-8311-d073be4610cb:
+    PLAYER: 14
+  50ffbdee-38b7-4602-9909-587e738846d9:
+    PLAYER: 1
+    ZOGLIN: 1
+  0310b738-890d-4c7f-8783-5e1c9ef31ab5:
+    PLAYER: 1
+  b73c8975-5696-4dc5-8b33-a1bfb53e6d2c:
+    PLAYER: 10
+    PIGLIN_BRUTE: 1
+    ZOMBIE: 3
+    RAVAGER: 1
+    SPIDER: 2
+  82de73b1-1e92-4230-b8b8-7580e64da1bc:
+    PLAYER: 4
+    PIGLIN_BRUTE: 2
+  ba66855b-7882-2f96-b824-d3bab9e56bda:
+    PLAYER: 2
+  0c855e1e-b685-2a03-af7d-a5eea8f94dfe:
+    PLAYER: 3
+  5d0debd1-8ce0-2160-9dd2-90eedd0ee3e2:
+    PLAYER: 1
+  baeaf601-f606-493d-a816-2c0174d09086:
+    PLAYER: 36
+    PIGLIN_BRUTE: 2
+    ZOGLIN: 7
+    ZOMBIE: 15
+    CHICKEN: 3
+    SHEEP: 2
+    COW: 3
+    WITCH: 1
+    SPIDER: 4
+    RAVAGER: 1
+    SKELETON: 6
+    PIG: 4
+  8c6dda24-8080-4a1c-9ec1-fb152ee475f1:
+    PLAYER: 3
+  0f8f1b5d-357c-403a-ac3b-a1f33f9d9457:
+    PLAYER: 3
+  001bc3c2-1c68-41d6-995f-970989be5b19:
+    PLAYER: 3
+  4d9d9ec1-b4c6-28c9-8d14-99d24658bcda:
+    ZOMBIE: 1
+    SKELETON: 2
+  e12e46d1-2638-20c3-8c0d-423e121535bb:
+    PLAYER: 2
+  1e7be4e6-075c-4ef8-acbe-f3f09ef3a91e:
+    PLAYER: 5
+  28a2e443-692c-4dbc-bd4f-4d1ce5220e1b:
+    PLAYER: 4
+    ZOGLIN: 2
+    ZOMBIE: 1
+    SPIDER: 1
+  deae9ef6-2d09-4e22-b786-84dbaecfa17f:
+    PLAYER: 3
+  71dc362a-ae54-4db2-ade1-eaa906052943:
+    PLAYER: 1
+    ZOGLIN: 2
+  ccc4d804-144f-4f51-b862-76a71c01eab8:
+    ZOMBIE: 1
+  f4eb26a9-dd83-4db6-925c-f134e497ef2c:
+    PLAYER: 2
+  4efebc2a-55f3-2072-be43-1fe9640bf851:
+    PLAYER: 21
+  33ef0d9b-eaca-2651-94bf-ec2e78437615:
+    PLAYER: 5
+  9c5b4d42-f7b0-4a08-ac1b-9c8d2ae546e0:
+    ZOGLIN: 1
+  84108b6c-0a21-2e3a-a8a5-3fee5a4e6f51:
+    PLAYER: 17
+  39ecd752-5fdd-3646-baf5-9a24536498a4:
+    PLAYER: 6
+    PIGLIN_BRUTE: 2
+    ZOGLIN: 4
+    SPIDER: 2
+  ff9914d4-d5d9-4de1-a189-d1d48e4417d8:
+    PLAYER: 1
+    SPIDER: 1
+  c53bc95f-8914-4bb0-bcfb-160e60800800:
+    PLAYER: 1
+  f65b027e-b823-4280-93bf-0ff9ed20f856:
+    PLAYER: 5
+    ZOGLIN: 3
+    PIG: 1
+  0d409075-18f5-2ab7-b19a-b385c75f2280:
+    PLAYER: 5
+  d3dbb422-6f28-414a-a75d-02cef38a4d3a:
+    PLAYER: 1
+    ZOGLIN: 2
+  51ba569f-f667-4baa-a042-1da16e491a7a:
+    PLAYER: 9
+  7b3ed1a2-ef77-4860-825f-cee9b4f40c70:
+    ZOGLIN: 1
+  1d9bfddf-5c9c-4495-b2c2-80ac20d10949:
+    PLAYER: 1
+  02ee0482-8ee4-49ec-8bed-404323990168:
+    PLAYER: 1
+  d0241fd1-ebcb-494e-a94d-2e7c1e5f8522:
+    PLAYER: 1
+  cc19b1ff-e305-2c28-88e0-06280e787c47:
+    ZOGLIN: 32
+    ZOMBIE: 1
+  ad6a6850-64e9-409d-ae0d-73f552178c9d:
+    PLAYER: 7
+  c5f89ff5-098d-4a86-af67-f8c149a3873e:
+    PLAYER: 1
+  016d957b-d589-47d7-9aee-d3d229dffc6b:
+    PLAYER: 2
+    CHICKEN: 1
+    SHEEP: 1
+  610704c5-414a-4bda-bb55-e1db7d19a484:
+    PLAYER: 5
+    ZOGLIN: 1
+  afedae94-1dde-479a-b8d6-d4e78cb730fa:
+    PLAYER: 2
+  ab3aaacb-ae46-4933-9c7a-583e201d719e:
+    PLAYER: 2
+    ZOGLIN: 1
+  41ca4346-16ab-40a7-8c62-993e71c571dc:
+    PLAYER: 9
+    PIGLIN_BRUTE: 1
+    ZOGLIN: 6
+    CHICKEN: 2
+    TRADER_LLAMA: 17
+    WANDERING_TRADER: 8
+    PILLAGER: 1
+    PIG: 1
+  680e7630-8365-4181-b745-8e39d32a75c9:
+    ZOGLIN: 1
+  e98612fd-099a-237a-a61b-eb9f58dd2f85:
+    PLAYER: 5
+  fecce3a9-a0c5-4f88-8681-2213b5355045:
+    PLAYER: 1
+  b2b27131-c41c-4e25-b0d4-c90a4c27de89:
+    PLAYER: 1
+  f41b0d5c-db1d-41cb-93f0-f6e9eff5d1b1:
+    PLAYER: 14
+    ZOGLIN: 2
+    ZOMBIE: 1
+    COW: 1
+    SKELETON: 2
+  ea4b5fee-c598-49f7-8b18-402a61dee56a:
+    PLAYER: 1
+  52e01474-8a28-250d-9d7d-ece1a41277f2:
+    PLAYER: 6
+  86a981f3-32e8-4ad5-9645-e0ba1505b152:
+    ZOGLIN: 1
+  f801a747-60ed-420a-8d78-19b5acd1a6ee:
+    PLAYER: 2
+  29ff2e95-4fdc-47c3-9fad-b94654f5503f:
+    PLAYER: 3
+  f663d8af-5b87-21f4-8ffc-dafd35b1e459:
+    ZOMBIE: 1
+  d0c67dbc-f8f9-3b39-b99e-115f741e6c39:
+    PLAYER: 1
+  801d0c04-f42a-4911-8229-6fd285a963ad:
+    PLAYER: 4
+  25925b1a-858f-4500-ba72-e07f9e134dc6:
+    PLAYER: 2
+  2f3d8f2d-efe2-4609-8457-d1c2342540a9:
+    PLAYER: 1
+  532b38da-aed4-4484-83d8-cce4c5f73808:
+    PLAYER: 2
+    SPIDER: 1
+  7a95153d-0f09-409d-a673-7423b8fffb70:
+    PLAYER: 1
+    ZOGLIN: 3
+  35513bf9-a29d-3f73-b98a-bcb3f4294c35:
+    PLAYER: 1
+  b1eaf1a7-e5b6-4aff-805b-b6ab37730fe4:
+    PLAYER: 4
+    PIGLIN_BRUTE: 4
+    DROWNED: 1
+    ZOGLIN: 13
+    SPIDER: 1
+  8e949c09-9ac6-477b-96df-f80dce875e16:
+    PLAYER: 5
+  950d8a3b-7026-44b3-bec3-cd8e2e5b0751:
+    PLAYER: 10
+    ZOGLIN: 3
+    PIG: 1
+  7a1a884d-6013-471b-aa8f-9e7ccef3d139:
+    ZOGLIN: 1
+  e8fc9e34-b2f6-4ca1-af9c-34bb90ecafb2:
+    PLAYER: 2
+    ZOGLIN: 1
+  985ac22f-4fc1-40b6-b885-89e4aad657dd:
+    PLAYER: 1
+  97527436-ea41-40fc-912c-b0a8ca321c06:
+    ZOGLIN: 1
+  20cf6028-22c8-49f6-b706-7427f47d64ef:
+    PLAYER: 1
+  70808b35-7ac6-2c53-874b-2c8b6db76bbc:
+    PILLAGER: 2
+  a7e9f498-0e65-2ad8-b04b-f6f1885ebe43:
+    ZOMBIE: 2
+  9b9234c2-a015-3972-a4bf-b57234a285b4:
+    PLAYER: 1
+  c9e3b2db-d532-3c76-89e1-294750954722:
+    PLAYER: 2
+  79763202-5228-463d-996e-e6a77c3c46fb:
+    ZOGLIN: 1
+  105f13e4-6862-2811-8530-3ec701208270:
+    PLAYER: 2
+  75b8726b-137f-4355-8029-79a7a7b643b7:
+    PLAYER: 1
+    CHICKEN: 1
+    WANDERING_TRADER: 1
+  fd7d07b4-11bb-4486-a5ef-811ac1528624:
+    PLAYER: 1
+  f6a2b2dd-a4da-4764-8f7e-083f6b7c3d05:
+    PLAYER: 2
+  8e002d21-87cb-4639-b347-9a57a5f4fb4c:
+    PLAYER: 4
+    SPIDER: 1
+  5b41f878-d704-44a5-91af-a5dcee3aa52c:
+    PLAYER: 4
+    ZOGLIN: 3
+  734307f1-99ab-23d0-850c-638c0838658c:
+    ENDERMAN: 1
+    CREEPER: 1
+    ZOMBIE: 9
+    SPIDER: 1
+    SKELETON: 4
+dragon-killer: {}
+woodcutter:
+  41ca4346-16ab-40a7-8c62-993e71c571dc:
+    ACACIA_LOG: 49
+  f6a2b2dd-a4da-4764-8f7e-083f6b7c3d05:
+    ACACIA_LOG: 2
+birthday: {}
+first-island: {}
+enchanter:
+  016d957b-d589-47d7-9aee-d3d229dffc6b: []
+  39ecd752-5fdd-3646-baf5-9a24536498a4: []
+  ea4b5fee-c598-49f7-8b18-402a61dee56a: []

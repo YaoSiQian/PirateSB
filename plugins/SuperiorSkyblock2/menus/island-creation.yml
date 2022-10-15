@@ -1,0 +1,117 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&lCreate a new island...'
+previous-menu: true
+
+pattern:
+  - '~ ~ ~ ~ ~ ~ ~ ~ ~'
+  - '# @ # # ^ # # $ #'
+  - '~ ~ ~ ~ ~ ~ ~ ~ ~'
+
+items:
+  '@':
+    schematic: 'pirate_island'
+    required-permission: ''
+    biome: PLAINS
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZmNDQ4ZTNhMzViZWRkYjI1MmVlN2IzMGZlZDY3MTUzYjhhMzI0NTA2NTU2YjRhNzFlYWZjZTVlYjg2YjQ5In19fQ=='
+      name: '&7'
+      lore:
+        - '  &6⚓ &lPirate Island &6⚓ &8(Default)  '
+        - '&7 '
+        - '  &7▪ Small but safe starting island.'
+        - '&7 '
+        - '  &e▪ [Left-click to create island] ⏏  '
+        - '&7 '
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
+      name: '&7'
+      lore:
+        - '&7Small but safe starting island.'
+        - '&7 '
+        - '&e▪ [Right-Click to preview the island] ⏏'
+  '^':
+    schematic: 'pirate_desert'
+    required-permission: ''
+    biome: DESERT
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhmOWQ5MDcyZDdmZDFiNTE3NWU3ODhhMjdlMGZmMDUwZWNiZTQyNWY3ZTc5ZDVmMjgyMjZjMmZkYjdkYzE2NyJ9fX0='
+      name: '&7'
+      lore:
+        - '  &6⚓ &lPirate Desert Island &6⚓ &8(Custom)  '
+        - '&7 '
+        - '  &7▪ Customized island, with a desertic atmosphere.  '
+        - '&7 '
+        - '  &e▪ [Left-click to create island] ⏏  '
+        - '&7 '
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0='
+      name: '&eDesert Island &c(Unavailable)'
+      lore:
+        - '&7Customized island with lots of sand!'
+        - '&7 '
+        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+  '$':
+    schematic: 'mycel'
+    required-permission: ''
+    biome: MUSHROOM_FIELDS
+    access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
+      name: '&7'
+      lore:
+        - '  &6⚓ &lMycelium Island &6⚓ &8(Custom)  '
+        - '&7 '
+        - '  &7▪ Customized island with lots of mycelium!  '
+        - '&7 '
+        - '  &e▪ [Left-click to create island] ⏏  '
+        - '&7 '
+    no-access:
+      type: PLAYER_HEAD
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
+      name: '&eMycelium Island &c(Unavailable)'
+      lore:
+        - '&7Customized island with lots of mycelium!'
+        - '&7 '
+        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+  '~':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+
+sounds:
+  '@':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '^':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2
+  '$':
+    access:
+      type: BLOCK_PORTAL_AMBIENT
+      volume: 1
+      pitch: 0.2
+    no-access:
+      type: BLOCK_ANVIL_PLACE
+      volume: 0.2
+      pitch: 0.2

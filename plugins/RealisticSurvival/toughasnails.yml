@@ -1,0 +1,266 @@
+#######################################
+#          Tough As Nails             #
+#######################################
+
+# Customize various aspects of the temperature and thirst systems
+
+# Time in ticks that the game will check, don't recommend changing unless
+# the server is lagging severely
+VisualTickTime: 5  # Responsible for temperature and thirst HUDs
+CheckTickTime: 100 # Responsible for temperature and thirst logic calculations
+
+IceCube:
+  DropChance: 0.33
+  Blocks:
+    - "ICE"
+    - "PACKED_ICE"
+    - "BLUE_ICE"
+MagmaShard:
+  DropChance: 0.33
+  Blocks:
+    - "MAGMA_BLOCK"
+
+Temperature:
+  Hypothermia:
+    Limit: 1.0    # Minimum temperature for player to be in hypothermia and take damage
+    Damage: 0.0   # How much damage the player takes while in hypothermia per "CheckTickTime" number of ticks
+  Hyperthermia:
+    Limit: 500.0   # Minimum temperature for player to be in hyperthermia and take damage
+    Damage: 0.0   # How much damage the player takes while in hyperthermia per "CheckTickTime" number of ticks
+  MaxChange: 0.75  # By how much can a player's temperature change per "CheckTickTime" number of ticks
+  # List blocks that should affect a player's temperature
+  # Blocks use the enum constant names here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  Blocks:
+    # 1 temperature bar = 1.0 units
+    CAMPFIRE: 2.0
+    TORCH: 0.1
+    WALL_TORCH: 0.1
+    JACK_O_LANTERN: 0.1
+    LANTERN: 0.1
+    FIRE: 0.2
+    LAVA: 0.1
+    LAVA_CAULDRON: 0.1
+    WATER: -0.005
+    WATER_CAULDRON: -0.005
+    SNOW: -0.01
+    SNOW_BLOCK: -0.01
+    POWDER_SNOW: -0.01
+    POWDER_SNOW_CAULDRON: -0.01
+    ICE: -0.01
+    PACKED_ICE: -0.02
+    BLUE_ICE: -0.1
+    FROSTED_ICE: -0.01
+    SOUL_CAMPFIRE: -2.0
+    SOUL_TORCH: -0.1
+    SOUL_WALL_TORCH: -0.1
+    SOUL_LANTERN: -0.1
+    SOUL_FIRE: -0.2
+    MAGMA_BLOCK: 0.03
+    WHITE_WOOL: 0.03
+    WHITE_CARPET: 0.03
+    WHITE_CANDLE: 0.05
+    WHITE_CANDLE_CAKE: 0.05
+    ORANGE_WOOL: 0.03
+    ORANGE_CARPET: 0.03
+    ORANGE_CANDLE: 0.05
+    ORANGE_CANDLE_CAKE: 0.05
+    PINK_WOOL: 0.03
+    PINK_CARPET: 0.03
+    PINK_CANDLE: 0.05
+    PINK_CANDLE_CAKE: 0.05
+    CYAN_WOOL: 0.03
+    CYAN_CARPET: 0.03
+    CYAN_CANDLE: 0.05
+    CYAN_CANDLE_CAKE: 0.05
+    YELLOW_WOOL: 0.03
+    YELLOW_CARPET: 0.03
+    YELLOW_CANDLE: 0.5
+    YELLOW_CANDLE_CAKE: 0.05
+    LIME_WOOL: 0.03
+    LIME_CARPET: 0.03
+    LIME_CANDLE: 0.05
+    LIME_CANDLE_CAKE: 0.05
+    MAGENTA_WOOL: 0.03
+    MAGENTA_CARPET: 0.03
+    MAGENTA_CANDLE: 0.05
+    MAGENTA_CANDLE_CAKE: 0.05
+    GRAY_WOOL: 0.03
+    GRAY_CARPET: 0.03
+    GRAY_CANDLE: 0.05
+    GRAY_CANDLE_CAKE: 0.05
+    LIGHT_GRAY_WOOL: 0.03
+    LIGHT_GRAY_CARPET: 0.03
+    LIGHT_GRAY_CANDLE: 0.05
+    LIGHT_GRAY_CANDLE_CAKE: 0.05
+    LIGHT_BLUE_WOOL: 0.03
+    LIGHT_BLUE_CARPET: 0.03
+    LIGHT_BLUE_CANDLE: 0.05
+    LIGHT_BLUE_CANDLE_CAKE: 0.05
+    PURPLE_WOOL: 0.03
+    PURPLE_CARPET: 0.03
+    PURPLE_CANDLE: 0.05
+    PURPLE_CANDLE_CAKE: 0.05
+    BLUE_WOOL: 0.03
+    BLUE_CARPET: 0.03
+    BLUE_CANDLE: 0.05
+    BLUE_CANDLE_CAKE: 0.05
+    BROWN_WOOL: 0.03
+    BROWN_CARPET: 0.03
+    BROWN_CANDLE: 0.05
+    BROWN_CANDLE_CAKE: 0.05
+    GREEN_WOOL: 0.03
+    GREEN_CARPET: 0.03
+    GREEN_CANDLE: 0.05
+    GREEN_CANDLE_CAKE: 0.05
+    RED_WOOL: 0.03
+    RED_CARPET: 0.03
+    RED_CANDLE: 0.05
+    RED_CANDLE_CAKE: 0.05
+    BLACK_WOOL: 0.03
+    BLACK_CARPET: 0.03
+    BLACK_CANDLE: 0.05
+    BLACK_CANDLE_CAKE: 0.05
+  WoolArmor:
+    Helmet: 2.0
+    Chestplate: 2.0
+    Leggings: 1.75
+    Boots: 1.5
+  JelledSlimeArmor:
+    Helmet: -2.0
+    Chestplate: -2.0
+    Leggings: -1.75
+    Boots: -1.5
+  Warming: 3.0         # Warming enchant
+  Cooling: -3.0        # Cooling enchant
+  Burning: 3.0
+  SubmergedWater: -2.0 # If a player is in water
+  SubmergedLava: 3.0   # If a player is in lava
+  Storming: -2.0       # If it is raining or thundering, and the player is outside
+  # Any conditions that will stabilize a player's temperature to normal
+  Regulation:
+    Housed: 2.0 # If a player is under a roof
+    OzzyLiner: 5.0
+    LeatherArmor:
+      Helmet: 1.5
+      Chestplate: 1.5
+      Leggings: 1.25
+      Boots: 1.0
+    ChainmailArmor:
+      Helmet: 0.5
+      Chestplate: 0.5
+      Leggings: 0.25
+      Boots: 0.2
+    IronArmor:
+      Helmet: 0.5
+      Chestplate: 0.5
+      Leggings: 0.25
+      Boots: 0.2
+    GoldenArmor:
+      Helmet: 0.5
+      Chestplate: 0.5
+      Leggings: 0.25
+      Boots: 0.2
+    DiamondArmor:
+      Helmet: 0.75
+      Chestplate: 0.75
+      Leggings: 0.5
+      Boots: 0.25
+    NetheriteArmor:
+      Helmet: 0.75
+      Chestplate: 0.5
+      Leggings: 0.25
+      Boots: 0.2
+    TurtleArmor:
+      Helmet: 1.0
+Thirst:
+  Dehydration:
+    Limit: 1.0  # Minimum thirst for player to be dehydrated and take damage
+    Damage: 0.5 # How much damage the player takes while dehydrated per "CheckTickTime" number of ticks
+  Supplements:
+    # 1 thirst bar = 2.0 units
+    WaterBottle:
+      Amount: 10.0
+      OverrideLimit: true
+    PurifiedWaterBottle:
+      Amount: 10.0
+      OverrideLimit: true
+    AppleJuice:
+      Amount: 10.0
+      OverrideLimit: true
+    BeetrootJuice:
+      Amount: 10.0
+      OverrideLimit: true
+    CactusJuice:
+      Amount: 10.0
+      OverrideLimit: true
+    ChorusFruitJuice:
+      Amount: 12.0
+      OverrideLimit: true
+      Teleport:
+        Enabled: true
+        MaxRadius: 7.0
+        Sound: "ITEM_CHORUS_FRUIT_TELEPORT"
+        Volume: 0.5 # Set to -1.0 to disable
+        Pitch: 1.0
+    GlisteringMelonJuice:
+      Amount: 16.0
+      OverrideLimit: true
+    GoldenAppleJuice:
+      Amount: 20.0
+      OverrideLimit: true
+    GoldenCarrotJuice:
+      Amount: 30.0
+      OverrideLimit: true
+    MelonJuice:
+      Amount: 10.0
+      OverrideLimit: false
+    PumpkinJuice:
+      Amount: 10.0
+      OverrideLimit: false
+    Drinking:
+      # Customize aspects of the sound made when a player drinks from a source block of water
+      # Volume ranges from 0.0 to 1.0, any values greater than 1.0 just increase the distance at which the sound can be heard
+      # Pitch ranges from 0.5 to 2.0 where 1.0 is normal play speed
+      # For more info regarding sounds, see https://bukkit.org/threads/playsound-parameters-volume-and-pitch.151517/
+      # No need to change settings, already sound decent
+      Amount: 1.0
+      Sound: "ENTITY_GENERIC_DRINK"
+      Volume: 0.1      # Set to -1.0 to disable
+      Pitch: 1.0
+      MaxDistance: 2.0 # Maximum distance at which a player can drink a water source from
+      OverrideLimit: false
+    Raining:
+      Amount: 1.0
+      Sound: "ENTITY_GENERIC_DRINK"
+      Volume: 0.1      # Set to -1.0 to disable
+      Pitch: 1.0
+      OverrideLimit: false
+
+Helmet:
+  Wool:
+    Armor: 1.0
+    Toughness: 0.5
+  JelledSlime:
+    Armor: 2.0
+    Toughness: 0.5
+Chestplate:
+  Wool:
+    Armor: 3.0
+    Toughness: 0.5
+  JelledSlime:
+    Armor: 5.0
+    Toughness: 0.5
+Leggings:
+  Wool:
+    Armor: 2.0
+    Toughness: 0.5
+  JelledSlime:
+    Armor: 4.0
+    Toughness: 0.5
+Boots:
+  Wool:
+    Armor: 1.0
+    Toughness: 0.5
+  JelledSlime:
+    Armor: 1.0
+    Toughness: 0.5

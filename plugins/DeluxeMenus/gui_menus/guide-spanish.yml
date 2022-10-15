@@ -1,0 +1,224 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#8B673A▪ &lGuía &#8B673A- &lEspañol &#8B673A✎'
+register_command: true
+open_command:
+  - guide-spanish
+size: 54
+        
+# as always, only cool people can open this menu :)
+items:
+  'guide-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 9
+    display_name: '&7'
+    lore:
+    - '  &7#1. &6&l¿Cómo empezar mi isla?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para empezar una nueva aventura en tú isla debes  '
+    - ' &#ABBFBF  ingresar el siguiente comando &f"/is create (nombre)"&#ABBFBF.  '
+    - ''
+    - ' &#ABBFBF▪ Puedes ingresar el siguiente comando para'
+    - ' &#ABBFBF  abrir el panel de opciones de tu isla &f"/is panel"&#ABBFBF.  '
+    - ''
+    - '&#ABBFBF▪  Para ver todos los comandos usar &f"/is help"&#ABBFBF.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 10
+    amount: 2
+    display_name: '&7'
+    lore:
+    - '  &7#2. &6&l¿Cómo tener amigos?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para tener amigos, primero debes enviar una  '
+    - ' &#ABBFBF  solicitud de amistad &f"/friend add nombre"&#ABBFBF.  '
+    - ''
+    - ' &#ABBFBF▪ Tu amigo deberá de aceptar la solicitud usando  '
+    - ' &#ABBFBF  el siguiente comando &f"/friend accept nombre"&#ABBFBF.  '
+    - ''
+    - '&#ABBFBF▪  Para ver todos los comandos usar &f"/friend help"&#ABBFBF.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 11
+    amount: 3
+    display_name: '&7'
+    lore:
+    - '  &7#3. &6&l¿Cómo conseguir llaves?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para obtener las llaves del cofre del tesoro, solo  '
+    - ' &#ABBFBF  deberás minar en tu generador, el porcentaje '
+    - ' &#ABBFBF  para encontrarte una llave es del 1%.'
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 12
+    amount: 4
+    display_name: '&7'
+    lore:
+    - '  &7#4. &6&l¿Cómo generar dinero?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Tienes muchas opciones para conseguir dinero en el  '
+    - ' &#ABBFBF  servidor, abajo estará la lista que puedes seguir. '
+    - ''
+    - ' &#ABBFBF▪ Consigue dinero minando.  '
+    - ' &#ABBFBF▪ Consigue dinero asesinando monstrous.  '
+    - ' &#ABBFBF▪ Consigue dinero subastando tus artículos.  '
+    - ' &#ABBFBF▪ Consigue dinero vendiendo tus lingotes de oro.  '
+    - ' &#ABBFBF▪ Consigue dinero vendiendo tus artículos en las tiendas.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 13
+    amount: 5
+    display_name: '&7'
+    lore:
+    - '  &7#5. &6&l¿Cómo encuentro cofres del tesoro?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para encontrar cofres del tesoro solo debes de  '
+    - ' &#ABBFBF  explorar el spawn, pero ten en cuenta que hay  '
+    - ' &#ABBFBF  muchos monstruos acechando, ve preparado.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 14
+    amount: 6
+    display_name: '&7'
+    lore:
+    - '  &7#6. &6&l¿Porqué necesito tomar agua?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Necesitas tomar agua para mantener llena la barra de  '
+    - ' &#ABBFBF  H2O y no sufrir daño por sed, por eso te recomendamos  '
+    - ' &#ABBFBF  que siempre lleves agua contigo, en los largos viajes  '
+    - ' &#ABBFBF  la necesitarás.'
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 15
+    amount: 7
+    display_name: '&7'
+    lore:
+    - '  &7#7. &6&l¿Cómo obtengo una mascota?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para tener tu mascota solo debes usar el  '
+    - ' &#ABBFBF  comando &f"/pets" &#ABBFBFy seleccionar la que este  '
+    - ' &#ABBFBF  disponible o comprar una nueva mascota.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏  '
+    - ''
+  'guide-8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 16
+    amount: 8
+    display_name: '&7'
+    lore:
+    - '  &7#8. &6&l¿Cómo accedo a un comerciante?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para acceder a un comerciante a la distancia  '
+    - ' &#ABBFBF  solo debés introducir su comando. '
+    - ''
+    - ' &#ABBFBF▪ Carnicero &f"/butcher"&#ABBFBF.'
+    - ' &#ABBFBF▪ Flores &f"/flowers"&#ABBFBF.'
+    - ' &#ABBFBF▪ Leñador &f"/woodcutter"&#ABBFBF.'
+    - ' &#ABBFBF▪ Constructor &f"/builder"&#ABBFBF.'
+    - ' &#ABBFBF▪ Granjero &f"/farmer"&#ABBFBF.'
+    - ' &#ABBFBF▪ Pescador &f"/fisherman"&#ABBFBF.'
+    - ' &#ABBFBF▪ Minero &f"/miner"&#ABBFBF.'
+    - ' &#ABBFBF▪ Herrero &f"/blacksmith"&#ABBFBF.'
+    - ' &#ABBFBF▪ Pirata Misterioso &f"/mysterypirate"&#ABBFBF.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 17
+    amount: 9
+    display_name: '&7'
+    lore:
+    - '  &7#9. &6&l¿Cómo pedir ayuda al staff?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para pedir ayuda al staff debes usar el  '
+    - ' &#ABBFBF  siguiente comando &f"/helpop mensaje"&#ABBFBF.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'guide-10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 18
+    amount: 10
+    display_name: '&7'
+    lore:
+    - '  &7#10. &6&l¿Dónde veo las ventajas de los rangos?  '
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para ver las ventajas de los rangos vip usa &f"/ranks"&#ABBFBF.  '
+    - ''
+  'guide-13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 19
+    amount: 11
+    display_name: '&7'
+    lore:
+    - '  &7#11. &6&l¿Cómo ver mis habilidades?'
+    - ''
+    - ' &#ACF268▪ [Respuesta/] ✍'
+    - ''
+    - ' &#ABBFBF▪ Para ver el progreso y las habilidades que haz  '
+    - ' &#ABBFBF  desbloqueado, usa el comando &f"/skills"&#ABBFBF.  '
+    - ''
+    - ' &#B36BF6▪ [Si tienes problemas, contactar con el staff] ⏏'
+    - ''
+  'items_1':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '

@@ -1,0 +1,66 @@
+mission-file: BlocksMissions
+island: false
+auto-reward: false
+disband-reset: true
+reset-amount: 2
+rewards:
+  commands:
+  - eco give %player% 500
+  - is admin msg %player% &6&lMission | &7Successfully finished the mission CobbleMiner!
+required-blocks:
+  '1':
+    types:
+    - COBBLESTONE
+    amount: 48
+reset-after-finish: true
+only-natural-blocks: true
+required-missions:
+- woodcutter
+only-show-if-required-completed: true
+icons:
+  not-completed:
+    type: PAPER
+    name: '&aCobble Miner'
+    lore:
+    - '&7Mine 48 cobblestone.'
+    - ''
+    - '&6Required Materials:'
+    - '&8 - &7x48 Cobblestone'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$500'
+    - ''
+    - '&6Mined Blocks: &7{1}/48'
+    - '&6Progress: &7{0}%'
+    - '&6Times Completed: &7{2}/2'
+    - '&c&l ✘ &7Not Completed'
+  can-complete:
+    type: PAPER
+    name: '&aCobble Miner'
+    lore:
+    - '&7Mine 48 cobblestone.'
+    - ''
+    - '&6Required Materials:'
+    - '&8 - &7x48 Cobblestone'
+    - ''
+    - '&6Rewards:'
+    - '&8 - &7$500'
+    - ''
+    - '&6Mined Blocks: &748/48'
+    - '&6Progress: &7100%'
+    - '&6Times Completed: &7{2}/2'
+    - '&a&l ✔ &7Click to redeem your reward.'
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&aCobble Miner'
+    lore:
+    - '&7Mine 48 cobblestone.'
+    - ''
+    - '&6Mined Blocks: &748/48'
+    - '&6Progress: &7100%'
+    - '&6Times Completed: &72/2'
+    - '&a&l ✔ &7Already Claimed.'
