@@ -38,17 +38,17 @@ moneyrewards:
             chance: 15
             commands:
                 - eco give %player% 5
-                - titlemanager msg %player% &e+5 ⠎\n▪ Reward obtained ▪
+                - titlemanager msg %player% &e+5 ⠎\n▪ 获得奖励 ▪
         money4:
             chance: 10
             commands:
                 - eco give %player% 10
-                - titlemanager msg %player% &e+10 ⠎\n▪ Reward obtained ▪
+                - titlemanager msg %player% &e+10 ⠎\n▪ 获得奖励 ▪
         money6:
             chance: 5
             commands:
                 - eco give %player% 20
-                - titlemanager msg %player% &e+20 ⠎\n▪ Reward obtained ▪
+                - titlemanager msg %player% &e+20 ⠎\n▪ 获得奖励 ▪
 xprewards:
     rewardLimit: 1
     blocks:
@@ -61,12 +61,12 @@ xprewards:
             chance: 10
             commands:
                 -  xp give %player% 10
-                - titlemanager msg %player%  &a+10 Exp &f⠙\n▪ Reward obtained ▪
+                - titlemanager msg %player%  &a+10 Exp &f⠙\n▪ 获得奖励 ▪
         crystal2:
             chance: 5
             commands:
                 -  xp give %player% 5
-                - titlemanager msg %player%  &a+5 Exp &f⠙\n▪ Reward obtained ▪
+                - titlemanager msg %player%  &a+5 Exp &f⠙\n▪ 获得奖励 ▪
 keyrewards:
     rewardLimit: 1
     blocks:
@@ -79,18 +79,4 @@ keyrewards:
             chance: 1
             commands:
                 - crate givekey %player% treasurekey 1
-                - broadcast &8▪ &6&l%player%&7 has found a &e&lTreasure Key&8 ▪
-exampleReward2:
-    blocks:
-        - "wheat:true"
-    allowedWorlds: 
-        - farming1
-        - farming23
-        - survival_world_the_end
-    rewards:
-        farming:
-            chance: 1
-            commands:
-                - eco give %player% 1000
-                - broadcast %player% likes to farm!
-                - "!msg &aGood job!"
+                - broadcast &8▪ &6&l%player%&7 找到了 &e&l宝藏密钥&8 ▪
