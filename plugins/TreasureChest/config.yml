@@ -25,9 +25,9 @@
 
 defaults:
   messages:
-    found: You have found treasure!
-    found_already: You have already looted this treasure...
-    unlimited: Take as much as you want!
+    found: ⠍ 你找到了这个宝箱！
+    found_already: ⠌ 这里的宝箱已经探索过了。
+    unlimited: 欲拿宝藏，必承其重。
   ignoreProtection: false
 rewards:
   restore:

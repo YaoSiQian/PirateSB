@@ -177,10 +177,9 @@ location:
           v: 2586
           type: GOLD_NUGGET
   messages:
-    FOUND: ⠍ You have found this treasure!
-    FOUND_ALREADY: ⠌ You have already opened this treasure chest, in 48 hours it will
-      be filled!
-    UNLIMITED: Take as much as you want!
+    FOUND: ⠍ 你找到了这个宝箱！
+    FOUND_ALREADY: ⠌ 这里的宝箱已经探索过了，但在 48 小时内就会重置。
+    UNLIMITED: 欲拿宝藏，必承其重。
   ranks: []
   unlimited: false
   random: 0

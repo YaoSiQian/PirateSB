@@ -81,9 +81,9 @@ location:
           v: 2586
           type: GOLD_NUGGET
   messages:
-    FOUND: ⠍ You have found a booty!
-    FOUND_ALREADY: ⠌ You can only steal this booty every 7 days!
-    UNLIMITED: Take as much as you want!
+    FOUND_ALREADY: ⠌ 你每 7 天才能掠夺一次这个战利品。
+    FOUND: ⠍ 你找到了这个战利品！
+    UNLIMITED: 欲拿宝藏，必承其重。
   ranks: []
   unlimited: false
   random: 0
