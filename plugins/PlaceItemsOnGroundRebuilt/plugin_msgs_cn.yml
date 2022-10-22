@@ -1,0 +1,178 @@
+#Chat color symbol: §
+
+#For reference:
+
+# §1 = Dark Blue
+# §2 = Dark Green
+# §3 = Dark Aqua
+# §4 = Dark Red
+# §5 = Dark Purple
+# §6 = Gold
+# §7 = Gray
+# §8 = Dark Gray
+# §9 = Blue
+# §a = Green
+# §b = Aqua
+# §c = Red
+# §d = Light Purple
+# §e = Yellow
+# §f = White
+# §g = Magic
+# §h = Bold
+# §i = Strike through
+# §n = Underline
+# §o = Italic
+# §r = Reset
+
+#Placeholders
+
+#These placeholders can be used anywhere
+#<playerName>, <tag>
+
+#These placeholders can only be used when specificly stated in a comment above the message
+#<dataFileUuid>, <dataFileName>, <dataFilePlaceCap>, <dataFileHasCustomPlaceCap>, <dataFileAmountPlaced>, <dataFilePlaceToggled>,
+#<dataFileRightClickPlaceToggled>, <clickedBlocked>, <purgeRadius>, <targetPlayerName>, <purgeLocationCount>, <purgeArmorStandCount>, <itemInHand>,
+#<sideRotation>
+
+#This will appear when the <tag> placeholder is used in a message.
+pluginTag: "§9[置物于地]§r"
+
+#指令部分
+
+#全局
+commandNoPermission: "<tag> §4你没有权限使用这个指令!"
+notAPlayer: "<tag> §c你必须是玩家才能使用这个指令!"
+notACommand: "<tag> §b尝试输入 §e/placeitems help §b获取帮助! ee"
+playerNotOnline: "<tag> §c玩家不在线!"
+
+#/placeitems help
+helpMenuLine1: "§b====================§9置物于地 帮助信息§b===================="
+helpMenuLine2: "§e/placeitems help §b- 显示指令列表"
+helpMenuLine3: "§e/placeitems toggle §b- 开启或关闭玩家是否能潜行放置物品的功能"
+helpMenuLine5: "§e/placeitems siderotation <0-7> §b- 设置物品旋转角."
+helpMenuLine4: "§e/placeitems rightclicktoggle §b- 开启或关闭玩家是否能右击放置物品的功能"
+helpMenuLine6: "§e/placeitems set <玩家名> <数量> §b- 设置玩家可以放置物品的数量 (使用 \"u\" 代表无限制)"
+helpMenuLine7: "§e/placeitems clear <范围> §b- 安全地删除指定范围内所有玩家放置的物品 (1 - 250)"
+helpMenuLine8: "§e/placeitems reload §b- 重载插件配置文件"
+helpMenuLine9: "§e/placeitems restorecap <玩家名> §b- 将玩家放置上限设置为默认上限"
+helpMenuLine10: "§e/placeitems configname §b- 获取你手中物品的ID"
+helpMenuLine11: "§4=====================§c危险区域§4====================="
+helpMenuLine12: "§e/placeitems playerdata <arg> <玩家名> (<arg>) (<arg>) §b- 可以让你直接修改玩家的数据文件"
+helpMenuLine13: "§c警告: 如果操作有误,直接修改玩家数据可能会导致意外情况发生!"
+helpMenuLine14: "§e/placeitems purge <范围> §b- 这个指令用于修复指定范围内有物品放置到了禁止放置物品的方块上的漏洞"
+helpMenuLine15: "§c警告: 这个指令和 §e/placeitems clear <范围> §c相似(请先使用这个指令), 但这个指令会删除范围内所有的盔甲架 (包括不是通过这款插件放置的盔甲架).同时也会清除范围内所有已放置物品的位置数据文件(1 - 250) !"
+helpMenuLine16: "§b====================§9PlaceItems Help§b===================="
+
+#/placeitems toggle
+toggleOn: "<tag> §a你现在可以置物于地了!"
+toggleOff: "<tag> §c你不能置物于地了!"
+
+#/placeitems rightclicktoggle
+rcToggleOn: "<tag> §a你现在可以右击捡起物品了!"
+rcToggleOff: "<tag> §c你现在不能右击捡起物品!"
+
+#/placeitems set
+setLessThanZero: "<tag> §c数量必须大于0!"
+setInvalidUnlimited: "<tag> §c无效的上限! 请使用 §eu §c代表无限制."
+setInvalidAmount: "<tag> §c无效的上限!"
+#可用占位符: <targetPlayerName>
+setCapPermissionWarning: "<tag> §c警告: <targetPlayerName> 已达到放置物品上限!"
+#可用占位符: <targetPlayerName>
+setCapUnlimited: "<tag> §b<targetPlayerName>的放置物品上限已设置为§a无限制!"
+#可用占位符: <targetPlayerName>, <dataFilePlaceCap>
+setCapAmount: "<tag> §b<targetPlayerName>的放置物品上限已设置为§a<dataFilePlaceCap>!"
+
+#/placeitems siderotation
+siderotationInvalidNum: "<tag> §c无效的旋转角数! 请使用数字 §e0 - 7§c!"
+#可用占位符: <sideRotation>
+sideRotationSet: "<tag> §b物品旋转角已设置为 §a<sideRotation>§b!"
+
+#/placeitems clear
+clearInvalid: "<tag> §c范围必须在1-250区间之内"
+clearInvalidInt: "<tag> §c范围必须是1-250之间的整数"
+#可用占位符: <purgeArmorStandCount>, <purgeRadius>
+clearValid: "<tag> §b已清除§a<purgeRadius>格§b方块范围内的§a<purgeArmorStandCount>件§b已放置物品!"
+
+#/placeitems reload
+reloadDone: "<tag> §b成功重载配置文件! 一些改动只会在服务器重启后更新!"
+
+#/placeitems restorecap
+#可用占位符: <targetPlayerName>
+restoreCapWarning: "<tag> §c警告: <targetPlayerName> 已达权限设置的放置物品上限! 这个指令会重置上限, 权限设置的上限会覆盖文件内设置的上限!"
+#可用占位符: <targetPlayerName>
+restoreCapDone: "<tag> §b<targetPlayerName>的文件放置物品上限已重置为默认上限!"
+#/placeitems configname
+#可用占位符: <itemInHand>
+configNameHandItem: "<tag> §b请输入§e<itemInHand>§b到配置文件的列表内."
+configNameError: "<tag> §b你两手空空."
+
+#/placeitems purge
+purgeInvalid: "<tag> §c范围区间为 1-250"
+purgeInvalidInt: "<tag> §c范围必须是1-250之间的整数"
+#可用占位符: <purgeArmorStandCount>, <purgeLocationCount>, <purgeRadius>
+purgeValid: "<tag> §b已清除§a<purgeRadius>格§b方块范围内的§a<purgeLocationCount>个§b位置和§a<purgeArmorStandCount>个§b盔甲架!"
+
+#/placeitesm playerdata
+
+playerDataLine1: "§b====================§9置物于地 文件§b===================="
+#可用占位符: <dataFileUuid>
+playerDataLine2: "§cuuid: §a<dataFileUuid>"
+#可用占位符: <dataFileName>
+playerDataLine3: "§c名称: §a<dataFileName>"
+#可用占位符: <dataFilePlaceCap>
+playerDataLine4: "§c放置上限: §a<dataFilePlaceCap>"
+#可用占位符: <dataFileHasCustomPlaceCap>
+playerDataLine5: "§chasCustomPlaceCap: §a<dataFileHasCustomPlaceCap>"
+#可用占位符: <dataFileAmountPlaced>
+playerDataLine6: "§c已放置物品数: §a<dataFileAmountPlaced>"
+#可用占位符: <dataFilePlaceToggled>
+playerDataLine7: "§c是否可放置: §a<dataFilePlaceToggled>"
+#可用占位符: <dataFileRightClickPlaceToggled>
+playerDataLine8: "§c是否开启右击放置: §a<dataFileRightClickPlaceToggled>"
+playerDataLine9: "§b====================§9置物于地 文件§b===================="
+#可用占位符: <targetPlayerName>, <dataFilePlaceCap>
+placeCapSet: "<tag> §b§a<targetPlayerName>§b的数值§cplaceCap§b已设置为§a<dataFilePlaceCap>§b."
+placeCapError: "<tag> §c数值必须是整数!"
+#可用占位符: <targetPlayerName>, <dataFileHasCustomPlaceCap>
+hasCustomPlaceCapSet: "<tag>§a<targetPlayerName>的§b数值§chasCustomPlaceCap§b已设置为§a<dataFileHasCustomPlaceCap>§b."
+hasCustomPlaceCapError: "<tag> §c数值必须为true或false!"
+#可用占位符: <targetPlayerName>, <dataFileAmountPlaced>
+amountPlacedSet: "<tag> §a<targetPlayerName>的§b数值§camountPlaced§b已设置为§a<dataFileAmountPlaced>§b."
+amountPlacedError: "<tag> §c数值必须为true或false!"
+#可用占位符: <targetPlayerName>, <dataFilePlaceToggled>
+placeToggledSet: "<tag> §a<targetPlayerName>的§b数值§cplaceToggled§b已设置为§a<dataFilePlaceToggled>§b."
+placeToggledError: "<tag> §c数值必须为true或false!"
+#可用占位符: <targetPlayerName>, <dataFileRightClickPlaceToggled>
+rightClickPickupToggledSet: "<tag> §a<targetPlayerName>的§b数值§crightClickPickupToggled§b已设置为§a<dataFileRightClickPlaceToggled>§b."
+rightClickPickupToggledError: "<tag> §c数值必须为true或false!"
+syncStart: "<tag> §b同步Locations.dat玩家放置数据中...这可能需要点时间."
+syncNoFile: "<tag> §c没有该名玩家的文件!"
+#可用占位符: <syncFromCount>, <syncToCount>
+syncChange: "<tag> §a数据已同步! 已记录从§c<syncFromCount>§a到§e<syncToCount>的玩家放置数据§a."
+syncNoChange: "<tag> §b数据没有变化!"
+
+#事件部分
+
+strictCombatibilityPlacementBlock: "<tag> §4高度兼容模式已开启! 放置的方块和物品不能拥有自定义名称或lore"
+topPlacingDisabled: "<tag> §4已禁止在方块顶部放置物品!"
+topPlacingNoPermission: "<tag> §4你没有权限将物品放到方块顶部!"
+sidePlacingDisabled: "<tag> §4已禁止将物品放置到方块侧面!"
+sidePlacingNoPermission: "<tag> §4你没有权限将物品放到方块侧面!"
+bottomPlacingDisabled: "<tag> §4已禁止将物品放到方块底部!"
+bottomPlacingNoPermission: "<tag> §4你没有权限将物品放到方块底部!"
+unknownBlockFace: "<tag> §4错误: 未知方块位面!"
+#可用占位符: <itemInHand>
+blacklistedItem: "<tag> §c你不能放置 §e<itemInHand>§c!"
+blockFaceTaken: "<tag> §c你不能在方块的侧面放置多个物品!"
+invalidBlock: "<tag> §c你不能在那种方块上放置物品!"
+invalidSlab: "<tag> §c你不能在台阶上放置物品!"
+takeItemsNoPermission: "<tag> §你没有权限拿走物品!"
+#可用占位符: <clickedBlocked>
+placeInsideAnotherBlockError: "<tag> §c你不能将物品放到§e<clickedBlocked>§c上!"
+orientationTaken: "<tag> §c该朝向已被占用! 请重试."
+worldNoPermission: "<tag> §c你不能在这个世界放置物品!"
+placementCapPermissionReadError: "<tag> §c权限出错,已使用默认设置!"
+placementCapReached: "<tag> §c你已达到放置物品上限!"
+
+#禁止修改版本号
+version: 2

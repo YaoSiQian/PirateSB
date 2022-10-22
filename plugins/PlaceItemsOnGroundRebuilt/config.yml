@@ -3,7 +3,7 @@
 #########
 
 #Language files can be found at the plugin's website, to use a different language, download the desired file and put it in the plugin data folder!
-languageFile: "plugin_msgs_en.yml"
+languageFile: "plugin_msgs_cn.yml"
 #Writes new placed item location data to a file every x minutes
 useLocationAutoSave: true
 #Will automatically use lists starting with the name 'legacy' if a legacy server version is detected
