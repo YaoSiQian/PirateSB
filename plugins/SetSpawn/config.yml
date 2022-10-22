@@ -6,23 +6,23 @@
 ############################
 
 #The message that a player receives when they execute a command but have no permission for it
-No-Permission-Message: '&6⚓ Spawn ▪ &cYou are not permitted to do this!'
+No-Permission-Message: '&6⚓ 出生点 ▪ &c你没有权限!'
 
 #The message that a player receives when he is teleported at the spawn.
 Spawn-Message:
     Enabled: true
-    Message: '&6⚓ Spawn ▪ &eWelcome to the spawn!'
+    Message: '&6⚓ 出生点 ▪ &e欢迎回家!'
 
 #The message that a player receives when he executes /spawn command.
 Teleport-Message:
     Enabled: true
-    Message: '&6⚓ Spawn ▪ Teleporting to the spawn...'
+    Message: '&6⚓ 出生点 ▪ 传送到出生点...'
     
 #The message that a player receives when he moves during a teleport cooldown.
 Cancel-On-Move:
     Enabled: true
     Enable-Message: true
-    Message: '&6⚓ Spawn ▪ Teleportation cancelled!'
+    Message: '&6⚓ 出生点 ▪ 传送已取消!'
 
 #The effect that is set off when player arrives at the spawn location.
 Spawn-Effect:
@@ -38,16 +38,16 @@ Spawn-Sound:
 Void-To-Spawn:
     Enabled: false
     Enabled-Message: true
-    Message: '&6⚓ Spawn ▪ Teleported to spawn from void.'
+    Message: '&6⚓ 出生点 ▪ 从虚空传送至出生点'
     
 #The amount of seconds when a player executes /spawn util they teleport to it.
 Cooldown: 5
     
 #Messages that admin receives.
-Set-Spawn-Message: '&6⚓ Spawn ▪ You have set the spawn!'
-Set-First-Join-Spawn-Message: '&6⚓ Spawn ▪ You have set the first join spawn!'
-No-Spawn-Message: '&6⚓ Spawn ▪ &cThere has no spawn been set yet!'
-Reload-Message: '&6⚓ Spawn ▪ &aConfig Reloaded!'
+Set-Spawn-Message: '&6⚓ 出生点 ▪ 出生点已设置!'
+Set-First-Join-Spawn-Message: '&6⚓ 出生点 ▪ 首次出生点已设置!'
+No-Spawn-Message: '&6⚓ 出生点 ▪ &c出生点还未设置!'
+Reload-Message: '&6⚓ 出生点 ▪ &a配置已重载!'
 
 #Teleport player to spawn on their join.
 On-Join-Spawn: false
