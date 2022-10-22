@@ -109,7 +109,7 @@ community-chest:
 booty:
   lines:
   - '&a⚓ 赃物 ⚓'
-  - ▪ 邪恶海盗的珍宝 ▪
+  - ▪ 恶盗的珍宝 ▪
   position:
     world: MainWorld
     x: 187.5

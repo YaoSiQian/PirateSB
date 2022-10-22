@@ -7,7 +7,7 @@ npc:
       cached-skin-uuid-name: 301e5420-5195-4901-8221-5aca7d08148b
       cached-skin-uuid: 8c65eac5-b044-4b60-b3e9-c21765bf38ca
       keep-chunk-loaded: true
-    name: §a§l⚓ CAPTAIN ▪
+    name: §a§l⚓ 船长 ▪
     uuid: 5aedf749-c686-4eb0-b064-ba05679db009
     traits:
       speech: chat
@@ -25,8 +25,8 @@ npc:
         range: '7.0'
         talkitem: default
         text:
-          '0': '&fYour adventure is about to begin pirate, click on me to set sail
-            for the new world! &7&o(To skip this, use &9&l&o/skip&7&o before clicking).'
+          '0': '&f海盗，你的冒险就要开始了。
+            点击我，向新世界起航。 &7&o(请在点击之前使用 &9&l&o/skip&7&o 以跳过该步骤)'
       lookclose:
         range: '5.0'
         enabled: true
@@ -79,7 +79,7 @@ npc:
       cached-skin-uuid-name: 8e5ead59-2ecf-4d4d-ad3b-f8b8c730c21a
       cached-skin-uuid: f007b366-257f-486a-8d5e-498bbb915425
       keep-chunk-loaded: true
-    name: §e§l⚓ PIRATE ▪
+    name: §e§l⚓ 海盗 ▪
     uuid: ea756f54-a4c0-4962-b837-1345d250069a
     traits:
       speech: chat
@@ -110,7 +110,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Welcome pirate, talk to the Captain to start your adventure!
+          '0': 欢迎，海盗。在开始你的冒险前，请去与船长交谈！
       spawned: true
       type: PLAYER
       location:
@@ -138,7 +138,7 @@ npc:
       cached-skin-uuid-name: e4139d4a-4d4f-47cf-a027-d31684e9711d
       cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
       keep-chunk-loaded: true
-    name: §7§l⚓ MINER ▪§7
+    name: §7§l⚓ 矿工 ▪§7
     uuid: a800db74-bf10-4901-8101-ad16e68fdec0
     traits:
       text:
@@ -149,7 +149,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Buy and sell your mining items with me.
+          '0': 在我这里购买和出售你的矿物。
       speech: chat
       type: PLAYER
       inventory:
@@ -229,7 +229,7 @@ npc:
       cached-skin-uuid-name: 5ff9f65f-dcfc-4139-af4a-26e3f81025bb
       cached-skin-uuid: db30fab5-e996-461e-a7ee-eca4840f8550
       keep-chunk-loaded: true
-    name: §9§l⚓ FISHERMAN ▪§9
+    name: §9§l⚓ 渔夫 ▪§9
     uuid: dc3aaa6a-fc6e-4174-9cb6-989b46925657
     traits:
       speech: chat
@@ -250,7 +250,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Buy and sell your fishing items with me.
+          '0': 在我这里购买和出售你的鱼。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -303,7 +303,7 @@ npc:
       cached-skin-uuid-name: f1bf2e12-67ad-496f-bedf-47aabc724d1a
       cached-skin-uuid: b8f62a32-118d-4706-bc11-e4f3277ad99e
       keep-chunk-loaded: true
-    name: §e§l⚓ FARMER ▪§e
+    name: §e§l⚓ 农夫 ▪§e
     uuid: d3c00ead-9a39-4869-a155-d846fd774552
     traits:
       text:
@@ -314,7 +314,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Buy and sell your farm items with me.
+          '0': 在我这里购买和出售你的农作物。
       speech: chat
       type: PLAYER
       location:
@@ -374,7 +374,7 @@ npc:
       cached-skin-uuid-name: morganpirata117
       cached-skin-uuid: 650a6ef6-e382-426f-ba5d-4fb741d10747
       keep-chunk-loaded: true
-    name: §e§l⚓ GOLD EXCHANGER ▪
+    name: §e§l⚓ 黄金交易师 ▪
     uuid: c81886a6-1a5d-46e8-b616-e841803df0af
     traits:
       type: PLAYER
@@ -402,7 +402,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Do you have gold? I'll trade it for money!
+          '0': 你有黄金吗？我会用它换钱！
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -448,7 +448,7 @@ npc:
       cached-skin-uuid-name: bdb3959f-1980-4cef-be0b-3518bade9b5e
       cached-skin-uuid: 9e534761-dbaf-415f-9d08-4e89e4f27ce8
       keep-chunk-loaded: true
-    name: §2§l⚓ AUCTIONS ▪
+    name: §2§l⚓ 拍卖大师 ▪
     uuid: 2d5d3b59-34dd-46cd-9187-dfe48f25e8ac
     traits:
       type: PLAYER
@@ -489,7 +489,7 @@ npc:
         range: '3.0'
         talkitem: default
         text:
-          '0': Click on me and auction your items for money!
+          '0': 单击我并拍卖您的物品以赚钱！
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -519,7 +519,7 @@ npc:
       cached-skin-uuid-name: 82b512be-1486-4a3a-b88c-552a9f79dc54
       cached-skin-uuid: ec6462a5-2376-4dc6-8d97-5aa73d1c8ee2
       keep-chunk-loaded: true
-    name: §d§l⚓ FLOWERS ▪§d
+    name: §d§l⚓ 花农 ▪§d
     uuid: c54f820b-f1db-4d74-b9bb-f25dc68cb936
     traits:
       speech: chat
@@ -540,7 +540,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Buy and sell your flower items with me.
+          '0': 在我这里购买和出售你的小花。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -593,7 +593,7 @@ npc:
       cached-skin-uuid-name: deckard_cain
       cached-skin-uuid: 08c939c2-92b8-4b0d-a7a4-97ab29fa7a98
       keep-chunk-loaded: true
-    name: §3§l⚓ BUILDER ▪§3
+    name: §3§l⚓ 建筑师 ▪§3
     uuid: a2f40a79-609b-4096-b9ee-367abfaa1d77
     traits:
       speech: chat
@@ -614,7 +614,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Buy and sell your building items with me.
+          '0': 在我这里购买和出售你的建材。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -667,7 +667,7 @@ npc:
       cached-skin-uuid-name: lazycrazypirate
       cached-skin-uuid: 0fca5c32-8f8e-4551-ab28-3986d40234db
       keep-chunk-loaded: true
-    name: §7§l⚓ WOODCUTTER ▪
+    name: §7§l⚓ 伐木工 ▪
     uuid: b15b56b0-0e2c-492a-b4d8-9a19e2dd4c1d
     traits:
       speech: chat
@@ -688,7 +688,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Buy and sell your wooden items with me.
+          '0': 在我这里购买和出售你的木制品。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -741,7 +741,7 @@ npc:
       cached-skin-uuid-name: lymua
       cached-skin-uuid: bf742020-c349-48be-b761-937a1430802a
       keep-chunk-loaded: true
-    name: §c§l⚓ BUTCHER ▪§c
+    name: §c§l⚓ 屠夫 ▪§c
     uuid: cadb108c-9500-4fc8-8548-8023619813dd
     traits:
       speech: chat
@@ -762,7 +762,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Buy and sell your butchery items with me.
+          '0': 在我这里购买和出售你的屠具。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -815,7 +815,7 @@ npc:
       cached-skin-uuid-name: 09935182-5608-43c4-ab1a-86dc66390a8e
       cached-skin-uuid: e8771b28-62e6-410e-8ceb-41b825f13737
       keep-chunk-loaded: true
-    name: §2§l⚓ BLACKSMITH ▪§2
+    name: §2§l⚓ 铁匠 ▪§2
     uuid: 9254b4af-74ac-4629-ae18-10e8b93aa8ec
     traits:
       speech: chat
@@ -836,7 +836,7 @@ npc:
         range: '4.0'
         talkitem: default
         text:
-          '0': Buy and sell your blacksmithing items with me.
+          '0': 在我这里购买和出售锻造物品。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -889,7 +889,7 @@ npc:
       cached-skin-uuid-name: blacccbeard
       cached-skin-uuid: e4419588-41ed-4e91-9646-3890568bbe8c
       keep-chunk-loaded: true
-    name: §5§l⚓ EXPLORER ▪
+    name: §5§l ⚓ 探险家 ▪
     uuid: e372955b-a8ea-4b71-8081-2855e593536f
     traits:
       location:
@@ -929,8 +929,8 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Remember pirate, in the depths of the dungeon there are incredible
-            treasures, but to obtain them you must fight with terrible monsters!
+          '0': 请记住，在地牢的深处有令人难以置信的宝藏。
+            但为了获得它们，你必须与可怕的怪物战斗！
       speech: chat
       inventory:
         '0':
@@ -974,7 +974,7 @@ npc:
       avoidwater: false
       usedefaultstuckaction: true
   '18':
-    name: §1§l⚓ CAPTAIN ▪
+    name: §1§l⚓ 船长 ▪
     uuid: a3feb5f1-c918-4e91-b293-36af0a7fb937
     traits:
       text:
@@ -985,8 +985,8 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Look in the distance, pirate, the kraken has destroyed a boat, take
-            advantage of the moment and try to steal the booty of those evil pirates.
+          '0': 看远处，海妖已经摧毁了一艘船。
+            趁着这个时候，试着偷取那些恶盗的战利品。
       location:
         bodyYaw: 147.44633
         world: MainWorld
@@ -1022,7 +1022,7 @@ npc:
       cached-skin-uuid-name: apirate
       cached-skin-uuid: 1718537b-571f-425f-8011-e86835cd036f
       keep-chunk-loaded: true
-    name: §a§l⚓ ADVENTURER ▪
+    name: §a§l⚓ 冒险家 ▪
     uuid: 6fdf72c0-a5c1-4ef8-ae9a-8bf0ebc39f1e
     traits:
       text:
@@ -1033,9 +1033,9 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Hello pirate, remember to explore this world to find incredible treasures,
-            just be careful with the other pirates can kill you if you hit them, you
-            can get help from your pet to help you in a fight.
+          '0': 你好海盗，记得探索这个世界，找到令人难以置信的宝藏。
+            只是要小心不要打到别的海盗，因为他们可能会杀死你。
+            你可以从你的宠物那里得到帮助来帮助你。
       location:
         bodyYaw: 22.805862
         world: MainWorld
@@ -1085,7 +1085,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 0d409075-18f5-4ab7-b19a-b385c75f2280
     traits:
       location:
@@ -1315,7 +1315,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 33ef0d9b-eaca-4651-94bf-ec2e78437615
     traits:
       location:
@@ -1516,7 +1516,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: ba66855b-7882-4f96-b824-d3bab9e56bda
     traits:
       location:
@@ -1717,7 +1717,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: e98612fd-099a-437a-a61b-eb9f58dd2f85
     traits:
       location:
@@ -1868,7 +1868,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §2§l⚓ CAPTAIN EVIL ▪
+    name: §2§l⚓ 幽灵船长 ▪
     uuid: 8f82d0e7-38a8-47a3-8311-d073be4610cb
     traits:
       location:
@@ -1977,7 +1977,7 @@ npc:
         enemyDrops: false
         enemyTargetTime: 6000
         speed: 1.0
-        warning_text: Everybody, kill with that pirate right now!
+        warning_text: 各位，现在就和那个海盗一起杀过去！
         greeting_text: ''
         greet_range: 10.0
         greet_rate: 100
@@ -2061,7 +2061,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 105f13e4-6862-4811-8530-3ec701208270
     traits:
       location:
@@ -2319,7 +2319,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 0c855e1e-b685-4a03-af7d-a5eea8f94dfe
     traits:
       location:
@@ -2539,7 +2539,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 52e01474-8a28-450d-9d7d-ece1a41277f2
     traits:
       location:
@@ -2751,7 +2751,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 41cf9e8c-a1a4-47b7-b81d-4781fa9100b3
     traits:
       location:
@@ -2914,7 +2914,7 @@ npc:
       cached-skin-uuid-name: aeb23626-2f43-474e-b571-067d2f14f6fe
       respawn-delay: -1
       keep-chunk-loaded: true
-    name: §2§l⚓ REPLAY TUTORIAL ▪
+    name: §2§l⚓ 教程 ▪
     uuid: 0ddf8082-1119-413a-b1c4-a7ed096a39e8
     traits:
       skintrait:
@@ -3014,7 +3014,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Click on me to replay the tutorial.
+          '0': 点我重播教程。
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -3227,7 +3227,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: 2111c855-2112-46ad-9461-2064bcf1242c
     traits:
       location:
@@ -3569,7 +3569,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: 70808b35-7ac6-4c53-874b-2c8b6db76bbc
     traits:
       location:
@@ -3861,7 +3861,7 @@ npc:
       cached-skin-uuid-name: 0e79d102-41a7-4364-9b3b-e6f8e3ee4242
       cached-skin-uuid: 76812ae7-d797-4015-b2cf-8af07cc3383e
       keep-chunk-loaded: true
-    name: §f§l⚓ EXPLORER ▪
+    name: §f§l⚓ 探险家 ▪
     uuid: 93e850dd-b592-4466-b936-756bb12cc3a0
     traits:
       skintrait:
@@ -3878,9 +3878,9 @@ npc:
         range: '3.0'
         talkitem: default
         text:
-          '0': Follow the river and you will find thieving pirates, if you manage
-            to kill them you will be able to take the loot that they release, and
-            be careful with the cannibals that are nearby!
+          '0': 沿着河边走，你会发现偷窃的海盗。
+            如果你设法杀死他们，你就可以拿走他们释放的战利品，
+            同时要小心附近的食人族！
       type: PLAYER
       spawned: true
       location:
@@ -3921,7 +3921,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: a7e9f498-0e65-4ad8-b04b-f6f1885ebe43
     traits:
       skintrait:
@@ -4207,7 +4207,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: 6910036c-848b-459f-a5f5-d3fe60c350ea
     traits:
       skintrait:
@@ -4543,7 +4543,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: 36874197-bd44-4c9b-bb8b-e6aca6bb73e1
     traits:
       skintrait:
@@ -4869,7 +4869,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ CANNIBAL ▪
+    name: §c§l⚓ 食人族 ▪
     uuid: 4d9d9ec1-b4c6-48c9-8d14-99d24658bcda
     traits:
       skintrait:
@@ -5123,7 +5123,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §8§l⚓ PIRATE THIEF ▪
+    name: §8§l⚓ 盗贼 ▪
     uuid: e12e46d1-2638-40c3-8c0d-423e121535bb
     traits:
       hologramtrait:
@@ -5277,7 +5277,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §8§l⚓ PIRATE THIEF ▪
+    name: §8§l⚓ 盗贼 ▪
     uuid: 84108b6c-0a21-4e3a-a8a5-3fee5a4e6f51
     traits:
       inventory:
@@ -5350,7 +5350,7 @@ npc:
         enemyDrops: false
         enemyTargetTime: 300
         speed: 1.0
-        warning_text: You will not steal our loot! I want his head!
+        warning_text: 你不能偷我们的战利品！他的头我要了！
         greeting_text: ''
         greet_range: 10.0
         greet_rate: 100
@@ -5468,7 +5468,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §8§l⚓ PIRATE THIEF ▪
+    name: §8§l⚓ 盗贼 ▪
     uuid: 5d0debd1-8ce0-4160-9dd2-90eedd0ee3e2
     traits:
       hologramtrait:
@@ -5622,7 +5622,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 57ea2aa3-dd36-46a1-bc87-0a69ef0c0c7c
     traits:
       skintrait:
@@ -5840,7 +5840,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ PIRATE ▪
+    name: §6§l⚓ 海盗 ▪
     uuid: 49a88586-9c25-4b28-b73b-c5983f6c63af
     traits:
       skintrait:
@@ -6082,7 +6082,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §f§l⚓ HERMIT PIRATE ▪
+    name: §f§l⚓ 隐士海盗 ▪
     uuid: 1edeb9f3-ec2d-41a1-98bc-73d78dd3f9a3
     traits:
       waypoints:
@@ -6289,7 +6289,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §f§l⚓ HERMIT PIRATE ▪
+    name: §f§l⚓ 隐士海盗 ▪
     uuid: c8648baa-9502-4e22-903e-554f35c57ac6
     traits:
       waypoints:
@@ -6528,7 +6528,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §2§l⚓ MONSTER ▪
+    name: §2§l⚓ 怪物 ▪
     uuid: 4efebc2a-55f3-4072-be43-1fe9640bf851
     traits:
       equipment:
@@ -6679,7 +6679,7 @@ npc:
       cached-skin-uuid-name: 057c773e-7609-481c-9e9f-aba9c6b1e94b
       cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
       keep-chunk-loaded: true
-    name: §f§l⚓ EXPLORER ▪
+    name: §f§l⚓ 探险家 ▪
     uuid: ec317a9d-9eb0-4422-8f45-339cc6d52375
     traits:
       location:
@@ -6704,8 +6704,8 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Be careful pirate, great treasures await you, but in this place hide
-            the dreaded witches!
+          '0': 海盗小心，巨大的宝藏在等着你。
+            但这个地方藏着个可怕的女巫！
       spawned: true
       lookclose:
         range: '5.0'
@@ -6736,7 +6736,7 @@ npc:
       cached-skin-uuid-name: 912aca1a-11cf-496c-b787-141fa850a4b0
       cached-skin-uuid: 60011d8e-a652-4fe2-b2d4-8d68762ab061
       keep-chunk-loaded: true
-    name: §e§l⚓ PIRATE GUIDER ▪
+    name: §e§l⚓ 海盗向导 ▪
     uuid: 1d6b8437-6a24-4b30-961a-d942a73e87f4
     traits:
       text:
@@ -6747,7 +6747,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': Hi pirate, see the available guides!
+          '0': 嗨，海盗，请看我们这现有的指南!
       type: PLAYER
       hologramtrait:
         direction: BOTTOM_UP
@@ -6832,7 +6832,7 @@ npc:
       cached-skin-uuid-name: c15a19a5-d1d3-4619-841a-6eb5cc908b01
       cached-skin-uuid: 3314ad5c-083e-430c-badd-58152e418f13
       keep-chunk-loaded: true
-    name: §b§l⚓ MYSTERY PIRATE ▪
+    name: §b§l⚓ 神秘海盗 ▪
     uuid: 5ca507df-7687-45a1-a37f-d43854c732d5
     traits:
       spawned: true
@@ -6876,7 +6876,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': I have interesting items for you.
+          '0': 我有一个你感兴趣的东西。
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -6906,7 +6906,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §d§l⚓ MINES GUARDIAN ▪
+    name: §d§l⚓ 矿洞守卫 ▪
     uuid: eaadbfe7-1e4c-4813-8bf2-c64f48aba33f
     traits:
       spawned: true
@@ -7054,7 +7054,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §d§l⚓ MINES GUARDIAN ▪
+    name: §d§l⚓ 矿洞守卫 ▪
     uuid: a1c6c30d-71d5-4e50-bf79-71fb12d40068
     traits:
       spawned: true
@@ -7205,7 +7205,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: 95be0664-0e92-4d6b-8365-44316fb5d6aa
     traits:
       location:
@@ -7407,7 +7407,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: 275018a4-be89-44a4-812f-d95ba0cd9a75
     traits:
       location:
@@ -7544,7 +7544,7 @@ npc:
       protected: false
       keep-chunk-loaded: true
       protected-target: true
-    name: §6§l⚓ STRIDER BOSS ▪
+    name: §6§l⚓ 骑士 BOSS ▪
     uuid: 0dcdca14-9522-42a8-bf19-a8d8febc1a9e
     traits:
       location:
@@ -7686,7 +7686,7 @@ npc:
       protected: false
       keep-chunk-loaded: true
       protected-target: false
-    name: §6§l⚓ RAVAGER BOSS ▪
+    name: §6§l⚓ 掠夺 BOSS ▪
     uuid: db70253d-c5c0-4637-8dad-17a2aa31a115
     traits:
       location:
@@ -7826,7 +7826,7 @@ npc:
       protected: false
       keep-chunk-loaded: true
       protected-target: false
-    name: §6§l⚓ RAVAGER BOSS ▪
+    name: §6§l⚓ 掠夺 BOSS ▪
     uuid: f7711917-d7d7-4884-905e-03c7f5202d3b
     traits:
       location:
@@ -7963,7 +7963,7 @@ npc:
       cached-skin-uuid-name: xcxu
       cached-skin-uuid: 15f8c9cb-bf5b-45dc-8d86-09146d577023
       keep-chunk-loaded: true
-    name: §2§l⚓ JUNGLE HERMIT ▪
+    name: §2§l⚓ 丛林居士 ▪
     uuid: 7d2c6f80-5b02-43b8-8e09-3e85117af778
     traits:
       spawned: true
@@ -8015,9 +8015,9 @@ npc:
         range: '6.0'
         talkitem: default
         text:
-          '0': '&fDon''t attack me! I''m a straggler, if you manage to get to the
-            center of the mine you can mined the netherite blocks, which appear every
-            72 hours after being mined.'
+          '0': '&f别打我！我是个独行憨憨。
+            如果你能设法到达矿场的中心，你就可以开采下届合金块。
+            在开采后每72小时出现一次。'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -8048,7 +8048,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: a53e9588-4139-48fc-b9bf-d08cf078911e
     traits:
       spawned: true
@@ -8166,7 +8166,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: d4b68c8d-cb70-4f97-8680-9860b7c05536
     traits:
       spawned: true
@@ -8284,7 +8284,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: 196b70f2-031b-4a7e-aef7-3d03bc092206
     traits:
       spawned: true
@@ -8450,7 +8450,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §a§l⚓ JUNGLE GUARDIAN ▪
+    name: §a§l⚓ 丛林守卫 ▪
     uuid: d402d8ce-a683-42ba-8777-ffe82d980854
     traits:
       spawned: true
@@ -8566,7 +8566,7 @@ npc:
       cached-skin-uuid-name: 9e110f01-95a8-31df-a00e-f5c4d320157f
       cached-skin-uuid: 9fed9547-f3e7-44cd-81e1-e78aab6a8773
       keep-chunk-loaded: true
-    name: §3§l⚓ PIRATE WARRIOR ▪
+    name: §3§l⚓ 海盗战士 ▪
     uuid: c4e03214-fc73-45ea-a2e3-aff7ea53a466
     traits:
       spawned: true
@@ -8622,7 +8622,7 @@ npc:
         range: '2.0'
         talkitem: default
         text:
-          '0': '&9Hello warrior, use your hoe to harvest the crops, beware of spiders!'
+          '0': '&9你好战士，用你的锄头收割庄稼，小心蜘蛛！'
       owner:
         uuid: ab9f593d-14d5-3031-9817-c8aadf1dbc02
       sneak:
@@ -8637,7 +8637,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ GUARDIAN SPIDER ▪
+    name: §c§l⚓ 守护之蛛 ▪
     uuid: 9abd895c-a0ba-4bfd-96b8-58e84beb2b24
     traits:
       waypoints:
@@ -8758,7 +8758,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §6§l⚓ SPIDER BOSS ▪
+    name: §6§l⚓ 蜘蛛 BOSS ▪
     uuid: a40db758-3773-4a84-8d0e-acf0bca4d965
     traits:
       hologramtrait:
@@ -8898,7 +8898,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ GUARDIAN SPIDER ▪
+    name: §c§l⚓ 守护之蛛 ▪
     uuid: cef67fd5-c3c1-4d1e-af19-fe8da949e1d8
     traits:
       hologramtrait:
@@ -9022,7 +9022,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §c§l⚓ GUARDIAN SPIDER ▪
+    name: §c§l⚓ 守护之蛛 ▪
     uuid: f141bb0b-11a5-4a96-868c-f4393aa5adde
     traits:
       hologramtrait:
@@ -9143,7 +9143,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §9§l⚓ HUNTER ▪
+    name: §9§l⚓ 猎手 ▪
     uuid: f663d8af-5b87-41f4-8ffc-dafd35b1e459
     traits:
       spawned: true
@@ -9184,7 +9184,7 @@ npc:
         range: '3.0'
         talkitem: default
         text:
-          '0': '&7Don''t worry pirate, we hunters will protect you from the monsters!'
+          '0': '&7别担心，海盗，我们猎人会保护你不被怪物吃掉的！'
       location:
         bodyYaw: 306.74506
         world: MainWorld
@@ -9292,7 +9292,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §9§l⚓ HUNTER ▪
+    name: §9§l⚓ 猎手 ▪
     uuid: 734307f1-99ab-43d0-850c-638c0838658c
     traits:
       spawned: true
@@ -9431,7 +9431,7 @@ npc:
       respawn-delay: -1
       protected: false
       keep-chunk-loaded: true
-    name: §9§l⚓ HUNTER ▪
+    name: §9§l⚓ 猎手 ▪
     uuid: cc19b1ff-e305-4c28-88e0-06280e787c47
     traits:
       spawned: true
