@@ -52,7 +52,7 @@ legacy-client-support: false
 check-for-updates: true
 
 # The locale used for some of the placeholders.
-locale: en-US
+locale: zh-CN
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -98,9 +98,9 @@ player-list:
   # - 'My third line'
   footer:
   - ''
-  - '%{c:#ABBFBF}Welcome adventurer, follow the'
-  - '%{c:#ABBFBF}guides and remember to report to'
-  - '%{c:#ABBFBF}the staff&7 if you find a bug.'
+  - '%{c:#ABBFBF}你好，冒险家'
+  - '%{c:#ABBFBF}请遵循指引，开启旅程。'
+  - '%{c:#ABBFBF}CivGame.net'
   - ''
   - '%{c:#2DF43F}%{online}&8/%{c:#28B635}%{max} ☻ &7| &b%{12h-world-time} ⌚'
   - ''
@@ -120,10 +120,10 @@ welcome-title:
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
-  title: '&6&l⚓ %{c:#FC8600}&lSKY%{c:#CC720A}&lBL☠CK &6&l⚓'
+  title: '&6&l⚓ %{c:#FC8600}&l空岛%{c:#E47C05}&l☠%{c:#CC720A}&l生存 &6&l⚓'
 
   # The subtitle shown.
-  subtitle: Welcome to your pirate adventure!
+  subtitle: 欢迎开启你的海盗新宝岛！
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 100
@@ -138,10 +138,10 @@ welcome-title:
   first-join:
 
     # The title shown.
-    title: '&6&l⚓ %{c:#FC8600}&lSKY%{c:#CC720A}&lBL☠CK &6&l⚓'
+    title: '&6&l⚓ %{c:#FC8600}&l空岛%{c:#E47C05}&l☠%{c:#CC720A}&l生存 &6&l⚓'
 
     # The subtitle shown.
-    subtitle: Welcome to your pirate adventure!
+    subtitle: 欢迎开启你的海盗新宝岛！
 
   # The time it takes for the message to appear. (In ticks)
   delay: 20
@@ -185,7 +185,7 @@ placeholders:
     # Toggles this feature.
     enabled: true
     format: '#,###.##'
-  date-format: EEE, dd MMM yyyy HH:mm:ss z
+  date-format: yyyy MM dd HH:mm:ss
 
 ############################################################
 # +------------------------------------------------------+ #
