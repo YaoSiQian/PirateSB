@@ -187,4 +187,4 @@ worldguard-regions:
       whitelisted-blocks:
         - "STONE"
 
-blacklist-message: "&c⚓ You can't use that pickaxe here, use one of another material."
+blacklist-message: "&c⚓ 你不能在这里用这个稿子，换个材料吧。"
