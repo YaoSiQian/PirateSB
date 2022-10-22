@@ -13,7 +13,7 @@ name:
   offset: 0.75
   space: 0.25
   lines:
-  - '&6⚓ &lYour Pirate Skills &6⚓'
+  - '&6⚓ &l海盗等级 &6⚓'
 particles: # OPTIONAL
   - 'END_ROD(type=AnimatedCircle,points=120,radius=1.0,size=1.6,offset=0:1.2:0,direction=RIGHT)'
   - 'END_ROD(type=AnimatedCircle,points=120,radius=1.0,size=1.6,offset=0:1.2:0,direction=LEFT)'
