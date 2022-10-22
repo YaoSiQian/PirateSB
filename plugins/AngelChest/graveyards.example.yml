@@ -19,7 +19,7 @@ global-graveyard:
   grave-locations:
     - ROOTED_DIRT
   material: DIRT
-  hologram-text: "&c[RIP]\n§a{player}"
+  hologram-text: "&c[默哀]\n§a{player}"
   instant-respawn: true
   totem-animation: true
   potion-effects:
