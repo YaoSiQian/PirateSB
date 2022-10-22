@@ -18,8 +18,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ NEW WORLD ⚓'
-          subtitle: '&7▪ Let''s get started ▪'
+          title: '&6&l⚓ 新宝岛 ⚓'
+          subtitle: '&7▪ 让我们开始吧 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -36,8 +36,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ DUNGEON ⚓'
-          subtitle: '&7▪ Treasure chests and terrible monsters! ▪'
+          title: '&6&l⚓ 地牢 ⚓'
+          subtitle: '&7▪ 奖励、宝藏和怪物 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -54,8 +54,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ KRAKEN ⚓'
-          subtitle: '&7▪ Mysteries are still hidden ▪'
+          title: '&6&l⚓ 海妖 ⚓'
+          subtitle: '&7▪ 未解之谜 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -73,8 +73,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ CENTRAL MARKET ⚓'
-          subtitle: '&7▪ You can buy and sell items ▪'
+          title: '&6&l⚓ 中央大市场 ⚓'
+          subtitle: '&7▪ 交易胜地 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -91,8 +91,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ TREASURE CRATE ⚓'
-          subtitle: '&7▪ Open it and get awesome rewards. ▪'
+          title: '&6&l⚓ 宝藏宝箱 ⚓'
+          subtitle: '&7▪ 开箱有奖 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -109,8 +109,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ GOLD EXCHANGE ⚓'
-          subtitle: '&7▪ Trade your gold for money ▪'
+          title: '&6&l⚓ 黄金交易所 ⚓'
+          subtitle: '&7▪ 点金成币 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -128,8 +128,8 @@ tutorials:
         messages: []
         commands: []
         title:
-          title: '&6&l⚓ MINES ⚓'
-          subtitle: '&7▪ Place to obtain ores ▪'
+          title: '&6&l⚓ 矿洞 ⚓'
+          subtitle: '&7▪ 矿石挖掘 ▪'
           fade-in: 20
           stay: 120
           fade-out: 20
@@ -148,8 +148,8 @@ tutorials:
         commands:
         - playmoresounds play skyblock.sounds.intro %player_name%
         title:
-          title: '&6&l⚓ SURVIVE ⚓'
-          subtitle: '&7▪ Are you ready to start? ▪'
+          title: '&6&l⚓ 生存 ⚓'
+          subtitle: '&7▪ 准备好了吗，孩子们？ ▪'
           fade-in: 20
           stay: 120
           fade-out: 20

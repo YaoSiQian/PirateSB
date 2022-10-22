@@ -1,0 +1,145 @@
+invalid-args: '&c非法参数，请使用 /st help 获得帮助'
+no-permissions: '&c你没有权限'
+player-only-command: '&c只有玩家能这么做'
+'yes': '&a&l是'
+'no': '&c&l否'
+add: '&a&l添加'
+clear: clear
+completed: 已完成
+uncompleted: 未完成
+times-played: 运行次数
+amount-of-points: 场景数量
+permission: 权限
+id: ID
+invisible: 不可见
+time: 时间
+seconds: 秒
+chat-messages: 聊天消息
+reward-commands: 奖励指令
+npc-type: NPC 种类
+servertutorial-id: 教程ID
+blocks-commands: 方块指令
+white-listed-commands: 白名单指令
+chat-blocked: 聊天限制
+none: 无
+action-cancelled: '&e动作已取消'
+nothhing-to-cancel: '&c没有可取消的动作'
+player-lookup: '&a&l玩家统计'
+lookup-set-unfinished: '&c[设置未完成]'
+lookup-set-finished: '&e[设置已完成]'
+lookup-set-unfinished-message: '&c点击将该教程设置为 &c未完成'
+lookup-set-finished-message: '&c点击将该教程设置为 &a已完成'
+tutorial-created: '&a成功创建教程 ID:&e %id%'
+tutorial-removed: '&a成功移除教程 ID:&e %id%'
+tutorial-id-not-found: '&c找不到该教程 ID'
+command-apddpoint-commandhint: '&7[&e注意&7] 使用者需要执行此指令
+  &e/st next &7来确定此点'
+command-hastobe-number: '&c场景编号必须是一个数字'
+command-invalid-index: '&c非法场景'
+command-succesfully-left: '&a成功退出教程'
+command-quit-notin: '&4你不在教程中'
+command-setblock-fail: '&c创建方块失败，原因是你距离方块太远了'
+command-setblock-succes: '&a成功创建教程方块，种类:
+  &e%type%&a 绑定教程: &e%id%'
+command-setting-set: '&a成功设置属性 &e%setting%&a 于教程:&e
+  %id%'
+command-setting-rewards-clear: '&a成功清除所有奖励指令'
+command-setting-rewards-added: '&a成功添加指令'
+command-setting-rewards-removed: '&a成功移除指令'
+command-setting-commands-clear: '&a成功清除所有白名单指令'
+command-setting-commands-added: '&a成功添加指令至白名单'
+command-setting-commands-removed: '&a成功从白名单移除指令'
+command-switch-successful: 成功交换场景 %1% 和 %2%
+command-move-successful: 成功将场景 %1% 移至场景 %2% 的前面
+command-argument-available: '&a可用参数: &7%args%'
+command-editall-canbe: '&e可编辑参数: &7%args%'
+command-editall-succes: '&a成功编辑所有场景'
+command-lookup-define-player: '&e请指定一个玩家 &7/st player <name>'
+command-lookup-uuid-error: '&c无法获得目标玩家UUID，原因可能是该玩家从未进服过'
+command-lookup-never-played: '&c该玩家从未进服过'
+command-lookup-set: '&a成功将教程设置为已完成'
+command-lookup-unset: '&c成功将教程设置为未完成'
+command-lookup-set-error: '&c玩家已完成教程'
+command-lookup-unset-error: '&c玩家未完成教程'
+event-block-remove: '&c你无权移除教程方块'
+event-block-removed: '&a成功移除教程方块'
+reload-stoptutorial: '&c插件刚刚重载了，你的教程被强行终止'
+reload-succes: '&a插件已重载 汉化 by 秋风残叶'
+potion-effect-time: '&e药水效果时长: &7%ticks%&e ticks - &7%seconds%&e 秒 (20
+  ticks = 1 秒)'
+potion-effect-notime: '&e没有指定时长，自动以场景时长代替'
+potion-effect-amplifier: '药水效果等级: %amp%'
+potion-effect-wrong-usage-1: '&c错误用法，请把一瓶药水拿在手上并输入
+  指令: &7/st edit <id> <point> add potion <time> <level>'
+potion-effect-wrong-usage-2: '&c或者这个指令: &7/st edit <id> <point> add potion
+  <potioneffect> <time (s)> <level>'
+firework-remove-info: '&e这个指令可移除最近的烟花，不需要其它参数'
+firework-remove-failed: '&c1000格范围内都找不到烟花效果'
+firework-add-wrongusage: '&c错误用法，请把一个烟花拿在手上'
+current-time: '当前时长: %time%'
+title-notitle-set: '&c该场景没有title标语，请先设置一个'
+title-current: '&e当前 &a%type%&e 的时长是: &a%ticks%&e ticks.'
+setting-edited: '&a成功编辑设置: &e%setting%'
+save-succes: '&a成功保存所有设置'
+point-removed: '&a成功移除场景&e %id%'
+point-invalid-type: '&c非法场景种类'
+point-example-command-click: '&e点击查看 &a%type%&e 场景指令'
+point-example-message: '&e点击下面任意一个设置项来查看指令: '
+point-added: '&a成功添加新场景'
+info-none-existing: '&e没有任何教程'
+info-more-info: '&7&i请使用 /st info <id> 获取更多信息'
+npc-id-exists: '&c那个 ID 的NPC已经存在了!'
+npc-tested-mobs: '&e测试怪物: &7'
+npc-wrong-type: '&c非法实体种类 ''&e%type%&c'' (可能这种生物不存在)'
+npc-living-type: '&c实体种类必须设置为生物的种类!'
+npc-creation-success: '成功创建 NPC ID: &e%id%&a 绑定
+  教程: &e%tutorial%'
+npc-selection-cancelled: '&c选取 NPC 取消'
+npc-selection-message: '&e右键点击一个 NPC 来选中 &7(或者再输一遍指令
+  来退出'
+npc-id-not-existing: '&c不存在这个 NPC ID: &e%id%'
+npc-removed-succes: '&a成功移除 NPC!'
+npc-text-change: '&a成功设置文字!'
+npc-height-change: '&a成功设置高度!'
+npc-player-selected: '&c你不可以把玩家设置为 NPC!'
+npc-invalid-entity: '&c你所选的实体本插件不支持'
+npc-info-none: '&e没有NPC'
+npc-info-more-info: '&7请使用 /st npc info <id> 获得更多信息'
+help-help: 显示帮助
+help-create: 创建新教程
+help-remove: 移除教程
+help-addpoint: 给教程添加新场景
+help-removepoint: 给教程移除场景
+help-edit: 编辑教程的设置
+help-editpoint: 编辑一个场景
+help-editall: 编辑来自一个教程的所有场景
+help-info: 显示教程信息
+help-player: 显示玩家信息
+help-gui: 打开一个 GUI.
+help-play: 执行教程
+help-quit: 终止教程
+help-playpoint: 只执行教程中的一个场景
+help-setblock: 设置教程方块，可通过点击来开始教程
+help-npc: 设置教程NPC，可通过点击来开始教程
+help-reload: 保存当前数据，请务必经常使用此指令
+error-wait-to-end: '&c你必须等待当前教程结束!'
+error-player-offline: '&c玩家不在线'
+error-person-in-tutorial: '&c该玩家已经在教程中了!'
+error-wait-to-end-tutorial: '&c你必须等待当前教程结束'
+error-atleast-one-word: '&c你至少要输入一些文字'
+error-no-index: '&c请指定一个合法序号'
+error-notexisting-index: '&c场景不存在'
+error-invalid-point: '&c请指定一个合法场景'
+error-editall: '&c设置失败'
+error-invalid-number: '&c非法数字'
+error-failed-finding-tutorial: 未找到教程...
+error-failed-finding-tutorial-admin: '&c找不到此教程
+  ID: &e%id%&c. 如果你是玩家，请立刻联系服务器管理员'
+error-invalid-effect: '&c非法药水效果'
+error-invalid-time: '&c那不是一个合法时长 (单位秒)'
+error-invalid-amplifier: 那不是一个合法药水等级
+error-command-blocked: '&c你现在在教程中，不能用那个指令，请有点耐心！'
+tip-editpoint: '&7[&aTIP&7] 如果你想编辑场景, 请使用 /st editpoint'
+wrong-command-format: '&c错误参数, 请使用指令: &7'
+unkown-argument: '&c参数未知，可用参数: &7'
+player-not-found: '&c未找到玩家'
