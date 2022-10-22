@@ -7,7 +7,7 @@ save_persistent_bars: true
 OnJoin:
   BossBar:
     Enabled: false
-    Message: '&6⚓ Welcome &l%player_name% &6to &6&lPirates 空岛☠生存 &6⚓'
+    Message: '&6⚓ 欢迎 &l%player_name% &6来到 &6&l空岛☠生存 &6⚓'
     Color: green
     Time: yellow
     Style: '20'
@@ -32,8 +32,8 @@ OnDeath:
     Health: 1
   Title:
     Enabled: true
-    Message: '&c&l☠ YOU''VE DIED ☠'
-    SubTitle: '&6⚓ Not yet the adventurous end ⚓'
+    Message: '&c&l☠ 你失败了 ☠'
+    SubTitle: '&6⚓ 但这还不是冒险的终点 ⚓'
     fadein: 60
     fadeout: 60
     time: 130
@@ -67,59 +67,57 @@ BossBarMessages:
   - MainWorld
   Messages:
     Message1:
-      Message: '&7▸ &fWelcome to &6&lPirates 空岛☠生存 &7&l| &fGet your island with
-        &e/island &7◂'
+      Message: '&7▸ &f欢迎来到 &6&l空岛☠生存 &7&l| &f使用 &e/island &f获得你的岛屿 &7◂'
       Color: yellow
       Style: '0'
       Time: 30
     Message1-2:
-      Message: '&7▸ &fOpen your &6&lisland&f menu with &e/is panel &7◂'
+      Message: '&7▸ &f使用 &e/is panel &f打开你的 &6&l岛屿&f菜单 &7◂'
       Color: yellow
       Style: '0'
       Time: 30
     Message2:
-      Message: '&7▸ &fYou can see the &c&lperks&f of the &c&lvips ranks&f using: &4/ranks
-        &7◂'
+      Message: '&7▸ &f使用 &4/ranks &f查看 &c&l会员权益 &f的 &c&l特权 &7◂'
       Color: red
       Style: '0'
       Time: 30
     Message3:
-      Message: '&7▸ &fRemember to see the &b&lguides&f using: &9/guides &7◂'
+      Message: '&7▸ &f记得使用 &9/guides &f查看 &b&l教程 &7◂'
       Color: blue
       Style: '0'
       Time: 30
     Message4:
-      Message: '&7▸ &fTo see your &a&lskills&f just use: &2/skills &7◂'
+      Message: '&7▸ &f使用 &2/skills &f查看你的 &a&l技能 &7◂'
       Color: green
       Style: '0'
       Time: 30
     Message5:
-      Message: '&7▸ &fTravel to the &5&lmines&f using: &d/warps &7◂'
+      Message: '&7▸ &f使用 &d/warps &f传送到 &5&l矿洞 &7◂'
       Color: pink
       Style: '0'
       Time: 30
     Message6:
-      Message: '&7▸ &fBecome the best &e&ltreasure hunter &7◂'
+      Message: '&7▸ &f成为最吼的 &e&l宝藏猎人 &7◂'
       Color: yellow
       Style: '0'
       Time: 30
     Message7:
-      Message: '&7▸ &fFight with other &4&lplayers&f in the &cpvp zone &7◂'
+      Message: '&7▸ &f和其他的 &4&l玩家&f 在 &cPVP 区域 &f激情对战 &7◂'
       Color: red
       Style: '0'
       Time: 30
     Message8:
-      Message: '&7▸ &fGet &e&lmoney&f by trading with &6merchants &7◂'
+      Message: '&7▸ &f和 &6商人 &f交易来 赚&e&l钱 &7◂'
       Color: yellow
       Style: '0'
       Time: 30
     Message9:
-      Message: '&7▸ &fExplore the &4&ldungeons&f to find &camazing treasures &7◂'
+      Message: '&7▸ &f探索 &4&l地牢&f 来获得 &c神奇的宝藏 &7◂'
       Color: red
       Style: '0'
       Time: 30
     Message10:
-      Message: '&7▸ &fSee your &9&lskills stats&f using &5/stats &7◂'
+      Message: '&7▸ &f使用 &5/stats &f查看你的 &9&l技能数据 &7◂'
       Color: purple
       Style: '0'
       Time: 30
