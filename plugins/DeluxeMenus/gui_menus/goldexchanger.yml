@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#F9E454▪ Gold Exchanger ☗'
+menu_title: ' &#F9E454▪ 黄金交易师 ☗'
 register_command: true
 open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_gold ambient %player_name% %player_x% %player_y% %player_z%'
@@ -51,7 +51,7 @@ items:
     amount: 32
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx1  '
+    - '  &6⚓ 切换数额: &e&lx1  '
     - ' '
     view_requirement:
       requirements:
@@ -70,7 +70,7 @@ items:
     amount: 16
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx32  '
+    - '  &6⚓ 切换数额: &e&lx32  '
     - ' '
     view_requirement:
       requirements:
@@ -89,7 +89,7 @@ items:
     amount: 8
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx16  '
+    - '  &6⚓ 切换数额: &e&lx16  '
     - ' '
     view_requirement:
       requirements:
@@ -107,7 +107,7 @@ items:
     priority: 5
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx8  '
+    - '  &6⚓ 切换数额: &e&lx8  '
     - ' '
     click_commands:
     - '[meta] set AMOUNT STRING 8'
@@ -119,9 +119,9 @@ items:
     amount: 32
     display_name: '&7 '     
     lore:
-    - ' &#F9E454&l▪ Gold Ingot'
+    - ' &#F9E454&l▪ 金锭'
     - ''
-    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$4.402.56 ⛁ '
+    - ' &8▪ &#F9E454(点击) &f行动: &#F9E454&l售卖 &#F9E4544.402.56 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -138,12 +138,12 @@ items:
           data: 0
           amount: 32
       deny_commands:
-      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &#F9E454&l黄金交易师 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     click_commands:
     - '[givemoney] 4402.56'
     - '[console] minecraft:clear %player_name% gold_ingot 32'
-    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx32 &rGold Ingot for &a+$4.402.56 ⛁&f.' 
+    - '[message] &#F9E454&l黄金交易师 &8▸ &r你售卖了 &bx32 &r金锭  &a+4.402.56 ⛁' 
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_x16':
@@ -153,9 +153,9 @@ items:
     amount: 16
     display_name: '&7 '     
     lore:
-    - ' &#F9E454&l▪ Gold Ingot'
+    - ' &#F9E454&l▪ 金锭'
     - ''
-    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$2.201.28 ⛁ '
+    - ' &8▪ &#F9E454(点击) &f行动: &#F9E454&l售卖 &#F9E4542.201.28 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -172,12 +172,12 @@ items:
           data: 0
           amount: 16
       deny_commands:
-      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &#F9E454&l黄金交易师 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     click_commands:
     - '[givemoney] 2201.28'
     - '[console] minecraft:clear %player_name% gold_ingot 16'
-    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx16 &rGold Ingot for &a+$2.201.28 ⛁&f.' 
+    - '[message] &#F9E454&l黄金交易师 &8▸ &r你售卖了 &bx16 &r金锭  &a+2.201.28 ⛁' 
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_x8':
@@ -187,9 +187,9 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &#F9E454&l▪ Gold Ingot'
+    - ' &#F9E454&l▪ 金锭'
     - ''
-    - ' &8▪ &#F9E454(Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$1.100.64 ⛁ '
+    - ' &8▪ &#F9E454(点击) &f行动: &#F9E454&l售卖 &#F9E4541.100.64 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -206,12 +206,12 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &#F9E454&l黄金交易师 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     click_commands:
     - '[givemoney] 1100.64'
     - '[console] minecraft:clear %player_name% gold_ingot 8'
-    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx8 &rGold Ingot for &a+$1.100.64 ⛁&f.' 
+    - '[message] &#F9E454&l黄金交易师 &8▸ &r你售卖了 &bx8 &r金锭  &a+1.100.64 ⛁' 
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_x1':
@@ -220,9 +220,9 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &#F9E454&l▪ Gold Ingot'
+    - ' &#F9E454&l▪ 金锭'
     - ''
-    - ' &8▪ &#F9E454(Left-Click) &fAction: &#F9E454&lSELL &ffor &#F9E454$137.58 ⛁ '
+    - ' &8▪ &#F9E454(左键点击) &f行动: &#F9E454&l售卖 &#F9E454137.58 ⛁ '
     - ''
     click_requirement:
       requirements:
@@ -232,11 +232,11 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &#F9E454&l黄金交易师 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     click_commands:
     - '[givemoney] 137.58'
     - '[console] minecraft:clear %player_name% gold_ingot 1'
-    - '[message] &#F9E454&lGOLD EXCHANGER &8▸ &rYou sold &bx1 &rGold Ingot for &a+$137.58 ⛁&f.' 
+    - '[message] &#F9E454&l黄金交易师 &8▸ &r你售卖了 &bx1 &r金锭  &a+137.58 ⛁' 
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

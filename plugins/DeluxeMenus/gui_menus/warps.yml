@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#8B673A▪ &lWarps&#8B673A ☗'
+menu_title: ' &#8B673A▪ &l传送&#8B673A ☗'
 register_command: false
 open_command:
   - warps
@@ -18,7 +18,7 @@ open_requirement:
       type: has permission
       permission: firts.open.menu
       deny_commands:
-        - '[message] &#8B673A⚓ You need to first open the main menu to access the warps menu.'
+        - '[message] &#8B673A⚓ 你需要先打开主菜单一次才能打开传送菜单'
         
 # as always, only cool people can open this menu :)
 items:
@@ -28,7 +28,7 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Return ⬅'
+    - ' &#8B673A&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] menu'
@@ -38,19 +38,18 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Next &#8B673A➡'
+    - ' &#8B673A&l ▪ 下一页 &#8B673A➡'
     - ''
   'dungeon':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU5OTExMzZiZWY2ZjdiMGQyMjNlZmZjYzhiYWI2YTdhMjZiNTk1OGFmZmU2ZWJkZmRiOTBlYTgxNGIwZjQ1MiJ9fX0='
     slot: 13
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Dungeons&#8B673A ☠'
+    - ' &#8B673A&l▪ 地牢&#8B673A ☠'
     - ''
-    - ' &#ABBFBF▪ See the available dungeons  '
-    - ' &#ABBFBF  you have for travel.  '
+    - ' &#ABBFBF▪ 查看所有可传送的地牢  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] dungeons'
@@ -59,16 +58,15 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Mines&#8B673A ⛏'
+    - ' &#8B673A&l▪ 矿洞&#8B673A ⛏'
     - ''
-    - ' &#ABBFBF▪ Go to the mine in search of minerals  '
-    - ' &#ABBFBF  to continue your adventure.  '
+    - ' &#ABBFBF▪ 去采集矿物来继续冒险吧  '
     - ''
-    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ' &#ACF268▪ [点击传送] ⏏'
     - ''
     click_commands:
     - '[console] warp mines %player_name%'
-    - '[console] titlemanager msg %player_name% &d⛏ &lMINES &d⛏\n▪ Mining Zone ▪'
+    - '[console] titlemanager msg %player_name% &d⛏ &l矿洞 &d⛏\n▪ 挖矿就是出路 ▪'
     - '[close]'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_WOLOLO %player_name%'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_SUMMON %player_name%'
@@ -77,16 +75,15 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ PvP Zone &#8B673A⚔'
+    - ' &#8B673A&l▪ PVP 区域 &#8B673A⚔'
     - ''
-    - ' &#ABBFBF▪ Fight against other pirates or  '
-    - ' &#ABBFBF  face the dangerous monster.'
+    - ' &#ABBFBF▪ 与其他玩家或危险的怪物战斗  '
     - ''
-    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ' &#ACF268▪ [点击传送] ⏏'
     - ''
     click_commands:
     - '[console] warp pvp %player_name%'
-    - '[console] titlemanager msg %player_name% &4⚓ &lPVP ZONE &4⚓\n▪ Fighting zone ▪'
+    - '[console] titlemanager msg %player_name% &4⚓ &lPVP 区域 &4⚓\n▪ 战个痛快 ▪'
     - '[close]'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_WOLOLO %player_name%'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_SUMMON %player_name%'
@@ -95,16 +92,16 @@ items:
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Treasure Crate &#8B673A☽'
+    - ' &#8B673A&l▪ 宝藏宝箱 &#8B673A☽'
     - ''
-    - ' &#ABBFBF▪ Get your keys to earn  '
-    - ' &#ABBFBF  incredible rewards.'
+    - ' &#ABBFBF▪ 获得密钥  '
+    - ' &#ABBFBF  打开无法想象的奖励'
     - ''
-    - ' &#ACF268▪ [Click to travel] ⏏'
+    - ' &#ACF268▪ [点击传送] ⏏'
     - ''
     click_commands:
     - '[console] warp treasure %player_name%'
-    - '[console] titlemanager msg %player_name% &6☽ &lTREASURE CRATE &6☽\n▪ Get great rewards ▪'
+    - '[console] titlemanager msg %player_name% &6☽ &l宝藏宝箱 &6☽\n▪ 我的回合，开箱 ▪'
     - '[close]'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_WOLOLO %player_name%'
     - '[console] playmoresounds play ENTITY_EVOKER_PREPARE_SUMMON %player_name%'
@@ -117,7 +114,7 @@ items:
       - 25
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Soon&#8B673A ⌛'
+    - ' &#8B673A&l▪ 敬请期待&#8B673A ⌛'
     - ''
   'items_1':
     material: BROWN_STAINED_GLASS_PANE

@@ -1,11 +1,11 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#8B673A⚓ &lMain Menu &#8B673A⚓'
+menu_title: '&#8B673A⚓ &l主菜单 &#8B673A⚓'
 open_command:
   - menufirtopennow
 register_command: false
 open_commands:
-  - '[message] &#8B673A&l⚓&#8B673A You have just opened the main menu.'
+  - '[message] &#8B673A&l⚓&#8B673A 你打开了主菜单'
 size: 27
         
 # as always, only cool people can open this menu :)
@@ -15,12 +15,12 @@ items:
     slot: 10
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ My profile ❧'
+    - ' &#8B673A&l▪ 个人档案 ❧'
     - ''
     - ' &f⠐&r %luckperms_prefix% %luckperms_meta_username-color%%player_name% %luckperms_suffix%'
-    - ' &#ABBFBF▪ Entry date: %player_first_join_date%  '
+    - ' &#ABBFBF▪ 入境日期: %player_first_join_date%  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[openguimenu] profile'
@@ -29,12 +29,11 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Warps ☗'
+    - ' &#8B673A&l▪ 传送 ☗'
     - ''
-    - ' &#ABBFBF▪ See the list of available  '
-    - ' &#ABBFBF  places to travel.'
+    - ' &#ABBFBF▪ 查看可用的传送列表  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     left_click_commands:
     - '[player] warps'
@@ -45,12 +44,11 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Backpack ⬒'
+    - ' &#8B673A&l▪ 背包 ⬒'
     - ''
-    - ' &#ABBFBF▪ See the backpacks available  '
-    - ' &#ABBFBF  for use and storage.'
+    - ' &#ABBFBF▪ 查看可用于存储的背包  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] backpack'
@@ -60,19 +58,18 @@ items:
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Guides ✎'
+    - ' &#8B673A&l▪ 指南 ✎'
     - ''
-    - ' &#ABBFBF▪ See all the guides available to  '
-    - ' &#ABBFBF  discover everything you can'
-    - ' &#ABBFBF  do in your adventure.'
+    - ' &#ABBFBF▪ 查看所有可用的指南  '
+    - ' &#ABBFBF  发现你在冒险中可以做的一切'
     - ''
-    - ' &#ABBFBF▪ Available in these languages'
+    - ' &#ABBFBF▪ 支持以下语言'
     - ' &#ABBFBF  &#639DC2[English ✔] &#ABBFBF⚋ &#639DC2[Español ✔]'
-    - ' &#ABBFBF  &#F26565[Türkçe ✘] &#ABBFBF⚋ &#F26565[Pусский ✘]'
+    - ' &#ABBFBF  &#F26565[中文 ✔] &#ABBFBF⚋ &#F26565[日本語 ✘]'
     - ' &#ABBFBF  &#F26565[Français ✘] &#ABBFBF⚋ &#F26565[Dutch ✘]'
-    - ' &#ABBFBF  &#F26565[Soon ✘] &#ABBFBF⚋ &#F26565[日本語 ✘]'
+    - ' &#ABBFBF  &#F26565[Pусский ✘] &#ABBFBF⚋ &#F26565[其他 ✘]'
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] guides'

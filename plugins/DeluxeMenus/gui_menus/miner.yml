@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#EFF1F1▪ Miner ☗'
+menu_title: ' &#EFF1F1▪ 矿工 ☗'
 register_command: true
 open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_miner ambient %player_name% %player_x% %player_y% %player_z%'
@@ -48,7 +48,7 @@ items:
     amount: 8
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx1  '
+    - '  &6⚓ 切换数额: &e&lx1  '
     - ' '
     view_requirement:
       requirements:
@@ -66,7 +66,7 @@ items:
     priority: 6
     display_name: '&7 '
     lore:
-    - '  &6⚓ Change Amount: &e&lx8  '
+    - '  &6⚓ 切换数额: &e&lx8  '
     - ' '
     click_commands:
     - '[meta] set AMOUNT STRING 8'
@@ -77,10 +77,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Flint'
+    - ' &7▪ 打火石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7100.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -88,7 +88,7 @@ items:
           type: has money
           amount: 100.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'    
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -98,17 +98,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'      
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'      
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100'
     - '[console] give %player_name% FLINT 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rFlint for &c-$100 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r打火石  &c-100 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.50'
     - '[console] minecraft:clear %player_name% flint 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rFlint for &a+$1.50 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r打火石  &a+1.50 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_4':
     material: coal
@@ -116,10 +116,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Coal'
+    - ' &7▪ 煤炭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$120.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.05 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7120.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.05 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -127,7 +127,7 @@ items:
           type: has money
           amount: 120.25
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'   
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -137,17 +137,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'  
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 120.25'
     - '[console] give %player_name% COAL 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rCoal for &c-$120.25 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r煤炭  &c-120.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.05'
     - '[console] minecraft:clear %player_name% coal 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rCoal for &a+$1.05 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r煤炭  &a+1.05 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_5':
     material: charcoal
@@ -155,10 +155,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Charcoal'
+    - ' &7▪ 木炭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$125.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.10 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7125.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.10 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -166,7 +166,7 @@ items:
           type: has money
           amount: 125.25
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'      
     right_click_requirement:
       requirements:
@@ -176,17 +176,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 125.25'
     - '[console] give %player_name% CHARCOAL 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rCharcoal for &c-$125.25 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r木炭  &c-125.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.10'
     - '[console] minecraft:clear %player_name% charcoal 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rCharcoal for &a+$1.10 ⛁&f.'    
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r木炭  &a+1.10 ⛁'    
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_6':
     material: iron_ingot
@@ -194,10 +194,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Iron Ingot'
+    - ' &7▪ 铁锭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$160.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7160.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -205,7 +205,7 @@ items:
           type: has money
           amount: 160.25
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -215,17 +215,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 160.25'
     - '[console] give %player_name% IRON_INGOT 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rIron Ingot for &c-$160.25 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r铁锭  &c-160.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.25'
     - '[console] minecraft:clear %player_name% iron_ingot 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rIron Ingot for &a+$1.25 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r铁锭  &a+1.25 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_7':
     material: slime_ball
@@ -233,10 +233,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Slime Ball'
+    - ' &7▪ 粘液球'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$200.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7200.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &72.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -244,7 +244,7 @@ items:
           type: has money
           amount: 200.25
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -254,17 +254,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 200.25'
     - '[console] give %player_name% slime_ball 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rSlime Ball for &c-$200.25 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r粘液球  &c-200.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 2.50'
     - '[console] minecraft:clear %player_name% slime_ball 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rSlime Ball for &a+$2.50 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r粘液球  &a+2.50 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_8':
     material: diamond
@@ -272,10 +272,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Diamond'
+    - ' &7▪ 钻石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$300.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$4.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7300.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &74.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -283,7 +283,7 @@ items:
           type: has money
           amount: 300.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -293,17 +293,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 300.0'
     - '[console] give %player_name% DIAMOND 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rDiamond for &c-$300.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r钻石  &c-300.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 4.50'
     - '[console] minecraft:clear %player_name% diamond 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rDiamond for &a+$4.50 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r钻石  &a+4.50 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
   'items_9':
     material: lapis_lazuli
@@ -311,10 +311,10 @@ items:
     priority: 6
     display_name: '&7 '    
     lore:
-    - ' &7▪ Lapis Lazuli'
+    - ' &7▪ 青金石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$30.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &730.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &70.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -322,7 +322,7 @@ items:
           type: has money
           amount: 30.50
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -332,17 +332,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 30.50'
     - '[console] give %player_name% LAPIS_LAZULI 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rLapis Lazuli for &c-$30.50 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r青金石  &c-30.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.25'
     - '[console] minecraft:clear %player_name% lapis_lazuli 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rLapis Lazuli for &a+$0.25 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r青金石  &a+0.25 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_10':
     material: redstone
@@ -350,10 +350,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Redstone'
+    - ' &7▪ 红石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$30.75 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.10 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &730.75 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &70.10 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -361,7 +361,7 @@ items:
           type: has money
           amount: 30.75
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -371,17 +371,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 30.75'
     - '[console] give %player_name% REDSTONE 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rRedstone for &c-$30.75 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r红石  &c-30.75 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.10'
     - '[console] minecraft:clear %player_name% redstone 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rRedstone for &a+$0.10 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r红石  &a+0.10 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_11':
     material: netherite_scrap
@@ -389,10 +389,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Netherite Scrap'
+    - ' &7▪ 下界合金碎片'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1000.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$250.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &71000.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &7250.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -400,7 +400,7 @@ items:
           type: has money
           amount: 1000
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -410,17 +410,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 1000.0'
     - '[console] give %player_name% NETHERITE_SCRAP 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNetherite Scrap for &c-$1000.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r下界合金碎片  &c-1000.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 250.0'
     - '[console] minecraft:clear %player_name% netherite_scrap 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNetherite Scrap for &a+$250.0 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r下界合金碎片  &a+250.0 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_12':
     material: netherite_ingot
@@ -428,10 +428,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Netherite Ingot'
+    - ' &7▪ 下界合金锭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$2500.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$500.0 ⛁'
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &72500.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &7500.0 ⛁'
     - ''
     left_click_requirement:
       requirements:
@@ -439,7 +439,7 @@ items:
           type: has money
           amount: 2500.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -449,17 +449,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 2500.0'
     - '[console] give %player_name% NETHERITE_INGOT 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNetherite Ingot for &c-$2500.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r下界合金锭  &c-2500.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 500.0'
     - '[console] minecraft:clear %player_name% netherite_ingot 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNetherite Ingot for &a+$500.0 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r下界合金锭  &a+500.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_13':
     material: glowstone_dust
@@ -467,10 +467,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Glowstone Dust'
+    - ' &7▪ 萤石粉'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.15 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7100.15 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -478,7 +478,7 @@ items:
           type: has money
           amount: 100.15
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -488,17 +488,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100.15'
     - '[console] give %player_name% GLOWSTONE_DUST 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rGlowstone Dust for &c-$100.15 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r萤石粉  &c-100.15 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.25'
     - '[console] minecraft:clear %player_name% glowstone_dust 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rGlowstone Dust for &a+$1.25 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r萤石粉  &a+1.25 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_14':
     material: quartz
@@ -506,10 +506,10 @@ items:
     priority: 6
     display_name: '&7 '     
     lore:
-    - ' &7▪ Nether Quartz'
+    - ' &7▪ 下界石英'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$100.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$1.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7100.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &71.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -517,7 +517,7 @@ items:
           type: has money
           amount: 100.50
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -527,17 +527,17 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100.50'
     - '[console] give %player_name% QUARTZ 1'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx1 &rNether Quartz for &c-$100.50 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx1 &r下界石英  &c-100.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.0'
     - '[console] minecraft:clear %player_name% quartz 1'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx1 &rNether Quartz for &a+$1.0 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx1 &r下界石英  &a+1.0 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t3':
     material: flint
@@ -546,10 +546,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Flint'
+    - ' &7▪ 打火石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$800.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$12.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7800.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &712.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -564,7 +564,7 @@ items:
           type: has money
           amount: 800.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -574,17 +574,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 800.0'
     - '[console] give %player_name% FLINT 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rFlint for &c-$800.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r打火石  &c-800.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 12.0'
     - '[console] minecraft:clear %player_name% flint 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rFlint for &a+$12.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r打火石  &a+12.0 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t4':
     material: coal
@@ -593,10 +593,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Coal'
+    - ' &7▪ 煤炭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$962.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.40 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7962.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &78.40 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -611,7 +611,7 @@ items:
           type: has money
           amount: 962.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -621,17 +621,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 962.0'
     - '[console] give %player_name% COAL 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rCoal for &c-$962.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r煤炭  &c-962.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 8.40'
     - '[console] minecraft:clear %player_name% coal 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rCoal for &a+$8.40 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r煤炭  &a+8.40 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t5':
     material: charcoal
@@ -640,10 +640,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Charcoal'
+    - ' &7▪ 木炭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.002.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.80 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &71.002.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &78.80 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -658,7 +658,7 @@ items:
           type: has money
           amount: 1002.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -668,17 +668,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 1002.0'
     - '[console] give %player_name% CHARCOAL 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rCharcoal for &c-$1.002.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r木炭  &c-1.002.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 8.80'
     - '[console] minecraft:clear %player_name% charcoal 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rCharcoal for &a+$8.80 ⛁&f.'    
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r木炭  &a+8.80 ⛁'    
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t6':
     material: iron_ingot
@@ -687,10 +687,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Iron Ingot'
+    - ' &7▪ 铁锭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.282.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$10.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &71.282.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &710.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -705,7 +705,7 @@ items:
           type: has money
           amount: 1282.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -715,17 +715,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 1282.0'
     - '[console] give %player_name% IRON_INGOT 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rIron Ingot for &c-$1.282.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r铁锭  &c-1.282.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 10.0'
     - '[console] minecraft:clear %player_name% iron_ingot 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rIron Ingot for &a+$10.0 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r铁锭  &a+10.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t7':
     material: slime_ball
@@ -734,10 +734,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Slime Ball'
+    - ' &7▪ 粘液球'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$1.602.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$20.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &71.602.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &720.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -752,7 +752,7 @@ items:
           type: has money
           amount: 1602.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -762,17 +762,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 1602.0'
     - '[console] give %player_name% SLIME_BALL 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rSlime Ball for &c-$1.602 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r粘液球  &c-1.602 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 20.0'
     - '[console] minecraft:clear %player_name% slime_ball 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rSlime Ball for &a+$20.0 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r粘液球  &a+20.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t8':
     material: diamond
@@ -781,10 +781,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Diamond'
+    - ' &7▪ 钻石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$2.400.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$36.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &72.400.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &736.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -799,7 +799,7 @@ items:
           type: has money
           amount: 2400.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -809,17 +809,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 2400.0'
     - '[console] give %player_name% DIAMOND 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rDiamond for &c-$2400.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r钻石  &c-2400.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 36.0'
     - '[console] minecraft:clear %player_name% diamond 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rDiamond for &a+$36.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r钻石  &a+36.0 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    
   'items_t9':
     material: lapis_lazuli
@@ -828,10 +828,10 @@ items:
     amount: 8
     display_name: '&7 '    
     lore:
-    - ' &7▪ Lapis Lazuli'
+    - ' &7▪ 青金石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$244.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7244.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &72.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -846,7 +846,7 @@ items:
           type: has money
           amount: 244.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -856,17 +856,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 244.0'
     - '[console] give %player_name% LAPIS_LAZULI 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rLapis Lazuli for &c-$244.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r青金石  &c-244.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 2.0'
     - '[console] minecraft:clear %player_name% lapis_lazuli 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rLapis Lazuli for &a+$2.0 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r青金石  &a+2.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t10':
     material: redstone
@@ -875,10 +875,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Redstone'
+    - ' &7▪ 红石'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$246.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$0.80 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7246.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &70.80 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -893,7 +893,7 @@ items:
           type: has money
           amount: 246.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -903,17 +903,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 246.0'
     - '[console] give %player_name% REDSTONE 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rRedstone for &c-$246.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r红石  &c-246.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.80'
     - '[console] minecraft:clear %player_name% redstone 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rRedstone for &a+$0.80 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r红石  &a+0.80 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t11':
     material: netherite_scrap
@@ -922,10 +922,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Netherite Scrap'
+    - ' &7▪ 下界合金碎片'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$8.000.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$2.000.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &78.000.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &72.000.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -940,7 +940,7 @@ items:
           type: has money
           amount: 8000.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -950,17 +950,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 8000.0'
     - '[console] give %player_name% NETHERITE_SCRAP 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNetherite Scrap for &c-$8.000.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r下界合金碎片  &c-8.000.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 2000.0'
     - '[console] minecraft:clear %player_name% netherite_scrap 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNetherite Scrap for &a+$2.000.0 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r下界合金碎片  &a+2.000.0 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t12':
     material: netherite_ingot
@@ -969,10 +969,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Netherite Ingot'
+    - ' &7▪ 下界合金锭'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$20.000.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$4.000.0 ⛁'
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &720.000.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &74.000.0 ⛁'
     - ''
     view_requirement:
       requirements:
@@ -987,7 +987,7 @@ items:
           type: has money
           amount: 20000.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -997,17 +997,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 20000.0'
     - '[console] give %player_name% NETHERITE_INGOT 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNetherite Ingot for &c-$20.000.0.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r下界合金锭  &c-20.000.0.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 4000.0'
     - '[console] minecraft:clear %player_name% netherite_ingot 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNetherite Ingot for &a+$4.000.0 ⛁&f.' 
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r下界合金锭  &a+4.000.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t13':
     material: glowstone_dust
@@ -1016,10 +1016,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Glowstone Dust'
+    - ' &7▪ 萤石粉'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$801.20 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$10.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7801.20 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &710.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -1034,7 +1034,7 @@ items:
           type: has money
           amount: 801.20
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -1044,17 +1044,17 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 801.20'
     - '[console] give %player_name% GLOWSTONE_DUST 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rGlowstone Dust for &c-$801.20 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r萤石粉  &c-801.20 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 10.0'
     - '[console] minecraft:clear %player_name% glowstone_dust 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rGlowstone Dust for &a+$10.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r萤石粉  &a+10.0 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_t14':
     material: quartz
@@ -1063,10 +1063,10 @@ items:
     amount: 8
     display_name: '&7 '     
     lore:
-    - ' &7▪ Nether Quartz'
+    - ' &7▪ 下界石英'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &7&lBUY &ffor &7$804.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &7&lSELL &ffor &7$8.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &7&l购买 &7804.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &7&l售卖 &78.0 ⛁ '
     - ''
     view_requirement:
       requirements:
@@ -1081,7 +1081,7 @@ items:
           type: has money
           amount: 804.0
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough money to buy these items.'  
+      - '[message] &7&lMINER &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -1091,15 +1091,15 @@ items:
           data: 0
           amount: 8
       deny_commands:
-      - '[message] &7&lMINER &8▸ &rYou don''t have enough items to sell.' 
+      - '[message] &7&lMINER &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 804.0'
     - '[console] give %player_name% QUARTZ 8'
-    - '[message] &7&lMINER &8▸ &rYou bought &bx8 &rNether Quartz for &c-$804.0 ⛁&f.'
+    - '[message] &7&lMINER &8▸ &r你购买了 &bx8 &r下界石英  &c-804.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 8.0'
     - '[console] minecraft:clear %player_name% quartz 8'
-    - '[message] &7&lMINER &8▸ &rYou sold &bx8 &rNether Quartz for &a+$8.0 ⛁&f.'  
+    - '[message] &7&lMINER &8▸ &r你售卖了 &bx8 &r下界石英  &a+8.0 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

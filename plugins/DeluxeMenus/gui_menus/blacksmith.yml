@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#60FF2B▪ Blacksmith ☗'
+menu_title: ' &#60FF2B▪ 铁匠 ☗'
 register_command: true
 open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_smith ambient %player_name% %player_x% %player_y% %player_z%'
@@ -47,9 +47,9 @@ items:
     slot: 10
     display_name: '&7 '     
     lore:
-    - ' &a▪ Anvil'
+    - ' &a▪ 铁砧'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a500.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -57,21 +57,21 @@ items:
           type: has money
           amount: 500.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 500'
     - '[console] give %player_name% ANVIL 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rAnvil for &c-$500 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r铁砧  &c-500 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_4':
     material: grindstone
     slot: 11
     display_name: '&7 '     
     lore:
-    - ' &a▪ Grindstone'
+    - ' &a▪ 砂轮'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$1.000.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a1.000.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -79,21 +79,21 @@ items:
           type: has money
           amount: 1000.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 1000.0'
     - '[console] give %player_name% GRINDSTONE 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rGrindstone for &c-$1.000.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r砂轮  &c-1.000.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_5':
     material: stonecutter
     slot: 12
     display_name: '&7 '     
     lore:
-    - ' &a▪ Stonecutter'
+    - ' &a▪ 切石机'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a500.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -101,22 +101,22 @@ items:
           type: has money
           amount: 500.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'    
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 500.0'
     - '[console] give %player_name% STONECUTTER 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rStonecutter for &c-$500.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r切石机  &c-500.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_6':
     material: blast_furnace
     slot: 13
     display_name: '&7 '     
     lore:
-    - ' &a▪ Blast Furnace'
+    - ' &a▪ 熔炉'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$4.75 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a250.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &a&l售卖 &a4.75 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -124,7 +124,7 @@ items:
           type: has money
           amount: 250.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'   
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -134,27 +134,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 250.0'
     - '[console] give %player_name% BLAST_FURNACE 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rBlast Furnace for &c-$250.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r熔炉  &c-250.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 4.75'
     - '[console] eclear %player_name% BLAST_FURNACE 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rBlast Furnace for &a+$4.75 ⛁&f.' 
+    - '[message] &a&l铁匠 &8▸ &r你售卖了 &bx1 &r熔炉  &a+4.75 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_7':
     material: smoker
     slot: 14
     display_name: '&7 '     
     lore:
-    - ' &a▪ Smoker'
+    - ' &a▪ 烟熏炉'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$4.75 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a250.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &a&l售卖 &a4.75 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -162,7 +162,7 @@ items:
           type: has money
           amount: 250.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -172,27 +172,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品'  
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 250.0'
     - '[console] give %player_name% SMOKER 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rSmoker for &c-$250.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r烟熏炉  &c-250.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 4.75'
     - '[console] eclear %player_name% SMOKER 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rSmoker for &a+$4.75 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你售卖了 &bx1 &r烟熏炉  &a+4.75 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_8':
     material: target
     slot: 15
     display_name: '&7 '     
     lore:
-    - ' &a▪ Target'
+    - ' &a▪ 标靶'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$250.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$10.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a250.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &a&l售卖 &a10.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -200,7 +200,7 @@ items:
           type: has money
           amount: 250.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -210,27 +210,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 250.0'
     - '[console] give %player_name% TARGET 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rTarget for &c-$250.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r标靶  &c-250.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 10.0'
     - '[console] eclear %player_name% TARGET 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rTarget for &a+$10.0 ⛁&f.' 
+    - '[message] &a&l铁匠 &8▸ &r你售卖了 &bx1 &r标靶  &a+10.0 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_9':
     material: chain
     slot: 20
     display_name: '&7 '     
     lore:
-    - ' &a▪ Chain'
+    - ' &a▪ 锁链'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$200.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$3.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a200.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &a&l售卖 &a3.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -238,7 +238,7 @@ items:
           type: has money
           amount: 200.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'   
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -248,27 +248,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品'  
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 200.0'
     - '[console] give %player_name% CHAIN 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rChain for &c-$200.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r锁链  &c-200.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 3.25'
     - '[console] eclear %player_name% CHAIN 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rChain for &a+$3.25 ⛁&f.' 
+    - '[message] &a&l铁匠 &8▸ &r你售卖了 &bx1 &r锁链  &a+3.25 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_10':
     material: saddle
     slot: 21
     display_name: '&7 '     
     lore:
-    - ' &a▪ Saddle'
+    - ' &a▪ 鞍'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$500.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &a&lSELL &ffor &a$7.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a500.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &a&l售卖 &a7.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -276,7 +276,7 @@ items:
           type: has money
           amount: 500.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -286,26 +286,26 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 500.0'
     - '[console] give %player_name% SADDLE 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rSaddle for &c-$500.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r鞍  &c-500.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 7.50'
     - '[console] eclear %player_name% SADDLE 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou sold &bx1 &rSaddle for &a+$7.50 ⛁&f.'  
+    - '[message] &a&l铁匠 &8▸ &r你售卖了 &bx1 &r鞍  &a+7.50 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_11':
     material: leather_horse_armor
     slot: 22
     display_name: '&7'     
     lore:
-    - ' &a▪ Leather Horse Armor'
+    - ' &a▪ 皮革马铠'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$450.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a450.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -313,30 +313,22 @@ items:
           type: has money
           amount: 450.50
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
-    right_click_requirement:
-      requirements:
-        anything_here:
-          type: string equals
-          input: '%checkitem_mat:LEATHER_HORSE_ARMOR%'
-          output: 'yes'
-      deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
-      - '[sound] BLOCK_GRINDSTONE_USE'
+
     left_click_commands:
     - '[takemoney] 450.50'
     - '[console] give %player_name% LEATHER_HORSE_ARMOR 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rLeather Horse Armor for &c-$450.50 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r皮革马铠  &c-450.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_12':
     material: IRON_HORSE_ARMOR
     slot: 23
     display_name: '&7 '     
     lore:
-    - ' &a▪ Iron Horse Armor'
+    - ' &a▪ 铁马铠'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$900.75 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a900.75 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -344,21 +336,21 @@ items:
           type: has money
           amount: 900.75
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 900.75'
     - '[console] give %player_name% IRON_HORSE_ARMOR 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rIron Horse Armor for &c-$900.75 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r铁马铠  &c-900.75 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_13':
     material: golden_horse_armor
     slot: 24
     display_name: '&7 '     
     lore:
-    - ' &a▪ Golden Horse Armor'
+    - ' &a▪ 金马铠'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$1.750.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a1.750.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -366,7 +358,7 @@ items:
           type: has money
           amount: 1750.25
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.'    
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额'    
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -375,21 +367,21 @@ items:
           input: '%checkitem_mat:GOLDEN_HORSE_ARMOR%'
           output: 'yes'
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.'   
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品'   
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 1750.25'
     - '[console] give %player_name% GOLDEN_HORSE_ARMOR 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rGolden Horse Armor for &c-$1.750.25 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r金马铠  &c-1.750.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_14':
     material: diamond_horse_armor
     slot: 25
     display_name: '&7 '     
     lore:
-    - ' &a▪ Diamond Horse Armor'
+    - ' &a▪ 钻石马铠'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &a&lBUY &ffor &a$2.500.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &a&l购买 &a2.500.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -397,7 +389,7 @@ items:
           type: has money
           amount: 2500.0
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -406,10 +398,10 @@ items:
           input: '%checkitem_mat:DIAMOND_HORSE_ARMOR%'
           output: 'yes'
       deny_commands:
-      - '[message] &a&lBLACKSMITH &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &a&l铁匠 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 2500.0'
     - '[console] give %player_name% DIAMOND_HORSE_ARMOR 1'
-    - '[message] &a&lBLACKSMITH &8▸ &rYou bought &bx1 &rDiamond Horse Armor for &c-$2.500.0 ⛁&f.'
+    - '[message] &a&l铁匠 &8▸ &r你购买了 &bx1 &r钻石马铠  &c-2.500.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'

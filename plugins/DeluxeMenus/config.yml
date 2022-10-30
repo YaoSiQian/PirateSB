@@ -36,6 +36,8 @@ gui_menus:
     file: guides.yml
   pets:
     file: pets.yml
+  guide-chinese:
+    file: guide-chinese.yml
   guide-spanish:
     file: guide-spanish.yml
   guide-english:

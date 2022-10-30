@@ -120,7 +120,7 @@ max-bids-reached: '&c你最多可以在 28 个不同的拍卖中出价'
 #Use %bid-item% for the name of the item
 outbid-message:
   - '&6[拍卖] &f%outbid-player-display-name%&f 在你参与出价的 %bid-item% &f拍卖中出了更高价'
-  - '&f最高出价为 &6%top-bid% ⛁&f. &e&l点击查看'
+  - '&f最高出价为 &6%top-bid% ⛁ &e&l点击查看'
 
 #Message sent to the seller when someone bids on their auction
 #Use %bidder% for bidder's display name

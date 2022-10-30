@@ -1,4 +1,4 @@
-    menu_title: ' &#02D0D0▪ Builder ☗'
+    menu_title: ' &#02D0D0▪ 建筑师 ☗'
     register_command: true
     open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_builder ambient %player_name% %player_x% %player_y% %player_z%'
@@ -42,7 +42,7 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - '  &6⚓ Change Amount: &e&lx1  '
+        - '  &6⚓ 切换数额: &e&lx1  '
         - ' '
         view_requirement:
           requirements:
@@ -60,7 +60,7 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - '  &6⚓ Change Amount: &e&lx8  '
+        - '  &6⚓ 切换数额: &e&lx8  '
         - ' '
         click_commands:
         - '[meta] set AMOUNT STRING 8'
@@ -71,10 +71,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Grass Block'
+        - ' &3▪ 草方块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$440.80 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$1.45 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3440.80 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &31.45 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -82,7 +82,7 @@
               type: has money
               amount: 440.80
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -92,17 +92,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 440.80'
         - '[console] give %player_name% GRASS_BLOCK 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rGrass Block for &c-$440.80 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r草方块  &c-440.80 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.45'
         - '[console] minecraft:clear %player_name% grass_block 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rGrass Block for &a+$1.45 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r草方块  &a+1.45 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_4':
         material: 'sand'
@@ -110,10 +110,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Sand'
+        - ' &3▪ 沙子'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$160.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$0.35 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3160.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &30.35 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -121,7 +121,7 @@
               type: has money
               amount: 160
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -131,17 +131,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 160'
         - '[console] give %player_name% SAND 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rSand for &c-$160.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r沙子  &c-160.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 0.45'
         - '[console] minecraft:clear %player_name% sand 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rSand for &a+$0.35 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r沙子  &a+0.35 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_5':
         material: 'soul_sand'
@@ -149,10 +149,10 @@
         priority: 6
         display_name: '&r '
         lore:
-        - ' &3▪ Soul Sand'
+        - ' &3▪ 灵魂沙'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$190.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$0.45 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3190.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &30.45 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -160,7 +160,7 @@
               type: has money
               amount: 190
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -170,17 +170,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 190'
         - '[console] give %player_name% SOUL_SAND 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rSoul Sand for &c-$190.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r灵魂沙  &c-190.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 0.45'
         - '[console] minecraft:clear %player_name% soul_sand 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rSoul Sand for &a+$0.45 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r灵魂沙  &a+0.45 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_6':
         material: 'gravel'
@@ -188,10 +188,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Gravel'
+        - ' &3▪ 沙砾'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$140.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$0.45 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3140.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &30.45 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -199,7 +199,7 @@
               type: has money
               amount: 140
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -209,17 +209,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 140'
         - '[console] give %player_name% GRAVEL 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rGravel for &c-$140.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r沙砾  &c-140.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 0.45'
         - '[console] minecraft:clear %player_name% gravel 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rGravel for &a+$0.45 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r沙砾  &a+0.45 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_7':
         material: 'packed_ice'
@@ -227,10 +227,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Packed Ice'
+        - ' &3▪ 浮冰'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$340.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$1.45 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3340.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &31.45 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -238,7 +238,7 @@
               type: has money
               amount: 340
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -248,17 +248,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 340.0'
         - '[console] give %player_name% PACKED_ICE 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rPacked Ice for &c-$340.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r浮冰  &c-340.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.45'
         - '[console] minecraft:clear %player_name% packed_ice 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rPacked Ice for &a+$1.45 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r浮冰  &a+1.45 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_8':
         material: 'bookshelf'
@@ -266,10 +266,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Bookshelf'
+        - ' &3▪ 书架'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$860.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$15.23 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3860.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &315.23 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -277,7 +277,7 @@
               type: has money
               amount: 860
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -287,17 +287,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 860'
         - '[console] give %player_name% BOOKSHELF 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rBookshelf for &c-$860.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r书架  &c-860.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 15.23'
         - '[console] minecraft:clear %player_name% bookshelf 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rBookshelf for &a+$15.23 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r书架  &a+15.23 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_9':
         material: 'magma_block'
@@ -305,10 +305,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Magma Block'
+        - ' &3▪ 岩浆块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$660.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$5.68 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3660.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &35.68 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -316,7 +316,7 @@
               type: has money
               amount: 660
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -326,17 +326,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 660'
         - '[console] give %player_name% MAGMA_BLOCK 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rMagma Block for &c-$660.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r岩浆块  &c-660.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 5.68'
         - '[console] minecraft:clear %player_name% magma_block 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rMagma Block for &a+$5.68 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r岩浆块  &a+5.68 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_10':
         material: 'obsidian'
@@ -344,10 +344,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Obsidian'
+        - ' &3▪ 黑曜石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$750.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$2.50 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3750.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &32.50 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -355,7 +355,7 @@
               type: has money
               amount: 750
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -365,17 +365,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 750'
         - '[console] give %player_name% OBSIDIAN 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rObsidian for &c-$750.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r黑曜石  &c-750.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 2.50'
         - '[console] minecraft:clear %player_name% obsidian 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rObsidian for &a+$2.50 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r黑曜石  &a+2.50 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_11':
         material: 'sponge'
@@ -383,10 +383,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Sponge'
+        - ' &3▪ 海绵'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$460.25 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$5.38 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3460.25 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &35.38 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -394,7 +394,7 @@
               type: has money
               amount: 460.25
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -404,17 +404,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 460.25'
         - '[console] give %player_name% SPONGE 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rSponge for &c-$460.25 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r海绵  &c-460.25 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 5.38'
         - '[console] minecraft:clear %player_name% sponge 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rSponge for &a+$5.38 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r海绵  &a+5.38 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_12':
         material: 'prismarine'
@@ -422,10 +422,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Prismarine'
+        - ' &3▪ 海晶石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$160.25 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$3.38 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3160.25 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &33.38 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -433,7 +433,7 @@
               type: has money
               amount: 160.25
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -443,17 +443,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 160.25'
         - '[console] give %player_name% PRISMARINE 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rPrismarine for &c-$160.25 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r海晶石  &c-160.25 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 3.38'
         - '[console] minecraft:clear %player_name% prismarine 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rPrismarine for &a+$3.38 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r海晶石  &a+3.38 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'               
       'items_13':
         material: 'purpur_block'
@@ -461,19 +461,18 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Purpur Block'
+        - ' &3▪ 紫珀块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$360.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$4.90 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3360.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &34.90 ⛁ '
         - ''
-        left_click_requirement:
         left_click_requirement:
           requirements:
             anything_here:
               type: has money
               amount: 360
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -483,17 +482,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 360'
         - '[console] give %player_name% PURPUR_BLOCK 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rPurpur Block for &c-$360.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r紫珀块  &c-360.0 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.90'
         - '[console] minecraft:clear %player_name% purpur_block 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rPurpur Block for &a+$4.90 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r紫珀块  &a+4.90 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK' 
       'items_17':
         material: 'blackstone'
@@ -501,10 +500,10 @@
         priority: 6
         display_name: '&7 '
         lore:
-        - ' &3▪ Blackstone'
+        - ' &3▪ 黑石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$760.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$8.90 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &3760.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &38.90 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -512,7 +511,7 @@
               type: has money
               amount: 760.20
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -522,17 +521,17 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &3&lBUILDER &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 760.20'
         - '[console] give %player_name% BLACKSTONE 1'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx1 &rBlackstone for &c-$760.20 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx1 &r黑石  &c-760.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 8.90'
         - '[console] minecraft:clear %player_name% blackstone 1'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx1 &rBlackstone for &a+$8.90 ⛁&f.' 
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx1 &r黑石  &a+8.90 ⛁' 
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t3':
         material: 'grass_block'
@@ -541,10 +540,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Grass Block'
+        - ' &3▪ 草方块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$3.526.40 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$11.60 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &33.526.40 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &311.60 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -559,7 +558,7 @@
               type: has money
               amount: 3526.40
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -569,17 +568,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 3526.40'
         - '[console] give %player_name% GRASS_BLOCK 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rGrass Block for &c-$3.526.40 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r草方块  &c-3.526.40 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 11.60'
         - '[console] minecraft:clear %player_name% grass_block 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rGrass Block for &a+$11.60 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r草方块  &a+11.60 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t4':
         material: 'sand'
@@ -588,10 +587,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Sand'
+        - ' &3▪ 沙子'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$1.280 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$3.60 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &31.280 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &33.60 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -606,7 +605,7 @@
               type: has money
               amount: 1280
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -616,17 +615,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 1280'
         - '[console] give %player_name% SAND 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rSand for &c-$1.280 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r沙子  &c-1.280 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 3.60'
         - '[console] minecraft:clear %player_name% sand 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rSand for &a+$3.60 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r沙子  &a+3.60 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t5':
         material: 'soul_sand'
@@ -635,10 +634,10 @@
         amount: 8
         display_name: '&r '
         lore:
-        - ' &3▪ Soul Sand'
+        - ' &3▪ 灵魂沙'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$1.520 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$3.60 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &31.520 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &33.60 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -653,7 +652,7 @@
               type: has money
               amount: 1520
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -663,17 +662,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 1520'
         - '[console] give %player_name% SOUL_SAND 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rSoul Sand for &c-$1.520 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r灵魂沙  &c-1.520 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 3.60'
         - '[console] minecraft:clear %player_name% soul_sand 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rSoul Sand for &a+$3.60 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r灵魂沙  &a+3.60 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t6':
         material: 'gravel'
@@ -682,10 +681,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Gravel'
+        - ' &3▪ 沙砾'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$1.120 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$3.60 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &31.120 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &33.60 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -700,7 +699,7 @@
               type: has money
               amount: 1120
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -710,17 +709,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 1120'
         - '[console] give %player_name% GRAVEL 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rGravel for &c-$1.120 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r沙砾  &c-1.120 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 3.60'
         - '[console] minecraft:clear %player_name% gravel 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rGravel for &a+$3.60 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r沙砾  &a+3.60 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_t7':
         material: 'packed_ice'
@@ -729,10 +728,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Packed Ice'
+        - ' &3▪ 浮冰'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$2.720 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$11.60 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &32.720 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &311.60 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -747,7 +746,7 @@
               type: has money
               amount: 2720
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -757,17 +756,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 2720'
         - '[console] give %player_name% PACKED_ICE 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rPacked Ice for &c-$2.720 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r浮冰  &c-2.720 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 11.60'
         - '[console] minecraft:clear %player_name% packed_ice 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rPacked Ice for &a+$11.60 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r浮冰  &a+11.60 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t8':
         material: 'bookshelf'
@@ -776,10 +775,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Bookshelf'
+        - ' &3▪ 书架'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$6.880 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$121.84 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &36.880 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &3121.84 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -794,7 +793,7 @@
               type: has money
               amount: 6880
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -804,17 +803,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 6880'
         - '[console] give %player_name% BOOKSHELF 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rBookshelf for &c-$6.880 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r书架  &c-6.880 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 121.84'
         - '[console] minecraft:clear %player_name% bookshelf 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rBookshelf for &a+$121.84 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r书架  &a+121.84 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       'items_t9':
         material: 'magma_block'
@@ -823,10 +822,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Magma Block'
+        - ' &3▪ 岩浆块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$5.280 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$45.44 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &35.280 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &345.44 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -841,7 +840,7 @@
               type: has money
               amount: 5280
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -851,17 +850,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 5280'
         - '[console] give %player_name% MAGMA_BLOCK 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rMagma Block for &c-$5.280 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r岩浆块  &c-5.280 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 45.44'
         - '[console] minecraft:clear %player_name% magma_block 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rMagma Block for &a+$45.44 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r岩浆块  &a+45.44 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_t10':
         material: 'obsidian'
@@ -870,10 +869,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Obsidian'
+        - ' &3▪ 黑曜石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$6.000 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$20.0 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &36.000 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &320.0 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -888,7 +887,7 @@
               type: has money
               amount: 6000
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -898,17 +897,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 6000'
         - '[console] give %player_name% OBSIDIAN 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rObsidian for &c-$6.000 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r黑曜石  &c-6.000 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 20.0'
         - '[console] minecraft:clear %player_name% obsidian 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rObsidian for &a+$20.0 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r黑曜石  &a+20.0 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_t11':
         material: 'sponge'
@@ -917,10 +916,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Sponge'
+        - ' &3▪ 海绵'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$3.682 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$43.04 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &33.682 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &343.04 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -935,7 +934,7 @@
               type: has money
               amount: 3682
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -945,17 +944,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 3682'
         - '[console] give %player_name% SPONGE 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rSponge for &c-$3.682 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r海绵  &c-3.682 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 43.04'
         - '[console] minecraft:clear %player_name% sponge 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rSponge for &a+$43.04 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r海绵  &a+43.04 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       'items_t12':
         material: 'prismarine'
@@ -964,10 +963,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Prismarine'
+        - ' &3▪ 海晶石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$1.282 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$27.04 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &31.282 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &327.04 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -982,7 +981,7 @@
               type: has money
               amount: 1282
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -992,17 +991,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 1282'
         - '[console] give %player_name% PRISMARINE 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rPrismarine for &c-$1.282 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r海晶石  &c-1.282 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 27.04'
         - '[console] minecraft:clear %player_name% prismarine 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rPrismarine for &a+$27.04 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r海晶石  &a+27.04 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'               
       'items_t13':
         material: 'purpur_block'
@@ -1011,10 +1010,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Purpur Block'
+        - ' &3▪ 紫珀块'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$2.880 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$39.20 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &32.880 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &339.20 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -1024,13 +1023,12 @@
               meta_type: STRING
               value: '8'
         left_click_requirement:
-        left_click_requirement:
           requirements:
             anything_here:
               type: has money
               amount: 2880
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -1040,17 +1038,17 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 2880'
         - '[console] give %player_name% PURPUR_BLOCK 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rPurpur Block for &c-$2.880 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r紫珀块  &c-2.880 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 39.20'
         - '[console] minecraft:clear %player_name% purpur_block 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rPurpur Block for &a+$39.20 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r紫珀块  &a+39.20 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK' 
       'items_t17':
         material: 'blackstone'
@@ -1059,10 +1057,10 @@
         amount: 8
         display_name: '&7 '
         lore:
-        - ' &3▪ Blackstone'
+        - ' &3▪ 黑石'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &3&lBUY &ffor &3$6.080 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &3&lSELL &ffor &3$71.20 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &3&l购买 &36.080 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &3&l售卖 &371.20 ⛁ '
         - ''
         view_requirement:
           requirements:
@@ -1077,7 +1075,7 @@
               type: has money
               amount: 6080
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou don''t have enough money to buy these items.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -1087,15 +1085,15 @@
               data: 0
               amount: 8
           deny_commands:
-          - '[message] &3&lBUILDER &8▸ &rYou do not have this items in your inventory to sell.'
+          - '[message] &3&l建筑师 &8▸ &r你没有足够的物品'
           - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 6080'
         - '[console] give %player_name% BLACKSTONE 8'
-        - '[message] &3&lBUILDER &8▸ &rYou bought &bx8 &rBlackstone for &c-$6.080 ⛁&f.'
+        - '[message] &3&l建筑师 &8▸ &r你购买了 &bx8 &r黑石  &c-6.080 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 71.20'
         - '[console] minecraft:clear %player_name% blackstone 8'
-        - '[message] &3&lBUILDER &8▸ &rYou sold &bx8 &rBlackstone for &a+$71.20 ⛁&f.' 
+        - '[message] &3&l建筑师 &8▸ &r你售卖了 &bx8 &r黑石  &a+71.20 ⛁' 
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'

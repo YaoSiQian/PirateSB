@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#3190B7⚓ &lMystery Pirate &#3190B7▪'
+menu_title: '&#3190B7⚓ &l神秘海盗 &#3190B7▪'
 open_command:
   - mysterypirate
 register_command: true
@@ -14,22 +14,22 @@ items:
     slot: 10
     display_name: '&7'
     lore:
-    - ' &#3190B7&l▪ Last Delivery ⸎'
+    - ' &#3190B7&l▪ 更新日期 ⸎'
     - ''
-    - ' &#ABBFBF▪ Last delivery of mystery items  '
-    - ' &#ACF268▪ [Date: 07/10/2021] ⌚  '
+    - ' &#ABBFBF▪ 神秘物品的最后交付日期  '
+    - ' &#ACF268▪ [日期: 2023/01/01] ⌚  '
     - ''
   'spawners':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZmI1MjMzMmNiZmNiNWJlNTM1NTNkNjdjNzI2NDNiYTJiYjUxN2Y3ZTg5ZGVkNTNkNGE5MmIwMGNlYTczZSJ9fX0='
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#3190B7&l▪ Spawners ⩨'
+    - ' &#3190B7&l▪ 刷怪箱 ⩨'
     - ''
-    - ' &#ABBFBF▪ See the list of available  '
-    - ' &#ABBFBF  spawners to buy.'
+    - ' &#ABBFBF▪ 查看所有可购买的  '
+    - ' &#ABBFBF  刷怪箱'
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     left_click_commands:
     - '[player] spawners'
@@ -40,12 +40,12 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#3190B7&l▪ Spawn Eggs ⩨'
+    - ' &#3190B7&l▪ 刷怪蛋 ⩨'
     - ''
-    - ' &#ABBFBF▪ See the list of available  '
-    - ' &#ABBFBF  spawn eggs to buy.'
+    - ' &#ABBFBF▪ 查看所有可购买的  '
+    - ' &#ABBFBF  刷怪蛋'
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     left_click_commands:
     - '[player] spawneggs'
@@ -56,12 +56,12 @@ items:
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#3190B7&l▪ Rare Items ☣'
+    - ' &#3190B7&l▪ 稀有物品 ☣'
     - ''
-    - ' &#ABBFBF▪ See the list of available  '
-    - ' &#ABBFBF  rare items to buy.'
+    - ' &#ABBFBF▪ 查看所有可购买的  '
+    - ' &#ABBFBF  稀有物品'
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] rareitems'

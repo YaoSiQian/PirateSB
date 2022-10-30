@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#A9791C▪ Woodcutter ☗'
+menu_title: ' &#A9791C▪ 伐木工 ☗'
 register_command: true
 open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_wood ambient %player_name% %player_x% %player_y% %player_z%'
@@ -48,10 +48,10 @@ items:
     slot: 10
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Oak Log'
+    - ' &#835A14▪ 橡木原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$100.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$0.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14100.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A140.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -59,7 +59,7 @@ items:
           type: has money
           amount: 100.0
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -69,27 +69,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100'
     - '[console] give %player_name% OAK_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rOak Log for &c-$100 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r橡木原木  &c-100 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.25'
     - '[console] minecraft:clear %player_name% oak_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rOak Log for &a+$0.25 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r橡木原木  &a+0.25 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_4':
     material: spruce_log
     slot: 11
     display_name: '&7 '    
     lore:
-    - ' &#835A14▪ Spruce Log'
+    - ' &#835A14▪ 云杉原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$100.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$0.30 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14100.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A140.30 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -97,7 +97,7 @@ items:
           type: has money
           amount: 100.25
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -107,27 +107,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100.25'
     - '[console] give %player_name% SPRUCE_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rSpruce Log for &c-$100.25 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r云杉原木  &c-100.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.30'
     - '[console] minecraft:clear %player_name% spruce_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rSpruce Log for &a+$0.30 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r云杉原木  &a+0.30 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_5':
     material: birch_log
     slot: 12
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Birch Log'
+    - ' &#835A14▪ 白桦原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$120.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$2.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14120.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A142.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -135,7 +135,7 @@ items:
           type: has money
           amount: 120.50
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -145,27 +145,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 120.50'
     - '[console] give %player_name% BIRCH_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rBirch Log for &c-$120.50 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r白桦原木  &c-120.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 2.25'
     - '[console] minecraft:clear %player_name% birch_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rBirch Log for &a+$2.25 ⛁&f.'    
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r白桦原木  &a+2.25 ⛁'    
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_6':
     material: jungle_log
     slot: 13
     display_name: '&7 '      
     lore:
-    - ' &#835A14▪ Jungle Log'
+    - ' &#835A14▪ 丛林原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$80.75 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$1.50 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A1480.75 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A141.50 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -173,7 +173,7 @@ items:
           type: has money
           amount: 80.75
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -183,27 +183,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'   
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'   
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 80.75'
     - '[console] give %player_name% JUNGLE_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rJungle Log for &c-$80.75 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r丛林原木  &c-80.75 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.50'
     - '[console] minecraft:clear %player_name% jungle_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rJungle Log for &a+$1.50 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r丛林原木  &a+1.50 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_7':
     material: acacia_log
     slot: 14
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Acacia Log'
+    - ' &#835A14▪ 金合欢原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$110.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$1.75 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14110.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A141.75 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -211,7 +211,7 @@ items:
           type: has money
           amount: 110.25
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -221,27 +221,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 110.25'
     - '[console] give %player_name% ACACIA_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rAcacia Log for &c-$110.25 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r金合欢原木  &c-110.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.75'
     - '[console] minecraft:clear %player_name% acacia_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rAcacia Log for &a+$1.75 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r金合欢原木  &a+1.75 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_8':
     material: dark_oak_log
     slot: 15
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Dark Oak Log'
+    - ' &#835A14▪ 深色橡木原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$140.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$5.25 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14140.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A145.25 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -249,7 +249,7 @@ items:
           type: has money
           amount: 140.50
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -259,27 +259,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 140.50'
     - '[console] give %player_name% DARK_OAK_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rDark Oak Log for &c-$140.50 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r深色橡木原木  &c-140.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 5.25'
     - '[console] minecraft:clear %player_name% dark_oak_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rDark Oak Log for &a+$5.25 ⛁&f.'   
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r深色橡木原木  &a+5.25 ⛁'   
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_9':
     material: stripped_oak_log
     slot: 20
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripped Oak Log'
+    - ' &#835A14▪ 去皮橡木原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$100.25 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$0.35 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14100.25 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A140.35 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -287,7 +287,7 @@ items:
           type: has money
           amount: 100.25
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -297,27 +297,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'  
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100.25'
     - '[console] give %player_name% STRIPPED_OAK_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Oak Log for &c-$100.25 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮橡木原木  &c-100.25 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.35'
     - '[console] minecraft:clear %player_name% stripped_oak_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rStripped Oak Log for &a+$0.35 ⛁&f.' 
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r去皮橡木原木  &a+0.35 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_10':
     material: stripped_spruce_log
     slot: 21
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripped Spruce Log'
+    - ' &#835A14▪ 去皮云杉原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$100.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$0.40 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14100.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A140.40 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -325,7 +325,7 @@ items:
           type: has money
           amount: 100.50
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -335,27 +335,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 100.50'
     - '[console] give %player_name% STRIPPED_SPRUCE_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Spruce Log for &c-$100.50 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮云杉原木  &c-100.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 0.40'
     - '[console] minecraft:clear %player_name% stripped_spruce_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rSripped Spruce Log for &a+$0.40 ⛁&f.'  
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &rSripped 云杉原木  &a+0.40 ⛁'  
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_11':
     material: stripped_birch_log
     slot: 22
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripepd Birch Log'
+    - ' &#835A14▪ 去皮白桦原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$120.75 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$2.35 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14120.75 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A142.35 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -363,7 +363,7 @@ items:
           type: has money
           amount: 120.75
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额' 
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -373,27 +373,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'   
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'   
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 120.75'
     - '[console] give %player_name% STRIPPED_BIRCH_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Birch Log for &c-$120.75 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮白桦原木  &c-120.75 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 2.35'
     - '[console] minecraft:clear %player_name% stripped_birch_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rStripped Birch Log for &a+$2.35 ⛁&f.'   
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r去皮白桦原木  &a+2.35 ⛁'   
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_12':
     material: stripped_jungle_log
     slot: 23
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripped Jungle Log'
+    - ' &#835A14▪ 去皮丛林原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$90.0 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$1.60 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A1490.0 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A141.60 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -401,7 +401,7 @@ items:
           type: has money
           amount: 90.0
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -411,27 +411,27 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.' 
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品' 
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 90.0'
     - '[console] give %player_name% STRIPPED_JUNGLE_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Jungle Log for &c-$90.0 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮丛林原木  &c-90.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.60'
     - '[console] minecraft:clear %player_name% stripped_jungle_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rStripped Jungle Log for &a+$1.60 ⛁&f.' 
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r去皮丛林原木  &a+1.60 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_13':
     material: stripped_acacia_log
     slot: 24
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripped Acacia Log'
+    - ' &#835A14▪ 去皮金合欢原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$110.50 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$1.90 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14110.50 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A141.90 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -439,7 +439,7 @@ items:
           type: has money
           amount: 110.50
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'  
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'  
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -449,34 +449,34 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'  
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'  
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 110.50'
     - '[console] give %player_name% STRIPPED_ACACIA_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Acacia Log for &c-$110.50 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮金合欢原木  &c-110.50 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 1.90'
     - '[console] minecraft:clear %player_name% stripped_acacia_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rStripped Acacia Log for &a+$1.90 ⛁&f.' 
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r去皮金合欢原木  &a+1.90 ⛁' 
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
   'items_14':
     material: stripped_dark_oak_log
     slot: 25
     display_name: '&7 '     
     lore:
-    - ' &#835A14▪ Stripped Dark Oak Log'
+    - ' &#835A14▪ 去皮深色橡木原木'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#835A14&lBUY &ffor &#835A14$140.75 ⛁ '
-    - ' &8▪ &7(Right-Click) &fAction: &#835A14&lSELL &ffor &#835A14$5.35 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#835A14&l购买 &#835A14140.75 ⛁ '
+    - ' &8▪ &7(右键点击) &f行动: &#835A14&l售卖 &#835A145.35 ⛁ '
     left_click_requirement:
       requirements:
         anything_here:
           type: has money
           amount: 140.75
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou don''t have enough money to buy this item.'   
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的余额'   
       - '[sound] ENTITY_EVOKER_DEATH'
     right_click_requirement:
       requirements:
@@ -486,15 +486,15 @@ items:
           data: 0
           amount: 1
       deny_commands:
-      - '[message] &#835A14&lWOODCUTTER &8▸ &rYou do not have this item in your inventory to sell.'
+      - '[message] &#835A14&l伐木工 &8▸ &r你没有足够的物品'
       - '[sound] BLOCK_GRINDSTONE_USE'
     left_click_commands:
     - '[takemoney] 14.75'
     - '[console] give %player_name% STRIPPED_DARK_OAK_LOG 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou bought &bx1 &rStripped Dark Oak Log for &c-$140.75 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你购买了 &bx1 &r去皮深色橡木原木  &c-140.75 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
     right_click_commands:
     - '[givemoney] 5.35'
     - '[console] minecraft:clear %player_name% stripped_dark_oak_log 1'
-    - '[message] &#835A14&lWOODCUTTER &8▸ &rYou sold &bx1 &rStripped Dark Oak Log for &a+$5.35 ⛁&f.'
+    - '[message] &#835A14&l伐木工 &8▸ &r你售卖了 &bx1 &r去皮深色橡木原木  &a+5.35 ⛁'
     - '[sound] ENTITY_EVOKER_FANGS_ATTACK'    

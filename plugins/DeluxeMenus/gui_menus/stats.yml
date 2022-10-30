@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#8B673A&l▪ Your Stats&#8B673A ꙮ'
+menu_title: '&#8B673A&l▪ 统计数据&#8B673A ꙮ'
 open_command:
   - statsmc
 register_command: true
@@ -14,7 +14,7 @@ items:
     amount: 2
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Return ⬅'
+    - ' &#8B673A&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] profile'
@@ -23,46 +23,46 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#1ACCCC&l▪ General Statistics&#1ACCCC ❤  '
+    - ' &#1ACCCC&l▪ 基础数据&#1ACCCC ❤  '
     - ''
-    - ' &#1ACCCC⏏ &#ABBFBFJumps &#1ACCCC&l%statistic_jump%  '
-    - ' &#1ACCCC⏏ &#ABBFBFBroken items &#1ACCCC&l%statistic_break_item%  '
-    - ' &#1ACCCC⏏ &#ABBFBFUsed items &#1ACCCC&l%statistic_use_item%  '
-    - ' &#1ACCCC⏏ &#ABBFBFOpen chests &#1ACCCC&l%statistic_chest_opened%  '
-    - ' &#1ACCCC⏏ &#ABBFBFAnimals bred &#1ACCCC&l%statistic_animals_bred%  '
-    - ' &#1ACCCC⏏ &#ABBFBFEnchanted items &#1ACCCC&l%statistic_item_enchanted%  '
-    - ' &#1ACCCC⏏ &#ABBFBFFish caught &#1ACCCC&l%statistic_fish_caught%  '
-    - ' &#1ACCCC⏏ &#ABBFBFOpen enderchests &#1ACCCC&l%statistic_enderchest_opened%  '
+    - ' &#1ACCCC⏏ &#ABBFBF跳跃数 &#1ACCCC&l%statistic_jump%  '
+    - ' &#1ACCCC⏏ &#ABBFBF破坏数 &#1ACCCC&l%statistic_break_item%  '
+    - ' &#1ACCCC⏏ &#ABBFBF使用数 &#1ACCCC&l%statistic_use_item%  '
+    - ' &#1ACCCC⏏ &#ABBFBF开箱数 &#1ACCCC&l%statistic_chest_opened%  '
+    - ' &#1ACCCC⏏ &#ABBFBF喂养数 &#1ACCCC&l%statistic_animals_bred%  '
+    - ' &#1ACCCC⏏ &#ABBFBF附魔数 &#1ACCCC&l%statistic_item_enchanted%  '
+    - ' &#1ACCCC⏏ &#ABBFBF钓鱼数 &#1ACCCC&l%statistic_fish_caught%  '
+    - ' &#1ACCCC⏏ &#ABBFBF开末影箱数 &#1ACCCC&l%statistic_enderchest_opened%  '
     - ''
   'interesting':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzgwN2VkNjY5NTBjZGEzMWQwOTZhNGNjM2ZmZjFmOTYxM2ExZGQyMzQwNWViOTM3NzZhNzQxOTdlOTRiZDk2NSJ9fX0='
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#ACF268&l▪ Interesting Statistics &#ACF268♣  '
+    - ' &#ACF268&l▪ 惊喜数据 &#ACF268♣  '
     - ''
-    - ' &#ACF268⏏ &#ABBFBFJoins &#ACF268&l%statistic_leave_game%'
-    - ' &#ACF268⏏ &#ABBFBFGold mined &#ACF268&l%statistic_mine_block:gold_ore%  '
-    - ' &#ACF268⏏ &#ABBFBFCoal mined &#ACF268&l%statistic_mine_block:coal_ore%  '
-    - ' &#ACF268⏏ &#ABBFBFStone mined &#ACF268&l%statistic_mine_block:cobblestone%  '
-    - ' &#ACF268⏏ &#ABBFBFIron mined &#ACF268&l%statistic_mine_block:iron_ore%  '
-    - ' &#ACF268⏏ &#ABBFBFDiamond mined &#ACF268&l%statistic_mine_block:diamond_ore%  '
-    - ' &#ACF268⏏ &#ABBFBFEmerald mined &#ACF268&l%statistic_mine_block:emerald_ore%  '
-    - ' &#ACF268⏏ &#ABBFBFTrade with villagers &#ACF268&l%statistic_traded_with_villager%  '
+    - ' &#ACF268⏏ &#ABBFBF进服日期 &#ACF268&l%statistic_leave_game%'
+    - ' &#ACF268⏏ &#ABBFBF金矿挖掘 &#ACF268&l%statistic_mine_block:gold_ore%  '
+    - ' &#ACF268⏏ &#ABBFBF煤炭挖掘 &#ACF268&l%statistic_mine_block:coal_ore%  '
+    - ' &#ACF268⏏ &#ABBFBF圆石挖掘 &#ACF268&l%statistic_mine_block:cobblestone%  '
+    - ' &#ACF268⏏ &#ABBFBF铁矿挖掘 &#ACF268&l%statistic_mine_block:iron_ore%  '
+    - ' &#ACF268⏏ &#ABBFBF钻石挖掘 &#ACF268&l%statistic_mine_block:diamond_ore%  '
+    - ' &#ACF268⏏ &#ABBFBF绿宝石挖掘 &#ACF268&l%statistic_mine_block:emerald_ore%  '
+    - ' &#ACF268⏏ &#ABBFBF村民交易 &#ACF268&l%statistic_traded_with_villager%  '
     - ''
   'combat':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU2MzkzZDgxOTMwNjZiODZhZmUyNDQ5YTI0NTk3MWFhNzgwMjAwZTE4MmIyYTBlZjRmNDViNWE3ZTI3MzA0ZiJ9fX0='
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#FE4A4A&l▪ Combat Statistics &#FE4A4A⚔  '
+    - ' &#FE4A4A&l▪ 战斗数据 &#FE4A4A⚔  '
     - ''
-    - ' &#FE4A4A⏏ &#ABBFBFDamage taken &#FE4A4A&l%statistic_damage_taken%  '
-    - ' &#FE4A4A⏏ &#ABBFBFDamage dealt &#FE4A4A&l%statistic_damage_dealt%  '
-    - ' &#FE4A4A⏏ &#ABBFBFMob kills &#FE4A4A&l%statistic_mob_kills%  '
-    - ' &#FE4A4A⏏ &#ABBFBFZombies killed &#FE4A4A&l%statistic_kill_entity:zombie%  '
-    - ' &#FE4A4A⏏ &#ABBFBFCreepers killed &#FE4A4A&l%statistic_kill_entity:creeper%  '
-    - ' &#FE4A4A⏏ &#ABBFBFSkeletons killed &#FE4A4A&l%statistic_kill_entity:skeleton%  '
+    - ' &#FE4A4A⏏ &#ABBFBF受伤 &#FE4A4A&l%statistic_damage_taken%  '
+    - ' &#FE4A4A⏏ &#ABBFBF伤害 &#FE4A4A&l%statistic_damage_dealt%  '
+    - ' &#FE4A4A⏏ &#ABBFBF击杀 &#FE4A4A&l%statistic_mob_kills%  '
+    - ' &#FE4A4A⏏ &#ABBFBF僵尸击杀 &#FE4A4A&l%statistic_kill_entity:zombie%  '
+    - ' &#FE4A4A⏏ &#ABBFBF苦力怕击杀 &#FE4A4A&l%statistic_kill_entity:creeper%  '
+    - ' &#FE4A4A⏏ &#ABBFBF骷髅击杀 &#FE4A4A&l%statistic_kill_entity:skeleton%  '
     - ''
   'items_1':
     material: BROWN_STAINED_GLASS_PANE

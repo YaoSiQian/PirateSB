@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#3190B7&l▪ Rare Items ☣'
+menu_title: '&#3190B7&l▪ 稀有物品 ☣'
 open_command:
   - rareitems
 register_command: true
@@ -13,7 +13,7 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#3190B7&l ▪ Return ⬅'
+    - ' &#3190B7&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] mysterypirate'
@@ -22,9 +22,9 @@ items:
     slot: 13
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lTotem of Undying &#3190B7☣'
+    - ' &#3190B7▪ &l不死图腾 &#3190B7☣'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$170.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7170.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -32,21 +32,21 @@ items:
           type: has money
           amount: 170170.0
       deny_commands:
-      - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#3190B7&l稀有物品 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 170170.0'
     - '[console] give %player_name% totem_of_undying 1'
-    - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou bought &bx1 &rTotem of Undying for &c-$170.170.0 ⛁&f.'
+    - '[message] &#3190B7&l稀有物品 &8▸ &r你购买了 &bx1 &r不死图腾  &c-170.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'netherstar':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjNjZmNWE0YjQwODAwNWIzMzZkYTY2NzZlOGY2YTJhNjdlZWEzMTVmYjdlOTEzNjBhY2MwNDc4MDJmYTMyMCJ9fX0='
     slot: 14
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lNether Star &#3190B7☣'
+    - ' &#3190B7▪ &l下界之星 &#3190B7☣'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$398.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7398.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -54,21 +54,21 @@ items:
           type: has money
           amount: 398170.0
       deny_commands:
-      - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#3190B7&l稀有物品 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 398170.0'
     - '[console] give %player_name% nether_star 1'
-    - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou bought &bx1 &rNether Star for &c-$398.170.0 ⛁&f.'
+    - '[message] &#3190B7&l稀有物品 &8▸ &r你购买了 &bx1 &r下界之星  &c-398.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'elytra':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiYzRjZGQyZTQwMjRlNDYyM2FmZTVkNDA0MmYyZTY4YThhY2JmYjRiOGMzZWQwYWJiNTc2OTBkOTk3NDg1YyJ9fX0='
     slot: 15
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lElytra &#3190B7☣'
+    - ' &#3190B7▪ &l鞘翅 &#3190B7☣'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$797.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7797.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -76,21 +76,21 @@ items:
           type: has money
           amount: 797170.0
       deny_commands:
-      - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#3190B7&l稀有物品 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 797170.0'
     - '[console] give %player_name% elytra 1'
-    - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou bought &bx1 &rElytra for &c-$797.170.0 ⛁&f.'
+    - '[message] &#3190B7&l稀有物品 &8▸ &r你购买了 &bx1 &r鞘翅  &c-797.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'endportal':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc3ZTNkMGY3ZGQ2NmEyNjFjZjk2MmFhMGMxMzMzYjQ5YmZjZjM2MzlmYWFlZWIxNzRkNTk1NzU3ZGY2MTEifX19'
     slot: 16
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lEnd Portal Frame &#3190B7☣'
+    - ' &#3190B7▪ &l末地传送门框架 &#3190B7☣'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$177.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7177.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -98,12 +98,12 @@ items:
           type: has money
           amount: 177170.0
       deny_commands:
-      - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou don''t have enough money to buy this item.'
+      - '[message] &#3190B7&l稀有物品 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 177170.0'
     - '[console] give %player_name% end_portal_frame 1'
-    - '[message] &#3190B7&lRARE ITEMS &8▸ &rYou bought &bx1 &rEnd Portal Frame for &c-$177.170.0 ⛁&f.'
+    - '[message] &#3190B7&l稀有物品 &8▸ &r你购买了 &bx1 &r末地传送门框架  &c-177.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_1':
     material: LIGHT_BLUE_STAINED_GLASS_PANE

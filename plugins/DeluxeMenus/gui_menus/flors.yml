@@ -1,4 +1,4 @@
-    menu_title: ' &#F488F0▪ Flowers ☗'
+    menu_title: ' &#F488F0▪ 花农 ☗'
     register_command: true
     open_commands:
     - '[console] playsound minecraft:skyblock.sounds.male_flower ambient %player_name% %player_x% %player_y% %player_z%'
@@ -44,10 +44,10 @@
         slot: 10
         display_name: '&r '
         lore:
-        - ' &d▪ Oak Sapling'
+        - ' &d▪ 橡树树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$180.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.0 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d180.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.0 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -55,7 +55,7 @@
               type: has money
               amount: 180
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &rYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &r你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -65,27 +65,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 180'
         - '[console] give %player_name% OAK_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rOak Sapling for &c-$180 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r橡树树苗  &c-180 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.0'
         - '[console] minecraft:clear %player_name% oak_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rOak Sapling for &a+$4.0 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r橡树树苗  &a+4.0 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '1':
         material: 'spruce_sapling'
         slot: 11
         display_name: '&r '
         lore:
-        - ' &d▪ Spruce Sapling'
+        - ' &d▪ 云杉树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$180.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.50 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d180.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.50 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -93,7 +93,7 @@
               type: has money
               amount: 180
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -103,27 +103,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 180'
         - '[console] give %player_name% SPRUCE_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rSpruce Sapling for &c-$180 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r云杉树苗  &c-180 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.50'
         - '[console] minecraft:clear %player_name% spruce_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rSpruce Sapling for &a+$4.50 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r云杉树苗  &a+4.50 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '2':
         material: 'birch_sapling'
         slot: 12
         display_name: '&r '
         lore:
-        - ' &d▪ Birch Sapling'
+        - ' &d▪ 白桦树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$190.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.0 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d190.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.0 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -131,7 +131,7 @@
               type: has money
               amount: 190
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -141,27 +141,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 190'
         - '[console] give %player_name% BIRCH_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rBirch Sapling for &c-$190 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r白桦树苗  &c-190 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.0'
         - '[console] minecraft:clear %player_name% birch_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rBirch Sapling for &a+$4.0 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r白桦树苗  &a+4.0 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '3':
         material: 'jungle_sapling'
         slot: 13
         display_name: '&r '
         lore:
-        - ' &d▪ Jungle Sapling'
+        - ' &d▪ 丛林树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$190.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.90 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d190.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.90 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -169,7 +169,7 @@
               type: has money
               amount: 190
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -179,27 +179,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 190'
         - '[console] give %player_name% JUNGLE_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rJungle Sapling for &c-$190 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r丛林树苗  &c-190 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.90'
         - '[console] minecraft:clear %player_name% jungle_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rJungle Sapling for &a+$4.90 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r丛林树苗  &a+4.90 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       '4':
         material: 'acacia_sapling'
         slot: 14
         display_name: '&r '
         lore:
-        - ' &d▪ Acacia Sapling'
+        - ' &d▪ 金合欢树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$190.0 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.90 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d190.0 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.90 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -207,7 +207,7 @@
               type: has money
               amount: 190
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -217,27 +217,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 190'
         - '[console] give %player_name% ACACIA_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rAcacia Sapling for &c-$190 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r金合欢树苗  &c-190 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.90'
         - '[console] minecraft:clear %player_name% acacia_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rAcacia Sapling for &a+$4.90 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r金合欢树苗  &a+4.90 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '5':
         material: 'dark_oak_sapling'
         slot: 15
         display_name: '&r '
         lore:
-        - ' &d▪ Dark Oak Sapling'
+        - ' &d▪ 深色橡树树苗'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$180.25 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$4.75 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d180.25 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d4.75 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -245,7 +245,7 @@
               type: has money
               amount: 180.25
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -255,27 +255,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 180.25'
         - '[console] give %player_name% DARK_OAK_SAPLING 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rDark Oak Sapling for &c-$180.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r深色橡树树苗  &c-180.25 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 4.75'
         - '[console] minecraft:clear %player_name% dark_oak_sapling 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rDark Oak Sapling for &a+$4.75 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r深色橡树树苗  &a+4.75 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '6':
         material: 'dandelion'
         slot: 20
         display_name: '&r '
         lore:
-        - ' &d▪ Dandelion'
+        - ' &d▪ 蒲公英'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.25 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.25 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -283,7 +283,7 @@
               type: has money
               amount: 100.20
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -293,27 +293,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.20'
         - '[console] give %player_name% DANDELION 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rDandelion for &c-$100.20 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r蒲公英  &c-100.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.25'
         - '[console] minecraft:clear %player_name% dandelion 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rDandelion for &a+$1.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r蒲公英  &a+1.25 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '7':
         material: 'poppy'
         slot: 21
         display_name: '&r '
         lore:
-        - ' &d▪ Poppy'
+        - ' &d▪ 罂粟'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.25 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.25 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -321,7 +321,7 @@
               type: has money
               amount: 100.20
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -331,27 +331,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.20'
         - '[console] give %player_name% POPPY 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rPoppy for &c-$100.20 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r罂粟  &c-100.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.25'
         - '[console] minecraft:clear %player_name% poppy 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rPoppy for &a+$1.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r罂粟  &a+1.25 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'
       '8':
         material: 'blue_orchid'
         slot: 22
         display_name: '&r '
         lore:
-        - ' &d▪ Blue Orchid'
+        - ' &d▪ 兰花'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.25 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.25 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -359,7 +359,7 @@
               type: has money
               amount: 100.20
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -369,27 +369,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.20'
         - '[console] give %player_name% BLUE_ORCHID 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rBLUE ORCHID for &c-$100.20 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r兰花  &c-100.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.25'
         - '[console] minecraft:clear %player_name% blue_orchid 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rBLUE ORCHID for &a+$1.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r兰花  &a+1.25 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       '9':
         material: 'allium'
         slot: 23
         display_name: '&r '
         lore:
-        - ' &d▪ Allium'
+        - ' &d▪ 绒球葱'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.25 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.25 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -397,7 +397,7 @@
               type: has money
               amount: 100.20
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -407,27 +407,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.20'
         - '[console] give %player_name% ALLIUM 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rAllium for &c-$100.20 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r绒球葱  &c-100.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.25'
         - '[console] minecraft:clear %player_name% allium 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rAllium for &a+$1.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r绒球葱  &a+1.25 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        
       '10':
         material: 'azure_bluet'
         slot: 24
         display_name: '&r '
         lore:
-        - ' &d▪ Azure Bluet'
+        - ' &d▪ 蓝花美耳草'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.20 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.25 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.20 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.25 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -435,7 +435,7 @@
               type: has money
               amount: 100.20
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -445,27 +445,27 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.20'
         - '[console] give %player_name% AZURE_BLUET 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rAzure Bluet for &c-$100.20 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r蓝花美耳草  &c-100.20 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.25'
         - '[console] minecraft:clear %player_name% azure_bluet 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rAzure Bluet for &a+$1.25 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r蓝花美耳草  &a+1.25 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'         
       '11':
         material: 'red_tulip'
         slot: 25
         display_name: '&r '
         lore:
-        - ' &d▪ Red Tulip'
+        - ' &d▪ 红色郁金香'
         - ''
-        - ' &8▪ &7(Left-Click) &fAction: &d&lBUY &ffor &d$100.50 ⛁ '
-        - ' &8▪ &7(Right-Click) &fAction: &d&lSELL &ffor &d$1.10 ⛁ '
+        - ' &8▪ &7(左键点击) &f行动: &d&l购买 &d100.50 ⛁ '
+        - ' &8▪ &7(右键点击) &f行动: &d&l售卖 &d1.10 ⛁ '
         - ''
         left_click_requirement:
           requirements:
@@ -473,7 +473,7 @@
               type: has money
               amount: 100.50
           deny_commands:
-          - '[message] &D&lFLOWERS &8▸ &cYou don''t have enough money to buy this item.'
+          - '[message] &D&l花农 &8▸ &c你没有足够的余额'
           - '[sound] ENTITY_EVOKER_DEATH'
         right_click_requirement:
           requirements:
@@ -483,15 +483,15 @@
               data: 0
               amount: 1
               deny_commands:
-              - '[message] &D&lFLOWERS &8▸ &rYou do not have this item in your inventory to sell.'
+              - '[message] &D&l花农 &8▸ &r你没有足够的物品'
               - '[sound] BLOCK_GRINDSTONE_USE'
         left_click_commands:
         - '[takemoney] 100.50'
         - '[console] give %player_name% RED_TULIP 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou bought &bx1 &rRed Tulipan for &c-$100.50 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你购买了 &bx1 &r红色郁金香an  &c-100.50 ⛁'
         - '[sound] ENTITY_VINDICATOR_CELEBRATE'
         right_click_commands:
         - '[givemoney] 1.10'
         - '[console] minecraft:clear %player_name% red_tulip 1'
-        - '[message] &D&lFLOWERS &8▸ &rYou sold &bx1 &rRed Tulipan for &a+$1.10 ⛁&f.'
+        - '[message] &D&l花农 &8▸ &r你售卖了 &bx1 &r红色郁金香an  &a+1.10 ⛁'
         - '[sound] ENTITY_EVOKER_FANGS_ATTACK'        

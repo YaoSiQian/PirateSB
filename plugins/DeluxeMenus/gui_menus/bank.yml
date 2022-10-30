@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#8B673A▪ &lBank &#8B673A⛁'
+menu_title: ' &#8B673A▪ &l银行 &#8B673A⛁'
 open_command:
   - ebank
 register_command: true
@@ -14,7 +14,7 @@ items:
     amount: 2
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Return ⬅'
+    - ' &#8B673A&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[openguimenu] profile'
@@ -23,12 +23,12 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Withdrawing Money -'
+    - ' &#8B673A&l▪ 取款 -'
     - ''
-    - ' &#ABBFBF▪ Remember that you can withdraw the  '
-    - ' &#ABBFBF  amount of money you have deposited. '
+    - ' &#ABBFBF▪ 你最多只可以提取  '
+    - ' &#ABBFBF  你银行余额的金额 '
     - ''
-    - ' &#ACF268▪ [You are about to withdraw 100 ⛁] ⏏  '
+    - ' &#ACF268▪ [你即将提取 100 ⛁] ⏏  '
     - ''
     click_requirement:
       requirements:
@@ -37,10 +37,10 @@ items:
           input: "%economybank_balance%"
           output: "0"
       deny_commands:
-      - '[message] &#8B673A&l⚓&#8B673A You don''t have enough money to take out.'
+      - '[message] &#8B673A&l⚓&#8B673A 你没有足够的余额。'
       - "[sound] BLOCK_ANVIL_BREAK"
     click_commands:
-    - '[message] &#8B673A&l⚓&#8B673A You just withdrew 100 ⛁'
+    - '[message] &#8B673A&l⚓&#8B673A 你取出了 100 ⛁'
     - '[console] bank withdraw 100 %player_name%'
     - '[givemoney] 100'
     - '[sound] BLOCK_ENCHANTMENT_TABLE_USE'
@@ -50,10 +50,9 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#F9E454&l▪ Your Money ⛁'
+    - ' &#F9E454&l▪ 你的余额 ⛁'
     - ''
-    - ' &#ABBFBF▪ You currently have the following  '
-    - ' &#ABBFBF  amount of money saved.'
+    - ' &#ABBFBF▪ 你目前已存入的金额  '
     - ''
     - ' &#F9E454⏏ %economybank_balance% ⛁  '
     - ''
@@ -62,10 +61,10 @@ items:
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Deposit Money +'
+    - ' &#8B673A&l▪ 存款 +'
     - ''
-    - ' &#ABBFBF▪ Remember that you can deposit  '
-    - ' &#ABBFBF  the amount of money you have.  '
+    - ' &#ABBFBF▪ 你最多只可以存入  '
+    - ' &#ABBFBF  你目前身上的金额 '
     - ''
     - ' &#ACF268▪ [You are about to deposit 100 ⛁] ⏏  '
     - ''
@@ -75,10 +74,10 @@ items:
           type: has money
           amount: 100
       deny_commands:
-      - '[message] &#8B673A&l⚓&#8B673A You don''t have enough money to deposit.'
+      - '[message] &#8B673A&l⚓&#8B673A 你没有足够的余额。'
       - "[sound] BLOCK_ANVIL_BREAK"
     click_commands:
-    - '[message] &#8B673A&l⚓&#8B673A You just deposited 100 ⛁'
+    - '[message] &#8B673A&l⚓&#8B673A 你存入了 100 ⛁'
     - '[takemoney] 100'
     - '[console] bank deposit 100 %player_name%'
     - '[sound] BLOCK_ENCHANTMENT_TABLE_USE'

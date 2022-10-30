@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#3190B7&l▪ Spawners ⩨'
+menu_title: '&#3190B7&l▪ 刷怪箱 ⩨'
 open_command:
   - spawners
 register_command: true
@@ -13,7 +13,7 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#3190B7&l ▪ Return ⬅'
+    - ' &#3190B7&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] mysterypirate'
@@ -22,9 +22,9 @@ items:
     slot: 13
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lChicken Spawner &#3190B7⩨'
+    - ' &#3190B7▪ &l鸡刷怪箱 &#3190B7⩨'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$290.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7290.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -32,21 +32,21 @@ items:
           type: has money
           amount: 290170.0
       deny_commands:
-      - '[message] &#3190B7&lSPAWNERS &8▸ &rYou don''t have enough money to buy this spawner.'
+      - '[message] &#3190B7&l刷怪箱 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 290170.0'
     - '[console] ms give %player_name% chicken 1'
-    - '[message] &#3190B7&lSPAWNERS &8▸ &rYou bought &bx1 &rChicken Spawner for &c-$290.170.0 ⛁&f.'
+    - '[message] &#3190B7&l刷怪箱 &8▸ &r你购买了 &bx1 &r鸡刷怪箱  &c-290.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'pig':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYThlZDFhMDE1ODBhYmM5NzMyOWE4MjAxN2UzYjljZDdiZWFhZjUxZDI0MDE1OGRiYjc5YjM4N2Q1NTk0NiJ9fX0='
     slot: 14
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lPig Spawner &#3190B7⩨'
+    - ' &#3190B7▪ &l猪刷怪箱 &#3190B7⩨'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$498.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7498.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -54,21 +54,21 @@ items:
           type: has money
           amount: 498170.0
       deny_commands:
-      - '[message] &#3190B7&lSPAWNERS &8▸ &rYou don''t have enough money to buy this spawner.'
+      - '[message] &#3190B7&l刷怪箱 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 498170.0'
     - '[console] ms give %player_name% pig 1'
-    - '[message] &#3190B7&lSPAWNERS &8▸ &rYou bought &bx1 &rPig Spawner for &c-$498.170.0 ⛁&f.'
+    - '[message] &#3190B7&l刷怪箱 &8▸ &r你购买了 &bx1 &r猪刷怪箱  &c-498.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'cow':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEwN2JmYzcyODJhMjU3YTdhNTk5ZjlkODU1OTllNjU5MGY5NjgxNmY4YTRlNTA2ODA1YTk1N2I0Y2MyZjE0NiJ9fX0='
     slot: 15
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lCow Spawner &#3190B7⩨'
+    - ' &#3190B7▪ &l牛刷怪箱 &#3190B7⩨'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$897.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B7897.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -76,21 +76,21 @@ items:
           type: has money
           amount: 897170.0
       deny_commands:
-      - '[message] &#3190B7&lSPAWNERS &8▸ &rYou don''t have enough money to buy this spawner.'
+      - '[message] &#3190B7&l刷怪箱 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 897170.0'
     - '[console] ms give %player_name% cow 1'
-    - '[message] &#3190B7&lSPAWNERS &8▸ &rYou bought &bx1 &rCow Spawner for &c-$897.170.0 ⛁&f.'
+    - '[message] &#3190B7&l刷怪箱 &8▸ &r你购买了 &bx1 &r牛刷怪箱  &c-897.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'villager':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhMGIwN2UzNmVhZmRlY2YwNTljOGNiMTM0YTdiZjBhMTY3ZjkwMDk2NmYxMDk5MjUyZDkwMzI3NjQ2MWNjZSJ9fX0='
     slot: 16
     display_name: '&7 '
     lore:
-    - ' &#3190B7▪ &lVillager Spawner &#3190B7⩨'
+    - ' &#3190B7▪ &l村民刷怪箱 &#3190B7⩨'
     - ''
-    - ' &8▪ &7(Left-Click) &fAction: &#3190B7&lBUY &ffor &#3190B7$1.577.170.0 ⛁ '
+    - ' &8▪ &7(左键点击) &f行动: &#3190B7&l购买 &#3190B71.577.170.0 ⛁ '
     - ''
     left_click_requirement:
       requirements:
@@ -98,12 +98,12 @@ items:
           type: has money
           amount: 1577170.0
       deny_commands:
-      - '[message] &#3190B7&lSPAWNERS &8▸ &rYou don''t have enough money to buy this spawner.'
+      - '[message] &#3190B7&l刷怪箱 &8▸ &r你没有足够的余额'
       - '[sound] ENTITY_EVOKER_DEATH'
     left_click_commands:
     - '[takemoney] 1577170.0'
     - '[console] ms give %player_name% villager 1'
-    - '[message] &#3190B7&lSPAWNERS &8▸ &rYou bought &bx1 &rVillager Spawner for &c-$1.577.170.0 ⛁&f.'
+    - '[message] &#3190B7&l刷怪箱 &8▸ &r你购买了 &bx1 &r村民刷怪箱  &c-1.577.170.0 ⛁'
     - '[sound] ENTITY_VINDICATOR_CELEBRATE'
   'items_1':
     material: LIGHT_BLUE_STAINED_GLASS_PANE

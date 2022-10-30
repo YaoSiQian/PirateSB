@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: '&#8B673A▪ &lMy profile&#8B673A ❧'
+menu_title: '&#8B673A▪ &l个人档案&#8B673A ❧'
 open_command:
   - Profile
 register_command: true
@@ -13,7 +13,7 @@ items:
     slot: 10
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Return ⬅'
+    - ' &#8B673A&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] menu'
@@ -22,11 +22,11 @@ items:
     slot: 13
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Your Stats&#8B673A ꙮ'
+    - ' &#8B673A&l▪ 统计数据&#8B673A ꙮ'
     - ''
-    - ' &#ABBFBF▪ See your available statistics.  '
+    - ' &#ABBFBF▪ 查看可用的统计信息  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] statsmc'
@@ -35,12 +35,11 @@ items:
     slot: 14
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Friends&#8B673A ☻'
+    - ' &#8B673A&l▪ 好友&#8B673A ☻'
     - ''
-    - ' &#ABBFBF▪ See the list of friends you have  '
-    - ' &#ABBFBF  available from the menu.  '
+    - ' &#ABBFBF▪ 查看你目前拥有的好友  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] friend'
@@ -49,24 +48,23 @@ items:
     slot: 15
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Pets &#8B673A☃'
+    - ' &#8B673A&l▪ 宠物 &#8B673A☃'
     - ''
-    - ' &#ABBFBF▪ See the list of pets available  '
-    - ' &#ABBFBF  for purchase or use.'
+    - ' &#ABBFBF▪ 查看你目前可用的宠物  '
     - ''
-    - ' &#FF8948▪ Soon'
+    - ' &#FF8948▪ 即将上线'
     - ''
   'bank':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FhNTk2NmExNDcyNDQ1MDRjYzU2ZWY2ZWZkMmQyZjQ0NzM4YjhmMDNkOTNhNjE3NjZhZjNmYzQ0ODdmOTgwYiJ9fX0='
     slot: 16
     display_name: '&7'
     lore:
-    - ' &#8B673A&l▪ Bank &#8B673A⛁'
+    - ' &#8B673A&l▪ 银行 &#8B673A⛁'
     - ''
-    - ' &#ABBFBF▪ Keep your money safe in this place  '
-    - ' &#ABBFBF  and take it out whenever you want.  '
+    - ' &#ABBFBF▪ 把你的钱安全地放在这里  '
+    - ' &#ABBFBF  随时随地可以取出  '
     - ''
-    - ' &#ACF268▪ [Click to see] ⏏'
+    - ' &#ACF268▪ [点击查看] ⏏'
     - ''
     click_commands:
     - '[player] ebank'

@@ -1,6 +1,6 @@
 #  A DeluxeMenus advanced configuration guide
 #=========================================================
-menu_title: ' &#8B673A▪ &lGuides &#8B673A✎'
+menu_title: ' &#8B673A▪ &l指南 Guide &#8B673A✎'
 register_command: true
 open_commands:
 - '[console] playsound minecraft:skyblock.sounds.male_guides ambient %player_name% %player_x% %player_y% %player_z%'
@@ -17,7 +17,7 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Return ⬅'
+    - ' &#8B673A&l ▪ 返回 ⬅'
     - ''
     click_commands:
     - '[player] menu'
@@ -27,11 +27,11 @@ items:
     amount: 1
     display_name: '&7'
     lore:
-    - ' &#8B673A&l ▪ Next &#8B673A➡'
+    - ' &#8B673A&l ▪ 下一页 &#8B673A➡'
     - ''
   'english':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5MTQ1Njg3N2Y1NGJmMWFjZTI1MWU0Y2VlNDBkYmE1OTdkMmNjNDAzNjJjYjhmNGVkNzExZTUwYjBiZTViMyJ9fX0='
-    slot: 13
+    slot: 12
     display_name: '&7'
     lore:
     - ' &#8B673A&l▪ English&#8B673A ⚐'
@@ -43,6 +43,19 @@ items:
     - ''
     click_commands:
     - '[player] guide-english'
+  'chinese':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5YmMwMzVjZGM4MGYxYWI1ZTExOThmMjlmM2FkM2ZkZDJiNDJkOWE2OWFlYjY0ZGU5OTA2ODE4MDBiOThkYyJ9fX0='
+    slot: 13
+    display_name: '&7'
+    lore:
+    - ' &#8B673A&l▪ 中文&#8B673A ⚐'
+    - ''
+    - ' &#ABBFBF▪ 使用该语言查看指南  '
+    - ''
+    - ' &#ACF268▪ [点击查看] ⏏'
+    - ''
+    click_commands:
+    - '[player] guide-chinese'
   'spanish':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJiZDQ1MjE5ODMzMDllMGFkNzZjMWVlMjk4NzQyODc5NTdlYzNkOTZmOGQ4ODkzMjRkYThjODg3ZTQ4NWVhOCJ9fX0='
     slot: 14
@@ -59,7 +72,7 @@ items:
     - '[player] guide-spanish'
   'tur':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiZWFmNTJlMWM0YmZjZDhhMWY0YzY5MTMyMzRiODQwMjQxYWE0ODgyOWMxNWFiYzZmZjhmZGY5MmNkODllIn19fQ=='
-    slot: 15
+    slot: 21
     display_name: '&7'
     lore:
     - ' &#8B673A&l▪ Türkçe &#8B673A⚐'
@@ -73,7 +86,7 @@ items:
     - '[message] &#8B673A⚓ Bu kılavuz mevcut değildir'
   'rus':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYWZlZjk4MGQ2MTE3ZGFiZTg5ODJhYzRiNDUwOTg4N2UyYzQ2MjFmNmE4ZmU1YzliNzM1YTgzZDc3NWFkIn19fQ=='
-    slot: 16
+    slot: 22
     display_name: '&7'
     lore:
     - ' &#8B673A&l▪ Pусский &#8B673A⚐'
@@ -87,7 +100,7 @@ items:
     - '[message] &#8B673A⚓ Это руководство не доступно'
   'fra':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjlhMDY3ZWUzN2U2MzYzNWNhMWU3MjNiNjc2ZjEzOWRjMmRiZGRmZjk2YmJmZWY5OWQ4YjM1Yzk5NmJjIn19fQ=='
-    slot: 22
+    slot: 23
     display_name: '&7'
     lore:
     - ' &#8B673A&l▪ Français &#8B673A⚐'
@@ -101,7 +114,7 @@ items:
     - '[message] &#8B673A⚓ This guide is not available.'
   'nld':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVlMWU4NmZkMWQzZGJlNWM3ODYxNTkzMGY1NjNiZmVkN2Q5Y2MyNjljZDU3MDFkNjk4MDFlZWJjN2ZkYjRjNyJ9fX0='
-    slot: 23
+    slot: 24
     display_name: '&7'
     lore:
     - ' &#8B673A&l▪ Dutch &#8B673A⚐'
@@ -113,17 +126,6 @@ items:
     - ''
     click_commands:
     - '[message] &#8B673A⚓ Deze gids is niet beschikbaar'
-  'chinese':
-    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5YmMwMzVjZGM4MGYxYWI1ZTExOThmMjlmM2FkM2ZkZDJiNDJkOWE2OWFlYjY0ZGU5OTA2ODE4MDBiOThkYyJ9fX0='
-    slot: 24
-    display_name: '&7'
-    lore:
-    - ' &#8B673A&l▪ Soon.. &#8B673A⚐'
-    - ''
-    - ' &#ACF268▪ [点击查看] ⏏'
-    - ''
-    click_commands:
-    - '[message] &#8B673A⚓ This guide is not available.'
   'japan':
     material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY0MGFlNDY2MTYyYTQ3ZDNlZTMzYzQwNzZkZjFjYWI5NmYxMTg2MGYwN2VkYjFmMDgzMmM1MjVhOWUzMzMyMyJ9fX0='
     slot: 25
@@ -161,8 +163,9 @@ items:
       - 7
       - 8
       - 12
+      - 15
+      - 16
       - 17
-      - 21
       - 26
       - 30
       - 31

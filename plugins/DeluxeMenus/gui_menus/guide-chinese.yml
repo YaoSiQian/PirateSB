@@ -1,0 +1,224 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: ' &#8B673A▪ &l教程 &#8B673A- &l中文 &#8B673A✎'
+register_command: true
+open_command:
+  - guide-english
+size: 54
+        
+# as always, only cool people can open this menu :)
+items:
+  'guide-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 9
+    display_name: '&7'
+    lore:
+    - '  &7#1. &6&l如何创建岛屿？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 想要在你的岛屿开启新生活  '
+    - ' &#ABBFBF  你需要先输入 &f"/is create (岛屿名称)"  '
+    - ''
+    - ' &#ABBFBF▪ 同时你也可以输入 &f"/is panel"  '
+    - ' &#ABBFBF  查看岛屿的控制面板 '
+    - ''
+    - '&#ABBFBF▪  想查看所有指令的帮助，请输入 &f"/is help"  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 10
+    amount: 2
+    display_name: '&7'
+    lore:
+    - '  &7#2. &6&l如何成为朋友？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 如果想要交友，你需要先发送好友请求  '
+    - ' &#ABBFBF  请输入 &f"/friend add (用户名)"  '
+    - ''
+    - ' &#ABBFBF▪ 当然，你的好友需要同意你的请求  '
+    - ' &#ABBFBF  请输入 &f"/friend accept (用户名)"  '
+    - ''
+    - '&#ABBFBF▪  想查看所有指令的帮助，请输入 &f"/friend help"  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 11
+    amount: 3
+    display_name: '&7'
+    lore:
+    - '  &7#3. &6&l如何获得密钥？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 想要获取宝箱的密钥  '
+    - ' &#ABBFBF  你只需要在矿点持续开采  '
+    - ' &#ABBFBF  找到钥匙的比例约为 1% '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 12
+    amount: 4
+    display_name: '&7'
+    lore:
+    - '  &7#4. &6&l如何赚钱？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 不仅仅是 &f要致富，先撸树  '
+    - ' &#ABBFBF  在这里，你有很多种赚钱的路子 '
+    - ' &#ABBFBF  这里为你列举了部分方法 '
+    - ''
+    - ' &#ABBFBF▪ 挖矿  '
+    - ' &#ABBFBF▪ 猎杀生物  '
+    - ' &#ABBFBF▪ 拍卖物品  '
+    - ' &#ABBFBF▪ 售卖金锭  '
+    - ' &#ABBFBF▪ 出售物品  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 13
+    amount: 5
+    display_name: '&7'
+    lore:
+    - '  &7#5. &6&l如何找到宝箱？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 只需要探索出生点就能找到宝箱  '
+    - ' &#ABBFBF  但请注意会有很多怪物潜伏在周围  '
+    - ' &#ABBFBF  所以要做好准备'
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 14
+    amount: 6
+    display_name: '&7'
+    lore:
+    - '  &7#6. &6&l为什么要喝水？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 你需要通过喝水来保持氧气槽的充足  '
+    - ' &#ABBFBF  不然会口渴而受到损害   '
+    - ' &#ABBFBF  因此我们建议您始终随身携带水  '
+    - ' &#ABBFBF  在长途旅行中你会需要它'
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 15
+    amount: 7
+    display_name: '&7'
+    lore:
+    - '  &7#7. &6&l如何获得宠物？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 你可以输入 &f"/pets" '
+    - ' &#ABBFBF  并购买可用的新宠物   '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 16
+    amount: 8
+    display_name: '&7'
+    lore:
+    - '  &7#8. &6&l如何访问商家？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 要访问一个远方的商人，只需输入他们的指令。  '
+    - ''
+    - ' &#ABBFBF▪ 屠夫 &f"/butcher"'
+    - ' &#ABBFBF▪ 花农 &f"/flowers"'
+    - ' &#ABBFBF▪ 伐木工 &f"/woodcutter"'
+    - ' &#ABBFBF▪ 建筑师 &f"/builder"'
+    - ' &#ABBFBF▪ 农夫 &f"/farmer"'
+    - ' &#ABBFBF▪ 渔夫 &f"/fisherman"'
+    - ' &#ABBFBF▪ 矿工 &f"/miner"'
+    - ' &#ABBFBF▪ 铁匠 &f"/blacksmith"'
+    - ' &#ABBFBF▪ 神秘海盗 &f"/mysterypirate"  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 17
+    amount: 9
+    display_name: '&7'
+    lore:
+    - '  &7#9. &6&l如何联系管理？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 如果想要寻求帮助   '
+    - ' &#ABBFBF  请输入 &f"/helpop 信息"  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'guide-10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 18
+    amount: 10
+    display_name: '&7'
+    lore:
+    - '  &7#10. &6&l如何查看会员权益的特权？  '
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 要查看可用的特权  '
+    - ' &#ABBFBF  请输入 &f"/ranks"  '
+    - ''
+  'guide-11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19'
+    slot: 19
+    amount: 11
+    display_name: '&7'
+    lore:
+    - '  &7#11. &6&l如何查看等级？'
+    - ''
+    - ' &#ACF268▪ [解答/] ✍'
+    - ''
+    - ' &#ABBFBF▪ 查看你的进度和你已解锁的技能  '
+    - ' &#ABBFBF  请输入 &f"/skills"  '
+    - ''
+    - ' &#B36BF6▪ [有问题请联系管理大大] ⏏'
+    - ''
+  'items_1':
+    material: BROWN_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '
