@@ -66,7 +66,7 @@ items:
     - ' &#ABBFBF▪ 你最多只可以存入  '
     - ' &#ABBFBF  你目前身上的金额 '
     - ''
-    - ' &#ACF268▪ [You are about to deposit 100 ⛁] ⏏  '
+    - ' &#ACF268▪ [你即将存入 100 ⛁] ⏏  '
     - ''
     click_requirement:
       requirements:
